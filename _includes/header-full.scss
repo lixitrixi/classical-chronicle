@@ -6,7 +6,9 @@
   }
 }
 
-
+main {
+  min-height: calc(100vh - 170px);
+}
 header {
   position: relative;
   height: 170px;
@@ -102,7 +104,7 @@ header {
         color: #613d8f;
         background-color: white;
         padding: 4px 12px;
-        border-radius: 20px;
+        border-radius: 30px;
         font-weight: 500;
         margin-right: 2px;
       }
