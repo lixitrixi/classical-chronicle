@@ -43,7 +43,7 @@ main {
     p {
       font-size: 19px;
       line-height: 1.5em;
-      // text-indent: 1.5em;
+      text-indent: 1em;
       color: #242424;
     }
   }
@@ -55,6 +55,7 @@ main {
     font-style: italic;
     p {
       color: #7A7A7A;
+      text-indent: 0;
     }
   }
 }
