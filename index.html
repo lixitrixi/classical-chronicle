@@ -8,13 +8,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    {% include header.html %}
+    {% include header.html page="home" %}
     <main>
       <div class="articles">
-        {% include article-card.html author="Benjamin Jewett" title="If You Want To Pass, You've Got To Cheat" image="cheating.png" category="Opinion" date="February 4, 2020" %}
-        {% include article-card.html author="Yousef Nagib" title="US - Iran Tensions Escalate after Assassination of Top Iranian Security Official" image="iran.png" category="World News" date="January 1, 2020" %}
-        {% include article-card.html title="INVESTIGATIVE REPORT: Purple Post Infringes on Freedoms of Speech and Peaceful Assembly" author="Nick Griffin, Yousef Nagib, Yeivin Herrera" image="purplepost.png" category="School" date="December 9, 2019" %}
-        {% assign sortedArticles = site.articles | sort: 'date' | reverse %}
+        {% assign sortedArticles = site.articles | reverse %}
         {% for article in sortedArticles %}
           {% assign formatedDate = article.date | date: "%B&nbsp;%-d,&nbsp;%Y" %}
           {% include article-card.html title=article.title author=article.author  image=article.image category=article.category date=formatedDate link=article.url %}
