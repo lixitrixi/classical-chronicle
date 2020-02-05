@@ -1,0 +1,5 @@
+collections:
+  articles:
+    output: true
+    permalink: /article/:slug
+    sort_by: date

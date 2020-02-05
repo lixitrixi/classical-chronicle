@@ -1,0 +1,71 @@
+---
+---
+
+// {% include base.scss %}
+// {% include header-full.scss %}
+
+@keyframes article-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+main {
+  width: 90%;
+  max-width: 850px;
+  padding: 0px 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: article-fade-in 0.7s ease;
+  @media (min-width: 730px) {
+    animation-delay: 0.7s;
+  }
+  margin-bottom: 20px;
+  animation-fill-mode: backwards;
+  h1 {
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    font-size: 30px;
+  }
+  a {
+    color: #7c4cba;
+    font-weight: 500;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .author {
+    // font-style: italic;
+    font-size: 18px;
+    margin-top:0px;
+    margin-left: 15px;
+  }
+  .category {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #8F8F8F;
+    font-size: 19px;
+  }
+  article {
+    p {
+      font-size: 19px;
+      line-height: 1.5em;
+      // text-indent: 1.5em;
+      color: #242424;
+    }
+  }
+  blockquote {
+    margin-left: 0px;
+    padding-left: 15px;
+    border-left: 3px solid #888;
+    border-radius: 2px;
+    font-style: italic;
+    p {
+      color: #7A7A7A;
+    }
+  }
+}
