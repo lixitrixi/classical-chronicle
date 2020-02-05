@@ -7,6 +7,14 @@
 main {
   padding: 0px 20px;
   margin-bottom: 50px;
+  a {
+    color: #613D8F;
+    text-decoration: none;
+    font-size: 19px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 .about-us, .contributors-title {
   max-width: 850px;
@@ -19,6 +27,9 @@ main {
   text-indent: 1.5em;
   margin: 0 auto;
   margin-top: 0px;
+  a {
+    font-weight: 500;
+  }
 }
 .contributors {
   max-width: 950px;
@@ -36,24 +47,13 @@ main {
       color: #aaa;
     }
   }
-  svg {
-    width: 22px;
-    height: 24px;
-    display: inline-block;
-  }
   .icon-pair {
     margin: 8px 8px;
     display: flex;
     svg {
       margin-right: 6px;
-    }
-    a {
-      color: #613D8F;
-      text-decoration: none;
-      font-size: 19px;
-      &:hover {
-        text-decoration: underline;
-      }
+      width: 22px;
+      height: 24px;
     }
   }
   .icon-pair:first-of-type {
