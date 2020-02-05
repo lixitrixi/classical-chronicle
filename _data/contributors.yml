@@ -1,0 +1,41 @@
+- name: Nick Griffin
+  grade: 11
+  pronouns: He/Him
+  email: nickgriff923@gmail.com
+  instagram: nickgriffin21
+  role: Writer and Editor
+
+- name: Yousef Nagib
+  grade: 11
+  pronouns: He/Him
+  email: yousefnagib713@gmail.com
+  instagram: ymnagib
+  role: Writer and Editor
+
+- name: Yeivin Herrera
+  grade: 11
+  pronouns: He/Him
+  email: hyeivin@gmail.com
+  instagram: _yeivin
+  role: Writer and Editor
+
+- name: Crys Jewett <span>(Formerly Ben)</span>
+  grade: 9
+  pronouns: They/Them
+  email: benjjewetr@gmail.com
+  instagram: crystheheckingvocalist
+  role: Writer
+
+- name: Janae Moore
+  grade: 11
+  pronouns: She/Her or They/Them
+  email: janaemoore160@gmail.com
+  instagram: wo.rmwood
+  role: Photographer
+
+- name: Luke Taylor
+  grade: 11
+  pronouns: He/Him
+  email: luke@bigring.org
+  instagram: alpaca_fur
+  role: Web Designer/Dev

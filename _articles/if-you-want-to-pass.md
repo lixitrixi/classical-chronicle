@@ -1,7 +1,7 @@
 ---
 layout: "article"
 title: "If You Want To Pass, You've Got To Cheat"
-author: ["Benjamin Jewett"]
+author: ["Crys Jewett"]
 image: "cheating.png"
 category: "Opinion"
 date: 2020-02-04

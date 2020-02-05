@@ -1,0 +1,72 @@
+---
+---
+
+// {% include base.scss %}
+// {% include header-full.scss %}
+main {
+  padding: 0px 20px;
+  margin-bottom: 50px;
+}
+.about-us, .contributors-title {
+  max-width: 850px;
+  margin: 1em auto 0.3em auto;
+}
+.summary {
+  max-width: 800px;
+  font-size: 19px;
+  line-height: 1.5em;
+  text-indent: 1.5em;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+.contributors {
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+}
+.contributor {
+  h2 {
+    color: #613D8F;
+    margin-bottom: 0px;
+    span {
+      font-size: 16px;
+      color: #aaa;
+    }
+  }
+  svg {
+    width: 22px;
+    height: 24px;
+    display: inline-block;
+  }
+  .icon-pair {
+    margin: 8px 8px;
+    display: flex;
+    svg {
+      margin-right: 6px;
+    }
+    a {
+      color: #613D8F;
+      text-decoration: none;
+      font-size: 19px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .icon-pair:first-of-type {
+    margin-top: 0px;
+  }
+  .icon-pair:last-of-type {
+    margin-bottom: 2px;
+  }
+  p {
+    margin: 5px 8px;
+    color: #696969;
+    font-size: 19px;
+  }
+  .role {
+    font-weight: bold;
+  }
+}
