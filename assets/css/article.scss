@@ -4,12 +4,6 @@
 // {% include base.scss %}
 // {% include header-full.scss %}
 
-@keyframes article-fade-in {
-  from {
-    opacity: 0;
-  }
-}
-
 main {
   width: 90%;
   max-width: 850px;
@@ -17,12 +11,7 @@ main {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  animation: article-fade-in 0.7s ease;
-  @media (min-width: 730px) {
-    animation-delay: 0.7s;
-  }
   margin-bottom: 20px;
-  animation-fill-mode: backwards;
   h1 {
     font-weight: 500;
     margin-bottom: 12px;

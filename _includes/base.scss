@@ -26,6 +26,11 @@
        url("/fonts/sourcesans-semibold.ttf") format("truetype");
   font-weight: 500;
 }
+@keyframes fadeinmain {
+  from {
+    opacity: 0;
+  }
+}
 body {
   margin: 0px;
   background-color: #f4f6fa;
@@ -35,4 +40,9 @@ body {
 main {
   margin: 0px;
   padding-top:1px;
+  animation: fadeinmain 0.7s ease;
+  animation-fill-mode: backwards;
+  @media (min-width: 730px) {
+    animation-delay: 0.7s;
+  }
 }

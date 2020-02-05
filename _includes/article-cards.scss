@@ -1,11 +1,5 @@
 /* article-card.scss */
 
-@keyframes cards-fade-in {
-  from {
-    opacity: 0;
-  }
-}
-
 .articles {
   display: grid;
   grid-template-columns: repeat(auto-fit, 280px);
@@ -14,11 +8,6 @@
   margin-bottom: 100px;
   padding: 0px 30px;
   justify-content: center;
-  animation: cards-fade-in 0.8s ease;
-  animation-fill-mode: backwards;
-  @media (min-width: 730px) {
-    animation-delay: 0.7s;
-  }
 }
 
 .card {
