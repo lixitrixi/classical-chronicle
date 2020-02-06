@@ -20,7 +20,9 @@
           <div class="contributor" id="#{{contributor.name | slugify}}">
             <h2>{{ contributor.name }}</h2>
             <p>Grade {{ contributor.grade }}</p>
+            {% if contributor.pronouns %}
             <p>{{ contributor.pronouns }}</p>
+            {% endif %}
             {% if contributor.email %}
               <div class="icon-pair">
                 <svg viewBox="0 0 24.3 19.4">
@@ -29,12 +31,14 @@
                 <a href="mailto:{{contributor.email}}" target="_blank">{{ contributor.email }}</a>
               </div>
             {% endif %}
+            {% if contributor.instagram %}
             <div class="icon-pair">
               <svg viewBox="0 0 23.2 23.2">
                 <path fill="#613d8f" d="M6.7 0h9.8c3.7 0 6.7 3 6.7 6.7v9.8c0 3.7-3 6.7-6.7 6.7H6.7c-3.7 0-6.7-3-6.7-6.7V6.7C0 3 3 0 6.7 0m-.2 2.3a4.2 4.2 0 00-4.2 4.2v10.2c0 2.3 1.9 4.2 4.2 4.2h10.2c2.3 0 4.2-1.9 4.2-4.2V6.5c0-2.3-1.9-4.2-4.2-4.2H6.5m11.2 1.8c.8 0 1.5.6 1.5 1.5S18.5 7 17.7 7s-1.5-.6-1.5-1.5.7-1.4 1.5-1.4m-6.1 1.7a5.8 5.8 0 110 11.6 5.8 5.8 0 010-11.6m0 2.3c-1.9 0-3.5 1.6-3.5 3.5s1.6 3.5 3.5 3.5 3.5-1.6 3.5-3.5-1.6-3.5-3.5-3.5z"/>
               </svg>
               <a href="https://www.instagram.com/{{ contributor.instagram }}/">{{ contributor.instagram }}</a>
             </div>
+            {% endif %}
             <p class="role">{{ contributor.role }}</p>
           </div>
         {% endfor %}
