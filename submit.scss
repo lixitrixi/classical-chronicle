@@ -1,0 +1,21 @@
+---
+---
+
+// {% include base.scss %}
+// {% include header-full.scss %}
+// {% include text-base.scss %}
+
+.tip {
+  font-style: italic;
+  text-indent: 0;
+}
+p>span {
+  font-style: italic;
+}
+
+.subtle {
+  color: #999;
+  a {
+    color: #a688cc;
+  }
+}
