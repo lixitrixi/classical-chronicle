@@ -3,44 +3,4 @@
 
 // {% include base.scss %}
 // {% include header-full.scss %}
-
-main {
-  padding: 0px 20px;
-  margin-bottom: 50px;
-  a {
-    color: #613D8F;
-    text-decoration: none;
-    font-size: 19px;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  h1 {
-    max-width: 850px;
-    margin: 1em auto 0.3em auto;
-  }
-  p, li {
-    max-width: 800px;
-    font-size: 19px;
-    line-height: 1.5em;
-    text-indent: 1.5em;
-    margin: 8px auto;
-    margin-top: 0px;
-    a {
-      font-weight: 500;
-    }
-  }
-  li {
-    counter-increment: li;
-    list-style-type: none;
-    text-indent: 0;
-    max-width: 780px;
-    &:before {
-      content: counter(li) ". ";
-      margin-left: -1.5em;
-      margin-right: 0.5em;
-      color: #613D8F;
-      font-weight: 500;
-    }
-  }
-}
+// {% include text-base.scss %}
