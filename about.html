@@ -17,7 +17,7 @@
       <h1 class="contributors-title">Contributors</h1>
       <div class="contributors">
         {% for contributor in site.data.contributors %}
-          <div class="contributor" id="#{{contributor.name | slugify}}">
+          <div class="contributor" id="{{contributor.name | slugify}}">
             <h2>{{ contributor.name }}</h2>
             <p>Grade {{ contributor.grade }}</p>
             {% if contributor.pronouns %}
