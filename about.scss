@@ -43,6 +43,12 @@ main {
   justify-content: center;
 }
 .contributor {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  &.highlight {
+    background-color: #e7e6eb;
+  }
   h2 {
     color: #613D8F;
     margin-bottom: 0px;
