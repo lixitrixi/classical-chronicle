@@ -4,6 +4,10 @@
 // {% include base.scss %}
 // {% include header-full.scss %}
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   padding: 0px 20px;
   margin-bottom: 50px;
