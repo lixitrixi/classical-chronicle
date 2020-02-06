@@ -4,6 +4,12 @@
 // {% include base.scss %}
 // {% include header-full.scss %}
 
+@keyframes fadebackgroundin {
+  from {
+    background-color: transparent;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -48,6 +54,9 @@ main {
   border-radius: 15px;
   &.highlight {
     background-color: #e7e6eb;
+    animation: fadebackgroundin 0.7s ease;
+    animation-delay: 1.1s;
+    animation-fill-mode: backwards;
   }
   h2 {
     color: #613D8F;
