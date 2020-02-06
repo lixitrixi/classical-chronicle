@@ -11,6 +11,7 @@
       <p class="category">{{ page.category }}</p>
       <h1 class="title">{{ page.title }}</h1>
       <p class="author">By {% for author in page.author %}{% if forloop.last %}<a href="/about#{{author | slugify}}">{{author}}</a>{% else %}<a href="/about#{{author | slugify}}">{{author}}</a>, {% endif %}{% endfor %}</p>
+      <p class="date">{{ page.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
       <article>
         {{ content }}
       </article>

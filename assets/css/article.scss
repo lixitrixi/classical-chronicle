@@ -14,7 +14,7 @@ main {
   margin-bottom: 20px;
   h1 {
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
     margin-top: 3px;
     font-size: 30px;
   }
@@ -29,8 +29,16 @@ main {
   .author {
     // font-style: italic;
     font-size: 18px;
-    margin-top:0px;
+    margin-top: 0px;
     margin-left: 15px;
+    margin-bottom: 9px;
+  }
+  .date {
+    margin-left: 15px;
+    font-style: italic;
+    color: #999;
+    margin-top: 0;
+    font-size: 17px;
   }
   .category {
     margin-bottom: 0px;
