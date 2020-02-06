@@ -99,9 +99,6 @@ header {
       &:hover {
         text-decoration: underline;
       }
-      &.active {
-        font-weight: bold;
-      }
       &.submit {
         color: #613d8f;
         background-color: white;
@@ -109,6 +106,9 @@ header {
         border-radius: 30px;
         font-weight: 500;
         margin-right: 2px;
+      }
+      &.active {
+        font-weight: bold;
       }
     }
     @media (max-width: 730px) {
