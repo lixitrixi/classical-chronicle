@@ -1,6 +1,6 @@
 ---
 layout: "article"
-title: "US &ndash; Iran Tensions Escalate after Assassination of Top Iranian Security Official"
+title: "US – Iran Tensions Escalate after Assassination of Top Iranian Security Official"
 author: [Yousef Nagib]
 image: "iran.png"
 category: "World News"
