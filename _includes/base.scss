@@ -31,6 +31,28 @@
     opacity: 0;
   }
 }
+.back-to-top {
+	display: inline-flex;
+	align-items: center;
+  position: absolute;
+  right: 0px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+	svg {
+		width: 40px;
+		height: 40px;
+    fill: #613d8f;
+	}
+	p {
+		margin: 0px 8px 0px 0px;
+    color: #7c4cba;
+    font-size: 22px;
+    padding-bottom: 1px;
+	}
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0px;
   background-color: #f4f6fa;
