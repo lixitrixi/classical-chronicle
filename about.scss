@@ -82,6 +82,10 @@ main {
       margin-right: 6px;
       width: 22px;
       height: 24px;
+      fill: #613d8f;
+    }
+    &.phone>svg {
+      transform: scale(1.2);
     }
   }
   .icon-pair:first-of-type {
