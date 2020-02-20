@@ -3,3 +3,5 @@ collections:
     output: true
     permalink: /article/:slug
     sort_by: date
+kramdown:
+  parse_span_html: true

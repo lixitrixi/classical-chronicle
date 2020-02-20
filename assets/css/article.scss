@@ -12,6 +12,29 @@ main {
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 20px;
+  img {
+    max-width: 80%;
+    text-indent: 0px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 8px;
+    @media (max-width: 730px) {
+      max-width: 100%;
+    }
+  }
+  img+span {
+    max-width: 75%;
+    margin: 0px auto;
+    margin-top: -4px;
+    display: block;
+    color: #757575;
+    font-style: italic;
+    text-indent: 0px;
+    font-size: 17px;
+    @media (max-width: 730px) {
+      max-width: 94%;
+    }
+  }
   h1 {
     font-weight: 500;
     margin-bottom: 7px;
