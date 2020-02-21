@@ -24,7 +24,7 @@ Next, they needed an advisor. They went to many teachers in order to achieve thi
 
 The club is very laid back. When I got there, all I had to do to sign up was put my name on a player rotation and wait. Students from every class were there playing ping pong, listening to music, and kicking back however they pleased. Everyone got a fair amount of time to play, and even those who weren’t playing had the opportunity to relax and unwind after a long day of school.
 
-If you are scared of being bad at ping pong, don’t worry! There are two tables, separated by level to make sure new players have the same playing time as grizzled veterans of the game. Even for advanced players, this club is a place to relax and unwind, free from the hustle and bustle of a busy school day. There are no real winners and losers: the only award you’ll win is bragging rights.
+If you are scared of being bad at ping pong, don’t worry! There are two tables, separated by level to make sure new players have the same playing time as grizzled veterans of the game. Even for advanced players, this club is a place to really just have a good time, free from the hustle and bustle of a busy school day. There are no real winners and losers: the only award you’ll win is bragging rights.
 
 ![Ping pong in action](/assets/images/ping-pong-action.jpg)
 
