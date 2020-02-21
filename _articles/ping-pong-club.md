@@ -5,7 +5,6 @@ author: [Yeivin Herrera, Nick Griffin]
 image: "ping-pong-cover.jpg"
 category: "Clubs"
 date: 2020-02-20
-unlisted: true
 ---
 Ever since freshman orientation, one of Mr. Baldizar’s anecdotes has stuck with me. He talked about casually playing ping pong with a student in the cafeteria after school. Ever since then, I’ve always wondered: where could I play? This question would go unanswered until just recently.
 
