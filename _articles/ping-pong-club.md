@@ -7,14 +7,14 @@ category: "Clubs"
 date: 2020-02-20
 unlisted: true
 ---
-Ever since freshman orientation, one of Mr. Baldizar’s anecdotes has stuck with me. He talked about casually playing ping pong with a student in the cafeteria after school. Ever since then, I’ve always wondered- where could I play? This question would go unanswered until just recently.
+Ever since freshman orientation, one of Mr. Baldizar’s anecdotes has stuck with me. He talked about casually playing ping pong with a student in the cafeteria after school. Ever since then, I’ve always wondered: where could I play? This question would go unanswered until just recently.
 
 Three elite table tennis pros: 11th graders Angel Arrazola, Brailee Sanchez, and Isaiah Hudson, got their start playing ping pong across the street from Classical at Frog and Toad, a popular student hangout. When the store decided to get rid of its table, these pongers (an actual term for ping pong enthusiasts) were forced to take matters into their own hands.
 
 ![Ping pong members](/assets/images/ping-pong-team.jpg)
 <span>Left to Right: Aarush, Brailee, Isaiah, and Angel</span>
 
-After years without any ping pong activities at Classical, 11th graders Angel Arrazola, Braillee Sanchez, and Isaiah Hudson have taken the initiative and created a brand new club called- wait for it- The Ping Pong Club.
+After years without any ping pong activities at Classical, Angel, Braillee, and Isaiah have taken the initiative and created a brand new club called- wait for it- The Ping Pong Club.
 
 "We really just wanted to play here at Classical," says Angel, one of the three founders. After realizing they wanted to found the club, Angel, Isaiah, and Brailee have had many challenges to make their dream of a Classical ping pong club a reality.
 
@@ -28,6 +28,6 @@ If you are scared of being bad at ping pong, don’t worry! There are two tables
 
 ![Ping pong in action](/assets/images/ping-pong-action.jpg)
 
-On rare occasions, even Vice-Principal Mr. Baldizar joins in on the fun. As an avid ponger, he has dropped in a few times to face off against the best of the best- usually taking down even the most elite table tennis enthusiasts like Serena Williams at the 2007 Australian Open. With some experience and enthusiasm, maybe even you, dear reader, could take down this ping pong demigod.
+On rare occasions, even Vice-Principal Mr. Baldizar joins in on the fun. As an avid ponger, he has dropped in a few times to face off against the best of the best- usually taking down even the most elite table tennis enthusiasts. With some experience and enthusiasm, maybe even you, dear reader, could take down this ping pong demigod.
 
 The Ping Pong club meets most Thursdays in the English Department. Give yourself a break from the academic rigor, overwhelming schedule, and emotional turmoil of the average high schooler and become part of Classical’s newest tradition: The Ping Pong Club.
