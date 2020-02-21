@@ -8,14 +8,14 @@ date: 2020-02-20
 ---
 Ever since freshman orientation, one of Mr. Baldizar’s anecdotes has stuck with me. He talked about casually playing ping pong with a student in the cafeteria after school. Ever since then, I’ve always wondered: where could I play? This question would go unanswered until just recently.
 
-Three elite table tennis pros: 11th graders Angel Arrazola, Brailee Sanchez, and Isaiah Hudson, got their start playing ping pong across the street from Classical at Frog and Toad, a popular student hangout. When the store decided to get rid of its table, these pongers (an actual term for ping pong enthusiasts) were forced to take matters into their own hands.
+Three elite table tennis pros: 11th graders Angel Arrazola, Braillee Sanchez, and Isaiah Hudson, got their start playing ping pong across the street from Classical at Frog and Toad, a popular student hangout. When the store decided to get rid of its table, these pongers (an actual term for ping pong enthusiasts) were forced to take matters into their own hands.
 
 ![Ping pong members](/assets/images/ping-pong-team.jpg)
-<span>Left to Right: Aarush, Brailee, Isaiah, and Angel</span>
+<span>Left to Right: Aarush, Braillee, Isaiah, and Angel</span>
 
 After years without any ping pong activities at Classical, Angel, Braillee, and Isaiah have taken the initiative and created a brand new club called- wait for it- The Ping Pong Club.
 
-"We really just wanted to play here at Classical," says Angel, one of the three founders. After realizing they wanted to found the club, Angel, Isaiah, and Brailee have had many challenges to make their dream of a Classical ping pong club a reality.
+"We really just wanted to play here at Classical," says Angel, one of the three founders. After realizing they wanted to found the club, Angel, Isaiah, and Braillee have had many challenges to make their dream of a Classical ping pong club a reality.
 
 First, as is critical to any prospective ping pong club, they needed a table. Deep within the locker rooms of Classical’s gymnasium, they found two miniature courts still intact.
 
