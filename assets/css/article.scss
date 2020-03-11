@@ -89,6 +89,12 @@ main {
       text-indent: 0;
     }
   }
+  ul {
+    margin: -10px 0px;
+  }
+  li {
+    font-size: 19px;
+  }
 }
 
 .banner {
@@ -99,7 +105,6 @@ main {
 	margin: 15px 0px;
   p {
     margin: 0;
-
     span {
       font-weight: bold;
     }
@@ -137,6 +142,10 @@ main {
     	margin-top: 7px;
     	margin-bottom: 4px;
     	margin-left: 14px;
+      a {
+        color: purple;
+        text-decoration: underline;
+      }
     }
     &:checked+p {
       display: block;
