@@ -3,5 +3,6 @@ collections:
     output: true
     permalink: /article/:slug
     sort_by: date
+exclude: ["/assets/images/originals"]
 kramdown:
   parse_span_html: true
