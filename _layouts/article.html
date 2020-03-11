@@ -62,6 +62,19 @@
         <p>This article originally appeared in the <i>Purple Post</i> before its merge into the <i>Classical Chronicle</i>. <a href="/article/purple-post-merge">Read about it</a></p>
       </div>
       {% endif %}
+      {% if page.updated %}
+      <div class="banner updated">
+  			<div class="initial">
+          <svg style="width:32px;height:32px" viewBox="-1 -1 25 25" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8,12H16V14H8V12M10,20H6V4H13V9H18V12.1L20,10.1V8L14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H10V20M8,18H12.1L13,17.1V16H8V18M20.2,13C20.3,13 20.5,13.1 20.6,13.2L21.9,14.5C22.1,14.7 22.1,15.1 21.9,15.3L20.9,16.3L18.8,14.2L19.8,13.2C19.9,13.1 20,13 20.2,13M20.2,16.9L14.1,23H12V20.9L18.1,14.8L20.2,16.9Z" />
+          </svg>
+  				<p>This article was <span>updated</span> on {{page.updateDate}}.</p>
+  				<label for="updated-banner">What changed?</label>
+  			</div>
+  			<input type="checkbox" id="updated-banner">
+  			<p>{{page.updateMessage}}</p>
+  		</div>
+      {% endif %}
       <p class="category">{{ page.category }}</p>
       <h1 class="title">{{ page.title }}</h1>
       <p class="author">By {% for author in page.author %}{% if forloop.last %}<a href="/about#{{author | slugify}}">{{author}}</a>{% else %}<a href="/about#{{author | slugify}}">{{author}}</a>, {% endif %}{% endfor %}</p>

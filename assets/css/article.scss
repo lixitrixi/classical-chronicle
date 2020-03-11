@@ -182,3 +182,13 @@ main {
   	color: #01427e;
   }
 }
+.banner.updated {
+	background-color: #d8f7d8;
+	border: 1px solid #077707;
+  svg {
+  	fill: #077707;
+  }
+  label {
+  	color: #077707;
+  }
+}
