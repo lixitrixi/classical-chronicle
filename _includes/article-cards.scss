@@ -2,6 +2,7 @@
 
 .articles {
   display: grid;
+  display: -ms-grid;
   grid-template-columns: repeat(auto-fit, 280px);
   grid-gap: 37px;
   margin-top: 50px;

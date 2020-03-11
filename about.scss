@@ -41,6 +41,7 @@ main {
   max-width: 950px;
   margin: 0 auto;
   display: grid;
+  display: -ms-grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
 }
