@@ -51,6 +51,8 @@ header {
       pointer-events: all;
       opacity: 1;
       width: 700px;
+      // Fix for Internet Explorer
+      height: 64.4px;
     }
     margin-top: 30px;
     position: absolute;
