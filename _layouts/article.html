@@ -9,6 +9,59 @@
   <body>
     {% include header.html %}
     <main>
+      {% if page.archived %}
+      <div class="banner archived">
+  			<div class="initial">
+  				<svg style="width:32px;height:32px" viewBox="0 0 24 24">
+  					<path d="M3,3H21V7H3V3M4,8H20V21H4V8M9.5,11A0.5,0.5 0 0,0 9,11.5V13H15V11.5A0.5,0.5 0 0,0 14.5,11H9.5Z" />
+  				</svg>
+  				<p>This article has been <span>archived</span>.</p>
+  				<label for="archived-banner">See Why</label>
+  			</div>
+  			<input type="checkbox" id="archived-banner">
+  			<p>This article doesn't have an archive reason.</p>
+  		</div>
+      {% endif %}
+      {% assign category = page.category | downcase %}
+      {% if category == "opinion" and page.unlisted %}
+      <div class="banner opinion">
+  			<div class="initial">
+  				<svg style="width:32px;height:32px" viewBox="0 0 24 24">
+  					<path d="M12,8H4A2,2 0 0,0 2,10V14A2,2 0 0,0 4,16H5V20A1,1 0 0,0 6,21H8A1,1 0 0,0 9,20V16H12L17,20V4L12,8M21.5,12C21.5,13.71 20.54,15.26 19,16V8C20.53,8.75 21.5,10.3 21.5,12Z" />
+  				</svg>
+  				<p>This article is an <span>opinion</span> piece.</p>
+  				<label for="opinion-banner">Learn More</label>
+  			</div>
+  			<input type="checkbox" id="opinion-banner">
+  			<p>The views and opinions expressed in this article do not necesarrily represent those of the <i>Chronicle</i>.</p>
+  		</div>
+      {% endif %}
+      {% if page.unlisted %}
+      <div class="banner unlisted">
+        <div class="initial">
+          <svg style="width:32px;height:32px" viewBox="-2 -2 26 26">
+              <path d="M11.83,9L15,12.16C15,12.11 15,12.05 15,12A3,3 0 0,0 12,9C11.94,9 11.89,9 11.83,9M7.53,9.8L9.08,11.35C9.03,11.56 9,11.77 9,12A3,3 0 0,0 12,15C12.22,15 12.44,14.97 12.65,14.92L14.2,16.47C13.53,16.8 12.79,17 12,17A5,5 0 0,1 7,12C7,11.21 7.2,10.47 7.53,9.8M2,4.27L4.28,6.55L4.73,7C3.08,8.3 1.78,10 1,12C2.73,16.39 7,19.5 12,19.5C13.55,19.5 15.03,19.2 16.38,18.66L16.81,19.08L19.73,22L21,20.73L3.27,3M12,7A5,5 0 0,1 17,12C17,12.64 16.87,13.26 16.64,13.82L19.57,16.75C21.07,15.5 22.27,13.86 23,12C21.27,7.61 17,4.5 12,4.5C10.6,4.5 9.26,4.75 8,5.2L10.17,7.35C10.74,7.13 11.35,7 12,7Z" />
+          </svg>
+          <p>This article is <span>unlisted</span>.</p>
+          <label for="unlisted-banner">See Why</label>
+        </div>
+        <input type="checkbox" id="unlisted-banner">
+        <p>{{ page.unlistedReason | default: "This article hasn't been published yet. (Default Reason)"}}</p>
+      </div>
+      {% endif %}
+      {% if page.migrated %}
+      <div class="banner migrated">
+        <div class="initial">
+          <svg viewBox="2 2 20 20" width="32px" height="32px">
+              <path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z"/>
+          </svg>
+          <p>This article was <span>migrated</span> from the <span>Purple Post</span>.</p>
+          <label for="migrated-banner">Read More</label>
+        </div>
+        <input type="checkbox" id="migrated-banner">
+        <p>This article is one of many migrated from the <i>Purple Post</i> during its merge into the <i>Classical Chronicle</i>.</p>
+      </div>
+      {% endif %}
       <p class="category">{{ page.category }}</p>
       <h1 class="title">{{ page.title }}</h1>
       <p class="author">By {% for author in page.author %}{% if forloop.last %}<a href="/about#{{author | slugify}}">{{author}}</a>{% else %}<a href="/about#{{author | slugify}}">{{author}}</a>, {% endif %}{% endfor %}</p>
