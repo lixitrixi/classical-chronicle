@@ -11,7 +11,7 @@ Last Friday, at the end of 5th period, Vice Principal Michael Marino interrupted
 
 "I felt really really mad and sad,” described junior Zoe Cute, fighting through tears. "My friend was about to go on and I was really excited for her. It was supposed to be her senior production. I guess they thought someone else was going to catch [coronavirus] in the next twenty minutes.”
 
-Upon asking an actor how they felt when their play was interrupted, this reporter was met with a summative response from an anonymous bystander, "Like f****** s***!” Junior Izzy Giorgi responded, "Bad, not good, and a little bit disrespected.” In homeroom, she continued to say she felt, "Also bad, because we interrupted [the play] to do absolutely nothing, and it was just wasted time. If it was absolutely necessary to interrupt the performance I would have been a little more kind about it.”
+Upon asking an actor how they felt when their play was interrupted, this reporter was met with a summative response from an anonymous bystander, "Like f\*\*\*\*\*\* s\*\*\*!” Junior Izzy Giorgi responded, "Bad, not good, and a little bit disrespected.” In homeroom, she continued to say she felt, "Also bad, because we interrupted [the play] to do absolutely nothing, and it was just wasted time. If it was absolutely necessary to interrupt the performance I would have been a little more kind about it.”
 
 Simultaneously, Classical's administration hopped on the PA and ordered students to their homerooms. They said school was going to be closed for a while, and that they had some announcements to make. All across the building, students and teachers shared a seemingly unending abyss of vulnerability as they waited at their desks for some news.
 
