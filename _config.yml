@@ -6,3 +6,4 @@ collections:
 exclude: ["/assets/images/originals"]
 kramdown:
   parse_span_html: true
+future: true
