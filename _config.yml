@@ -3,7 +3,7 @@ collections:
     output: true
     permalink: /article/:slug
     sort_by: date
-exclude: ["/assets/images/originals"]
+exclude: ["/assets/images/originals", "mockup.ai", "coverimages.ai"]
 kramdown:
   parse_span_html: true
 future: true
