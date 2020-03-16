@@ -4,7 +4,7 @@ title: "Classes Confounded as Coronavirus Closes Classical"
 author: [Simon Carr]
 image: "coronavirus-cover.jpg"
 category: "School"
-cover_credit: "Amelia Ross"
+graphic: Amelia Ross
 date: 2020-03-16
 ---
 Last Friday, at the end of 5th period, Vice Principal Michael Marino interrupted the only performance of the CHS Theater Company’s Broadway Review, bringing the musical to a sudden halt. He turned the lights on. “Okay, this is a special announcement. I will apologize for this. We have to end this play right now. We need everyone to go to their advisory.” With the flick of a switch, months of after school practicing was rendered fruitless for the ensemble.

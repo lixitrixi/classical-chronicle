@@ -4,6 +4,7 @@ title: "If You Want To Pass, You've Got To Cheat"
 author: ["Crys Jewett"]
 image: "cheating.png"
 category: "Opinion"
+graphic: Amelia Ross
 date: 2020-02-04
 ---
 > "If you want to pass, you got to cheat."
