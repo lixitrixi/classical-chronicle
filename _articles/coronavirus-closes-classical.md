@@ -3,7 +3,6 @@ layout: "article"
 title: "Classes Confounded as Coronavirus Closes Classical"
 author: [Simon Carr]
 image: "coronavirus-cover.jpg"
-unlisted: true
 category: "School"
 cover_credit: "Amelia Ross"
 date: 2020-03-16
