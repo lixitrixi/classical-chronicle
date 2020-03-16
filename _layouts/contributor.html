@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ page.contributorName }} - Classical Chronicle</title>
+    <link rel="stylesheet" href="/assets/css/contributor.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/assets/js/analytics.js" defer></script>
+  </head>
+  <body>
+    {% include header.html %}
+    <main>
+      <h1>{{ page.contributorName }}</h1>
+      <div class="info">
+        <p class="pronouns">{{ page.pronouns }}</p>
+        <p class="grade">{{ page.grade }}th Grade</p>
+        {% if page.joined %}
+          <p class="joined">Joined {{ page.joined }}</p>
+        {% endif %}
+        {% if page.email %}
+          <div class="icon-pair">
+            <svg viewBox="0 0 24.3 19.4">
+              <path d="M21.8 4.9L12.1 11 2.4 4.9V2.4l9.7 6.1 9.7-6.1m0-2.4H2.4A2.4 2.4 0 000 2.4V17c0 1.3 1.1 2.4 2.4 2.4h19.4c1.3 0 2.4-1.1 2.4-2.4V2.4c.1-1.3-1-2.4-2.4-2.4z"/>
+            </svg>
+            <a href="mailto:{{page.email}}" target="_blank">{{ page.email }}</a>
+          </div>
+        {% endif %}
+        {% if page.phone_number %}
+          <div class="icon-pair phone">
+            <svg viewBox="0 0 24 24">
+              <path d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3C19,1.89 18.1,1 17,1Z" />
+            </svg>
+            <a href="tel:{{page.phone_number}}" target="_blank">{{ page.phone_number }}</a>
+          </div>
+        {% endif %}
+        {% if page.instagram %}
+        <div class="icon-pair">
+          <svg viewBox="0 0 23.2 23.2">
+            <path d="M6.7 0h9.8c3.7 0 6.7 3 6.7 6.7v9.8c0 3.7-3 6.7-6.7 6.7H6.7c-3.7 0-6.7-3-6.7-6.7V6.7C0 3 3 0 6.7 0m-.2 2.3a4.2 4.2 0 00-4.2 4.2v10.2c0 2.3 1.9 4.2 4.2 4.2h10.2c2.3 0 4.2-1.9 4.2-4.2V6.5c0-2.3-1.9-4.2-4.2-4.2H6.5m11.2 1.8c.8 0 1.5.6 1.5 1.5S18.5 7 17.7 7s-1.5-.6-1.5-1.5.7-1.4 1.5-1.4m-6.1 1.7a5.8 5.8 0 110 11.6 5.8 5.8 0 010-11.6m0 2.3c-1.9 0-3.5 1.6-3.5 3.5s1.6 3.5 3.5 3.5 3.5-1.6 3.5-3.5-1.6-3.5-3.5-3.5z"/>
+          </svg>
+          <a href="https://www.instagram.com/{{ page.instagram }}/">{{ page.instagram }}</a>
+        </div>
+        {% endif %}
+        <p class="position">{{ page.position }}</p>
+      </div>
+      <div class="content">
+        {{ content }}
+        <p class="last_updated">Last updated {{ page.last_updated | date: "%B %-d, %Y"}}</p>
+      </div>
+      <div class="contributions">
+        <h2>Contributions</h2>
+        <div class="contrib-table">
+          {% assign articles = site.articles | reverse %}
+          {% for article in articles %}
+            {% if article.unlisted %}
+              {% continue %}
+            {% endif %}
+            {% if article.author contains page.contributorName %}
+              {% if article.author.size > 1 %}
+                <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Coauthor</p></div>
+              {% else %}
+                <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Author</p></div>
+              {% endif %}
+            {% endif %}
+            {% if article.contributors[page.contributorName] %}
+              <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">{{ article.contributors[page.contributorName] }}</p></div>
+            {% endif %}
+            {% if article.graphic == page.contributorName %}
+              <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Made Graphic</p></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
