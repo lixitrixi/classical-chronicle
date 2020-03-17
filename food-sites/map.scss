@@ -16,6 +16,13 @@
 body {
   margin: 0;
 }
+.missing-map {
+  font-family: "Source Sans";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .banner {
   position: absolute;
   z-index: 1;
