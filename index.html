@@ -13,8 +13,7 @@
     {% include header.html page="home" %}
     <main>
       <div class="articles">
-        {% assign sortedArticles = site.articles | reverse %}
-        {% for article in sortedArticles %}
+        {% for article in site.articles reversed %}
           {% if article.unlisted %}{% continue %}{% endif %}
           {% assign formatedDate = article.date | date: "%B&nbsp;%-d,&nbsp;%Y" %}
           {% include article-card.html title=article.title author=article.author  image=article.image category=article.category date=formatedDate link=article.url %}
