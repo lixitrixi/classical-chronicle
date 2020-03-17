@@ -2,7 +2,9 @@ collections:
   articles:
     output: true
     permalink: /article/:slug
-    sort_by: date
+  contributors:
+    output: true
+    permalink: /contributor/:slug
 exclude: ["/assets/images/originals", "mockup.ai", "coverimages.ai"]
 kramdown:
   parse_span_html: true

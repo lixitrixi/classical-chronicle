@@ -7,5 +7,6 @@ grade: 9
 email: benjjewetr@gmail.com
 instagram: crystheheckingvocalist
 last_updated: 2020-03-16
+order: 5
 ---
 **Crys Jewett** is a contributing writer to the *Classical Chronicle*.

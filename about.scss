@@ -38,68 +38,25 @@ main {
   }
 }
 .contributors {
-  max-width: 950px;
+  max-width: 800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-content: center;
+  grid-gap: 10px 80px;
 }
 .contributor {
-  padding-left: 15px;
-  padding-bottom: 10px;
-  border-radius: 15px;
-  position: relative;
-  .offset {
-    content: "";
-    width: 1px;
-    height: 1px;
-    background-color: transparent;
-    position: relative;
-    top: -15px;
-  }
-  &.highlight {
-    background-color: #e1e0e6;
-    animation: fadebackgroundin 0.7s ease;
-    // animation-delay: 0.3s;
-    @media (min-width: 730px) {
-      animation-delay: 1.1s;
-    }
-    animation-fill-mode: backwards;
-  }
-  h2 {
-    color: #613D8F;
-    margin-bottom: 0px;
-    margin-top: 14px;
-    span {
-      font-size: 16px;
-      color: #aaa;
-    }
-  }
-  .icon-pair {
-    margin: 8px 8px;
-    display: flex;
-    svg {
-      margin-right: 6px;
-      width: 22px;
-      height: 24px;
-      fill: #613d8f;
-    }
-    &.phone>svg {
-      transform: scale(1.2);
-    }
-  }
-  .icon-pair:first-of-type {
-    margin-top: 0px;
-  }
-  .icon-pair:last-of-type {
-    margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  a {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
   }
   p {
-    margin: 5px 8px;
-    color: #696969;
-    font-size: 19px;
-  }
-  .role {
-    font-weight: bold;
+    margin: 0 0 0 10px;
+    margin-left: 20px;
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 17px;
   }
 }

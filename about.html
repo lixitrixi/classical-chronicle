@@ -6,7 +6,6 @@
     <title>About Us - Classical Chronicle</title>
     <link rel="stylesheet" href="about.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="/assets/js/highlight-hash.js" defer></script>
     <script src="/assets/js/analytics.js" defer></script>
   </head>
   <body>
@@ -18,39 +17,11 @@
       </div>
       <h1 class="contributors-title">Contributors</h1>
       <div class="contributors">
-        {% for contributor in site.data.contributors %}
-          <div class="contributor" id="{{contributor.name | slugify}}-elem">
-            <div class="offset" id="{{contributor.name | slugify}}"></div>
-            <h2>{{ contributor.display-name | default: contributor.name }}</h2>
-            <p>Grade {{ contributor.grade }}</p>
-            {% if contributor.pronouns %}
-            <p>{{ contributor.pronouns }}</p>
-            {% endif %}
-            {% if contributor.email %}
-              <div class="icon-pair">
-                <svg viewBox="0 0 24.3 19.4">
-                  <path d="M21.8 4.9L12.1 11 2.4 4.9V2.4l9.7 6.1 9.7-6.1m0-2.4H2.4A2.4 2.4 0 000 2.4V17c0 1.3 1.1 2.4 2.4 2.4h19.4c1.3 0 2.4-1.1 2.4-2.4V2.4c.1-1.3-1-2.4-2.4-2.4z"/>
-                </svg>
-                <a href="mailto:{{contributor.email}}" target="_blank">{{ contributor.email }}</a>
-              </div>
-            {% endif %}
-            {% if contributor.phone_number %}
-              <div class="icon-pair phone">
-                <svg viewBox="0 0 24 24">
-                  <path d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3C19,1.89 18.1,1 17,1Z" />
-                </svg>
-                <a href="tel:{{contributor.phone_number}}" target="_blank">{{ contributor.phone_number }}</a>
-              </div>
-            {% endif %}
-            {% if contributor.instagram %}
-            <div class="icon-pair">
-              <svg viewBox="0 0 23.2 23.2">
-                <path d="M6.7 0h9.8c3.7 0 6.7 3 6.7 6.7v9.8c0 3.7-3 6.7-6.7 6.7H6.7c-3.7 0-6.7-3-6.7-6.7V6.7C0 3 3 0 6.7 0m-.2 2.3a4.2 4.2 0 00-4.2 4.2v10.2c0 2.3 1.9 4.2 4.2 4.2h10.2c2.3 0 4.2-1.9 4.2-4.2V6.5c0-2.3-1.9-4.2-4.2-4.2H6.5m11.2 1.8c.8 0 1.5.6 1.5 1.5S18.5 7 17.7 7s-1.5-.6-1.5-1.5.7-1.4 1.5-1.4m-6.1 1.7a5.8 5.8 0 110 11.6 5.8 5.8 0 010-11.6m0 2.3c-1.9 0-3.5 1.6-3.5 3.5s1.6 3.5 3.5 3.5 3.5-1.6 3.5-3.5-1.6-3.5-3.5-3.5z"/>
-              </svg>
-              <a href="https://www.instagram.com/{{ contributor.instagram }}/">{{ contributor.instagram }}</a>
-            </div>
-            {% endif %}
-            <p class="role">{{ contributor.role }}</p>
+        {% assign sortedContributors = site.contributors | sort: 'order' %}
+        {% for contributor in sortedContributors %}
+          <div class="contributor">
+            <a href="/contributor/{{ contributor.contributorName | slugify }}">{{ contributor.contributorName }}</a>
+            <p>{{ contributor.position }}</p>
           </div>
         {% endfor %}
       </div>
