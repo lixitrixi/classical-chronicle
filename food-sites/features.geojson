@@ -1,0 +1,1253 @@
+{
+  "features": [
+    {
+      "properties": {
+        "place_name": "570 Hope Street, Bristol, Rhode Island 02809, United States",
+        "days": "Weekdays",
+        "time": "9:00-11:00",
+        "name": "Colt Andrews Elementary School",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.276501,
+          41.671746
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "75 Callahan School Street, Burrillville, Rhode Island 02830, United States",
+        "days": "Weekdays",
+        "time": "11:30-12:30",
+        "name": "William Callahan Elementary School",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.682685,
+          41.968977
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "24 Summer Street, Central Falls, Rhode Island 02863, United States",
+        "days": "Weekdays",
+        "time": "10:00-12:00",
+        "name": "Central Falls High School",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.391422,
+          41.887133
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "325 Cowden Street, Central Falls, Rhode Island 02863, United States",
+        "days": "Weekdays",
+        "time": "8:30-9:30; 11:00-12:00",
+        "name": "Segue Institute for Learning",
+        "notes":"Breakfast and Lunch are given out at separate times (see above).",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.39667,
+          41.888227
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "899 Park Avenue, Cranston, Rhode Island 02910, United States",
+        "days": "Weekdays",
+        "name": "Cranston High School East",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.437773,
+          41.780111
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "160 Pawtuxet Avenue, Providence, Rhode Island 02905, United States",
+        "days": "Weekdays",
+        "name": "Edgewood Highland",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.396634,
+          41.781406
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "15 Mayberry Street, Cranston, Rhode Island 02920, United States",
+        "days": "Weekdays",
+        "name": "George J Peters",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.471296,
+          41.783059
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "50 Gladstone Street, Cranston, Rhode Island 02920, United States",
+        "days": "Weekdays",
+        "name": "Gladstone Street School",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.450243,
+          41.798336
+        ]
+      },
+      "id": "address.2152207581391756"
+    },
+    {
+      "properties": {
+        "place_name": "135 Gansett Avenue, Cranston, Rhode Island 02910, United States",
+        "days": "Weekdays",
+        "name": "Hugh B Bain Middle School",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.452156,
+          41.786251
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "25 Park View Boulevard, Cranston, Rhode Island 02910, United States",
+        "days": "Weekdays",
+        "name": "Park View Middle School",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.416286,
+          41.772398
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "364 Broad St, Cumberland, RI 02864",
+        "days": "Weekdays",
+        "name": "BF Norton Elementary School",
+        "time": "8:00-8:30; 11-12:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes": "Breakfast and Lunch are given out at separate times (see above)."
+      },
+      "geometry": {
+        "coordinates": [
+          -71.394427,
+          41.908709
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "45 Highland Ave, Cumberland, RI 02864",
+        "days": "Weekdays",
+        "name": "McCourt Middle School",
+        "time": "8:00-8:30; 11-12:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes": "Breakfast and Lunch are given out at separate times (see above)."
+      },
+      "geometry": {
+        "coordinates": [
+          -71.392664,
+          41.918307
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "700 Bullocks Point Avenue, Riverside, Rhode Island 02915, United States",
+        "days": "Weekdays",
+        "name": "Carousel (Riverside)",
+        "time": "8:30-9:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.359829,
+          41.757597
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "15 Evergreen Drive, East Providence, Rhode Island 02914, United States",
+        "days": "Weekdays",
+        "name": "Evergreen Apartments Entrance",
+        "time": "8:30-9:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.344426,
+          41.805177
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "time": "9:15-9:45",
+        "days": "Weekdays",
+        "name": "Freedom Green Park (Rumford)",
+        "place_name": "North Broadway",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.360146,
+          41.833021
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "201 Mercer Street, East Providence, Rhode Island 02914, United States",
+        "days": "Weekdays",
+        "name": "Pierce Field Stadium Entrance",
+        "time": "9:15-9:45",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.38228,
+          41.810697
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "50 Jenckes Hill Road, Lincoln, Rhode Island 02865, United States",
+        "days": "Weekdays",
+        "name": "Davies Career & Technical High",
+        "time": "8:00-9:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.457018,
+          41.902987
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "time": "9:00-11:00",
+        "days": "Weekdays",
+        "name": "Wilbur McMahon School",
+        "place_name": "23 Commons, Little Compton, RI",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.173574,
+          41.508935
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "245 South Pier Road, Narragansett, Rhode Island 02882, United States",
+        "days": "Weekdays",
+        "name": "Narragansett High School",
+        "time": "10:00-11:00",
+        "start_date": "Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.469836,
+          41.430392
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "35 Dexter Street, Newport, Rhode Island 02840, United States",
+        "days": "Weekdays",
+        "name": "Claiborne Pell Elementary",
+        "time": "12:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.304609,
+          41.508401
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "20 Dr Marcus Wheatland Boulevard, Newport, Rhode Island 02840, United States",
+        "days": "Weekdays",
+        "name": "Martin Luther King Center",
+        "time": "12:30-1:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.312572,
+          41.492589
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "time": "11:30-11:50",
+        "days": "Weekdays",
+        "name": "McGinn Park",
+        "place_name": "School Street, North Kingstown, Rhode Island 02852, United States",
+        "notes": "inclement weather site is Davisville Middle School",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.463424,
+          41.621412
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "time": "11:00-11:20",
+        "days": "Weekdays",
+        "name": "Wilson Park",
+        "notes": "Inclement weather site is North Kingstown High School",
+        "place_name": "Tower Hill Rd, North Kingstown, Rhode Island 02852, United States",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.455487,
+          41.575829
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "51 Intervale Avenue, North Providence, Rhode Island 02911, United States",
+        "days": "Weekdays",
+        "name": "Ricci Middle School",
+        "time": "11:30-12:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.470522,
+          41.847377
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "1440 Mineral Spring Ave, North Providence, RI 02904",
+        "days": "Weekdays",
+        "name": "Whelan Elementary School",
+        "time": "11:30-12:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.442086,
+          41.865668
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "50 Whitman Street, Pawtucket, Rhode Island 02860, United States",
+        "days": "Weekdays",
+        "name": "Baldwin Elementary School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.396339,
+          41.868331
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "582 Benefit Street, Pawtucket, Rhode Island 02861, United States",
+        "days": "Weekdays",
+        "name": "Curtis Elementary School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.347918,
+          41.892681
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "62 Lincoln Avenue, Pawtucket, Rhode Island 02861, United States",
+        "days": "Weekdays",
+        "name": "Fallon Elementary School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.360331,
+          41.868508
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "974 Newport Avenue, Pawtucket, Rhode Island 02861, United States",
+        "days": "Weekdays",
+        "name": "Goff Middle School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.354576,
+          41.881519
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "334 Pleasant Street, Pawtucket, Rhode Island 02860, United States",
+        "days": "Weekdays",
+        "name": "International Charter School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.384942,
+          41.86897
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "350 Division Street, Pawtucket, Rhode Island 02860, United States",
+        "days": "Weekdays",
+        "name": "Jenks Middle School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.370954,
+          41.875645
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "485 East Avenue, Pawtucket, Rhode Island 02860, United States",
+        "days": "Weekdays",
+        "name": "Shea High School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.387978,
+          41.865184
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "281 Mineral Spring Avenue, Pawtucket, Rhode Island 02860, United States",
+        "days": "Weekdays",
+        "name": "Slater Middle School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.400311,
+          41.874486
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "150 Exchange Street, Pawtucket, Rhode Island 02860, United States",
+        "days": "Weekdays",
+        "name": "Tolman High School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.380635,
+          41.880452
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "375 Adelaide Avenue, Providence, Rhode Island 02907, United States",
+        "days": "Weekdays",
+        "name": "Alvarez High School",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.430134,
+          41.79505
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "50 Obadiah Brown Road, Providence, Rhode Island 02909, United States",
+        "days": "Weekdays",
+        "name": "Batastini/Pleasant View Rec Center",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.462383,
+          41.835569
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "227 Dudley Street, Providence, Rhode Island 02907, United States",
+        "days": "Weekdays",
+        "name": "Davey Lopes\t",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.416731,
+          41.810365
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "152 Springfield Street, Providence, Rhode Island 02909, United States",
+        "days": "Weekdays",
+        "name": "Delsesto",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.465336,
+          41.8186
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "812 Branch Avenue, Providence, Rhode Island 02904, United States",
+        "days": "Weekdays",
+        "name": "E Cubed Academy",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.434285,
+          41.854196
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "188 Princeton Avenue, Providence, Rhode Island 02907, United States",
+        "days": "Weekdays",
+        "name": "Gilbert Stuart Middle School",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.427057,
+          41.804832
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "455 Wickenden Street, Providence, Rhode Island 02903, United States",
+        "days": "Weekdays",
+        "name": "Vartan Gregorian Elementary",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.393651,
+          41.819947
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "324 Hope St, Providence, RI 02906",
+        "days": "Weekdays",
+        "name": "Hope High School",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.401944,
+          41.835112
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "674 Prairie Avenue, Providence, Rhode Island 02905, United States",
+        "days": "Weekdays",
+        "name": "John Rollins",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.410321,
+          41.795644
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "17 Hyatt Street, Providence, Rhode Island 02909, United States",
+        "days": "Weekdays",
+        "name": "Josin",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.447912,
+          41.82179
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "182 Thurbers Avenue, Providence, Rhode Island 02905, United States",
+        "days": "Weekdays",
+        "name": "Juanita Sanchez High School",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.408174,
+          41.798975
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "195 Nelson Street, Providence, Rhode Island 02908, United States",
+        "days": "Weekdays",
+        "name": "Kennedy Elementary School",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.443782,
+          41.842961
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "60 Camden Avenue, Providence, Rhode Island 02908, United States",
+        "days": "Weekdays",
+        "name": "Madeline Rogers",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.426465,
+          41.836953
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "1000 Eddy Street, Providence, Rhode Island 02905, United States",
+        "days": "Weekdays",
+        "name": "Meeting Street School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.404784,
+          41.801275
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "434 Mount Pleasant Avenue, Providence, Rhode Island 02908, United States",
+        "days": "Weekdays",
+        "name": "Mt. Pleasant High School",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.452772,
+          41.839532
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "675 Plainfield Street, Providence, Rhode Island 02909, United States",
+        "days": "Weekdays",
+        "name": "Neutaconkanut",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.462539,
+          41.810828
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "41 Fricker Street, Providence, Rhode Island 02903, United States",
+        "days": "Weekdays",
+        "name": "Providence Career and Technical Academy",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.421812,
+          41.81633
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "159 Sackett Street, Providence, Rhode Island 02907, United States",
+        "days": "Weekdays",
+        "name": "Sackett",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.419192,
+          41.794216
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "438 Hope Street, Providence, Rhode Island 02906, United States",
+        "days": "Weekdays",
+        "name": "Vincent Brown",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.400655,
+          41.838461
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "109 Bucklin Street, Pawtucket, Rhode Island 02861, United States",
+        "days": "Weekdays",
+        "name": "West End",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.358641,
+          41.888423
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "60 Kossuth Street, Providence, Rhode Island 02909, United States",
+        "days": "Weekdays",
+        "name": "William D'Abate",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.446597,
+          41.8217
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "18 Gesler Street, Providence, Rhode Island 02909, United States",
+        "days": "Weekdays",
+        "name": "Zuccolo",
+        "time": "4:00-6:00",
+        "breakfast-and-lunch": 0,
+        "dinner": 1
+      },
+      "geometry": {
+        "coordinates": [
+          -71.430472,
+          41.822878
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "435 Switch Road, Wood River Junction, Rhode Island 02894, United States",
+        "days": "Weekdays",
+        "name": "Chariho High School",
+        "time": "9:00-11:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.695168,
+          41.449875
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "94 Trimtown Rd, North Scituate, RI 02857",
+        "days": "Weekdays",
+        "name": "Scituate High School",
+        "time": "12:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.621004,
+          41.824518
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "242 Main Rd, Tiverton, RI 02878",
+        "days": "Weekdays",
+        "name": "Pocasset Elementary School",
+        "time": "8:00-9:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.186252,
+          41.666436
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "691 Main Street, Warren, Rhode Island 02885, United States",
+        "days": "Weekdays",
+        "name": "Hope & Main",
+        "time": "9:00-11:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.281915,
+          41.725237
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "525 Asylum Road, Warwick, Rhode Island 02886, United States",
+        "days": "Weekdays",
+        "name": "Kickemuit Middle School",
+        "time": "9:00-11:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.427528,
+          41.696344
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "383 Oakland Beach Ave, Warwick, RI 02889",
+        "days": "Weekdays",
+        "name": "Oakland Beach Elementary School",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.399115,
+          41.698813
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "111 Pilgrim Pkwy, Warwick, RI 02888",
+        "days": "Weekdays",
+        "name": "Pilgrim High School",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.411934,
+          41.746022
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "575 Centerville Rd, Warwick, RI 02886",
+        "days": "Weekdays",
+        "name": "Toll Gate High School",
+        "time": "11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.485933,
+          41.703309
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "127 Greenbush Road, West Warwick, Rhode Island 02893, United States",
+        "days": "Weekdays",
+        "name": "Greenbush Elementary",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.531517,
+          41.671724
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "505 Wakefield Street, West Warwick, Rhode Island 02893, United States",
+        "days": "Weekdays",
+        "name": "Wakefield Hills Elementary",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.505425,
+          41.723953
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "1 Webster Knight Drive, West Warwick, Rhode Island 02893, United States",
+        "days": "Weekdays",
+        "name": "West Warwick High School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.515696,
+          41.708855
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "23 Industrial Dr, Westerly, RI 02891",
+        "days": "Weekdays",
+        "name": "Jonnycake Center",
+        "time": "12:00-1:00",
+        "breakfast-and-lunch": 1,
+        "start_date":"Wednesday, March 18",
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.485933,
+          41.703309
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "39 Springbrook Road, Westerly, Rhode Island 02891, United States",
+        "days": "Weekdays",
+        "name": "Springbrook Elementary",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.829797,
+          41.401586
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "93 Tower Street, Westerly, Rhode Island 02891, United States",
+        "days": "Weekdays",
+        "name": "Tower Street Community",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.814101,
+          41.379473
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "250 Winthrop Street, Woonsocket, Rhode Island 02895, United States",
+        "days": "Weekdays",
+        "name": "Citizens/Pothier ES Front Parking Lot",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.493349,
+          42.011677
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "96 2nd Avenue, Woonsocket, Rhode Island 02895, United States",
+        "days": "Weekdays",
+        "name": "Coleman Elementary School Parking Lot",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.526267,
+          41.999282
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "60 Florence Drive, Woonsocket, Rhode Island 02895, United States",
+        "days": "Weekdays",
+        "name": "Front Driveway Hamlet Middle School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.500363,
+          42.003454
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

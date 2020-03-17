@@ -1,0 +1,49 @@
+---
+---
+@font-face {
+  font-family: "Source Sans";
+  src: url("/fonts/sourcesans-regular.woff2") format("woff2"),
+       url("/fonts/sourcesans-regular.woff") format("woff"),
+       url("/fonts/sourcesans-regular.ttf") format("truetype");
+}
+body {
+  margin: 0;
+}
+.banner {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 12px 15px;
+  width: 100vw;
+  background-color: #7554a0;
+  color: white;
+  font-family: "Source Sans";
+  box-sizing: border-box;
+  a {
+    color: white;
+  }
+  #close {
+    text-decoration: underline;
+    background-color: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .blue, .red {
+    background-color: white;
+    padding: 0px 5px;
+    border-radius: 3px;
+    margin: 0px 1px;
+  }
+  .blue {
+    // color: #3191e0;
+    background-color: #005cc6;
+    color: white;
+  }
+  .red {
+    // color: #f46966;
+    background-color: #f46966;
+    color: white;
+  }
+}
