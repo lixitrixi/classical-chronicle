@@ -17,7 +17,7 @@ const dinner = ['match', ['get', 'dinner'], 1, true, 0, false, false]
 map.on('load', function() {
   map.addSource('food-sites', {
     type: 'geojson',
-    data: 'features.geojson',
+    data: '/food-sites/features.geojson',
     cluster: true,
     clusterMaxZoom: 12, // Max zoom to cluster points on
     clusterRadius: 50, // Radius of each cluster when clustering points (defaults to 50)
