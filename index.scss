@@ -8,3 +8,72 @@
 // {% include base.scss %}
 
 // {% include article-cards.scss %}
+
+.banner {
+	border-radius: 12px;
+	padding: 10px 12px;
+	border: 1px solid #555;
+	background-color: #ddd;
+	margin: 15px 20px 0px 20px;
+  p {
+    margin: 0;
+    span {
+      font-weight: bold;
+    }
+    a.goto {
+      margin-right: 0;
+    }
+  }
+  svg {
+  	margin-right: 10px;
+  	fill: #202020;
+    flex-shrink: 0;
+  }
+  .initial {
+  	display: flex;
+  	// flex-wrap: wrap;
+  	align-items: center;
+
+    a {
+    	text-align: right;
+    	cursor: pointer;
+    	margin-left: auto;
+    	margin-right: 6px;
+    	font-weight: bold;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    p {
+      color: #242424;
+    }
+  }
+  input {
+  	opacity: 0;
+  	position: absolute;
+  	pointer-events: none;
+    &+p {
+    	display: none;
+    	margin-top: 7px;
+    	margin-bottom: 4px;
+    	margin-left: 14px;
+      a {
+        color: purple;
+        text-decoration: underline;
+      }
+    }
+    &:checked+p {
+      display: block;
+    }
+  }
+}
+.banner.food {
+	background-color: #d8f7d8;
+	border: 1px solid #077707;
+  svg {
+  	fill: #077707;
+  }
+  a {
+  	color: #077707;
+  }
+}
