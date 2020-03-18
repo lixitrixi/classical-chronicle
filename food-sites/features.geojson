@@ -277,6 +277,42 @@
     },
     {
       "properties": {
+        "place_name": "345 Cherry Hill Rd, Johnston, RI 02919",
+        "days": "Weekdays",
+        "name": "Johnston High School",
+        "time": "12:00-1:00",
+        "start_date":"Thursday, March 19",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.501248,
+          41.832263
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "4 School St, Johnston, RI 02919",
+        "days": "Weekdays",
+        "name": "Thornton Elementary School",
+        "time": "12:00-1:00",
+        "start_date":"Thursday, March 19",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.479113,
+          41.798016
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
         "place_name": "50 Jenckes Hill Road, Lincoln, Rhode Island 02865, United States",
         "days": "Weekdays",
         "name": "Davies Career & Technical High",
@@ -288,6 +324,42 @@
         "coordinates": [
           -71.457018,
           41.902987
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "135 Old River Rd, Lincoln, RI 02865",
+        "days": "Weekdays",
+        "name": "Lincoln High School",
+        "time": "12:00-1:00",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.450527,
+          41.936592
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "315 New River Rd, Manville, RI 02838",
+        "days": "Weekdays",
+        "name": "Northern Lincoln Elementary School",
+        "time": "12:00-1:00",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.467956,
+          41.963133
         ],
         "type": "Point"
       }
