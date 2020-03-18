@@ -356,7 +356,6 @@
         "breakfast-and-lunch": 1,
         "dinner": 0
       },
-      
       "geometry": {
         "coordinates": [
           -71.467956,
@@ -379,6 +378,24 @@
         "coordinates": [
           -71.173574,
           41.508935
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "time": "9:00-10:30",
+        "days": "Weekdays",
+        "name": "JF Kennedy School",
+        "place_name": "740 W Main Rd, Middletown, RI",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.298935,
+          41.523442
         ],
         "type": "Point"
       }
@@ -654,6 +671,24 @@
         "coordinates": [
           -71.380635,
           41.880452
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "125 Jepson Ln, Portsmouth, RI 02871",
+        "days": "Weekdays",
+        "name": "Portsmouth Middle School",
+        "time": "9:00-10:30",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.284625,
+          41.555287
         ],
         "type": "Point"
       }
