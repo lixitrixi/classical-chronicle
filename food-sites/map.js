@@ -134,6 +134,7 @@ map.on('load', function() {
     let coordinates = e.features[0].geometry.coordinates.slice();
     let name = e.features[0].properties.name;
     let hours = e.features[0].properties.time;
+    let days = "<br><b>" + e.features[0].properties.days + "</b>";
     let notes = e.features[0].properties.notes;
     notes = notes ? "<br><b>Notes: </b>" + notes : ""
     let start_date = e.features[0].properties.start_date ? `<br><b style="color:#b57327">Starts: ${e.features[0].properties.start_date}</b>` : "";
@@ -141,7 +142,7 @@ map.on('load', function() {
 
     new mapboxgl.Popup()
       .setLngLat(coordinates)
-      .setHTML(`<b>${name}</b><br><b>Hours: </b><span>${hours}</span><br><b>${meal}</b>`+notes+start_date)
+      .setHTML(`<b>${name}</b><br><b>Hours: </b><span>${hours}</span><br><b>${meal}</b>`+days+notes+start_date)
       .addTo(map);
   });
 
