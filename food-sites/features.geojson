@@ -36,6 +36,23 @@
     },
     {
       "properties": {
+        "place_name": "12 Kendall St, Central Falls, RI 02863",
+        "days": "Weekdays",
+        "time": "10:00-12:00",
+        "name": "Captain Hunt School",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.398564,
+          41.885233
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
         "place_name": "24 Summer Street, Central Falls, Rhode Island 02863, United States",
         "days": "Weekdays",
         "time": "10:00-12:00",
@@ -47,6 +64,23 @@
         "coordinates": [
           -71.391422,
           41.887133
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "949 Dexter St, Central Falls, RI 02863",
+        "days": "Weekdays",
+        "time": "10:00-12:00",
+        "name": "Ella Risk School",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.399248,
+          41.889686
         ],
         "type": "Point"
       }
@@ -65,6 +99,23 @@
         "coordinates": [
           -71.39667,
           41.888227
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "Rice Memorial Field, Coventry, RI 02816",
+        "days": "Weekdays",
+        "time": "12:00-1:00",
+        "name": "Rice Memorial Field",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.557025,
+          41.693960
         ],
         "type": "Point"
       }
@@ -281,7 +332,6 @@
         "days": "Weekdays",
         "name": "Johnston High School",
         "time": "12:00-1:00",
-        "start_date":"Thursday, March 19",
         "breakfast-and-lunch": 1,
         "dinner": 0
       },
@@ -299,7 +349,6 @@
         "days": "Weekdays",
         "name": "Thornton Elementary School",
         "time": "12:00-1:00",
-        "start_date":"Thursday, March 19",
         "breakfast-and-lunch": 1,
         "dinner": 0
       },
@@ -317,6 +366,7 @@
         "days": "Weekdays",
         "name": "Davies Career & Technical High",
         "time": "8:00-9:00",
+        "notes":"Ends Friday, March 20",
         "breakfast-and-lunch": 1,
         "dinner": 0
       },
@@ -484,6 +534,42 @@
         "coordinates": [
           -71.455487,
           41.575829
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "time": "11:30-12:30",
+        "days": "Weekdays",
+        "name": "Centerdale Elementary School",
+        "place_name": "41 Angell Ave, North Providence, RI 02911",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.477138,
+          41.857300
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "time": "11:30-12:30",
+        "days": "Weekdays",
+        "name": "North Providence High School",
+        "place_name": "1828 Mineral Spring Ave, North Providence, RI 02904",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.483575,
+          41.857870
         ],
         "type": "Point"
       }
@@ -699,6 +785,7 @@
         "days": "Weekdays",
         "name": "Alvarez High School",
         "time": "11:00-2:00",
+        "notes":"Ends Friday, March 20",
         "breakfast-and-lunch": 1,
         "dinner": 0
       },
@@ -950,6 +1037,24 @@
     },
     {
       "properties": {
+        "place_name": "721 Chalkstone Ave, Providence, RI 02908",
+        "days": "Weekdays",
+        "name": "Nathaniel Greene Middle School",
+        "time": "11:00-2:00",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.431761,
+          41.834444
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
         "place_name": "675 Plainfield Street, Providence, Rhode Island 02909, United States",
         "days": "Weekdays",
         "name": "Neutaconkanut",
@@ -984,6 +1089,24 @@
     },
     {
       "properties": {
+        "place_name": "156 Reservoir Ave, Providence, RI 02907",
+        "days": "Weekdays",
+        "name": "Reservoir Avenue Elementary",
+        "time": "11:00-2:00",
+        "start_date": "Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.421812,
+          41.81633
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
         "place_name": "159 Sackett Street, Providence, Rhode Island 02907, United States",
         "days": "Weekdays",
         "name": "Sackett",
@@ -995,6 +1118,24 @@
         "coordinates": [
           -71.419192,
           41.794216
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "135 Weybosset St, Providence, RI 02903",
+        "days": "Weekdays",
+        "name": "Village Green Virtual Charter School",
+        "time": "8:00-11:00",
+        "start_date":"Monday, March 23",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.411466,
+          41.822916
         ],
         "type": "Point"
       }
@@ -1261,7 +1402,6 @@
         "name": "Jonnycake Center",
         "time": "12:00-1:00",
         "breakfast-and-lunch": 1,
-        "start_date":"Wednesday, March 18",
         "dinner": 0
       },
       "geometry": {
