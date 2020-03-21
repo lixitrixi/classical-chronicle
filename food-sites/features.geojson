@@ -329,7 +329,7 @@
     {
       "properties": {
         "place_name": "345 Cherry Hill Rd, Johnston, RI 02919",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Johnston High School",
         "time": "12:00-1:00",
         "breakfast-and-lunch": 1,
@@ -346,7 +346,7 @@
     {
       "properties": {
         "place_name": "4 School St, Johnston, RI 02919",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Thornton Elementary School",
         "time": "12:00-1:00",
         "breakfast-and-lunch": 1,
@@ -356,24 +356,6 @@
         "coordinates": [
           -71.479113,
           41.798016
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "properties": {
-        "place_name": "50 Jenckes Hill Road, Lincoln, Rhode Island 02865, United States",
-        "days": "Weekdays",
-        "name": "Davies Career & Technical High",
-        "time": "8:00-9:00",
-        "notes":"Ends Friday, March 20",
-        "breakfast-and-lunch": 1,
-        "dinner": 0
-      },
-      "geometry": {
-        "coordinates": [
-          -71.457018,
-          41.902987
         ],
         "type": "Point"
       }
@@ -470,6 +452,23 @@
     },
     {
       "properties": {
+        "place_name": "19 Chapel St, Newport, RI 02840",
+        "days": "Weekdays",
+        "name": "Chapel Terrace Housing",
+        "time": "11:00-11:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.305531,
+          41.483711
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
         "place_name": "35 Dexter Street, Newport, Rhode Island 02840, United States",
         "days": "Weekdays",
         "name": "Claiborne Pell Elementary",
@@ -481,6 +480,23 @@
         "coordinates": [
           -71.304609,
           41.508401
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "90 Girard Ave, Newport, RI 02840",
+        "days": "Weekdays",
+        "name": "Festival Field Housing",
+        "time": "11:45-12:15",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.313646,
+          41.512583
         ],
         "type": "Point"
       }
@@ -781,26 +797,8 @@
     },
     {
       "properties": {
-        "place_name": "375 Adelaide Avenue, Providence, Rhode Island 02907, United States",
-        "days": "Weekdays",
-        "name": "Alvarez High School",
-        "time": "11:00-2:00",
-        "notes":"Ends Friday, March 20",
-        "breakfast-and-lunch": 1,
-        "dinner": 0
-      },
-      "geometry": {
-        "coordinates": [
-          -71.430134,
-          41.79505
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "properties": {
         "place_name": "50 Obadiah Brown Road, Providence, Rhode Island 02909, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Batastini/Pleasant View Rec Center",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -817,8 +815,8 @@
     {
       "properties": {
         "place_name": "227 Dudley Street, Providence, Rhode Island 02907, United States",
-        "days": "Weekdays",
-        "name": "Davey Lopes\t",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
+        "name": "Davey Lopes",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
         "dinner": 1
@@ -834,7 +832,7 @@
     {
       "properties": {
         "place_name": "152 Springfield Street, Providence, Rhode Island 02909, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Delsesto",
         "time": "11:00-2:00",
         "breakfast-and-lunch": 1,
@@ -851,7 +849,7 @@
     {
       "properties": {
         "place_name": "812 Branch Avenue, Providence, Rhode Island 02904, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "E Cubed Academy",
         "time": "11:00-2:00",
         "breakfast-and-lunch": 1,
@@ -868,7 +866,7 @@
     {
       "properties": {
         "place_name": "188 Princeton Avenue, Providence, Rhode Island 02907, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Gilbert Stuart Middle School",
         "time": "11:00-2:00",
         "breakfast-and-lunch": 1,
@@ -884,25 +882,8 @@
     },
     {
       "properties": {
-        "place_name": "455 Wickenden Street, Providence, Rhode Island 02903, United States",
-        "days": "Weekdays",
-        "name": "Vartan Gregorian Elementary",
-        "time": "11:00-2:00",
-        "breakfast-and-lunch": 1,
-        "dinner": 0
-      },
-      "geometry": {
-        "coordinates": [
-          -71.393651,
-          41.819947
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "properties": {
         "place_name": "324 Hope St, Providence, RI 02906",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Hope High School",
         "time": "11:00-2:00",
         "breakfast-and-lunch": 1,
@@ -919,7 +900,7 @@
     {
       "properties": {
         "place_name": "674 Prairie Avenue, Providence, Rhode Island 02905, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "John Rollins",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -936,7 +917,7 @@
     {
       "properties": {
         "place_name": "17 Hyatt Street, Providence, Rhode Island 02909, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Josin",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -954,7 +935,7 @@
       "properties": {
         "place_name": "182 Thurbers Avenue, Providence, Rhode Island 02905, United States",
         "days": "Weekdays",
-        "name": "Juanita Sanchez High School",
+        "name": "Juanita Sanchez High School (Sat/Sun meals on Friday)",
         "time": "11:00-2:00",
         "breakfast-and-lunch": 1,
         "dinner": 0
@@ -970,7 +951,7 @@
     {
       "properties": {
         "place_name": "195 Nelson Street, Providence, Rhode Island 02908, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Kennedy Elementary School",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -987,7 +968,7 @@
     {
       "properties": {
         "place_name": "60 Camden Avenue, Providence, Rhode Island 02908, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Madeline Rogers",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -1021,7 +1002,7 @@
     {
       "properties": {
         "place_name": "434 Mount Pleasant Avenue, Providence, Rhode Island 02908, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Mt. Pleasant High School",
         "time": "11:00-2:00",
         "breakfast-and-lunch": 1,
@@ -1038,7 +1019,7 @@
     {
       "properties": {
         "place_name": "721 Chalkstone Ave, Providence, RI 02908",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Nathaniel Greene Middle School",
         "time": "11:00-2:00",
         "start_date":"Monday, March 23",
@@ -1056,7 +1037,7 @@
     {
       "properties": {
         "place_name": "675 Plainfield Street, Providence, Rhode Island 02909, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Neutaconkanut",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -1073,7 +1054,7 @@
     {
       "properties": {
         "place_name": "41 Fricker Street, Providence, Rhode Island 02903, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Providence Career and Technical Academy",
         "time": "11:00-2:00",
         "breakfast-and-lunch": 1,
@@ -1090,7 +1071,7 @@
     {
       "properties": {
         "place_name": "156 Reservoir Ave, Providence, RI 02907",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Reservoir Avenue Elementary",
         "time": "11:00-2:00",
         "start_date": "Monday, March 23",
@@ -1108,7 +1089,7 @@
     {
       "properties": {
         "place_name": "159 Sackett Street, Providence, Rhode Island 02907, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Sackett",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -1118,6 +1099,23 @@
         "coordinates": [
           -71.419192,
           41.794216
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "455 Wickenden Street, Providence, Rhode Island 02903, United States",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
+        "name": "Vartan Gregorian Elementary",
+        "time": "11:00-2:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.393651,
+          41.819947
         ],
         "type": "Point"
       }
@@ -1143,7 +1141,7 @@
     {
       "properties": {
         "place_name": "438 Hope Street, Providence, Rhode Island 02906, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Vincent Brown",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -1160,7 +1158,7 @@
     {
       "properties": {
         "place_name": "109 Bucklin Street, Pawtucket, Rhode Island 02861, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "West End",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
@@ -1177,7 +1175,7 @@
     {
       "properties": {
         "place_name": "60 Kossuth Street, Providence, Rhode Island 02909, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "William D'Abate",
         "time": "11:00-2:00",
         "breakfast-and-lunch": 1,
@@ -1194,7 +1192,7 @@
     {
       "properties": {
         "place_name": "18 Gesler Street, Providence, Rhode Island 02909, United States",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "name": "Zuccolo",
         "time": "4:00-6:00",
         "breakfast-and-lunch": 0,
