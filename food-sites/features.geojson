@@ -1446,12 +1446,31 @@
     },
     {
       "properties": {
+        "place_name": "657 Logee St, Woonsocket, RI 02895",
+        "days": "Monday-Saturday",
+        "name": "Bernon Heights Elementary",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes":"Educational packets distributed on Saturday"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.503664,
+          41.992825
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
         "place_name": "250 Winthrop Street, Woonsocket, Rhode Island 02895, United States",
-        "days": "Weekdays",
+        "days": "Monday-Saturday",
         "name": "Citizens/Pothier ES Front Parking Lot",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Educational packets distributed on Saturday"
       },
       "geometry": {
         "coordinates": [
@@ -1464,11 +1483,12 @@
     {
       "properties": {
         "place_name": "96 2nd Avenue, Woonsocket, Rhode Island 02895, United States",
-        "days": "Weekdays",
+        "days": "Monday-Saturday",
         "name": "Coleman Elementary School Parking Lot",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Educational packets distributed on Saturday"
       },
       "geometry": {
         "coordinates": [
@@ -1481,16 +1501,71 @@
     {
       "properties": {
         "place_name": "60 Florence Drive, Woonsocket, Rhode Island 02895, United States",
-        "days": "Weekdays",
+        "days": "Monday-Saturday",
         "name": "Front Driveway Hamlet Middle School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Educational packets distributed on Saturday"
       },
       "geometry": {
         "coordinates": [
           -71.500363,
           42.003454
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "122 Avenue A, Woonsocket, RI",
+        "days": "Monday-Saturday",
+        "name": "Globe Park School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes":"Educational packets distributed on Saturday"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.524793,
+          41.988656
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "60 High School St, Woonsocket, RI 02895",
+        "days": "Monday-Saturday",
+        "name": "Harris School",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes":"Educational packets distributed on Saturday"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.515090,
+          42.007582
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "990 Mendon Rd, Woonsocket, RI 02895",
+        "days": "Monday-Saturday",
+        "name": "Leo Savoie Elementary",
+        "time": "11:00-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes":"Educational packets distributed on Saturday"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.477216,
+          42.005171
         ],
         "type": "Point"
       }
