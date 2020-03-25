@@ -100,7 +100,18 @@ main {
     font-size: 19px;
   }
 }
-
+sup {
+  vertical-align: top;
+  font-size: 0.8em;
+  position: relative;
+  top: -4px;
+}
+.footnotes {
+  p {
+    word-break: break-all;
+    margin: 5px 0px;
+  }
+}
 .banner {
 	border-radius: 12px;
 	padding: 10px 12px;
