@@ -81,6 +81,9 @@
       {% if page.graphic %}
       <span class="graphic">(graphic <a href="/contributor/{{page.graphic | slugify}}">{{ page.graphic }}</a>)</span>
       {% endif %}
+      {% if page.photo %}
+      <span class="graphic">(photo <a href="/contributor/{{page.photo | slugify}}">{{ page.photo }}</a>)</span>
+      {% endif %}
       </p>
       <p class="date">{{ page.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
       <article>
