@@ -106,7 +106,7 @@
     {
       "properties": {
         "place_name": "Rice Memorial Field, Coventry, RI 02816",
-        "days": "Weekdays",
+        "days": "Weekdays (Sat/Sun meals on Friday)",
         "time": "12:00-1:00",
         "name": "Rice Memorial Field",
         "breakfast-and-lunch": 1,
@@ -127,7 +127,8 @@
         "name": "Cranston High School East",
         "time": "11:30-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Starting 3/27, M, W, F only."
       },
       "geometry": {
         "coordinates": [
@@ -144,7 +145,8 @@
         "name": "Edgewood Highland",
         "time": "11:30-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Starting 3/27, M, W, F only."
       },
       "geometry": {
         "coordinates": [
@@ -161,7 +163,8 @@
         "name": "George J Peters",
         "time": "11:30-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Starting 3/27, M, W, F only."
       },
       "geometry": {
         "coordinates": [
@@ -178,7 +181,8 @@
         "name": "Gladstone Street School",
         "time": "11:30-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Starting 3/27, M, W, F only."
       },
       "geometry": {
         "coordinates": [
@@ -195,7 +199,8 @@
         "name": "Hugh B Bain Middle School",
         "time": "11:30-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Starting 3/27, M, W, F only."
       },
       "geometry": {
         "coordinates": [
@@ -212,7 +217,8 @@
         "name": "Park View Middle School",
         "time": "11:30-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Starting 3/27, M, W, F only."
       },
       "geometry": {
         "coordinates": [
@@ -254,6 +260,42 @@
         "coordinates": [
           -71.392664,
           41.918307
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "101 1st Ave, East Greenwich, RI 02818",
+        "days": "Weekdays",
+        "name": "Eldridge Elementary School",
+        "time": "11:30-12:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes": "Only for students of this public school district"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.456453,
+          41.657523
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "1100 Frenchtown Rd, East Greenwich, RI 02818",
+        "days": "Weekdays",
+        "name": "Frenchtown Elementary School",
+        "time": "11:30-12:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes": "Only for students of this public school district"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.504642,
+          41.624813
         ],
         "type": "Point"
       }
@@ -322,6 +364,24 @@
         "coordinates": [
           -71.38228,
           41.810697
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "30 Nooseneck Hill Rd, Exeter, RI 02822",
+        "days": "Weekdays",
+        "name": "Metcalf Elementary School",
+        "time": "8:00-10:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes":"Only for students of the Exeter/West Greenwich Regional School District"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.642763,
+          41.599809
         ],
         "type": "Point"
       }
@@ -452,6 +512,24 @@
     },
     {
       "properties": {
+        "place_name": "143 3rd St, Newport, RI 02840",
+        "days": "Weekdays",
+        "name": "Bayside Village Apartments",
+        "time": "12:30-1:00",
+        "start_date": "Thursday, March 26",
+        "breakfast-and-lunch": 1,
+        "dinner": 0
+      },
+      "geometry": {
+        "coordinates": [
+          -71.319471,
+          41.501446
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
         "place_name": "19 Chapel St, Newport, RI 02840",
         "days": "Weekdays",
         "name": "Chapel Terrace Housing",
@@ -520,7 +598,7 @@
     },
     {
       "properties": {
-        "time": "11:30-11:50",
+        "time": "12:15-1:15",
         "days": "Weekdays",
         "name": "McGinn Park",
         "place_name": "School Street, North Kingstown, Rhode Island 02852, United States",
@@ -538,7 +616,7 @@
     },
     {
       "properties": {
-        "time": "11:00-11:20",
+        "time": "11:00-12:00",
         "days": "Weekdays",
         "name": "Wilson Park",
         "notes": "Inclement weather site is North Kingstown High School",
@@ -631,7 +709,8 @@
         "name": "Baldwin Elementary School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes": "Starting 3/27, Sat & Sun Meals on Friday"
       },
       "geometry": {
         "coordinates": [
@@ -648,7 +727,8 @@
         "name": "Curtis Elementary School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes": "Starting 3/27, Sat & Sun Meals on Friday"
       },
       "geometry": {
         "coordinates": [
@@ -665,7 +745,8 @@
         "name": "Fallon Elementary School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes": "Starting 3/27, Sat & Sun Meals on Friday"
       },
       "geometry": {
         "coordinates": [
@@ -682,7 +763,8 @@
         "name": "Goff Middle School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes": "Starting 3/27, Sat & Sun Meals on Friday"
       },
       "geometry": {
         "coordinates": [
@@ -716,7 +798,8 @@
         "name": "Jenks Middle School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes": "Starting 3/27, Sat & Sun Meals on Friday"
       },
       "geometry": {
         "coordinates": [
@@ -733,7 +816,8 @@
         "name": "Shea High School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes": "Starting 3/27, Sat & Sun Meals on Friday"
       },
       "geometry": {
         "coordinates": [
@@ -750,7 +834,8 @@
         "name": "Slater Middle School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes": "Starting 3/27, Sat & Sun Meals on Friday"
       },
       "geometry": {
         "coordinates": [
@@ -767,7 +852,8 @@
         "name": "Tolman High School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes": "Starting 3/27, Sat & Sun Meals on Friday"
       },
       "geometry": {
         "coordinates": [
@@ -989,7 +1075,8 @@
         "name": "Meeting Street School",
         "time": "11:00-1:00",
         "breakfast-and-lunch": 1,
-        "dinner": 0
+        "dinner": 0,
+        "notes":"Starting 3/27, M, W, F only."
       },
       "geometry": {
         "coordinates": [
@@ -1236,6 +1323,42 @@
         "coordinates": [
           -71.621004,
           41.824518
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "301 Curtis Corner Rd, Wakefield, RI 02879",
+        "days": "Weekdays",
+        "name": "Curtis Corner Middle School",
+        "time": "8:00-9:30;11:30-1:00",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes": "Only for students of this public school district, Breakfast and Lunch are given out at seperate times."
+      },
+      "geometry": {
+        "coordinates": [
+          -71.520482,
+          41.459560
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "place_name": "850 Stony Fort Rd, Saunderstown, RI 02874",
+        "days": "M, W",
+        "name": "Kingston Hill Academy",
+        "time": "8:30-10:30",
+        "breakfast-and-lunch": 1,
+        "dinner": 0,
+        "notes": "Only for students of this public school district."
+      },
+      "geometry": {
+        "coordinates": [
+          -71.511156,
+          41.499056
         ],
         "type": "Point"
       }
