@@ -14,13 +14,13 @@ Before Providence Schools released details about distance learning, many student
 
 "I thought it would be very not [sic] productive," said sophomore Aarush Kapoor, "Teachers [will] not be able to stop kids from doing anything, like going on their phones." One anonymous student reported they thought students were probably going to cheat and distract themselves with the internet during online class, citing having observed students playing video games in class earlier that day.
 
-But despite low expectations, many say the first day of distance learning went smoothly. On a poll on the Chronicle's Instagram, 70% of respondents said that they thought distance learning was effective.
+But despite low expectations, many say the first day of distance learning went smoothly. According to the Chronicle's polling, 70% of respondents thought distance learning was effective.
 
 Junior Class President Nico Siradze spoke of his first day of distance learning. "It's great that [distance learning] was set up so fast and so well."
 
 "It was a lot more chill than expected," said Junior Isaiah Hudson.
 
-Across the board, students who responded were overwhelmingly in support of distance learning. Teachers were familiar with their teaching technology. According to Superintendent Peters, an impressive 79% of students logged on during the first day. Students tended to report, with a few exceptions, smooth video quality and few hiccups.
+Across the board, students who responded were overwhelmingly in support of distance learning. Teachers were familiar with the instruction technology. According to Superintendent Peters, an impressive 79% of students logged on during the first day. Students tended to report, with a few exceptions, good video quality and few hiccups.
 
 Some students even preferred distance learning to traditional classroom instruction. Junior Braillee Sanchez was one of these students. He said that "It has been more effective because I've been able to chill out a bit more," calling it a "more relaxed environment."
 
@@ -28,7 +28,7 @@ Despite the school department's many successes in rolling out distance learning,
 
 According to the Electronic Frontier Foundation, Zoom has many features students are not aware of. For example, hosts (teachers) have the ability to:
 
- - See indicators indicating whether a participant's zoom window has not been active for 30 seconds
+ - See whether a participant's zoom window has not been active for 30 seconds
  - See how, when, and where users are using Zoom
  - Download a user's recorded audio, transcript, chat files, and analytics
  - See a user's IP address, location, and device information, and
@@ -36,4 +36,4 @@ According to the Electronic Frontier Foundation, Zoom has many features students
 
 According to Junior Angel Arrazola, "Zoom in general has privacy issues." His major concern was with the recording feature. Many students do not know that their classes are being recorded. According to Arrazola, this is "the same as putting cameras in classrooms." If the school department is going to use these features they should at least make sure students and parents know about the video and audio surveillance PPSD is conducting.
 
-The coronavirus epidemic has presented new challenges, all of which Providence Public Schools has handled well. Despite much positive feedback, students ought to be aware of concerns about privacy and academic dishonesty before using these new online resources. Even high schoolers have a right to privacy, and it is important this right is upheld, especially during times of crisis.
+The coronavirus epidemic has presented new challenges, most of which Providence Public Schools has handled well. Despite much positive feedback, students ought to be aware of concerns about privacy and academic dishonesty before using these new online resources. Even high schoolers have a right to privacy, and it is important this right is upheld, especially during times of crisis.
