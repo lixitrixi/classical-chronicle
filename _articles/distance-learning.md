@@ -28,11 +28,11 @@ Despite the school department's many successes in rolling out distance learning,
 
 According to the Electronic Frontier Foundation, Zoom has many features students are not aware of. For example, hosts (teachers) have the ability to:
 
-See indicators indicating whether a participant's zoom window has not been active for 30 seconds
-See how, when, and where users are using Zoom
-Download a user's recorded audio, transcript, chat files, and analytics
-See a user's IP address, location, and device information, and
-See information about connected devices (Via Bluetooth, Wifi, or wired connection)
+ - See indicators indicating whether a participant's zoom window has not been active for 30 seconds
+ - See how, when, and where users are using Zoom
+ - Download a user's recorded audio, transcript, chat files, and analytics
+ - See a user's IP address, location, and device information, and
+ - See information about connected devices (Via Bluetooth, Wifi, or wired connection)
 
 According to Junior Angel Arrazola, "Zoom in general has privacy issues." His major concern was with the recording feature. Many students do not know that their classes are being recorded. According to Arrazola, this is "the same as putting cameras in classrooms." If the school department is going to use these features they should at least make sure students and parents know about the video and audio surveillance PPSD is conducting.
 
