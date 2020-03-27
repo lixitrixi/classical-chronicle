@@ -12,7 +12,7 @@ Last Monday, Providence Schools implemented a brand new distance learning policy
 
 Before Providence Schools released details about distance learning, many students were concerned about whether the new program would be effective, tedious, or even dysfunctional.
 
-"I thought it would be very not productive," said sophomore Aarush Kapoor, "Teachers [will] not be able to stop kids from doing anything, like going on their phones." One anonymous student reported they thought students were probably going to cheat and distract themselves with the internet during online class, citing having observed students playing video games in class earlier that day.
+"I thought it would be very not [sic] productive," said sophomore Aarush Kapoor, "Teachers [will] not be able to stop kids from doing anything, like going on their phones." One anonymous student reported they thought students were probably going to cheat and distract themselves with the internet during online class, citing having observed students playing video games in class earlier that day.
 
 But despite low expectations, many say the first day of distance learning went smoothly. On a poll on the Chronicle's Instagram, 70% of respondents said that they thought distance learning was effective.
 
