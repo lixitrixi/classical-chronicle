@@ -34,7 +34,7 @@ After realizing the extent to which the Post was censoring and violating journal
 
 
 
-Student newspapers should serve the students, not the administration or the paper’s leaders. This simple fact, clearly ignored by the Post, will be central to our paper and will ensure that we will be open and honest as long as we are in print. We hope you subscribe to our paper and follow us on Twitter for updates [@ClassicalChron][2].
+Student newspapers should serve the students, not the administration or the paper’s leaders. This simple fact, clearly ignored by the Post, will be central to our paper and will ensure that we will be open and honest as long as we are in print. Follow us on Instagram for updates [@ClassicalChron][2].
 
 [1]: https://www.spj.org/ethicscode.asp
-[2]: https://twitter.com/ClassicalChron
+[2]: https://www.instagram.com/classicalchronicle/
