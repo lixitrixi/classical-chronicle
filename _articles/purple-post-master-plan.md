@@ -5,6 +5,9 @@ author: [Nick Griffin, Yousef Nagib, Yeivin Herrera]
 image: "purplepost.png"
 category: "School"
 date: 2019-12-09
+updated: true
+updateDate: "March 26, 2020 at 21:00"
+updateMessage: "We replaced our Twitter with our Instagram at the bottom of the article."
 ---
 
 > Our liberty depends on the freedom of the press, and that cannot be limited without being lost.  
