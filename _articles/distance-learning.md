@@ -5,7 +5,6 @@ author: ["Nick Griffin"]
 image: "distance-learning.jpg"
 category: "School"
 photo: Amelia Ross
-unlisted: true
 date: 2020-03-26
 ---
 Last Monday, Providence Schools implemented a brand new distance learning policy in response to the COVID-19 epidemic. Rhode Island has taken the lead by being one of the first states to close public schools and move classes online. Despite their efficient response to the epidemic, there have still been many concerns over privacy, effectiveness, and academic dishonesty with the advent of online education. Since Gov. Gina Raimondo's announcement almost two weeks ago, students, teachers, and parents alike have been wondering, "Is this going to work?"
