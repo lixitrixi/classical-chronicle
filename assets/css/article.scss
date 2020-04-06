@@ -31,6 +31,10 @@ main {
     font-style: italic;
     text-indent: 0px;
     font-size: 17px;
+    a {
+      color: #757575;
+      text-decoration: underline;
+    }
     @media (max-width: 730px) {
       max-width: 94%;
     }
