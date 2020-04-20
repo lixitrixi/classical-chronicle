@@ -5,7 +5,6 @@ author: [Yousef Nagib]
 image: census.jpg
 category: "Opinion"
 date: 2020-04-20
-unlisted: true
 ---
 Racism against Americans of Middle Eastern/North African descent is embedded into the US Census. Every 10 years, the United States Census Bureau conducts a survey meant to properly account for the population of the United States of America. Its function is to accumulate data regarding the racial, ethnic, gender, and economic background of all Americans, as well as an understanding of the population density of the country. Using this data, the US government distributes resources, as well as updates the number of representatives each US state is to have in the US House of Representatives. This data is also used by many corporations and private research institutes. This year, with the census coming around, I remember these words:
 
