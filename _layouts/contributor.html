@@ -46,6 +46,7 @@
         {{ content }}
         <p class="last_updated">Last updated {{ page.last_updated | date: "%B %-d, %Y"}}</p>
       </div>
+      {% if page.hide_contributions != true %}
       <div class="contributions">
         <h2>Contributions</h2>
         <div class="contrib-table">
@@ -73,6 +74,7 @@
           {% endfor %}
         </div>
       </div>
+      {% endif %}
     </main>
   </body>
 </html>
