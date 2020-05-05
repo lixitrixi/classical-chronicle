@@ -3,7 +3,7 @@ layout: "article"
 title: "Zoom Violates Student Privacy"
 author: [Nick Griffin, Luke Taylor]
 image: zoom-unsecure.jpg
-category: "School"
+category: "Opinion"
 date: 2020-04-05
 ---
 As students relax after another week of distance learning, allegations have arisen that Zoom was selling the private information of every single user across the country. For the past few weeks, Classical students have been using a digital service that has been caught covertly recording and selling personal data to Facebook. According to a lawsuit[^1] filed against Zoom on March 30th, data was sent to Facebook every time a user joined a meeting. This data mainly consisted of data about the device used to make the call, including the device's model and advertising identifier.
