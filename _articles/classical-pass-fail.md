@@ -4,7 +4,6 @@ title: "Why Classical Needs Pass/Fail"
 author: [Nick Griffin]
 image: pass-fail.jpg
 category: "Opinion"
-unlisted: true
 date: 2020-05-05
 ---
 As the coronavirus pandemic closed schools in mid March, many students were cautiously optimistic. Spring break had come early, and it seemed we would be able to relax at home until the crisis eventually passed and daily life returned to normal.
