@@ -8,6 +8,9 @@
     <meta name="og:title" content="{{ page.title }}">
     <meta name="og:type" content="article">
     <meta name="og:site_name" content="Classical Chronicle">
+    {% if page.description %}
+      <meta name="og:description" content="{{ page.description }}">
+    {% endif%}
     <meta name="article:author" content="{{ page.author | join: ', '}}">
     <script src="/assets/js/analytics.js" defer></script>
   </head>
