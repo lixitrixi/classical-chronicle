@@ -9,3 +9,4 @@ exclude: ["/assets/images/originals", "mockup.ai", "coverimages.ai"]
 kramdown:
   parse_span_html: true
 future: true
+domain: classicalchronicle.org
