@@ -3,16 +3,16 @@
   <head>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/article.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="og:image" content="https://{{site.domain}}/assets/images/{{ page.image }}">
-    <meta name="og:title" content="{{ page.title }}">
-    <meta name="og:type" content="article">
-    <meta name="og:site_name" content="Classical Chronicle">
-    <meta name="theme-color" content="#613d8f">
+    <meta property="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://{{site.domain}}/assets/images/{{ page.image }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Classical Chronicle">
+    <meta property="article:author" content="{{ page.author | join: ', '}}">
     {% if page.description %}
-      <meta name="og:description" content="{{ page.description }}">
+      <meta property="og:description" content="{{ page.description }}">
     {% endif%}
-    <meta name="article:author" content="{{ page.author | join: ', '}}">
+    <meta name="theme-color" content="#613d8f">
     <script src="/assets/js/analytics.js" defer></script>
   </head>
   <body>
