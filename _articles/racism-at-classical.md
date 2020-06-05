@@ -22,4 +22,4 @@ Classical needs to address these incidents head-on. Last year, after a Classical
 
 We need to fight racism where it is: everywhere.
 
-For those who want to fight against injustice and inequality, there will be another protest in downtown Providence on Friday at 4:30. Organizers say it will begin at Burnside Park and Central High School. The Chronicle advises everyone to be cautious: the police have been violent at previous protests, and attending this one may well be dangerous. Additionally, we advise readers to bring masks to the protest to avoid the spread of coronavirus. If you decide to go, please remember to stay safe.
+For those who want to fight against injustice and inequality, there will be another protest in downtown Providence on Friday, June 5 at 4:30. Organizers say it will begin at Kennedy Plaza and then protestors will march to the State House. The Chronicle advises everyone to be cautious: the police have been violent at previous protests, and attending this one may well be dangerous. Additionally, we advise readers to bring masks to the protest to avoid the spread of coronavirus. If you decide to go, please remember to stay safe.
