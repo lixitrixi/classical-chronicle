@@ -1,6 +1,6 @@
 ---
 layout: "article"
-title: "Addressing Racism at Classical"
+title: "On Racism at Classical"
 author: [The Editorial Staff]
 authornolink: true
 image: blm.png
