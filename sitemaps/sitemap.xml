@@ -1,0 +1,31 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for page in site.main_pages %}
+{% if page.url == "/index" %}
+  <url>
+     <loc>https://{{ site.domain }}/</loc>
+     <lastmod>2020-06-12</lastmod>
+     <changefreq>weekly</changefreq>
+     <priority>0.8</priority>
+   </url>
+{% else %}
+   <url>
+      <loc>https://{{ site.domain }}{{ page.url }}</loc>
+      <lastmod>2020-06-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+{% endif %}
+{% endfor%}
+{% for article in site.articles reversed %}
+{% if article.unlisted %}{% continue %}{% endif %}
+  <url>
+     <loc>https://{{ site.domain }}{{article.url}}</loc>
+     <lastmod>{{ article.lastmod | default: article.date | date: "%F"}}</lastmod>
+     <changefreq>monthly</changefreq>
+     <priority>0.4</priority>
+  </url>
+{% endfor %}
+</urlset>

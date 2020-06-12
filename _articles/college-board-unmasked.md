@@ -5,7 +5,6 @@ author: [Nick Griffin]
 image: college-board.png
 category: "Opinion"
 date: 2020-06-01
-unlisted: false
 ---
 Every year, hundreds of Classical students file into the gym, ready to take a test that can help them earn college credits: the AP exam. These credits can save students time and money after graduation; AP credits can help students get out of required courses that cost hundreds of dollars and may not even contribute to their major. At the center of this exam is the College Board, a non-profit that creates and administers tests like the SATs, PSATs, APs, LSATs, and more.
 
