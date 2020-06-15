@@ -18,7 +18,15 @@
       <priority>0.6</priority>
     </url>
 {% endif %}
-{% endfor%}
+{% endfor %}
+{% for contributor in site.contributors %}
+  <url>
+     <loc>https://{{ site.domain }}{{ contributor.url }}</loc>
+     <lastmod>{{ contributor.lastmod | date: "%F"}}</lastmod>
+     <changefreq>monthly</changefreq>
+     <priority>0.5</priority>
+  </url>
+{% endfor %}
 {% for article in site.articles reversed %}
 {% if article.unlisted %}{% continue %}{% endif %}
   <url>
@@ -28,4 +36,10 @@
      <priority>0.4</priority>
   </url>
 {% endfor %}
+<url>
+   <loc>https://{{ site.domain }}/food-sites/</loc>
+   <lastmod>2020-04-05</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.3</priority>
+</url>
 </urlset>

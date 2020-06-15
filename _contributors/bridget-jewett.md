@@ -6,7 +6,7 @@ pronouns: She/Her
 grade: 9
 email: benjjewetr@gmail.com
 instagram: burning_bridget
-last_updated: 2020-03-16
+lastmod: 2020-03-16
 order: 6
 ---
 **Bridget Jewett** is a contributing writer to the *Classical Chronicle*.
