@@ -168,14 +168,15 @@ map.on('load', function() {
     let coordinates = e.features[0].geometry.coordinates.slice();
     let name = e.features[0].properties.name;
     const articleURL = e.features[0].properties.url;
-    const article = articleURL ? `<br><a href="${articleURL}">Link to Article</a>` : ""
-    const status = statuses[e.features[0].properties.status]
+    const article = articleURL ? `<br><a href="${articleURL}">Link to Article</a>` : "";
+    const status = statuses[e.features[0].properties.status];
+    const summary = e.features[0].properties.summary ? "<br>" + e.features[0].properties.summary : ""
     console.log(status)
     const statusHTML = `<span style="color:${status.color};">${status.text}<span>`
 
     new mapboxgl.Popup()
       .setLngLat(coordinates)
-      .setHTML(`<b>${name}</b><br><b>${statusHTML}</b>`+article)
+      .setHTML(`<b>${name}</b>${summary}<br><b>${statusHTML}</b>`+article)
       .addTo(map);
   });
 
