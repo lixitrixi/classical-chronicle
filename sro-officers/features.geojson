@@ -1,0 +1,233 @@
+{
+  "features": [
+    {
+      "properties": {
+        "name": "Philadelphia, PA",
+        "status":"considering"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.1652,
+          39.9526
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Portland, OR",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.6750, 45.5051
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Minneapolis, MN",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+           -93.2650, 44.9778
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Saint Paul, MN",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+           -93.0900, 44.9537
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Denver, CO",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+           -104.9903, 39.7392
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Chicago, IL",
+        "status":"decided_to_keep"
+      },
+      "geometry": {
+        "coordinates": [
+           -87.6298, 41.8781
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Oakland, CA",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+           -122.2712, 37.8044
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Madison, WI",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+           -89.4012, 43.0731
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Toronto, Canada",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+           -79.3832, 43.6532
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Seatle, WA",
+        "status":"partial_removal"
+      },
+      "geometry": {
+        "coordinates": [
+           -122.3321, 47.6062
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Edmonds, WA",
+        "status":"partial_removal"
+      },
+      "geometry": {
+        "coordinates": [
+           -122.3774, 47.8107
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Los Angeles, CA",
+        "status":"decided_to_keep"
+      },
+      "geometry": {
+        "coordinates": [
+           -118.2437, 34.0522
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Milwaukee, WI",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+           -87.9065, 43.0389
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Charlottesville, VA",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.4767, 38.0293
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "San Francisco, CA",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.4194, 37.7749
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "San Jose, CA",
+        "status":"considering"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.8863, 37.3382
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "New York City, NY",
+        "status":"decided_to_keep"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.0060, 40.7128
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Portland, ME",
+        "status":"considering"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.2568, 43.6591
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Washington, DC",
+        "status":"removed"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.0369, 38.9072
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
