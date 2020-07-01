@@ -22,7 +22,7 @@ const statuses = {
   decided_to_keep: {color: "#660e1e", text: "Decided to keep SROs in schools"},
   considering: {color: "#875114", text: "Considering removing SROs from schools"},
   partial_removal: {color: "#b79921", text: "Taken some steps to remove SROs from schools"},
-  removed: {color: "#6af438", text: "Removed SROs from schools"}
+  removed: {color: "#51c327", text: "Removed SROs from schools"}
 }
 
 const status = ["get", "status"]
