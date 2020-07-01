@@ -23,6 +23,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.mapboxgl-popup-content>a {
+  color: #2b56e5;
+  text-decoration: none;
+  font-weight: bold;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
 .banner {
   position: absolute;
   z-index: 1;

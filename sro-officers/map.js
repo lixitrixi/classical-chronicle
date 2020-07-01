@@ -18,6 +18,13 @@ partial_removal
 removed
 */
 
+const statuses = {
+  decided_to_keep: {color: "#660e1e", text: "Decided to keep SROs in schools"},
+  considering: {color: "#875114", text: "Considering removing SROs from schools"},
+  partial_removal: {color: "#b79921", text: "Taken some steps to remove SROs from schools"},
+  removed: {color: "#6af438", text: "Removed SROs from schools"}
+}
+
 const status = ["get", "status"]
 
 map.on('load', function() {
@@ -160,13 +167,15 @@ map.on('load', function() {
 
     let coordinates = e.features[0].geometry.coordinates.slice();
     let name = e.features[0].properties.name;
-    let notes = e.features[0].properties.notes;
-    notes = notes ? "<br><b>Notes: </b>" + notes : ""
-    let meal = e.features[0].properties['breakfast-and-lunch'] === 1 ? `<span style="color:#005cc6">Breakfast and Lunch<span>` : `<span style="color:#f46966">Dinner</span>`
+    const articleURL = e.features[0].properties.url;
+    const article = articleURL ? `<br><a href="${articleURL}">Link to Article</a>` : ""
+    const status = statuses[e.features[0].properties.status]
+    console.log(status)
+    const statusHTML = `<span style="color:${status.color};">${status.text}<span>`
 
     new mapboxgl.Popup()
       .setLngLat(coordinates)
-      .setHTML(`<b>${name}</b><br><b>${meal}</b>`+notes)
+      .setHTML(`<b>${name}</b><br><b>${statusHTML}</b>`+article)
       .addTo(map);
   });
 

@@ -3,7 +3,8 @@
     {
       "properties": {
         "name": "Philadelphia, PA",
-        "status":"considering"
+        "status":"considering",
+        "url": "https://www.inquirer.com/education/kevin-bethel-diversion-school-safety-philadelphia-school-district-police-20191202.html"
       },
       "geometry": {
         "coordinates": [
@@ -16,7 +17,8 @@
     {
       "properties": {
         "name": "Portland, OR",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/06/10/after-george-floyd-some-school-districts-cut-ties-with-police"
       },
       "geometry": {
         "coordinates": [
@@ -28,7 +30,8 @@
     {
       "properties": {
         "name": "Minneapolis, MN",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/06/10/after-george-floyd-some-school-districts-cut-ties-with-police"
       },
       "geometry": {
         "coordinates": [
@@ -40,7 +43,8 @@
     {
       "properties": {
         "name": "Saint Paul, MN",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.kare11.com/article/news/education/st-paul-schools-to-end-contract-with-sppd-vote-to-remove-school-resource-officers/89-af368ea9-b58f-41a2-a9b3-6f5aba20f659"
       },
       "geometry": {
         "coordinates": [
@@ -52,7 +56,8 @@
     {
       "properties": {
         "name": "Denver, CO",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.fox21news.com/news/state/denver-school-board-votes-to-remove-sros-cut-ties-with-police-department/"
       },
       "geometry": {
         "coordinates": [
@@ -64,7 +69,8 @@
     {
       "properties": {
         "name": "Chicago, IL",
-        "status":"decided_to_keep"
+        "status":"decided_to_keep",
+        "url": "https://chicago.suntimes.com/education/2020/6/24/21301349/chicago-public-schools-police-cps-vote-cops"
       },
       "geometry": {
         "coordinates": [
@@ -76,7 +82,8 @@
     {
       "properties": {
         "name": "Oakland, CA",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.sfchronicle.com/bayarea/article/District-police-eliminated-from-Oakland-schools-15364811.php"
       },
       "geometry": {
         "coordinates": [
@@ -88,7 +95,8 @@
     {
       "properties": {
         "name": "Madison, WI",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://madison.com/ct/news/local/education/local_schools/updated-madison-school-board-votes-unanimously-to-end-police-in-schools-contract/article_ac077373-a518-554f-a7a6-1f2514d989a6.html"
       },
       "geometry": {
         "coordinates": [
@@ -100,7 +108,8 @@
     {
       "properties": {
         "name": "Toronto, Canada",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.cbc.ca/news/canada/toronto/school-resource-officers-toronto-board-police-1.4415064"
       },
       "geometry": {
         "coordinates": [
@@ -112,7 +121,8 @@
     {
       "properties": {
         "name": "Seatle, WA",
-        "status":"partial_removal"
+        "status":"partial_removal",
+        "url": "https://www.king5.com/article/news/education/plan-to-reevaluate-relationship-with-seattle-police-being-considered-by-school-board/281-0b5f5fe1-e255-422d-a6eb-7b2294774992"
       },
       "geometry": {
         "coordinates": [
@@ -124,7 +134,8 @@
     {
       "properties": {
         "name": "Edmonds, WA",
-        "status":"partial_removal"
+        "status":"partial_removal",
+        "url": "https://www.q13fox.com/news/seattle-and-edmonds-school-districts-vote-out-officers-from-schools"
       },
       "geometry": {
         "coordinates": [
@@ -136,7 +147,8 @@
     {
       "properties": {
         "name": "Los Angeles, CA",
-        "status":"decided_to_keep"
+        "status":"decided_to_keep",
+        "url": "https://edsource.org/2020/measures-to-defund-reform-los-angeles-school-police-rejected-by-school-board/634430"
       },
       "geometry": {
         "coordinates": [
@@ -148,7 +160,8 @@
     {
       "properties": {
         "name": "Milwaukee, WI",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.policeone.com/school-safety/articles/wis-school-board-cuts-ties-with-police-pwMpLWgYHuW8vLCC/"
       },
       "geometry": {
         "coordinates": [
@@ -160,7 +173,8 @@
     {
       "properties": {
         "name": "Charlottesville, VA",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.dailyprogress.com/news/local/charlottesville-schools-police-agree-to-end-mou-for-school-resource-officers/article_558f34f9-d3fd-5fc5-8b22-5334f173655f.html"
       },
       "geometry": {
         "coordinates": [
@@ -172,7 +186,8 @@
     {
       "properties": {
         "name": "San Francisco, CA",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://missionlocal.org/2020/06/san-francisco-unified-school-district-votes-to-cut-ties-and-funds-from-police/"
       },
       "geometry": {
         "coordinates": [
@@ -184,7 +199,8 @@
     {
       "properties": {
         "name": "San Jose, CA",
-        "status":"considering"
+        "status":"considering",
+        "url": "https://www.mercurynews.com/2020/06/25/alum-rock-east-side-union-school-districts-terminate-contracts-with-san-jose-police/"
       },
       "geometry": {
         "coordinates": [
@@ -196,7 +212,8 @@
     {
       "properties": {
         "name": "New York City, NY",
-        "status":"decided_to_keep"
+        "status":"decided_to_keep",
+        "url": "https://newyork.cbslocal.com/2020/06/19/de-blasio-on-police-in-new-york-city-schools/"
       },
       "geometry": {
         "coordinates": [
@@ -208,7 +225,8 @@
     {
       "properties": {
         "name": "Portland, ME",
-        "status":"considering"
+        "status":"considering",
+        "url": ""
       },
       "geometry": {
         "coordinates": [
@@ -220,7 +238,8 @@
     {
       "properties": {
         "name": "Washington, DC",
-        "status":"removed"
+        "status":"removed",
+        "url": "https://www.washingtoncitypaper.com/news/city-desk/article/21138567/dc-council-moves-to-cut-some-ties-between-police-and-schools"
       },
       "geometry": {
         "coordinates": [
