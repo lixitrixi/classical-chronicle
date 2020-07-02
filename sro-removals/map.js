@@ -30,7 +30,7 @@ const status = ["get", "status"]
 map.on('load', function() {
   map.addSource('sro-officers', {
     type: 'geojson',
-    data: '/sro-officers/features.geojson',
+    data: '/sro-removals/features.geojson',
     cluster: true,
     clusterMaxZoom: 12, // Max zoom to cluster points on
     clusterRadius: 50, // Radius of each cluster when clustering points (defaults to 50)
