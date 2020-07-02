@@ -20,8 +20,7 @@ removed
 
 const statuses = {
   decided_to_keep: {color: "#660e1e", text: "Decided to keep SROs in schools"},
-  considering: {color: "#875114", text: "Considering removing SROs from schools"},
-  partial_removal: {color: "#b79921", text: "Taken some steps to remove SROs from schools"},
+  considering: {color: "#b79921", text: "Considering removing SROs from schools"},
   removed: {color: "#51c327", text: "Removed SROs from schools"}
 }
 
@@ -37,7 +36,6 @@ map.on('load', function() {
     clusterProperties: {
       'decided_to_keep': ['any', ['==', status, "decided_to_keep"]],
       'considering': ['any', ['==', status, "considering"]],
-      'partial_removal': ['any', ['==', status, "partial_removal"]],
       'removed': ['any', ['==', status, "removed"]],
     }
   });
@@ -50,27 +48,21 @@ map.on('load', function() {
     paint: {
       'circle-color': [
         "match",
-        ['+', ['case', ["get", "decided_to_keep"], 1, 0], ['case', ["get", "considering"], 2, 0], ['case', ["get", "partial_removal"], 4, 0], ['case', ["get", "removed"], 8, 0]],
+        ['+', ['case', ["get", "decided_to_keep"], 1, 0], ['case', ["get", "considering"], 2, 0], ['case', ["get", "removed"], 4, 0]],
         1, // Decided to keep
         '#8e1515',
         2, // Considering Removal
         '#b76d1a',
-        4, // Partial Removal
-        '#d2b421',
-        8, // Full Removal
-        '#6ed04a',
-        9,
-        '#7e732f',
-        10,
-        '#939f32',
-        11,
-        '#917128',
-        12,
-        '#a0c236',
-        13,
-        '#9a882b',
-        15,
-        '#a18226',
+        3,
+        '#a24118',
+        4, // Removed
+        '#51c327',
+        5,
+        '#6f6c1e',
+        6,
+        '#849821',
+        7,
+        '#876c1d',
         '#330066'
       ],
       'circle-radius': 18,
@@ -124,8 +116,6 @@ map.on('load', function() {
         "decided_to_keep",
           '#8e1515',
         "considering",
-          '#b76d1a',
-        "partial_removal",
           '#d2b421',
         "removed",
           '#6ed04a',
