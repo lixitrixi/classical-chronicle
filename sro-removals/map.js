@@ -51,16 +51,16 @@ map.on('load', function() {
       'circle-color': [
         "match",
         ['+', ['case', ["get", "decided_to_keep"], 1, 0], ['case', ["get", "considering"], 2, 0], ['case', ["get", "partial_removal"], 4, 0], ['case', ["get", "removed"], 8, 0]],
-        1,
-        '#660e1e',
-        2,
-        '#875114',
+        1, // Decided to keep
+        '#8e1515',
+        2, // Considering Removal
+        '#b76d1a',
         3,
         '#773019',
-        4,
-        '#b79921',
-        8,
-        '#6af438',
+        4, // Partial Removal
+        '#d2b421',
+        8, // Full Removal
+        '#6ed04a',
         9,
         '#68812B',
         10,
