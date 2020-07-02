@@ -3,8 +3,8 @@
     {
       "properties": {
         "name": "Philadelphia, PA",
-        "status":"considering",
-        "summary": "Philadelphia, PA vows to rethink SROs",
+        "status":"decided_to_keep",
+        "summary": "Philadelphia, PA changes name of school police officers, now calling them \"safety officers.\"",
         "url": "https://www.inquirer.com/education/kevin-bethel-diversion-school-safety-philadelphia-school-district-police-20191202.html"
       },
       "geometry": {
@@ -74,8 +74,8 @@
     {
       "properties": {
         "name": "Chicago, IL",
-        "status":"decided_to_keep",
-        "summary":"Chicago, IL school district votes 4-3 to keep contract with police",
+        "status":"considering",
+        "summary":"Chicago, IL school board votes 4-3 to keep contract with police, but are going to reconsider decision at the end of this summer",
         "url": "https://chicago.suntimes.com/education/2020/6/24/21301349/chicago-public-schools-police-cps-vote-cops"
       },
       "geometry": {
@@ -130,7 +130,7 @@
     {
       "properties": {
         "name": "Seatle, WA",
-        "status":"partial_removal",
+        "status":"removed",
         "summary":"Seattle, WA removes police from schools for one year",
         "url": "https://www.king5.com/article/news/education/plan-to-reevaluate-relationship-with-seattle-police-being-considered-by-school-board/281-0b5f5fe1-e255-422d-a6eb-7b2294774992"
       },
@@ -144,7 +144,7 @@
     {
       "properties": {
         "name": "Edmonds, WA",
-        "status":"partial_removal",
+        "status":"considering",
         "summary":"Edmonds, WA removes police officers from three high schools, further decision being made in August",
         "url": "https://www.q13fox.com/news/seattle-and-edmonds-school-districts-vote-out-officers-from-schools"
       },
@@ -214,8 +214,8 @@
     {
       "properties": {
         "name": "San Jose, CA",
-        "status":"partial_removal",
-        "summary":"San Jose Unified School District to decide whether to cut SROs in August, Alum Rock Union/East Side Union Districts removing police from schools now.",
+        "status":"considering",
+        "summary":"San Jose Unified School District to decide whether to cut SROs in August.",
         "url": "https://www.mercurynews.com/2020/06/25/alum-rock-east-side-union-school-districts-terminate-contracts-with-san-jose-police/"
       },
       "geometry": {
@@ -227,9 +227,23 @@
     },
     {
       "properties": {
+        "name": "Alum Rock Union/East Side Union (San Jose, CA)",
+        "status":"removed",
+        "summary":"Alum Rock Union/East Side Union Districts removing police from schools now.",
+        "url": "https://www.mercurynews.com/2020/06/25/alum-rock-east-side-union-school-districts-terminate-contracts-with-san-jose-police/"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.803564, 37.333859 
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
         "name": "New York City, NY",
         "status":"considering",
-        "summary":"Mayor Bill deBlasio says he wants to keep police in schools",
+        "summary":"Mayor Bill deBlasio says he wants to keep police in schools, no formal decision made. Police commissioner Dermot Shea open to scaling back traffic and school law enforcement presence. ",
         "url": "https://newyork.cbslocal.com/2020/06/19/de-blasio-on-police-in-new-york-city-schools/"
       },
       "geometry": {
@@ -244,7 +258,7 @@
         "name": "Portland, ME",
         "status":"removed",
         "summary":"Portland, ME removes police from schools",
-        "url": ""
+        "url": "https://www.newscentermaine.com/article/news/education/portland-board-of-public-education-still-deciding-fate-of-student-resource-officers-in-two-local-high-schools/97-816a6117-1e66-4642-bdac-3593c34033f1"
       },
       "geometry": {
         "coordinates": [
@@ -256,7 +270,7 @@
     {
       "properties": {
         "name": "Washington, DC",
-        "status":"removed",
+        "status":"decided_to_keep",
         "summary":"District of Columbia Schools cuts ties with police department, makes itself responsible for security guards",
         "url": "https://www.washingtoncitypaper.com/news/city-desk/article/21138567/dc-council-moves-to-cut-some-ties-between-police-and-schools"
       },
@@ -270,9 +284,9 @@
     {
       "properties": {
         "name": "Dallas, TX",
-        "status":"decided_to_keep",
-        "summary":"Dallas superintendent resists protesters demands to cut ties with Dallas police",
-        "url": "https://krld.radio.com/articles/news/dallas-superintendent-resists-calls-to-defund-school-police"
+        "status":"considering",
+        "summary":"Protesters, advocacy groups demand removing police officers from schools, Superintendent declines, releases letter acknowledging faults of police in schools.",
+        "url": "https://www.dallasnews.com/news/education/2020/06/08/dallas-isd-should-disband-its-police-force-advocacy-groups-urge/"
       },
       "geometry": {
         "coordinates": [
@@ -285,12 +299,82 @@
       "properties": {
         "name": "Boston, MA",
         "status":"considering",
-        "summary":"In Boston, city councilors have called for a review of the deployment of school officers",
+        "summary":"Boston city counselors call for further consideration of removing police officers from schools.",
         "url": "https://www.bostonglobe.com/2020/06/16/metro/amid-protests-focus-turns-police-boston-schools/"
       },
       "geometry": {
         "coordinates": [
           -71.0589, 42.3601
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Stockton, CA",
+        "status":"considering",
+        "summary":"Stockton, CA school board considers removing police from schools, deciding as soon as next month",
+        "url": "https://sacramento.cbslocal.com/2020/06/22/stockton-unified-school-district-police-department-elimination/"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.2908, 37.9577
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Moreno Valley, CA",
+        "status":"considering",
+        "summary":"Moreno Valley, CA school board considers removing police from schools, hears from public. School district near Moreno Valley resolves to survey students’ opinions on SROs.",
+        "url": "https://www.pe.com/2020/06/16/moreno-valley-area-school-districts-ponder-cutting-police-funding/"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.2297, 33.9425
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Sacramento, CA",
+        "status":"removed",
+        "summary":"Sacramento, CA school board removes police from schools.",
+        "url": "https://fox40.com/news/local-news/sacramento-city-unified-removing-school-resource-officers-will-use-funds-for-alternative-safety-plans/"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.4944, 38.5816
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Tacoma, WA",
+        "status":"considering",
+        "summary":"Tacoma, WA Education Association passes resolution to remove SROs from school, pending approval from Tacoma Public Schools’ board of directors.",
+        "url": "https://www.thenewstribune.com/news/local/article243427501.html"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.4443, 47.2529
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Louisville, KY",
+        "status":"decided_to_keep",
+        "summary":"Louisville, KY removed police from schools for 2019-20 school year August 2019, intending to create district SROs for 2020-21 school year.",
+        "url": "https://www.wave3.com/2019/08/07/jcps-vote-removes-sros-schools-school-year"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.7585, 38.2527
         ],
         "type": "Point"
       }
