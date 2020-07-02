@@ -168,7 +168,7 @@ map.on('load', function() {
     let coordinates = e.features[0].geometry.coordinates.slice();
     let name = e.features[0].properties.name;
     const articleURL = e.features[0].properties.url;
-    const article = articleURL ? `<br><a href="${articleURL}">Link to Article</a>` : "";
+    const article = articleURL ? `<br><a href="${articleURL}" target="_blank">Link to Article</a>` : "";
     const status = statuses[e.features[0].properties.status];
     const summary = e.features[0].properties.summary ? "<br>" + e.features[0].properties.summary : ""
     console.log(status)
