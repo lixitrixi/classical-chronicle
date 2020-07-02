@@ -27,7 +27,7 @@ body {
   color: #2b56e5;
   text-decoration: none;
   font-weight: bold;
-  
+
   &:hover {
     text-decoration: underline;
   }
@@ -54,18 +54,22 @@ body {
     cursor: pointer;
     font-weight: bold;
   }
-  .blue, .red {
-    background-color: white;
+  .red, .orange, .yellow, .green {
+    color: white;
     padding: 0px 5px;
     border-radius: 3px;
     margin: 0px 1px;
   }
-  .blue {
-    background-color: #005cc6;
-    color: white;
-  }
   .red {
-    background-color: #f46966;
-    color: white;
+    background-color: #8e1515;
+  }
+  .orange {
+    background-color: #b76d1a;
+  }
+  .yellow {
+    background-color: #d2b421;
+  }
+  .green {
+    background-color: #6ed04a;
   }
 }
