@@ -19,7 +19,7 @@
       "properties": {
         "name": "Portland, OR",
         "status":"removed",
-        "summary": "Portland, OR cuts police officers from schools",
+        "summary": "Portland, OR removes police officers from schools",
         "url": "https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/06/10/after-george-floyd-some-school-districts-cut-ties-with-police"
       },
       "geometry": {
@@ -33,7 +33,7 @@
       "properties": {
         "name": "Minneapolis, MN",
         "status":"removed",
-        "summary":"Minneapolis, MN cuts police officers from schools",
+        "summary":"Minneapolis, MN removes police officers from schools",
         "url": "https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2020/06/10/after-george-floyd-some-school-districts-cut-ties-with-police"
       },
       "geometry": {
@@ -47,7 +47,7 @@
       "properties": {
         "name": "Saint Paul, MN",
         "status":"removed",
-        "summary":"St. Paul, MN cuts police officers from schools",
+        "summary":"St. Paul, MN removes police officers from schools",
         "url": "https://www.kare11.com/article/news/education/st-paul-schools-to-end-contract-with-sppd-vote-to-remove-school-resource-officers/89-af368ea9-b58f-41a2-a9b3-6f5aba20f659"
       },
       "geometry": {
@@ -61,7 +61,7 @@
       "properties": {
         "name": "Denver, CO",
         "status":"removed",
-        "summary":"Denver, CO cuts police officers from schools",
+        "summary":"Denver, CO removes police officers from schools",
         "url": "https://www.fox21news.com/news/state/denver-school-board-votes-to-remove-sros-cut-ties-with-police-department/"
       },
       "geometry": {
@@ -75,7 +75,7 @@
       "properties": {
         "name": "Chicago, IL",
         "status":"decided_to_keep",
-        "summary":"Chicago, IL votes 4-3 to keep contract with police",
+        "summary":"Chicago, IL school district votes 4-3 to keep contract with police",
         "url": "https://chicago.suntimes.com/education/2020/6/24/21301349/chicago-public-schools-police-cps-vote-cops"
       },
       "geometry": {
@@ -89,7 +89,7 @@
       "properties": {
         "name": "Oakland, CA",
         "status":"removed",
-        "summary":"Oakland, CA eliminates district police department",
+        "summary":"Oakland, CA eliminates district police department, removing police from schools",
         "url": "https://www.sfchronicle.com/bayarea/article/District-police-eliminated-from-Oakland-schools-15364811.php"
       },
       "geometry": {
@@ -103,7 +103,7 @@
       "properties": {
         "name": "Madison, WI",
         "status":"removed",
-        "summary":"Madison, WI votes to end contract with police department",
+        "summary":"Madison, WI removes police from schools",
         "url": "https://madison.com/ct/news/local/education/local_schools/updated-madison-school-board-votes-unanimously-to-end-police-in-schools-contract/article_ac077373-a518-554f-a7a6-1f2514d989a6.html"
       },
       "geometry": {
@@ -117,7 +117,7 @@
       "properties": {
         "name": "Toronto, Canada",
         "status":"removed",
-        "summary":"Toronto, Canada votes to end contract with police department",
+        "summary":"Toronto, Canada removes police from schools",
         "url": "https://www.cbc.ca/news/canada/toronto/school-resource-officers-toronto-board-police-1.4415064"
       },
       "geometry": {
@@ -131,7 +131,7 @@
       "properties": {
         "name": "Seatle, WA",
         "status":"partial_removal",
-        "summary":"Seattle, WA suspends contract with police for one year",
+        "summary":"Seattle, WA removes police from schools for one year",
         "url": "https://www.king5.com/article/news/education/plan-to-reevaluate-relationship-with-seattle-police-being-considered-by-school-board/281-0b5f5fe1-e255-422d-a6eb-7b2294774992"
       },
       "geometry": {
@@ -173,7 +173,7 @@
       "properties": {
         "name": "Milwaukee, WI",
         "status":"removed",
-        "summary": "Milwaukee, WI cuts ties with police",
+        "summary": "Milwaukee, WI removes police from schools",
         "url": "https://www.policeone.com/school-safety/articles/wis-school-board-cuts-ties-with-police-pwMpLWgYHuW8vLCC/"
       },
       "geometry": {
@@ -187,7 +187,7 @@
       "properties": {
         "name": "Charlottesville, VA",
         "status":"removed",
-        "summary":"Charlottesville, VA cuts ties with police",
+        "summary":"Charlottesville, VA removes police from schools",
         "url": "https://www.dailyprogress.com/news/local/charlottesville-schools-police-agree-to-end-mou-for-school-resource-officers/article_558f34f9-d3fd-5fc5-8b22-5334f173655f.html"
       },
       "geometry": {
@@ -201,7 +201,7 @@
       "properties": {
         "name": "San Francisco, CA",
         "status":"removed",
-        "summary":"San Francisco, CA cuts ties with police",
+        "summary":"San Francisco, CA removes police from schools",
         "url": "https://missionlocal.org/2020/06/san-francisco-unified-school-district-votes-to-cut-ties-and-funds-from-police/"
       },
       "geometry": {
@@ -215,7 +215,7 @@
       "properties": {
         "name": "San Jose, CA",
         "status":"partial_removal",
-        "summary":"San Jose Unified School District to decide whether to cut SROs in August, Alum Rock Union/East Side Union Districts cutting ties with police now.",
+        "summary":"San Jose Unified School District to decide whether to cut SROs in August, Alum Rock Union/East Side Union Districts removing police from schools now.",
         "url": "https://www.mercurynews.com/2020/06/25/alum-rock-east-side-union-school-districts-terminate-contracts-with-san-jose-police/"
       },
       "geometry": {
@@ -242,8 +242,8 @@
     {
       "properties": {
         "name": "Portland, ME",
-        "status":"considering",
-        "summary":"Portland, ME voting on whether to have police in schools",
+        "status":"removed",
+        "summary":"Portland, ME removes police from schools",
         "url": ""
       },
       "geometry": {
@@ -271,12 +271,26 @@
       "properties": {
         "name": "Dallas, TX",
         "status":"decided_to_keep",
-        "summary":"Dallas superintendent resists protesters demands to cut ties with Dallas police ",
+        "summary":"Dallas superintendent resists protesters demands to cut ties with Dallas police",
         "url": "https://krld.radio.com/articles/news/dallas-superintendent-resists-calls-to-defund-school-police"
       },
       "geometry": {
         "coordinates": [
           -96.7970, 32.7767
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Boston, MA",
+        "status":"considering",
+        "summary":"In Boston, city councilors have called for a review of the deployment of school officers",
+        "url": "https://www.bostonglobe.com/2020/06/16/metro/amid-protests-focus-turns-police-boston-schools/"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.0589, 42.3601
         ],
         "type": "Point"
       }
