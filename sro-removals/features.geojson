@@ -234,7 +234,7 @@
       },
       "geometry": {
         "coordinates": [
-          -121.803564, 37.333859 
+          -121.803564, 37.333859
         ],
         "type": "Point"
       }
@@ -375,6 +375,104 @@
       "geometry": {
         "coordinates": [
           -85.7585, 38.2527
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Detroit, MI",
+        "status":"considering",
+        "summary":"Detroit, MI public schools moving away from hiring security guards, continuing to talk with community about other police presence in schools.",
+        "url": "https://detroit.chalkbeat.org/2020/6/15/21292308/detroit-school-district-pressure-defund-police"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.0458, 42.3314
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Omaha, NE",
+        "status":"considering",
+        "summary":"Omaha, NE public schools considering removing police from schools, changing school drug policies to not mandate police presence.",
+        "url": "https://www.omaha.com/news/education/proposed-changes-to-drug-portion-of-ops-student-code-of-conduct-spark-debate/article_7591a401-7e0b-5cc6-9e5e-e623bf9248b0.html"
+      },
+      "geometry": {
+        "coordinates": [
+          -95.9345, 41.2565
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Wilmington, DE",
+        "status":"considering",
+        "summary":"Wilmington, DE school board introduced resolution to remove SROs, replace with counselors, pending vote on July 8th following public forum.",
+        "url": "https://www.delawareonline.com/story/news/2020/06/17/red-clay-board-members-want-end-school-police-contracts-replace-officers-counselors/3197848001/"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.5484, 39.7447
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Prince George County, MD",
+        "status":"considering",
+        "summary":"School districts in Maryland’s Prince George and Montgomery counties consider removing armed police from schools, tabled until fall.",
+        "url": "https://foxbaltimore.com/news/local/amid-growing-debate-some-maryland-school-districts-look-to-remove-police-officers"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.8721, 38.7849
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Montgomery County, MD",
+        "status":"considering",
+        "summary":"School districts in Maryland’s Prince George and Montgomery counties consider removing armed police from schools, tabled until fall.",
+        "url": "https://foxbaltimore.com/news/local/amid-growing-debate-some-maryland-school-districts-look-to-remove-police-officers"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.2405, 39.1547
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Cincinnati, OH",
+        "status":"considering",
+        "summary":"Cincinnati, OH schools considering removing police from schools, exploring other options.",
+        "url": "https://local12.com/news/local/police-in-schools-push-at-cincinnati-public-schools-to-remove-officers-cincinnati"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.5120, 39.1031
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Columbus, OH",
+        "status":"considering",
+        "summary":"Columbus, OH schools let contract expire with police department, holding public forum to discuss future of SROs.",
+        "url": "https://abc6onyourside.com/news/local/hundreds-sign-up-to-analyze-ccs-safety-as-students-parents-demand-removal-of-police"
+      },
+      "geometry": {
+        "coordinates": [
+          -82.9988, 39.9612 
         ],
         "type": "Point"
       }
