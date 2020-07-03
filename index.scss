@@ -77,7 +77,7 @@
   	color: #077707;
   }
 }
-.banner.letter {
+.banner.black {
 	background-color: #000;
 	border: 1px solid #000;
 	p {
@@ -88,5 +88,15 @@
   }
   a {
   	color: #fff;
+  }
+}
+.banner.purple {
+	background-color: #e8dcff;
+	border: 1px solid purple;
+  svg {
+  	fill: purple;
+  }
+  label {
+  	color: purple;
   }
 }
