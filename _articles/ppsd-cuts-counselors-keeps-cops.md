@@ -33,6 +33,10 @@ Beyond anecdotal talk of Carina Monge, there is ample statistical evidence of st
 Providence students deserve better than this. Our district is on its knees begging for answers to how to fix itself. But despite the vast majority of data indicating that cops are bad and counselors are good for students of color, despite a national movement against SROs, and despite constant pressure from students, teachers, parents, counselors, experts, administrators, and activists, the district has yet again failed to take its first step, and instead walked backwards.
 It was a shameful and bad decision. Fix it.
 
+*Want to see which school districts that have considered removing School Resource Officers (SROs) so far?* **[Check out this map](/sro-removals/)** or scroll down!.
+
+<iframe src="https://{{site.domain}}/sro-removals/" width="100%" height="600px;"></iframe>
+
 ## Sources
 <div class="noindent" markdown="1">
 [https://www.wpri.com/news/local-news/providence/providence-to-close-evolutions-high-school-lay-off-district-staff/](https://www.wpri.com/news/local-news/providence/providence-to-close-evolutions-high-school-lay-off-district-staff/)  
