@@ -5,7 +5,6 @@ author: [Jededia Purnell]
 image: councilors-not-cops.jpg
 category: "Opinion"
 date: 2020-07-05
-unlisted: true
 lastmod: 2020-07-05
 ---
 For more than a week, people across the United States have been taking to the streets to protest systemic racism. These protests were spurred by the murder of George Floyd by Minneapolis police officer Derek Chauvin. Race-based police brutality and systemic racism have become an increasingly prominent part of public discourse. Classical must also reflect on how racism has fractured our school. We can take advantage of this important turning point in history to address racism in the Classical community.
