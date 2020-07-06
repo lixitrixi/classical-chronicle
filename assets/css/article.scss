@@ -85,6 +85,9 @@ main {
       text-indent: 1em;
       color: #242424;
     }
+    .noindent>p {
+      text-indent: 0px;
+    }
   }
   blockquote {
     margin-left: 0px;
