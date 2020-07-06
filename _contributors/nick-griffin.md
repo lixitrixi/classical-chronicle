@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Nick Griffin
 position: Writer and Editor
 pronouns: He/Him
-grade: 11
+grade: 12
 joined: December 2019
 email: nickgriff923@gmail.com
 instagram: nickgriffin21

@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Janae Moore
 position: Photographer
 pronouns: She/Her or They/Them
-grade: 11
+grade: 12
 joined: December 2019
 email: janaemoore160@gmail.com
 instagram: wo.rmwood

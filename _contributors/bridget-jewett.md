@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Bridget Jewett
 position: Writer
 pronouns: She/Her
-grade: 9
+grade: 10
 email: benjjewetr@gmail.com
 instagram: burning_bridget
 lastmod: 2020-03-16

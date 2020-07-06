@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Yeivin Herrera
 position: Writer and Editor
 pronouns: He/Him
-grade: 11
+grade: 12
 joined: December 2019
 email: hyeivin@gmail.com
 phone_number: (401)-497-3983

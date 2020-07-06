@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Yousef Nagib
 position: Writer and Editor
 pronouns: He/Him
-grade: 11
+grade: 12
 joined: December 2019
 email: yousefnagib713@gmail.com
 instagram: ymnagib
