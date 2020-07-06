@@ -45,7 +45,7 @@
       </div>
       <div class="content">
         {{ content }}
-        <p class="last_updated">Last updated {{ page.last_updated | date: "%B %-d, %Y"}}</p>
+        <p class="last_updated">Last updated {{ page.lastmod | date: "%B %-d, %Y"}}</p>
       </div>
       {% if page.hide_contributions != true %}
       <div class="contributions">
@@ -70,7 +70,7 @@
               <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Made Graphic</p></div>
             {% endif %}
             {% if article.photo == page.contributorName %}
-              <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Took Photo</p></div>
+              <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Photographer</p></div>
             {% endif %}
           {% endfor %}
         </div>
