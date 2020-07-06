@@ -2,11 +2,14 @@
 layout: "article"
 title: "Providence District Cuts Counselors, Keeps Cops"
 author: [Jededia Purnell]
-image: councilors-not-cops.jpg
+image: counselors-not-cops.jpg
 category: "Opinion"
 date: 2020-07-05
 lastmod: 2020-07-05
 ---
+![Student activists at a Juneteenth march in downtown Providence call for replacing cops with counselors](/assets/images/provProtest.jpg)
+<span>Student activists at a Juneteenth march in downtown Providence call for replacing cops with counselors. (Picture by [@lennoxorellana](https://instagram.com/lennoxorellana))</span>
+
 Due to the recent murder of George Floyd, many Black Lives Matter activists have been calling for districts across the country to remove school resource officers (SROs) from their schools, replacing them with guidance counselors and student support staff. A couple weeks ago, however, Mayor Jorge Elorza fired, amongst other district employees, culture coordinators, whose jobs originated in 2017, and whose purpose was to help students without violence. As districts across the country begin to rethink and remove SROs, Providence continues to fire counselors instead.
 
 State legislators and district officials often portray SROs as "good guys with guns" who protect children in the horrific event of a school shooting. But their job is mainly to police students. They patrol school grounds, record, resolve, and prevent disputes between students, and conduct searches. Many schools have pointed out that school shootings have not decreased in likelihood because of SROs, nor has their presence generally protected against shootings. During the 2018 shooting at Marjory Stoneman Douglas High School in Parkland, Florida, an SRO was on campus but did not protect the lives of any of the seventeen victims. Defenders of SROs also say that, despite having no training as counselors, SROs can serve as an additional school counselor who can help students with their personal problems. However, having these officers in school often worries and scares students, particularly students of color.  At their core, SROs are police officers. They belong to a racist criminal justice system, and represent generational trauma to communities of color, particularly African American communities. Many studies point to SROs as a cause for institutional racism in schools, and instances of explicit racism by SROs are not uncommon.
