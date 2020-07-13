@@ -75,8 +75,8 @@
       "properties": {
         "name": "Chicago, IL",
         "status":"considering",
-        "summary":"Chicago, IL school board votes 4-3 to keep contract with police, but are going to reconsider decision at the end of this summer",
-        "url": "https://chicago.suntimes.com/education/2020/6/24/21301349/chicago-public-schools-police-cps-vote-cops"
+        "summary":"Chicago, IL school board votes 4-3 to keep contract with police, but are going to reconsider decision at the end of this summer. \n <span>Update 7/13:</span> Chicago public school sets precedent by removing SROs on their own.",
+        "url": "https://www.seattletimes.com/education-lab/police-presence-at-seattle-public-schools-halted-indefinitely/"
       },
       "geometry": {
         "coordinates": [
@@ -131,8 +131,8 @@
       "properties": {
         "name": "Seatle, WA",
         "status":"removed",
-        "summary":"Seattle, WA removes police from schools for one year",
-        "url": "https://www.king5.com/article/news/education/plan-to-reevaluate-relationship-with-seattle-police-being-considered-by-school-board/281-0b5f5fe1-e255-422d-a6eb-7b2294774992"
+        "summary":"Seattle, WA removes police from schools for one year. \n <span>Update 7/13:</span> District permanently cut ties with police at three schools, considering fourth in August following review of school safety standards.",
+        "url": "https://www.seattletimes.com/education-lab/police-presence-at-seattle-public-schools-halted-indefinitely/"
       },
       "geometry": {
         "coordinates": [
@@ -144,8 +144,8 @@
     {
       "properties": {
         "name": "Edmonds, WA",
-        "status":"considering",
-        "summary":"Edmonds, WA removes police officers from three high schools, further decision being made in August",
+        "status":"removed",
+        "summary":"Edmonds, WA removes police officers from three high schools, further decision being made in August. <span>Update 7/13:</span> district permanently cut ties with police at three schools, considering fourth in August following review of school safety standards.",
         "url": "https://www.q13fox.com/news/seattle-and-edmonds-school-districts-vote-out-officers-from-schools"
       },
       "geometry": {
@@ -243,8 +243,8 @@
       "properties": {
         "name": "New York City, NY",
         "status":"considering",
-        "summary":"Mayor Bill deBlasio says he wants to keep police in schools, no formal decision made. Police commissioner Dermot Shea open to scaling back traffic and school law enforcement presence. ",
-        "url": "https://newyork.cbslocal.com/2020/06/19/de-blasio-on-police-in-new-york-city-schools/"
+        "summary":"Mayor Bill deBlasio says he wants to keep police in schools, no formal decision made. Police commissioner Dermot Shea open to scaling back traffic and school law enforcement presence. <span>7/13 update:</span> SROs limited on arresting students for minor crimes, like marijuana possession.",
+        "url": "https://www.nydailynews.com/news/politics/ny-school-discipline-overhaul-nypd-arrest-students-20190620-ytowc3qlgfb2plsxk7ffgid6te-story.html"
       },
       "geometry": {
         "coordinates": [
@@ -299,8 +299,8 @@
       "properties": {
         "name": "Boston, MA",
         "status":"considering",
-        "summary":"Boston city counselors call for further consideration of removing police officers from schools.",
-        "url": "https://www.bostonglobe.com/2020/06/16/metro/amid-protests-focus-turns-police-boston-schools/"
+        "summary":"Boston city counselors call for further consideration of removing police officers from schools. <span>Update 7/13:</span> Boston district names new Chief of Safety Department.",
+        "url": "https://www.nbcboston.com/news/local/boston-public-schools-names-new-chief-of-safety-department/2157057/"
       },
       "geometry": {
         "coordinates": [
@@ -466,13 +466,41 @@
     {
       "properties": {
         "name": "Columbus, OH",
-        "status":"considering",
-        "summary":"Columbus, OH schools let contract expire with police department, holding public forum to discuss future of SROs.",
+        "status":"removed",
+        "summary":"Columbus, OH schools let contract expire with police department, holding public forum to discuss future of SROs. <span>Update 7/13:</span> Columbus district removes 22 officers from city schools.",
         "url": "https://abc6onyourside.com/news/local/hundreds-sign-up-to-analyze-ccs-safety-as-students-parents-demand-removal-of-police"
       },
       "geometry": {
         "coordinates": [
-          -82.9988, 39.9612 
+          -82.9988, 39.9612
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Framingham, MA",
+        "status":"considering",
+        "summary":"Framingham, MA Superintendent wants to reconsider SROs in schools, meets with community to discuss alternatives.",
+        "url": "https://www.wbur.org/news/2020/06/26/framingham-school-police-officers-role-debate"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.4162, 42.2793
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Christina, DE",
+        "status":"decided_to_keep",
+        "summary":"Christina, DE schools vote to renew contract with police.",
+        "url": "https://whyy.org/articles/delaware-school-district-approves-funding-to-continue-police-presence-in-schools/"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.6572, 39.6800 
         ],
         "type": "Point"
       }

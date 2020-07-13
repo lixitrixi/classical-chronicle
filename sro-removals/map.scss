@@ -23,6 +23,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.mapboxgl-popup-content>span {
+  font-weight: bold;
+}
 .mapboxgl-popup-content>a {
   color: #2b56e5;
   text-decoration: none;
