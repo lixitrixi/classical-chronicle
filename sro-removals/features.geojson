@@ -76,7 +76,7 @@
         "name": "Chicago, IL",
         "status":"considering",
         "summary":"Chicago, IL school board votes 4-3 to keep contract with police, but are going to reconsider decision at the end of this summer. \n <span>Update 7/13:</span> Chicago public school sets precedent by removing SROs on their own.",
-        "url": "https://www.seattletimes.com/education-lab/police-presence-at-seattle-public-schools-halted-indefinitely/"
+        "url": "https://news.wttw.com/2020/07/08/northside-college-prep-lsc-votes-pull-school-resource-officers"
       },
       "geometry": {
         "coordinates": [
@@ -500,7 +500,7 @@
       },
       "geometry": {
         "coordinates": [
-          -75.6572, 39.6800 
+          -75.6572, 39.6800
         ],
         "type": "Point"
       }
