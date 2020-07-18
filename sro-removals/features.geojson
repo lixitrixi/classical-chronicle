@@ -75,8 +75,8 @@
       "properties": {
         "name": "Chicago, IL",
         "status":"considering",
-        "summary":"Chicago, IL school board votes 4-3 to keep contract with police, but are going to reconsider decision at the end of this summer. \n <span>Update 7/13:</span> Chicago public school sets precedent by removing SROs on their own.",
-        "url": "https://news.wttw.com/2020/07/08/northside-college-prep-lsc-votes-pull-school-resource-officers"
+        "summary":"Chicago, IL school board votes 4-3 to keep contract with police, but are going to reconsider decision at the end of this summer. \n <span>Update 7/13:</span> Chicago public school sets precedent by removing SROs on their own. \n <span>7/17 update:</span> Chicago Public Schools releases “kit” for local councils to consider removing police from schools, advises subsidiary districts to hear from parents, students, and teachers. (considering removing police from schools)",
+        "url": "https://news.wttw.com/2020/07/15/cps-issues-new-guidance-local-councils-vote-cops-schools"
       },
       "geometry": {
         "coordinates": [
@@ -410,8 +410,8 @@
     {
       "properties": {
         "name": "Wilmington, DE",
-        "status":"considering",
-        "summary":"Wilmington, DE school board introduced resolution to remove SROs, replace with counselors, pending vote on July 8th following public forum.",
+        "status":"decided_to_keep",
+        "summary":"Wilmington, DE school board introduced resolution to remove SROs, replace with counselors, pending vote on July 8th following public forum. <span>Update 7/17:</span> Wilmington DE school board voted 5-2 to keep their SROs.",
         "url": "https://www.delawareonline.com/story/news/2020/06/17/red-clay-board-members-want-end-school-police-contracts-replace-officers-counselors/3197848001/"
       },
       "geometry": {
@@ -501,6 +501,230 @@
       "geometry": {
         "coordinates": [
           -75.6572, 39.6800
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Salem, OR",
+        "status":"considering",
+        "summary":"Salem, OR hears from community, tabled until end of summer.",
+        "url": "https://www.opb.org/news/article/salem-keizer-schools-remove-police-bring-board-member-actions/"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.0351, 44.9429
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Evanston, IL",
+        "status":"considering",
+        "summary":"Evanston, IL considers alternatives to police officers.",
+        "url": "https://evanstonroundtable.com/Content/Default/Schools/Article/District-202-School-Board-Reacts-to-Emails-About-Eliminating-School-Resource-Officers/-3/230/18276"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.6877, 42.0451
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Platteville, WI",
+        "status":"considering",
+        "summary":"Platteville, WI reconsiders adding a police officer to their secondary school.",
+        "url": "https://www.wpr.org/amid-nationwide-calls-remove-police-schools-platteville-reexamines-plan-add-officer-fall"
+      },
+      "geometry": {
+        "coordinates": [
+          -90.4785, 42.7342
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Skokie, IL",
+        "status":"considering",
+        "summary":"Skokie, IL considers removing police, police union threats to never again help schools should police contract be terminated.",
+        "url": "https://chicago.cbslocal.com/2020/07/15/outrage-at-school-board-meeting-after-skokie-police-union-comments-about-consequences-of-removing-officers-from-schools/"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.7416, 42.0324
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Duluth, MN",
+        "status":"considering",
+        "summary":"Duluth, MN superintendent expresses interest in continuing discussing alternatives to having police in schools in the fall. School board members tentatively say they will vote on renewing the district’s contract with the police July 21st.",
+        "url": "https://kbjr6.com/2020/07/15/new-duluth-superintendent-hopes-to-continue-to-the-conversation-of-sros-into-the-school-year/"
+      },
+      "geometry": {
+        "coordinates": [
+          -92.1005, 46.7867
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Helena, MT",
+        "status":"considering",
+        "summary":"Helena, MT considers removing police from schools.",
+        "url": "https://www.ktvh.com/news/helena-leaders-hear-testimony-for-against-officers-in-schools"
+      },
+      "geometry": {
+        "coordinates": [
+          -112.0391, 46.5891
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Burlington, VT",
+        "status":"decided_to_keep",
+        "summary":"Burlington, VT school board recommends keeping police in schools.",
+        "url": "https://www.burlingtonfreepress.com/story/news/2020/06/26/burlington-school-board-wants-keep-police-officers-schools-vermont/3266431001/"
+      },
+      "geometry": {
+        "coordinates": [
+
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Kalamazoo, MI",
+        "status":"decided_to_keep",
+        "summary":"Kalamazoo, MI hears from community about police presence in schools, decides to renew contract with police department.",
+        "url": "https://www.mlive.com/news/kalamazoo/2020/06/kalamazoo-superintendent-to-survey-students-parents-about-police-free-schools.html"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.2121, 44.4759
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Columbia, MO",
+        "status":"removed",
+        "summary":"Columbia, MO removes police officers from schools.",
+        "url": "https://abc17news.com/news/columbia/2020/06/25/city-of-columbia-may-cut-jobs-end-school-resource-officer-contract/"
+      },
+      "geometry": {
+        "coordinates": [
+          -92.3341, 38.9517
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Rochester, NY",
+        "status":"removed",
+        "summary":"Rochester, NY removes police from schools.",
+        "url": "https://www.wxxinews.org/post/removing-police-officers-city-schools-great-day-rochester"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.6088, 43.1566
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Tucson, AZ",
+        "status":"considering",
+        "summary":"Tucson, AZ considers removing police from schools.",
+        "url": "https://tucson.com/news/local/tucson-school-district-reviews-cost-impact-of-having-police-on-campuses/article_54c61690-0f1a-5365-a076-4ae966a54ae1.html"
+      },
+      "geometry": {
+        "coordinates": [
+          -110.9747, 32.2226
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Lewiston, ME",
+        "status":"considering",
+        "summary":"Lewiston, ME considers removing some police from schools, replacing with counselors. Proposal scheduled to be discussed on July 13th, but meeting was postponed to an undecided date due to safety concerns about COVID-19.",
+        "url": "https://www.sunjournal.com/2020/07/13/lewiston-school-committee-meeting-canceled-due-to-safety-accessibility-concerns/"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.2148, 44.1004
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Concord, NH",
+        "status":"considering",
+        "summary":"Concord, NH: Governor tasks commission on police transparency to come up with recommendations for changing SROs by July 31st.",
+        "url": "https://patch.com/new-hampshire/nashua/naacp-regional-leader-eliminate-police-new-hampshire-schools"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.5376, 43.2081
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Phoenix, AZ",
+        "status":"removed",
+        "summary":"Phoenix, AZ removes police from schools.",
+        "url": "https://www.azfamily.com/news/arizona_schools/students-activists-want-phoenix-union-to-permanently-remove-resource-officers/article_da5fddcc-c23f-11ea-8068-aff736cc1d2b.html"
+      },
+      "geometry": {
+        "coordinates": [
+          -112.0740, 33.4484
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Allentown, PA",
+        "status":"considering",
+        "summary":"Allentown, PA (and Bethlehem, PA) considers removing police from schools.",
+        "url": "https://www.mcall.com/news/education/mc-nws-lehigh-valley-school-resource-officers-20200627-wnyxfgu7ebfflajrpla5aepooe-story.html"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.4714, 40.6023
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "properties": {
+        "name": "Bethlehem, PA",
+        "status":"considering",
+        "summary":"Bethlehem, PA (and Allentown, PA) considers removing police from schools.",
+        "url": "https://www.mcall.com/news/education/mc-nws-lehigh-valley-school-resource-officers-20200627-wnyxfgu7ebfflajrpla5aepooe-story.html"
+      },
+      "geometry": {
+        "coordinates": [
+          75.3705, 40.6259
         ],
         "type": "Point"
       }
