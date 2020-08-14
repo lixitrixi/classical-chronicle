@@ -91,12 +91,12 @@
   }
 }
 .banner.purple {
-	background-color: #e8dcff;
-	border: 1px solid purple;
+	background-color: #613d8f;
+	//border: 1px solid purple;
   svg {
-  	fill: purple;
+  	fill: white;
   }
-  label {
-  	color: purple;
+  p, label, a {
+  	color: white;
   }
 }
