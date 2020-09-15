@@ -1,7 +1,7 @@
 ---
 layout: "article"
 title: "If You Want To Pass, You've Got To Cheat"
-author: ["Crys Jewett"]
+author: ["Bridget Jewett"]
 image: "cheating.png"
 category: "Opinion"
 graphic: Amelia Ross
