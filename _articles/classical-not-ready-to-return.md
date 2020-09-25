@@ -1,10 +1,11 @@
 ---
 layout: "article"
-title: "Rush to Return — Why Classical Is Not Ready"
+title: "The Rush to Reopen: Why Classical Is Not Ready"
 author: ["Nick Griffin"]
 image: "classical-not-ready-to-return.jpg"
 category: "Opinion"
 date: 2020-09-25
+graphic: Amelia Ross
 ---
 After half a year of planning and anticipation, school is finally back in session. By Wednesday, a quarter of Classical's student body will be in school every day. Though the halls are marked with tape and physical distancing is still compulsory, it feels like things are slowly — finally — returning to normal. Being able to have in person conversations, classes, and college application help is tempting. But going back to school, no matter how appealing, is downright dangerous. Though the district is trying to mitigate the negative consequences of distance learning, sending students back so quickly is a mistake. The district is failing to protect their students from a disease that kills more than 700 Americans every day and leaves many survivors with long-term health complications[^1]. Returning in-person before our schools are ready is a gamble—a gamble with our education, our health, and our lives.
 
