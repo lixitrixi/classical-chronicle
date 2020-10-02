@@ -1,6 +1,6 @@
 ---
 layout: contributor
-contributorName: Bridget Jewett
+contributorName: B Jewett
 position: Writer
 pronouns: She/Her
 grade: 10
