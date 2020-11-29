@@ -2,11 +2,11 @@
 layout: "article"
 title: "Report Says PPSD Could Spy on Chromebooks"
 author: [Simon Carr]
-image: zoom-unsecure.jpg
+image: ppsd-chromebook.jpg
 category: "School"
 graphic: Amelia Ross
 date: 2020-11-28
-unlisted: true
+unlisted: false
 ---
 Last September, the Rhode Island American Civil Liberties Union (ACLU) reported that Providence Schools and most other districts in Rhode Island have alarmingly few privacy protections for students using school-loaned technology like Chromebooks or tablets. Rhode Island school districts give officials unlimited, unconditional remote access to the cameras, microphones, and contents of all district devices. To learn more about the report and what it means for Classical students, the *Chronicle* spoke with ACLU Policy Associate Hannah Stern.
 
