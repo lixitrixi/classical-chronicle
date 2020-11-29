@@ -108,6 +108,10 @@ main {
     font-size: 19px;
   }
 }
+::marker {
+  color: #613d8f;
+  font-weight: bold;
+}
 sup {
   vertical-align: top;
   font-size: 0.8em;
