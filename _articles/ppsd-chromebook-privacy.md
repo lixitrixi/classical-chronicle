@@ -12,7 +12,7 @@ Last September, the Rhode Island American Civil Liberties Union (ACLU) reported 
 
 > "Many students are doing one hundred percent of their learning from home. The fact that a school could look into a student’s private life and that of their families at any given moment is really concerning," she explains. “Students should have the security of not feeling like at any given moment their school could be spying on them."
 
-While there have been no cases in Rhode Island of school districts’ using their power to spy on or discipline students, Stern says it’s best to be proactive: “The harm of one incident [of schools spying on students] would be irreparable.”
+While there have been no cases in Rhode Island of school districts using their power to spy on or discipline students, Stern says it’s best to be proactive: “The harm of one incident [of schools spying on students] would be irreparable.”
 
 There is also the privacy of the family to consider: “There are some districts that explicitly say ‘you can use [school-loaned devices] for non-school activities.’” While Providence has not gone that far, Stern says it does not matter, “Even if they don’t say [that families can use school loaned technology for non-academic purposes] it’s probably inevitable that families and students, if they really have to, are going to utilize [those devices].”
 
