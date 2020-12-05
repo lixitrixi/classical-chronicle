@@ -2,11 +2,11 @@
 layout: contributor
 contributorName: B Jewett
 position: Writer
-pronouns: She/Her
+pronouns: They/Them
 grade: 10
 email: benjjewetr@gmail.com
-instagram: burning_bridget
+instagram: diogenes_supremacy
 lastmod: 2020-03-16
 order: 6
 ---
-**Bridget Jewett** is a contributing writer to the *Classical Chronicle*.
+**B Jewett** is a contributing writer to the *Classical Chronicle*.
