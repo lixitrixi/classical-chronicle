@@ -115,13 +115,13 @@ function switchPeriod(timeArr) {
 
 function refreshPeriod(timeArr) {
   document.getElementById("currentPeriodSection").classList.add("out");
-  document.getElementById("nextPeriodSectionWrapper").classList.add("out");
+  document.getElementById("nextPeriodSection").classList.add("out");
   setTimeout(()=>{
     switchPeriod(timeArr);
     setTimeout(()=>{
       document.getElementById("currentPeriodSection").classList.remove("out");
-      document.getElementById("nextPeriodSectionWrapper").classList.remove("out");
-    }, 1500)
+      document.getElementById("nextPeriodSection").classList.remove("out");
+    }, 1000)
   }, 1000)
 }
 

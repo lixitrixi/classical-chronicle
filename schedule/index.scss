@@ -31,11 +31,9 @@ body {
   background-color: #613D8F;
   color: white;
   font-family: "Source Sans Pro", "Source Sans";
-  // width: 375px;
-  // height: 667px;
-  // overflow: hidden;
-  // height: 100vh;
-  // width: 100vw;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
   box-sizing: border-box;
   margin: 0;
 }
@@ -80,12 +78,18 @@ main {
   display: flex;
   flex-direction: column;
   padding: 10px 15px;
+  // max-width: 400px;
   box-sizing: border-box;
   position: fixed;
   top:0;
   left:0;
   right:0;
   bottom:0;
+  align-items: center;
+  div {
+    max-width: 400px;
+    width: 100%;
+  }
 }
 #simTime {
   font-size: 30px;
@@ -160,7 +164,6 @@ main {
   }
   &.out {
     animation: slide-out-in 2s ease;
-    animation-delay: 0.5s;
   }
 }
 #nextPeriod {
