@@ -156,7 +156,7 @@ function tick() {
     setProgress(timeArr, currentPeriod.start, currentPeriod.end);
   }
   else if (currentPeriod.id === "day-start") {
-    document.getElementById("salutationTime").textContent = `${timeLeft(timeArr, currentPeriod.end).allMins} mins left`;
+    document.getElementById("salutationTime").textContent = `${timeLeft(timeArr, currentPeriod.end).allMins} mins`;
   }
 
   let nextPeriod = activePeriods.next;
