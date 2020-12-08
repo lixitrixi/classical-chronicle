@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="index.js" defer></script>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+  </head>
+  <body>
+    <main>
+      <p id="simTime"></p>
+      <div class="nonPeriodText hidden" id="salutationSection">
+        <h1 id="salutationHeader">Good Morning!</h1>
+        <p id="salutationSubtext">Advisory starts in</p>
+        <p id="salutationTime">14 hours</p>
+      </div>
+      <div class="currentPeriodSection" id="currentPeriodSection">
+        <h1 id="currentPeriod">Period 4</h1>
+        <progress id="periodProgress" max="100" value="20"></progress>
+        <p id="currentPeriodSchedule">00:00 - 23:59</p>
+        <p id="currentPeriodLeft">Time Left</p>
+      </div>
+      <div id="nextPeriodSectionWrapper">
+        <div class="nextPeriodSection" id="nextPeriodSection">
+          <h1 id="nextPeriod">Advisory</h1>
+          <p id="nextPeriodIn">IN 14 HOURS</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
