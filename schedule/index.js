@@ -12,11 +12,6 @@ const regular = `[
   {"name":"Period 6", "time":["13:17", "14:11"]}
 ]`
 
-function getTimeArr() {
-  const now = new Date();
-  return [now.getHours(), now.getMinutes()];
-}
-
 const dotw = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 var dailySchedule = null;
@@ -29,38 +24,44 @@ var options = {
   "timeFormat": "24hour" // "12hour" or "24hour"
 }
 
-function startNewDay(now) {
-  dailySchedule = null;
-  dailySchedule = buildSchedule(getDailySchedule(now));
-  activePeriods.day = now.getDay();
-  switchPeriod(getTimeArr());
-}
-
-function init() {
+function getTimeArr() {
   const now = new Date();
-  startNewDay(now);
-  setInterval(tick, 1000)
+  return [now.getHours(), now.getMinutes()];
 }
 
-function getTimeRangeText(period, hour12) {
-  let start, end;
-  if (hour12) {
-    start = [...period.start];
-    if (start[0] > 12) start[0] -= 12;
-    start[1] = String(start[1]).padStart(2, "0");
-    end = [...period.end];
-    if (end[0] > 12) end[0] -= 12;
-    end[1] = String(end[1]).padStart(2, "0");
-    start = start.join(":");
-    end = end.join(":");
+function tick() {
+  if (new Date().getDay() !== activePeriods.day) {
+    startNewDay(new Date())
+    return;
   }
-  else {
-    start = period.start.join(":");
-    end = period.end.join(":");
+  let timeArr = getTimeArr();
+
+  document.getElementById("simTime").textContent = getFormattedTime(timeArr)
+
+  let currentPeriod = activePeriods.current;
+  // Should it be next period?
+  if (currentPeriod.id === "period" || currentPeriod.id === "transition" || currentPeriod.id === "day-start") {
+    if (compareTimeArrs(timeArr, currentPeriod.end) !== -1) {
+      refreshPeriod(timeArr, currentPeriod.id === "day-start", currentPeriod.id === "period")
+      return;
+    }
   }
-  return start + "-" + end
+
+  // currentPeriod
+  if (currentPeriod.id === "period" || currentPeriod.id === "transition") {
+    document.getElementById("currentPeriodLeft").textContent = timeLeftFormatted(timeArr, currentPeriod.end) + " left";
+    setProgress(timeArr, currentPeriod.start, currentPeriod.end);
+  }
+  else if (currentPeriod.id === "day-start") {
+    document.getElementById("salutationTime").textContent = timeLeftFormatted(timeArr, currentPeriod.end) + " left";
+  }
+
+  let nextPeriod = activePeriods.next;
+  // nextPeriod
+  if (nextPeriod.id !== "no-period") document.getElementById("nextPeriodIn").textContent = "In " + timeLeftFormatted(timeArr, nextPeriod.start);
 }
 
+// Tick Accompanying Functions
 function dayStart() {
   document.getElementById("currentPeriodSection").classList.add("hidden");
   document.getElementById("salutationSection").classList.remove("hidden");
@@ -68,7 +69,6 @@ function dayStart() {
   document.getElementById("salutationHeader").textContent = "Good Morning!";
   document.getElementById("salutationSubtext").textContent = "Advisory starts in";
 }
-
 function dayOver() {
   document.getElementById("currentPeriodSection").classList.add("hidden");
   document.getElementById("salutationSection").classList.remove("hidden");
@@ -77,6 +77,8 @@ function dayOver() {
   document.getElementById("salutationSubtext").textContent = "";
   document.getElementById("salutationTime").textContent = "See you tomorrow!";
 }
+
+// Period Shift Function
 
 function switchPeriod(timeArr) {
   let currentPeriod = getCurrentPeriod(dailySchedule, timeArr);
@@ -113,14 +115,35 @@ function switchPeriod(timeArr) {
   tick();
 }
 
-function refreshPeriod(timeArr) {
-  document.getElementById("currentPeriodSection").classList.add("out");
-  document.getElementById("nextPeriodSection").classList.add("out");
+// Display Update Functions
+
+function refreshPeriod(timeArr, dayStart, skipNext) {
+  if (dayStart) {
+    document.getElementById("currentPeriodSection").classList.add("in");
+    document.getElementById("salutationSection").classList.add("out");
+  }
+  else {
+    document.getElementById("currentPeriodSection").classList.add("swap");
+  }
+  if (!skipNext) {
+    document.getElementById("nextPeriodSection").classList.add("swap");
+  }
   setTimeout(()=>{
     switchPeriod(timeArr);
+    if (dayStart) {
+      document.getElementById("salutationTime").classList.add("hidden")
+    }
     setTimeout(()=>{
-      document.getElementById("currentPeriodSection").classList.remove("out");
-      document.getElementById("nextPeriodSection").classList.remove("out");
+      if (dayStart) {
+        document.getElementById("salutationSection").classList.remove("out")
+        document.getElementById("currentPeriodSection").classList.remove("in");
+      }
+      else {
+        document.getElementById("currentPeriodSection").classList.remove("swap");
+      }
+      if (!skipNext) {
+        document.getElementById("nextPeriodSection").classList.remove("swap");
+      }
     }, 1000)
   }, 1000)
 }
@@ -176,22 +199,35 @@ function timeLeft(timeNow, targetTime) {
 function setProgress(timeArr, start, end) {
   let now = new Date();
   let minutePercent = now.getSeconds()/60;
-  let timeTotal = timeLeft(start, end).allMins;
-  let timePassed = timeTotal - timeLeft(timeArr, end).allMins + minutePercent;
+  let timeTotal = timeLeft(start, end);
+  let timePassed = timeTotal - timeLeft(timeArr, end) + minutePercent;
   let percent = (timePassed/timeTotal)*100;
   document.getElementById("periodProgress").setAttribute("value", percent);
 }
-
-function buildSchedule(schedule) {
-  return schedule.map((entry)=>{
-     entry.start = entry.time[0].split(":").map(val=>Number(val));
-     entry.end = entry.time[1].split(":").map(val=>Number(val));
-     delete entry.time;
-     if (entry.subPeriod) entry.subPeriod = buildSchedule(entry.subPeriod);
-    return entry;
-  });
+function getTimeRangeText(period) {
+  return getFormattedTime(period.start) + "-" + getFormattedTime(period.end)
+}
+function getFormattedTime(timeArr) {
+	let hour = timeArr[0];
+	if (options.timeFormat === "12hour" && hour > 12) hour -= 12;
+	return hour + ":" + String(timeArr[1]).padStart(2, "0");
+}
+function timeLeftFormatted(timeNow, targetTime) {
+	let mins = timeLeft(timeNow, targetTime);
+	let hours = Math.floor(mins/60);
+	mins %= 60;
+	if (hours >= 1) {
+		return `${hours} ${hours>1 ? "hours" : "hour"} ${mins} ${mins!==1 ? "mins" : "min"}`
+	}
+	else {
+		return `${mins} ${mins>1 ? "mins" : "min"}`
+	}
 }
 
+// Time Comparison Utilities
+function timeLeft(timeNow, targetTime) {
+  return 60*(targetTime[0] - timeNow[0]) + targetTime[1] - timeNow[1];
+}
 function compareTimeArrs(arr1, arr2) {
   if (arr1[0] < arr2[0]) return -1;
   else if (arr1[0] > arr2[0]) return 1;
@@ -199,13 +235,14 @@ function compareTimeArrs(arr1, arr2) {
   else if (arr1[1] > arr2[1]) return 1;
   else return 0;
 }
-
 function withinTimeRange(timeArr, start, end) {
   if (compareTimeArrs(timeArr, start) !== -1 &&
         compareTimeArrs(timeArr, end) === -1) {
       return true;
   }
 }
+
+// Get Active Periods
 
 function getCurrentPeriod(schedule, timeArr, includeIndex) {
   var obj = {};
@@ -248,7 +285,7 @@ function getNextPeriod(schedule, timeArr) {
   let index = currentPeriod.index + 1;
   if (currentPeriod.id === "transition") index--;
   if (index === schedule.length) {
-    obj.start = schedule[index].end;
+    obj.start = schedule[index-1].end;
     obj.name = "Day End";
     obj.id = "day-end";
   }
@@ -265,6 +302,18 @@ function getNextPeriod(schedule, timeArr) {
   return obj;
 }
 
+// Schedule Generation
+
+function buildSchedule(schedule) {
+  return schedule.map((entry)=>{
+     entry.start = entry.time[0].split(":").map(val=>Number(val));
+     entry.end = entry.time[1].split(":").map(val=>Number(val));
+     delete entry.time;
+     if (entry.subPeriod) entry.subPeriod = buildSchedule(entry.subPeriod);
+    return entry;
+  });
+}
+
 function getDailySchedule() {
   let day = dotw[new Date().getDay()];
   // console.log(day);
@@ -278,6 +327,21 @@ function getDailySchedule() {
     default:
       return JSON.parse(regular);
   }
+}
+
+// Startup and Reset
+
+function startNewDay(now) {
+  dailySchedule = null;
+  dailySchedule = buildSchedule(getDailySchedule(now));
+  activePeriods.day = now.getDay();
+  switchPeriod(getTimeArr());
+}
+
+function init() {
+  const now = new Date();
+  startNewDay(now);
+  setInterval(tick, 1000)
 }
 
 init();

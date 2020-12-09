@@ -64,6 +64,26 @@ body {
     transform: translateY(0px);
   }
 }
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes slide-out {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
 h1 {
   margin-bottom: 8px;
 }
@@ -99,14 +119,20 @@ main {
   top: 10px;
   left: 16px;
 }
+
 .nonPeriodText {
   display: flex;
   align-items: center;
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
+  animation: slide-in 1s ease;
+  animation-fill-mode: backwards;
   &.hidden {
     display: none;
+  }
+  &.out {
+    animation: slide-out 1s ease;
   }
 }
 #salutationHeader {
@@ -130,7 +156,10 @@ main {
   &.hidden {
     display: none;
   }
-  &.out {
+  &.in {
+    animation: slide-in 1s ease;
+  }
+  &.swap {
     animation: slide-out-in 2s ease;
   }
 }
@@ -162,7 +191,7 @@ main {
   &.hidden {
     display: none;
   }
-  &.out {
+  &.swap {
     animation: slide-out-in 2s ease;
   }
 }
