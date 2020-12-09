@@ -26,7 +26,7 @@ var options = {
 
 function getTimeArr() {
   const now = new Date();
-  return [now.getHours(), now.getMinutes()];
+  return [now.getHours()-10, now.getMinutes()-1];
 }
 
 function tick() {
@@ -147,55 +147,6 @@ function refreshPeriod(timeArr, dayStart, skipNext) {
     }, 1000)
   }, 1000)
 }
-
-function tick() {
-  if (new Date().getDay() !== activePeriods.day) {
-    startNewDay(new Date())
-    return;
-  }
-  let timeArr = getTimeArr();
-
-  let simTime = [...timeArr];
-  if (options.timeFormat === '12hour' && simTime[0] > 12) simTime[0] -= 12;
-  simTime[1] = String(simTime[1]).padStart(2, "0");
-  document.getElementById("simTime").textContent = simTime.join(":");
-
-  let currentPeriod = activePeriods.current;
-  // Should it be next period?
-  if (currentPeriod.id === "period" || currentPeriod.id === "transition" || currentPeriod.id === "day-start") {
-    if (compareTimeArrs(timeArr, currentPeriod.end) !== -1) {
-      refreshPeriod(timeArr)
-      return;
-    }
-  }
-
-  // currentPeriod
-  if (currentPeriod.id === "period") {
-    document.getElementById("currentPeriodLeft").textContent = `${timeLeft(timeArr, currentPeriod.end).allMins} mins left`;
-    setProgress(timeArr, currentPeriod.start, currentPeriod.end);
-  }
-  else if (currentPeriod.id === "transition") {
-    document.getElementById("currentPeriodLeft").textContent = `${timeLeft(timeArr, currentPeriod.end).allMins} mins left`;
-    setProgress(timeArr, currentPeriod.start, currentPeriod.end);
-  }
-  else if (currentPeriod.id === "day-start") {
-    document.getElementById("salutationTime").textContent = `${timeLeft(timeArr, currentPeriod.end).allMins} mins`;
-  }
-
-  let nextPeriod = activePeriods.next;
-  // nextPeriod
-  if (nextPeriod.id !== "no-period")
-  document.getElementById("nextPeriodIn").textContent = `In ${timeLeft(timeArr, nextPeriod.start).allMins} mins`;
-}
-
-function timeLeft(timeNow, targetTime) {
-  let obj = {};
-  obj.hours = targetTime[0] - timeNow[0];
-  obj.mins = targetTime[1] - timeNow[1];
-  obj.allMins = obj.hours * 60 + obj.mins;
-  return obj;
-}
-
 function setProgress(timeArr, start, end) {
   let now = new Date();
   let minutePercent = now.getSeconds()/60;
