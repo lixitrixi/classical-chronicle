@@ -5,7 +5,7 @@ author: [Owen Kilcline]
 image: kilclines-50.jpg
 category: "School"
 date: 2020-12-09
-unlisted: true
+unlisted: false
 ---
 Hi, I am Owen Kilcline and I listen to music a lot, so I made a playlist of my favorite songs of all time. All of these songs are from albums I believe to be the best of the best, so I limited myself to one song per album so this playlist wouldn't be 500 songs long. So, if you are interested, have fun listening!
 
