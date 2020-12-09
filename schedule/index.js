@@ -26,7 +26,7 @@ var options = {
 
 function getTimeArr() {
   const now = new Date();
-  return [now.getHours()-10, now.getMinutes()-1];
+  return [now.getHours(), now.getMinutes()];
 }
 
 function tick() {
