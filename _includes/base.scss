@@ -58,6 +58,11 @@ body {
   background-color: #f4f6fa;
   font-family: "Source Sans";
   position: relative;
+  // position: fixed;
+  width: 100vw;
+  height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 main {
   margin: 0px;
