@@ -1,8 +1,8 @@
 ---
 layout: "article"
-title: "Playlists From Your Peers: Kilcline's 51 Top Picks"
+title: "Playlists From Your Peers: Kilcline's 50 Top Picks"
 author: [Owen Kilcline]
-image: kilclines-51.jpg
+image: kilclines-50.jpg
 category: "School"
 date: 2020-12-09
 unlisted: true
@@ -34,4 +34,4 @@ This song is from Car Seat Headrest's sixth studio album: "Twin Fantasy" (2018 v
 
 *Freeee(Ghost Town Pt. 2)* - KIDS SEE GHOSTS
 
-<!--<p class="noindent">Hope you enjoy the playlist! </p>-->
+<p class="noindent" markdown="1">**Hope you enjoy the playlist!**</p>
