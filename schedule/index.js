@@ -11,6 +11,33 @@ const regular = `[
   {"name":"Period 5", "time":["12:21", "13:13"]},
   {"name":"Period 6", "time":["13:17", "14:11"]}
 ]`
+const wednesday = `[
+	{"name":"Advisory", "time":["7:40","7:56"]},
+	{"name":"Period 1", "time":["8:00","8:41"]},
+	{"name":"Period 2", "time":["8:45","9:26"]},
+	{"name":"Period 3", "time":["9:30","10:11"]},
+	{"name":"Period 4", "time":["10:15","10:56"]},
+	{"name":"Period 5", "time":["11:00","12:29"], "subPeriod": [
+		{"name": "A Lunch", "time":["11:00","11:27"]},
+		{"name": "Cleaning", "time":["11:31","11:58"]},
+		{"name": "C Lunch", "time":["12:02","12:29"]}
+	]},
+	{"name":"Period 6", "time":["12:33","13:14"]},
+	{"name":"Advisory", "time":["13:19","14:11"]}
+]`
+const thursday = `[
+	{"name":"Advisory", "time":["7:40", "8:30"]},
+	{"name":"Period 1", "time":["8:34", "9:20"]},
+	{"name":"Period 2", "time":["9:24", "10:10"]},
+	{"name":"Period 3", "time":["10:14", "11:00"]},
+	{"name":"Period 4", "time":["11:04", "12:31"], "subPeriod": [
+		{"name": "A Lunch", "time":["11:04","11:31"]},
+		{"name": "Cleaning", "time":["11:34","12:01"]},
+		{"name": "C Lunch", "time":["12:04","12:31"]}
+	]},
+	{"name":"Period 5", "time":["12:35", "13:21"]},
+	{"name":"Period 6", "time":["13:25", "14:11"]}
+]`
 
 const dotw = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
@@ -270,10 +297,10 @@ function getDailySchedule() {
   // console.log(day);
   switch (day) {
     case "Wednesday":
-      return "Not yet implemented";
+      return JSON.parse(wednesday);
       break;
     case "Thursday":
-      return "Not yet implemented";
+      return JSON.parse(thursday);
       break;
     default:
       return JSON.parse(regular);
