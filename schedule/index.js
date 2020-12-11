@@ -48,7 +48,11 @@ var activePeriods = {
   next: null
 }
 var options = {
-  "timeFormat": "24hour" // "12hour" or "24hour"
+  "timeFormat": "12hour", // "12hour" or "24hour"
+  "lunches": {
+    // "Period 4": "A Lunch",
+    // "Period 5": "A Lunch"
+  }
 }
 
 function getTimeArr() {
@@ -126,6 +130,7 @@ function switchPeriod(timeArr) {
     document.getElementById("currentPeriod").textContent = "Transition";
     document.getElementById("currentPeriod").classList.add("transition");
     document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour");
+    document.getElementById("currentPeriodSubtext").textContent = "➔ " + currentPeriod.before;
   }
   else { // Normal Period
     document.getElementById("salutationSection").classList.add("hidden");
@@ -133,6 +138,20 @@ function switchPeriod(timeArr) {
     document.getElementById("nextPeriodSectionWrapper").classList.remove("hidden");
     document.getElementById("currentPeriod").textContent = currentPeriod.name;
     document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour");
+    if (currentPeriod.sourcePeriod && currentPeriod.name === "Class") {
+      // Maybe show what's happening elsewhere during class (a lunch, transition ➔ a lunch)
+      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.sourcePeriod;
+    }
+    else if (currentPeriod.sourcePeriod && currentPeriod.name === "Lunch") {
+      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.lunchName;
+      // Subtitle for non-class periods (LUNCH)
+    }
+    else if (currentPeriod.sourcePeriod) {
+      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.sourcePeriod;
+    }
+    else {
+      document.getElementById("currentPeriodSubtext").textContent = ""
+    }
   }
 
   // Next Period
@@ -222,20 +241,125 @@ function withinTimeRange(timeArr, start, end) {
 
 // Get Active Periods
 
+function getSubPeriodAlternate(schedule, period, timeArr) {
+  let obj = {};
+  let subPeriod = getCurrentPeriod(period.subPeriod, timeArr);
+  let lunchChosen = !!options.lunches[period.name];
+  if (lunchChosen) {
+    obj.lunchChosen = true;
+    // subPeriod is the chosen lunch
+    if (options.lunches[period.name] === subPeriod.name) {
+      obj.name = "Lunch";
+      obj.lunchName = subPeriod.name;
+      obj.start = subPeriod.start;
+      obj.end = subPeriod.end;
+      obj.sourcePeriod = period.name;
+      obj.id = subPeriod.id;
+    }
+    // subPeriod is not the chosen lunch
+    else {
+      let targetLunchIndex = period.subPeriod.findIndex(sub=>sub.name === options.lunches[period.name]);
+      let targetLunch = period.subPeriod[targetLunchIndex];
+
+      if (subPeriod.id === "transition" && (subPeriod.before === targetLunch.name || subPeriod.after === targetLunch.name)) {
+        obj = {...subPeriod};
+        obj.sourcePeriod = period.name;
+      }
+      else {
+        obj.name = "Class"
+        obj.sourcePeriod = period.name;
+        obj.id = "period";
+        if (compareTimeArrs(timeArr, targetLunch.start) === -1) {
+          obj.start = period.start;
+          obj.end = period.subPeriod[targetLunchIndex-1].end;
+        }
+        if (compareTimeArrs(timeArr, targetLunch.end) === 1) {
+          obj.start = period.subPeriod[targetLunchIndex+1].start;
+          obj.end = period.end;
+        }
+      }
+    }
+
+  }
+  // Lunch isn't chosen
+  else {
+    if (subPeriod.id === "transition") obj.before = subPeriod.before;
+    obj.name = subPeriod.name;
+    obj.start = subPeriod.start;
+    obj.end = subPeriod.end;
+    obj.sourcePeriod = period.name;
+    obj.id = subPeriod.id;
+    obj.lunchChosen = false;
+  }
+  return obj;
+}
+
+// function getSubPeriod(schedule, period, timeArr) {
+//   let obj = {};
+//   let subPeriod = getCurrentPeriod(period.subPeriod, timeArr);
+//   let lunchChosen = !!options.lunches[period.name];
+//   // Lunch is chosen AND the current subPeriod is NOT the chosen lunch
+//   if (lunchChosen && options.lunches[period.name] !== subPeriod.name) {
+//     let targetLunchIndex = period.subPeriod.findIndex(sub=>sub.name === options.lunches[period.name]);
+//
+//     let targetLunch = period.subPeriod[targetLunchIndex];
+//     if (subPeriod.id === "transition" && (subPeriod.before === targetLunch.name || subPeriod.after === targetLunch.name)) {
+//       obj = {...subPeriod};
+//       obj.sourcePeriod = period.name;
+//     }
+//     else {
+//       obj.lunchChosen = true;
+//       obj.name = "Class"
+//       obj.sourcePeriod = period.name;
+//       obj.id = "period";
+//       if (compareTimeArrs(timeArr, targetLunch.start) === -1) {
+//         obj.start = period.start;
+//         obj.end = period.subPeriod[targetLunchIndex-1].end;
+//       }
+//       if (compareTimeArrs(timeArr, targetLunch.end) === 1) {
+//         obj.start = period.subPeriod[targetLunchIndex+1].start;
+//         obj.end = period.end;
+//       }
+//     }
+//   }
+//   // Lunch isn't chosen OR the current subPeriod isn't the chosen lunch
+//   else {
+//     if (subPeriod.id !== "transition") {
+//       obj.name = "Lunch";
+//       obj.lunchName = subPeriod.name;
+//     }
+//     else {
+//       obj.name = subPeriod.name;
+//       obj.before = subPeriod.before;
+//     }
+//     if (lunchChosen) obj.lunchChosen = true;
+//     obj.start = subPeriod.start;
+//     obj.end = subPeriod.end;
+//     obj.sourcePeriod = period.name;
+//     obj.id = subPeriod.id;
+//   }
+//   return obj;
+// }
+
 function getCurrentPeriod(schedule, timeArr, includeIndex) {
   var obj = {};
   var index = 0;
-  let found = dailySchedule.some((period) => {
+  let found = schedule.some((period) => {
     if (index === 0 && compareTimeArrs(timeArr, period.start) === -1) {
       obj.id = "day-start";
       obj.end = period.start;
       return true;
     }
     else if (withinTimeRange(timeArr, period.start, period.end)) {
-      obj.name = period.name;
-      obj.start = period.start;
-      obj.end = period.end;
-      obj.id = "period";
+      if (period.subPeriod) {
+        obj = getSubPeriodAlternate(schedule, period, timeArr);
+      }
+      else {
+        obj.name = period.name;
+        obj.start = period.start;
+        obj.end = period.end;
+        obj.id = "period";
+      }
       return true;
     }
     else if (compareTimeArrs(timeArr, period.start) === -1) {
@@ -261,7 +385,7 @@ function getNextPeriod(schedule, timeArr) {
   let currentPeriod = getCurrentPeriod(schedule, timeArr, true);
   let obj = {};
   let index = currentPeriod.index + 1;
-  if (currentPeriod.id === "transition") index--;
+  if (currentPeriod.id === "transition" && !currentPeriod.sourcePeriod) index--;
   if (index === schedule.length) {
     obj.start = schedule[index-1].end;
     obj.name = "Day End";
@@ -272,7 +396,11 @@ function getNextPeriod(schedule, timeArr) {
   }
   else {
     let period = schedule[index];
-    obj.name = period.name;
+    if (period.name === "Lunch") {
+      if (period.lunchChosen) obj.name = period.lunchName;
+      else obj.name = period.sourcePeriod;
+    }
+    else obj.name = period.name;
     obj.start = period.start;
     obj.end = period.end;
     obj.id = "period";
