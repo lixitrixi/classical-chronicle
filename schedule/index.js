@@ -447,7 +447,20 @@ function startNewDay(now) {
 function init() {
   const now = new Date();
   startNewDay(now);
-  setInterval(tick, 1000)
+  setInterval(tick, 1000);
 }
 
 init();
+
+function attemptToRegisterWorker() {
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/schedule/service-worker.js", {scope:"/schedule/"})
+      .then((registration)=>{
+        console.log("Registration Success!", registration)
+      })
+      .catch(()=>{
+        console.log("bruh")
+      })
+  }
+}
+attemptToRegisterWorker()
