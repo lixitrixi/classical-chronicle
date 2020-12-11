@@ -3,15 +3,27 @@
 {
   "name": "Classical Schedule",
   "short_name": "Schedule",
-  "start_url": "https://{{site.domain}}/schedule/",
+  "start_url": "/schedule/",
   "orientation": "portrait",
   "display":"standalone",
   "theme_color":"#613D8F",
   "background_color":"#613D8F",
   "icons": [
     {
-      "src": "/assets/images/logo.png",
+      "src": "/assets/images/logo128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/logo256.png",
       "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/images/logo512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
