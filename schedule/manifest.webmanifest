@@ -1,6 +1,8 @@
+---
+---
 {
   "name": "Schedule",
-  "start_url": "/schedule/",
+  "start_url": "https://{{site.domain}}/schedule/",
   "orientation": "portrait",
   "display":"standalone"
 }
