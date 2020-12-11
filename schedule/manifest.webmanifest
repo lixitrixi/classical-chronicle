@@ -4,5 +4,6 @@
   "name": "Schedule",
   "start_url": "https://{{site.domain}}/schedule/",
   "orientation": "portrait",
-  "display":"standalone"
+  "display":"standalone",
+  "theme-color":"#613D8F"
 }
