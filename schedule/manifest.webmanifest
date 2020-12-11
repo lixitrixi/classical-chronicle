@@ -1,6 +1,6 @@
 {
   "name": "Schedule",
-  "start_url": "/",
+  "start_url": "/schedule/",
   "orientation": "portrait",
   "display":"standalone"
 }
