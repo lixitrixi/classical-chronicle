@@ -96,14 +96,14 @@ function tick() {
 function dayStart() {
   document.getElementById("currentPeriodSection").classList.add("hidden");
   document.getElementById("salutationSection").classList.remove("hidden");
-  document.getElementById("nextPeriodSectionWrapper").classList.remove("hidden");
+  document.getElementById("nextPeriodSection").classList.remove("hidden");
   document.getElementById("salutationHeader").textContent = "Good Morning!";
   document.getElementById("salutationSubtext").textContent = "Advisory starts in";
 }
 function dayOver() {
   document.getElementById("currentPeriodSection").classList.add("hidden");
   document.getElementById("salutationSection").classList.remove("hidden");
-  document.getElementById("nextPeriodSectionWrapper").classList.add("hidden");
+  document.getElementById("nextPeriodSection").classList.add("hidden");
   document.getElementById("salutationHeader").textContent = "Day's Over!";
   document.getElementById("salutationSubtext").textContent = "";
   document.getElementById("salutationTime").textContent = "See you tomorrow!";
@@ -126,7 +126,7 @@ function switchPeriod(timeArr) {
   else if (currentPeriod.id === 'transition') {
     document.getElementById("salutationSection").classList.add("hidden");
     document.getElementById("currentPeriodSection").classList.remove("hidden");
-    document.getElementById("nextPeriodSectionWrapper").classList.remove("hidden");
+    document.getElementById("nextPeriodSection").classList.remove("hidden");
     document.getElementById("currentPeriod").textContent = "Transition";
     document.getElementById("currentPeriod").classList.add("transition");
     document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour");
@@ -135,7 +135,7 @@ function switchPeriod(timeArr) {
   else { // Normal Period
     document.getElementById("salutationSection").classList.add("hidden");
     document.getElementById("currentPeriodSection").classList.remove("hidden");
-    document.getElementById("nextPeriodSectionWrapper").classList.remove("hidden");
+    document.getElementById("nextPeriodSection").classList.remove("hidden");
     document.getElementById("currentPeriod").textContent = currentPeriod.name;
     document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour");
     if (currentPeriod.sourcePeriod && currentPeriod.name === "Class") {
