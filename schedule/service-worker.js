@@ -9,6 +9,7 @@ let contentToCache = [
   "/schedule/fonts/sourcesans-regular.woff2",
   "/schedule/fonts/sourcesans-semibold.woff2",
 ]
+
 let cacheName = "schedule-cache-v1"
 let contentCache;
 
