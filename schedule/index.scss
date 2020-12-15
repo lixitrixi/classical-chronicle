@@ -2,29 +2,21 @@
 ---
 @font-face {
   font-family: "Source Sans";
-  src: url("/schedule/fonts/sourcesans-regular.woff2") format("woff2"),
-       url("/fonts/sourcesans-regular.woff") format("woff"),
-       url("/fonts/sourcesans-regular.ttf") format("truetype");
+  src: url("/schedule/fonts/sourcesans-regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "Source Sans";
-  src: url("/schedule/fonts/sourcesans-italic.woff2") format("woff2"),
-       url("/fonts/sourcesans-italic.woff") format("woff"),
-       url("/fonts/sourcesans-italic.ttf") format("truetype");
+  src: url("/schedule/fonts/sourcesans-italic.woff2") format("woff2");
   font-style: italic;
 }
 @font-face {
   font-family: "Source Sans";
-  src: url("/schedule/fonts/sourcesans-bold.woff2") format("woff2"),
-       url("/fonts/sourcesans-bold.woff") format("woff"),
-       url("/fonts/sourcesans-bold.ttf") format("truetype");
+  src: url("/schedule/fonts/sourcesans-bold.woff2") format("woff2");
   font-weight: bold;
 }
 @font-face {
   font-family: "Source Sans";
-  src: url("/schedule/fonts/sourcesans-semibold.woff2") format("woff2"),
-       url("/fonts/sourcesans-semibold.woff") format("woff"),
-       url("/fonts/sourcesans-semibold.ttf") format("truetype");
+  src: url("/schedule/fonts/sourcesans-semibold.woff2") format("woff2");
   font-weight: 500;
 }
 body {
