@@ -3,8 +3,7 @@ let contentToCache = [
   "/schedule/index.js",
   "/schedule/index.css",
   "/schedule/",
-  "/schedule/manifest.webmanifest",
-  "favicon.ico"
+  "/schedule/manifest.webmanifest"
 ]
 let cacheName = "schedule-cache-v1"
 let contentCache;
