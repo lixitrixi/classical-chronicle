@@ -3,7 +3,11 @@ let contentToCache = [
   "/schedule/index.js",
   "/schedule/index.css",
   "/schedule/",
-  "/schedule/manifest.webmanifest"
+  "/schedule/manifest.webmanifest",
+  "/schedule/fonts/sourcesans-bold.woff2",
+  "/schedule/fonts/sourcesans-italic.woff2",
+  "/schedule/fonts/sourcesans-regular.woff2",
+  "/schedule/fonts/sourcesans-semibold.woff2",
 ]
 let cacheName = "schedule-cache-v1"
 let contentCache;
@@ -30,10 +34,17 @@ self.addEventListener('activate', (e) => {
 });
 
 self.addEventListener('fetch', async (event)=>{
-  event.respondWith(
-    fetch(event.request)
+  if (event.request.url.endsWith("woff2")) {
+    event.respondWith(
+      contentCache.match(event.request)
+    )
+  }
+  else {
+    event.respondWith(
+      fetch(event.request)
       .catch(()=>{
         return contentCache.match(event.request)
       })
-  )
+    )
+  }
 });
