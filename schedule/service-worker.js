@@ -26,6 +26,7 @@ self.addEventListener('install', (e) => {
 });
 
 self.addEventListener('activate', (e) => {
+    self.registration.unregister()
     console.log('[Service Worker] Activating!');
     e.waitUntil(
       caches.open(cacheName).then((cache) => {

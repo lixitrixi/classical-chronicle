@@ -463,4 +463,4 @@ function attemptToRegisterWorker() {
       })
   }
 }
-attemptToRegisterWorker()
+// attemptToRegisterWorker()
