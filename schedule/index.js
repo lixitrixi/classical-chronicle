@@ -456,10 +456,10 @@ function attemptToRegisterWorker() {
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/schedule/service-worker.js", {scope:"/schedule/"})
       .then((registration)=>{
-        console.log("Registration Success!", registration)
+        console.log("[Service Worker] Registration Success!")
       })
       .catch(()=>{
-        console.log("bruh")
+        console.log("[Service Worker] Registration Failure")
       })
   }
 }
