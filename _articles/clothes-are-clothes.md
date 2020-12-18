@@ -1,13 +1,12 @@
-
 ---
 layout: "article"
 title: "Clothes are Clothes"
 author: ["Henry Wallace"]
-image: "Messages Image(3934968396).png"
-category: "Opinion"
+image: "clothes.png"
+category: "Culture"
+unlisted: true
 date: 2020-12-18
 ---
-
 
 To some, clothes are not perceived as mattering because “they’re just pieces of fabric.” This statement alone has been a great source of annoyance for many people who see themselves as being into fashion and clothing, myself included. In the past it has left me scrambling to explain how they are so much more and why everyone should care about them. I never found that answer, but I did find a different meaning behind that statement, which the person saying it may not have meant: “Clothes are just pieces of fabric.” I, someone who cares deeply about clothes, agree with that. The true meaning of that statement can actually teach you how to dress for yourself. Here's how.
 

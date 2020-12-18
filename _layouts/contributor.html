@@ -58,19 +58,19 @@
             {% endif %}
             {% if article.author contains page.contributorName %}
               {% if article.author.size > 1 %}
-                <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Coauthor</p></div>
+                <div><a href="{{article.url}}">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Coauthor</p></div>
               {% else %}
-                <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Author</p></div>
+                <div><a href="{{article.url}}">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Author</p></div>
               {% endif %}
             {% endif %}
             {% if article.contributors[page.contributorName] %}
-              <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">{{ article.contributors[page.contributorName] }}</p></div>
+              <div><a href="{{article.url}}">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">{{ article.contributors[page.contributorName] }}</p></div>
             {% endif %}
             {% if article.graphic == page.contributorName %}
-              <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Made Graphic</p></div>
+              <div><a href="{{article.url}}">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Made Graphic</p></div>
             {% endif %}
             {% if article.photo == page.contributorName %}
-              <div><a href="#">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Photographer</p></div>
+              <div><a href="{{article.url}}">{{ article.title }}</a><p class="date">{{ article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p><p class="contrib-role">Photographer</p></div>
             {% endif %}
           {% endfor %}
         </div>
