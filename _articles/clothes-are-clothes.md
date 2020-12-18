@@ -4,7 +4,6 @@ title: "Clothes Are Clothes: Dress For Yourself"
 author: ["Henry Wallace"]
 image: "clothes.png"
 category: "Culture"
-unlisted: true
 date: 2020-12-18
 ---
 
