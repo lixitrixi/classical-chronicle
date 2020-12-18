@@ -1,6 +1,6 @@
 ---
 layout: "article"
-title: "Clothes are Clothes"
+title: "Clothes Are Clothes: Dress For Yourself"
 author: ["Henry Wallace"]
 image: "clothes.png"
 category: "Culture"
