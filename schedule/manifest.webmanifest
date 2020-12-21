@@ -10,22 +10,58 @@
   "background_color":"#613D8F",
   "icons": [
     {
-      "src": "/assets/images/logo128.png",
+      "src": "/assets/icons/maskable128.png",
       "sizes": "128x128",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
-      "src": "/assets/images/logo256.png",
+      "src": "/assets/icons/maskable256.png",
       "sizes": "256x256",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
-      "src": "/assets/images/logo512.png",
+      "src": "/assets/icons/maskable512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icons/rounded128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/rounded256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/rounded512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/monochrome128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "/assets/icons/monochrome256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "monochrome"
+    },
+    {
+      "src": "/assets/icons/monochrome512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "monochrome"
     }
   ]
 }
