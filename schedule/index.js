@@ -1,5 +1,5 @@
-const emergencyMaintenence = false;
-const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience.";
+const emergencyMaintenence = false
+const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience."
 const regular = `[
   {"name":"Advisory", "time":["7:40", "7:56"]},
   {"name":"Period 1", "time":["8:00", "8:52"]},
@@ -43,7 +43,7 @@ const thursday = `[
 
 const dotw = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
-var dailySchedule = null;
+var dailySchedule = null
 var activePeriods = {
   day: null,
   current: null,
@@ -58,123 +58,123 @@ var options = {
 }
 
 function getTimeArr() {
-  const now = new Date();
-  return [now.getHours(), now.getMinutes()];
+  const now = new Date()
+  return [now.getHours(), now.getMinutes()]
 }
 
 function tick() {
-  let timeArr = getTimeArr();
+  let timeArr = getTimeArr()
 
   document.getElementById("simTime").textContent = getFormattedTime(timeArr)
 
   if (new Date().getDay() !== activePeriods.day) {
     startNewDay(new Date())
-    return;
+    return
   }
   else if (activePeriods.noSchool) {
-    return;
+    return
   }
 
-  let currentPeriod = activePeriods.current;
+  let currentPeriod = activePeriods.current
   // Should it be next period?
   if (currentPeriod.id === "period" || currentPeriod.id === "transition" || currentPeriod.id === "day-start") {
     if (compareTimeArrs(timeArr, currentPeriod.end) !== -1) {
       refreshPeriod(timeArr, currentPeriod.id === "day-start", currentPeriod.id === "period")
-      return;
+      return
     }
   }
 
   // currentPeriod
   if (currentPeriod.id === "period" || currentPeriod.id === "transition") {
-    document.getElementById("currentPeriodLeft").textContent = timeLeftFormatted(timeArr, currentPeriod.end) + " left";
-    setProgress(timeArr, currentPeriod.start, currentPeriod.end);
+    document.getElementById("currentPeriodLeft").textContent = timeLeftFormatted(timeArr, currentPeriod.end) + " left"
+    setProgress(timeArr, currentPeriod.start, currentPeriod.end)
   }
   else if (currentPeriod.id === "day-start") {
-    document.getElementById("salutationTime").textContent = timeLeftFormatted(timeArr, currentPeriod.end) + " left";
+    document.getElementById("salutationTime").textContent = timeLeftFormatted(timeArr, currentPeriod.end) + " left"
   }
 
-  let nextPeriod = activePeriods.next;
+  let nextPeriod = activePeriods.next
   // nextPeriod
-  if (nextPeriod.id !== "no-period") document.getElementById("nextPeriodIn").textContent = "In " + timeLeftFormatted(timeArr, nextPeriod.start);
+  if (nextPeriod.id !== "no-period") document.getElementById("nextPeriodIn").textContent = "In " + timeLeftFormatted(timeArr, nextPeriod.start)
 }
 
 // Tick Accompanying Functions
 function dayStart() {
-  document.getElementById("currentPeriodSection").classList.add("hidden");
-  document.getElementById("salutationSection").classList.remove("hidden");
-  document.getElementById("nextPeriodSection").classList.remove("hidden");
-  document.getElementById("salutationHeader").textContent = "Good Morning!";
-  document.getElementById("salutationSubtext").textContent = "Advisory starts in";
+  document.getElementById("currentPeriodSection").classList.add("hidden")
+  document.getElementById("salutationSection").classList.remove("hidden")
+  document.getElementById("nextPeriodSection").classList.remove("hidden")
+  document.getElementById("salutationHeader").textContent = "Good Morning!"
+  document.getElementById("salutationSubtext").textContent = "Advisory starts in"
 }
 function dayOver() {
-  document.getElementById("currentPeriodSection").classList.add("hidden");
-  document.getElementById("salutationSection").classList.remove("hidden");
-  document.getElementById("nextPeriodSection").classList.add("hidden");
-  document.getElementById("salutationHeader").textContent = "Day's Over!";
-  document.getElementById("salutationSubtext").textContent = "";
-  document.getElementById("salutationTime").textContent = "See you tomorrow!";
+  document.getElementById("currentPeriodSection").classList.add("hidden")
+  document.getElementById("salutationSection").classList.remove("hidden")
+  document.getElementById("nextPeriodSection").classList.add("hidden")
+  document.getElementById("salutationHeader").textContent = "Day's Over!"
+  document.getElementById("salutationSubtext").textContent = ""
+  document.getElementById("salutationTime").textContent = "See you tomorrow!"
 }
 function weekend() {
-  document.getElementById("currentPeriodSection").classList.add("hidden");
-  document.getElementById("salutationSection").classList.remove("hidden");
-  document.getElementById("nextPeriodSection").classList.add("hidden");
-  document.getElementById("salutationHeader").textContent = "Weekend!";
-  document.getElementById("salutationSubtext").textContent = "";
-  document.getElementById("salutationTime").textContent = "See you next week!";
+  document.getElementById("currentPeriodSection").classList.add("hidden")
+  document.getElementById("salutationSection").classList.remove("hidden")
+  document.getElementById("nextPeriodSection").classList.add("hidden")
+  document.getElementById("salutationHeader").textContent = "Weekend!"
+  document.getElementById("salutationSubtext").textContent = ""
+  document.getElementById("salutationTime").textContent = "See you next week!"
 }
 function maintenence() {
-  document.getElementById("currentPeriodSection").classList.add("hidden");
-  document.getElementById("salutationSection").classList.remove("hidden");
-  document.getElementById("nextPeriodSection").classList.add("hidden");
-  document.getElementById("salutationHeader").textContent = "Maintenence!";
-  document.getElementById("salutationSubtext").textContent = "";
-  document.getElementById("salutationTime").textContent = maintenenceMessage;
+  document.getElementById("currentPeriodSection").classList.add("hidden")
+  document.getElementById("salutationSection").classList.remove("hidden")
+  document.getElementById("nextPeriodSection").classList.add("hidden")
+  document.getElementById("salutationHeader").textContent = "Maintenence!"
+  document.getElementById("salutationSubtext").textContent = ""
+  document.getElementById("salutationTime").textContent = maintenenceMessage
 }
 
 // Period Shift Function
 
 function switchPeriod(timeArr) {
   if (activePeriods.noSchool) {
-    weekend();
-    return;
+    weekend()
+    return
   }
 
-  let currentPeriod = getCurrentPeriod(dailySchedule, timeArr);
-  let nextPeriod = getNextPeriod(dailySchedule, timeArr);
+  let currentPeriod = getCurrentPeriod(dailySchedule, timeArr)
+  let nextPeriod = getNextPeriod(dailySchedule, timeArr)
 
-  activePeriods.current = currentPeriod;
-  activePeriods.next = nextPeriod;
+  activePeriods.current = currentPeriod
+  activePeriods.next = nextPeriod
 
-  document.getElementById("currentPeriod").classList.remove("transition");
+  document.getElementById("currentPeriod").classList.remove("transition")
 
   // Current Period
-  if (currentPeriod.id === 'day-end') dayOver();
-  else if (currentPeriod.id === 'day-start') dayStart();
+  if (currentPeriod.id === 'day-end') dayOver()
+  else if (currentPeriod.id === 'day-start') dayStart()
   else if (currentPeriod.id === 'transition') {
-    document.getElementById("salutationSection").classList.add("hidden");
-    document.getElementById("currentPeriodSection").classList.remove("hidden");
-    document.getElementById("nextPeriodSection").classList.remove("hidden");
-    document.getElementById("currentPeriod").textContent = "Transition";
-    document.getElementById("currentPeriod").classList.add("transition");
-    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour");
-    document.getElementById("currentPeriodSubtext").textContent = "➔ " + currentPeriod.before;
+    document.getElementById("salutationSection").classList.add("hidden")
+    document.getElementById("currentPeriodSection").classList.remove("hidden")
+    document.getElementById("nextPeriodSection").classList.remove("hidden")
+    document.getElementById("currentPeriod").textContent = "Transition"
+    document.getElementById("currentPeriod").classList.add("transition")
+    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour")
+    document.getElementById("currentPeriodSubtext").textContent = "➔ " + currentPeriod.before
   }
   else { // Normal Period
-    document.getElementById("salutationSection").classList.add("hidden");
-    document.getElementById("currentPeriodSection").classList.remove("hidden");
-    document.getElementById("nextPeriodSection").classList.remove("hidden");
-    document.getElementById("currentPeriod").textContent = currentPeriod.name;
-    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour");
+    document.getElementById("salutationSection").classList.add("hidden")
+    document.getElementById("currentPeriodSection").classList.remove("hidden")
+    document.getElementById("nextPeriodSection").classList.remove("hidden")
+    document.getElementById("currentPeriod").textContent = currentPeriod.name
+    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour")
     if (currentPeriod.sourcePeriod && currentPeriod.name === "Class") {
       // Maybe show what's happening elsewhere during class (a lunch, transition ➔ a lunch)
-      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.sourcePeriod;
+      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.sourcePeriod
     }
     else if (currentPeriod.sourcePeriod && currentPeriod.name === "Lunch") {
-      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.lunchName;
+      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.lunchName
       // Subtitle for non-class periods (LUNCH)
     }
     else if (currentPeriod.sourcePeriod) {
-      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.sourcePeriod;
+      document.getElementById("currentPeriodSubtext").textContent = currentPeriod.sourcePeriod
     }
     else {
       document.getElementById("currentPeriodSubtext").textContent = ""
@@ -183,9 +183,9 @@ function switchPeriod(timeArr) {
 
   // Next Period
   if (nextPeriod.id !== 'no-period') {
-    document.getElementById("nextPeriod").textContent = nextPeriod.name;
+    document.getElementById("nextPeriod").textContent = nextPeriod.name
   }
-  tick();
+  tick()
 }
 
 
@@ -193,54 +193,54 @@ function switchPeriod(timeArr) {
 
 function refreshPeriod(timeArr, dayStart, skipNext) {
   if (dayStart) {
-    document.getElementById("currentPeriodSection").classList.add("in");
-    document.getElementById("salutationSection").classList.add("out");
+    document.getElementById("currentPeriodSection").classList.add("in")
+    document.getElementById("salutationSection").classList.add("out")
   }
   else {
-    document.getElementById("currentPeriodSection").classList.add("swap");
+    document.getElementById("currentPeriodSection").classList.add("swap")
   }
   if (!skipNext) {
-    document.getElementById("nextPeriodSection").classList.add("swap");
+    document.getElementById("nextPeriodSection").classList.add("swap")
   }
   setTimeout(()=>{
-    switchPeriod(timeArr);
+    switchPeriod(timeArr)
     if (dayStart) {
       document.getElementById("salutationTime").classList.add("hidden")
     }
     setTimeout(()=>{
       if (dayStart) {
         document.getElementById("salutationSection").classList.remove("out")
-        document.getElementById("currentPeriodSection").classList.remove("in");
+        document.getElementById("currentPeriodSection").classList.remove("in")
       }
       else {
-        document.getElementById("currentPeriodSection").classList.remove("swap");
+        document.getElementById("currentPeriodSection").classList.remove("swap")
       }
       if (!skipNext) {
-        document.getElementById("nextPeriodSection").classList.remove("swap");
+        document.getElementById("nextPeriodSection").classList.remove("swap")
       }
     }, 1000)
   }, 1000)
 }
 function setProgress(timeArr, start, end) {
-  let now = new Date();
-  let minutePercent = now.getSeconds()/60;
-  let timeTotal = timeLeft(start, end);
-  let timePassed = timeTotal - timeLeft(timeArr, end) + minutePercent;
-  let percent = (timePassed/timeTotal)*100;
-  document.getElementById("periodProgress").setAttribute("value", percent);
+  let now = new Date()
+  let minutePercent = now.getSeconds()/60
+  let timeTotal = timeLeft(start, end)
+  let timePassed = timeTotal - timeLeft(timeArr, end) + minutePercent
+  let percent = (timePassed/timeTotal)*100
+  document.getElementById("periodProgress").setAttribute("value", percent)
 }
 function getTimeRangeText(period) {
   return getFormattedTime(period.start) + "-" + getFormattedTime(period.end)
 }
 function getFormattedTime(timeArr) {
-	let hour = timeArr[0];
-	if (options.timeFormat === "12hour" && hour > 12) hour -= 12;
-	return hour + ":" + String(timeArr[1]).padStart(2, "0");
+	let hour = timeArr[0]
+	if (options.timeFormat === "12hour" && hour > 12) hour -= 12
+	return hour + ":" + String(timeArr[1]).padStart(2, "0")
 }
 function timeLeftFormatted(timeNow, targetTime) {
-	let mins = timeLeft(timeNow, targetTime);
-	let hours = Math.floor(mins/60);
-	mins %= 60;
+	let mins = timeLeft(timeNow, targetTime)
+	let hours = Math.floor(mins/60)
+	mins %= 60
 	if (hours >= 1) {
 		return `${hours} ${hours>1 ? "hours" : "hour"} ${mins} ${mins!==1 ? "mins" : "min"}`
 	}
@@ -251,59 +251,59 @@ function timeLeftFormatted(timeNow, targetTime) {
 
 // Time Comparison Utilities
 function timeLeft(timeNow, targetTime) {
-  return 60*(targetTime[0] - timeNow[0]) + targetTime[1] - timeNow[1];
+  return 60*(targetTime[0] - timeNow[0]) + targetTime[1] - timeNow[1]
 }
 function compareTimeArrs(arr1, arr2) {
-  if (arr1[0] < arr2[0]) return -1;
-  else if (arr1[0] > arr2[0]) return 1;
-  else if (arr1[1] < arr2[1]) return -1;
-  else if (arr1[1] > arr2[1]) return 1;
-  else return 0;
+  if (arr1[0] < arr2[0]) return -1
+  else if (arr1[0] > arr2[0]) return 1
+  else if (arr1[1] < arr2[1]) return -1
+  else if (arr1[1] > arr2[1]) return 1
+  else return 0
 }
 function withinTimeRange(timeArr, start, end) {
   if (compareTimeArrs(timeArr, start) !== -1 &&
         compareTimeArrs(timeArr, end) === -1) {
-      return true;
+      return true
   }
 }
 
 // Get Active Periods
 
 function getSubPeriod(schedule, period, timeArr) {
-  let obj = {};
-  let subPeriod = getCurrentPeriod(period.subPeriod, timeArr);
-  let lunchChosen = !!options.lunches[period.name];
+  let obj = {}
+  let subPeriod = getCurrentPeriod(period.subPeriod, timeArr)
+  let lunchChosen = !!options.lunches[period.name]
   if (lunchChosen) {
-    obj.lunchChosen = true;
+    obj.lunchChosen = true
     // subPeriod is the chosen lunch
     if (options.lunches[period.name] === subPeriod.name) {
-      obj.name = "Lunch";
-      obj.lunchName = subPeriod.name;
-      obj.start = subPeriod.start;
-      obj.end = subPeriod.end;
-      obj.sourcePeriod = period.name;
-      obj.id = subPeriod.id;
+      obj.name = "Lunch"
+      obj.lunchName = subPeriod.name
+      obj.start = subPeriod.start
+      obj.end = subPeriod.end
+      obj.sourcePeriod = period.name
+      obj.id = subPeriod.id
     }
     // subPeriod is not the chosen lunch
     else {
-      let targetLunchIndex = period.subPeriod.findIndex(sub=>sub.name === options.lunches[period.name]);
-      let targetLunch = period.subPeriod[targetLunchIndex];
+      let targetLunchIndex = period.subPeriod.findIndex(sub=>sub.name === options.lunches[period.name])
+      let targetLunch = period.subPeriod[targetLunchIndex]
 
       if (subPeriod.id === "transition" && (subPeriod.before === targetLunch.name || subPeriod.after === targetLunch.name)) {
-        obj = {...subPeriod};
-        obj.sourcePeriod = period.name;
+        obj = {...subPeriod}
+        obj.sourcePeriod = period.name
       }
       else {
         obj.name = "Class"
-        obj.sourcePeriod = period.name;
-        obj.id = "period";
+        obj.sourcePeriod = period.name
+        obj.id = "period"
         if (compareTimeArrs(timeArr, targetLunch.start) === -1) {
-          obj.start = period.start;
-          obj.end = period.subPeriod[targetLunchIndex-1].end;
+          obj.start = period.start
+          obj.end = period.subPeriod[targetLunchIndex-1].end
         }
         if (compareTimeArrs(timeArr, targetLunch.end) === 1) {
-          obj.start = period.subPeriod[targetLunchIndex+1].start;
-          obj.end = period.end;
+          obj.start = period.subPeriod[targetLunchIndex+1].start
+          obj.end = period.end
         }
       }
     }
@@ -311,111 +311,111 @@ function getSubPeriod(schedule, period, timeArr) {
   }
   // Lunch isn't chosen
   else {
-    if (subPeriod.id === "transition") obj.before = subPeriod.before;
-    obj.name = subPeriod.name;
-    obj.start = subPeriod.start;
-    obj.end = subPeriod.end;
-    obj.sourcePeriod = period.name;
-    obj.id = subPeriod.id;
-    obj.lunchChosen = false;
+    if (subPeriod.id === "transition") obj.before = subPeriod.before
+    obj.name = subPeriod.name
+    obj.start = subPeriod.start
+    obj.end = subPeriod.end
+    obj.sourcePeriod = period.name
+    obj.id = subPeriod.id
+    obj.lunchChosen = false
   }
-  return obj;
+  return obj
 }
 
 function getCurrentPeriod(schedule, timeArr, includeIndex) {
-  var obj = {};
-  var index = 0;
+  var obj = {}
+  var index = 0
   let found = schedule.some((period) => {
     if (index === 0 && compareTimeArrs(timeArr, period.start) === -1) {
-      obj.id = "day-start";
-      obj.end = period.start;
-      return true;
+      obj.id = "day-start"
+      obj.end = period.start
+      return true
     }
     else if (withinTimeRange(timeArr, period.start, period.end)) {
       if (period.subPeriod) {
-        obj = getSubPeriod(schedule, period, timeArr);
+        obj = getSubPeriod(schedule, period, timeArr)
       }
       else {
-        obj.name = period.name;
-        obj.start = period.start;
-        obj.end = period.end;
-        obj.id = "period";
+        obj.name = period.name
+        obj.start = period.start
+        obj.end = period.end
+        obj.id = "period"
       }
-      return true;
+      return true
     }
     else if (compareTimeArrs(timeArr, period.start) === -1) {
-      obj.id  = "transition";
-      obj.after = schedule[index-1].name;
-      obj.before = schedule[index].name;
-      obj.start = schedule[index-1].end;
-      obj.end = schedule[index].start;
-      return true;
+      obj.id  = "transition"
+      obj.after = schedule[index-1].name
+      obj.before = schedule[index].name
+      obj.start = schedule[index-1].end
+      obj.end = schedule[index].start
+      return true
     }
-    index++;
+    index++
   })
   if (!found) {
     obj.id = "day-end"
     obj.name = "Day End"
-  };
-  if (includeIndex) obj.index = index;
-  if (includeIndex && obj.id === "day-start") obj.index = -1;
-  return obj;
+  }
+  if (includeIndex) obj.index = index
+  if (includeIndex && obj.id === "day-start") obj.index = -1
+  return obj
 }
 
 function getNextPeriod(schedule, timeArr) {
-  let currentPeriod = getCurrentPeriod(schedule, timeArr, true);
-  let obj = {};
-  let index = currentPeriod.index + 1;
-  if (currentPeriod.id === "transition" && !currentPeriod.sourcePeriod) index--;
+  let currentPeriod = getCurrentPeriod(schedule, timeArr, true)
+  let obj = {}
+  let index = currentPeriod.index + 1
+  if (currentPeriod.id === "transition" && !currentPeriod.sourcePeriod) index--
   if (index === schedule.length) {
-    obj.start = schedule[index-1].end;
-    obj.name = "Day End";
-    obj.id = "day-end";
+    obj.start = schedule[index-1].end
+    obj.name = "Day End"
+    obj.id = "day-end"
   }
   else if (index > schedule.length) {
-    obj.id = "no-period";
+    obj.id = "no-period"
   }
   else {
-    let period = schedule[index];
+    let period = schedule[index]
     if (period.name === "Lunch") {
-      if (period.lunchChosen) obj.name = period.lunchName;
-      else obj.name = period.sourcePeriod;
+      if (period.lunchChosen) obj.name = period.lunchName
+      else obj.name = period.sourcePeriod
     }
-    else obj.name = period.name;
-    obj.start = period.start;
-    obj.end = period.end;
-    obj.id = "period";
+    else obj.name = period.name
+    obj.start = period.start
+    obj.end = period.end
+    obj.id = "period"
   }
-  return obj;
+  return obj
 }
 
 // Schedule Generation
 
 function buildSchedule(schedule) {
   return schedule.map((entry)=>{
-     entry.start = entry.time[0].split(":").map(val=>Number(val));
-     entry.end = entry.time[1].split(":").map(val=>Number(val));
-     delete entry.time;
-     if (entry.subPeriod) entry.subPeriod = buildSchedule(entry.subPeriod);
-    return entry;
-  });
+     entry.start = entry.time[0].split(":").map(val=>Number(val))
+     entry.end = entry.time[1].split(":").map(val=>Number(val))
+     delete entry.time
+     if (entry.subPeriod) entry.subPeriod = buildSchedule(entry.subPeriod)
+    return entry
+  })
 }
 
 function getDailySchedule() {
-  let day = dotw[new Date().getDay()];
-  // console.log(day);
+  let day = dotw[new Date().getDay()]
+  // console.log(day)
   switch ("Monday") {
     case "Monday":
     case "Tuesday":
     case "Friday":
-      return JSON.parse(regular);
-      break;
+      return JSON.parse(regular)
+      break
     case "Wednesday":
-      return JSON.parse(wednesday);
-      break;
+      return JSON.parse(wednesday)
+      break
     case "Thursday":
-      return JSON.parse(thursday);
-      break;
+      return JSON.parse(thursday)
+      break
     default:
       return "no-school"
   }
@@ -424,26 +424,26 @@ function getDailySchedule() {
 // Startup and Reset
 
 function startNewDay(now) {
-  dailySchedule = null;
-  let schedule = getDailySchedule(now);
+  dailySchedule = null
+  let schedule = getDailySchedule(now)
   if (schedule !== "no-school") {
-    dailySchedule = buildSchedule(schedule);
-    activePeriods.noSchool = false;
+    dailySchedule = buildSchedule(schedule)
+    activePeriods.noSchool = false
   } else {
-    activePeriods.noSchool = true;
+    activePeriods.noSchool = true
   }
-  activePeriods.day = now.getDay();
-  switchPeriod(getTimeArr());
+  activePeriods.day = now.getDay()
+  switchPeriod(getTimeArr())
 }
 
 function init() {
   if (emergencyMaintenence) {
-    maintenence();
-    return;
+    maintenence()
+    return
   }
-  const now = new Date();
-  startNewDay(now);
-  setInterval(tick, 1000);
+  const now = new Date()
+  startNewDay(now)
+  setInterval(tick, 1000)
 }
 
-init();
+init()
