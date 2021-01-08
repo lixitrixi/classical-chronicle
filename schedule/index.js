@@ -1,3 +1,5 @@
+const emergencyMaintenence = false;
+const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience.";
 const regular = `[
   {"name":"Advisory", "time":["7:40", "7:56"]},
   {"name":"Period 1", "time":["8:00", "8:52"]},
@@ -61,13 +63,17 @@ function getTimeArr() {
 }
 
 function tick() {
+  let timeArr = getTimeArr();
+
+  document.getElementById("simTime").textContent = getFormattedTime(timeArr)
+
   if (new Date().getDay() !== activePeriods.day) {
     startNewDay(new Date())
     return;
   }
-  let timeArr = getTimeArr();
-
-  document.getElementById("simTime").textContent = getFormattedTime(timeArr)
+  else if (activePeriods.noSchool) {
+    return;
+  }
 
   let currentPeriod = activePeriods.current;
   // Should it be next period?
@@ -108,10 +114,31 @@ function dayOver() {
   document.getElementById("salutationSubtext").textContent = "";
   document.getElementById("salutationTime").textContent = "See you tomorrow!";
 }
+function weekend() {
+  document.getElementById("currentPeriodSection").classList.add("hidden");
+  document.getElementById("salutationSection").classList.remove("hidden");
+  document.getElementById("nextPeriodSection").classList.add("hidden");
+  document.getElementById("salutationHeader").textContent = "Weekend!";
+  document.getElementById("salutationSubtext").textContent = "";
+  document.getElementById("salutationTime").textContent = "See you next week!";
+}
+function maintenence() {
+  document.getElementById("currentPeriodSection").classList.add("hidden");
+  document.getElementById("salutationSection").classList.remove("hidden");
+  document.getElementById("nextPeriodSection").classList.add("hidden");
+  document.getElementById("salutationHeader").textContent = "Maintenence!";
+  document.getElementById("salutationSubtext").textContent = "";
+  document.getElementById("salutationTime").textContent = maintenenceMessage;
+}
 
 // Period Shift Function
 
 function switchPeriod(timeArr) {
+  if (activePeriods.noSchool) {
+    weekend();
+    return;
+  }
+
   let currentPeriod = getCurrentPeriod(dailySchedule, timeArr);
   let nextPeriod = getNextPeriod(dailySchedule, timeArr);
 
@@ -160,6 +187,7 @@ function switchPeriod(timeArr) {
   }
   tick();
 }
+
 
 // Display Update Functions
 
@@ -241,7 +269,7 @@ function withinTimeRange(timeArr, start, end) {
 
 // Get Active Periods
 
-function getSubPeriodAlternate(schedule, period, timeArr) {
+function getSubPeriod(schedule, period, timeArr) {
   let obj = {};
   let subPeriod = getCurrentPeriod(period.subPeriod, timeArr);
   let lunchChosen = !!options.lunches[period.name];
@@ -294,53 +322,6 @@ function getSubPeriodAlternate(schedule, period, timeArr) {
   return obj;
 }
 
-// function getSubPeriod(schedule, period, timeArr) {
-//   let obj = {};
-//   let subPeriod = getCurrentPeriod(period.subPeriod, timeArr);
-//   let lunchChosen = !!options.lunches[period.name];
-//   // Lunch is chosen AND the current subPeriod is NOT the chosen lunch
-//   if (lunchChosen && options.lunches[period.name] !== subPeriod.name) {
-//     let targetLunchIndex = period.subPeriod.findIndex(sub=>sub.name === options.lunches[period.name]);
-//
-//     let targetLunch = period.subPeriod[targetLunchIndex];
-//     if (subPeriod.id === "transition" && (subPeriod.before === targetLunch.name || subPeriod.after === targetLunch.name)) {
-//       obj = {...subPeriod};
-//       obj.sourcePeriod = period.name;
-//     }
-//     else {
-//       obj.lunchChosen = true;
-//       obj.name = "Class"
-//       obj.sourcePeriod = period.name;
-//       obj.id = "period";
-//       if (compareTimeArrs(timeArr, targetLunch.start) === -1) {
-//         obj.start = period.start;
-//         obj.end = period.subPeriod[targetLunchIndex-1].end;
-//       }
-//       if (compareTimeArrs(timeArr, targetLunch.end) === 1) {
-//         obj.start = period.subPeriod[targetLunchIndex+1].start;
-//         obj.end = period.end;
-//       }
-//     }
-//   }
-//   // Lunch isn't chosen OR the current subPeriod isn't the chosen lunch
-//   else {
-//     if (subPeriod.id !== "transition") {
-//       obj.name = "Lunch";
-//       obj.lunchName = subPeriod.name;
-//     }
-//     else {
-//       obj.name = subPeriod.name;
-//       obj.before = subPeriod.before;
-//     }
-//     if (lunchChosen) obj.lunchChosen = true;
-//     obj.start = subPeriod.start;
-//     obj.end = subPeriod.end;
-//     obj.sourcePeriod = period.name;
-//     obj.id = subPeriod.id;
-//   }
-//   return obj;
-// }
-
 function getCurrentPeriod(schedule, timeArr, includeIndex) {
   var obj = {};
   var index = 0;
@@ -352,7 +333,7 @@ function getCurrentPeriod(schedule, timeArr, includeIndex) {
     }
     else if (withinTimeRange(timeArr, period.start, period.end)) {
       if (period.subPeriod) {
-        obj = getSubPeriodAlternate(schedule, period, timeArr);
+        obj = getSubPeriod(schedule, period, timeArr);
       }
       else {
         obj.name = period.name;
@@ -423,7 +404,12 @@ function buildSchedule(schedule) {
 function getDailySchedule() {
   let day = dotw[new Date().getDay()];
   // console.log(day);
-  switch (day) {
+  switch ("Monday") {
+    case "Monday":
+    case "Tuesday":
+    case "Friday":
+      return JSON.parse(regular);
+      break;
     case "Wednesday":
       return JSON.parse(wednesday);
       break;
@@ -431,7 +417,7 @@ function getDailySchedule() {
       return JSON.parse(thursday);
       break;
     default:
-      return JSON.parse(regular);
+      return "no-school"
   }
 }
 
@@ -439,28 +425,25 @@ function getDailySchedule() {
 
 function startNewDay(now) {
   dailySchedule = null;
-  dailySchedule = buildSchedule(getDailySchedule(now));
+  let schedule = getDailySchedule(now);
+  if (schedule !== "no-school") {
+    dailySchedule = buildSchedule(schedule);
+    activePeriods.noSchool = false;
+  } else {
+    activePeriods.noSchool = true;
+  }
   activePeriods.day = now.getDay();
   switchPeriod(getTimeArr());
 }
 
 function init() {
+  if (emergencyMaintenence) {
+    maintenence();
+    return;
+  }
   const now = new Date();
   startNewDay(now);
   setInterval(tick, 1000);
 }
 
 init();
-
-function attemptToRegisterWorker() {
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/schedule/service-worker.js", {scope:"/schedule/"})
-      .then((registration)=>{
-        console.log("[Service Worker] Registration Success!")
-      })
-      .catch(()=>{
-        console.log("[Service Worker] Registration Failure")
-      })
-  }
-}
-// attemptToRegisterWorker()
