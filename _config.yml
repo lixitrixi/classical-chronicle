@@ -11,5 +11,7 @@ collections:
 exclude: ["/assets/images/originals", "mockup.ai", "coverimages.ai"]
 kramdown:
   parse_span_html: true
+sass:
+  style: compressed
 future: true
 domain: classicalchronicle.org
