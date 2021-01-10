@@ -404,7 +404,7 @@ function buildSchedule(schedule) {
 function getDailySchedule() {
   let day = dotw[new Date().getDay()]
   // console.log(day)
-  switch ("Monday") {
+  switch (day) {
     case "Monday":
     case "Tuesday":
     case "Friday":
