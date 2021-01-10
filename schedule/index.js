@@ -136,6 +136,7 @@ function maintenence() {
 function switchPeriod(timeArr) {
   if (activePeriods.noSchool) {
     weekend()
+    tick()
     return
   }
 
