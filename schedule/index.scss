@@ -28,6 +28,7 @@ body {
   max-width: 400px;
   box-sizing: border-box;
   margin: 0;
+  overflow: hidden;
 }
 @keyframes pulse {
   from { opacity: 1;}
@@ -220,4 +221,119 @@ progress::-webkit-progress-value {
   border-radius: 6px;
   box-shadow: 0px 1px 3px 0px #fff;
   // transition: width 1s linear;
+}
+
+#menuCheckbox:checked+#hamburgerButton{
+  svg {
+    .top {
+      transform: scaleX(0) translateY(13.5px);
+    }
+    .middle-1 {
+      transform: rotate(45deg);
+    }
+    .middle-2 {
+      transform: rotate(-45deg);
+    }
+    .bottom {
+      transform: scaleX(0) translateY(-13.5px);
+    }
+  }
+}
+#menuCheckbox {
+  display: none;
+}
+#hamburgerButton {
+  position: absolute;
+  display: block;
+  right: 13px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  user-select: all;
+  svg {
+    fill: #C7B8D9;
+    path {
+      transform-origin: center;
+      transition: transform 0.2s ease;
+    }
+  }
+}
+#menuCheckbox:checked~#menu {
+  transform: translateX(0%);
+}
+#menu {
+  z-index: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  overflow: auto;
+  transition: transform 0.25s ease;
+  transform: translateX(-110%);
+  width: 100vw;
+  height: 100vh;
+  left:0px;
+  top:0px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  background-color: #613D8F;
+  box-shadow: 1px 0px 0px 0px #fff;
+  opacity: 1;
+  >p {
+    font-size: 26px;
+    margin: 3px 0px;
+    span {
+      font-weight: bold;
+    }
+  }
+  a {
+    color: #C7B8D9;
+  }
+  h2 {
+    &:first-child {
+      margin-top: 50px;
+    }
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 35px;
+  }
+}
+.lunch-period {
+  display: flex;
+	margin: 10px;
+  align-items: center;
+
+	>p:first-child {
+      margin-right: 30px;
+  }
+  p {
+    margin: 0;
+		color: #C7B8D9;
+		font-size: 30px;
+  }
+	.selected {
+		background-color: #C7B8D9;
+		color: #613D8F;
+    font-size: 40px;
+	}
+  .select {
+    display: flex;
+		p {
+			font-size: 25px;
+			border: 3px solid #C7B8D9;
+			border-right-width: 0px;
+			font-weight: bold;
+			padding: 0px 22px;
+			user-select: none;
+			cursor: pointer;
+      line-height: 30px;
+		}
+		p:first-child {
+			border-radius: 10px 0px 0px 10px;
+		}
+		p:last-child {
+			border-radius: 0px 10px 10px 0px;
+			border-right-width: 3px;
+		}
+  }
 }

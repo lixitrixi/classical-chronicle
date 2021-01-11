@@ -49,23 +49,17 @@ var activePeriods = {
   current: null,
   next: null
 }
-var options = {
-  "timeFormat": "12hour", // "12hour" or "24hour"
-  "lunches": {
-    // "Period 4": "A Lunch",
-    // "Period 5": "A Lunch"
-  }
-}
+var options = {}
 
 function getTimeArr() {
   const now = new Date()
-  return [now.getHours(), now.getMinutes()]
+  return [now.getHours()-11, now.getMinutes()]
 }
 
 function tick() {
   let timeArr = getTimeArr()
 
-  document.getElementById("simTime").textContent = getFormattedTime(timeArr)
+  document.getElementById("simTime").textContent = getFormattedTime(timeArr, true)
 
   if (new Date().getDay() !== activePeriods.day) {
     startNewDay(new Date())
@@ -136,6 +130,7 @@ function maintenence() {
 function switchPeriod(timeArr) {
   if (activePeriods.noSchool) {
     weekend()
+    tick()
     return
   }
 
@@ -156,7 +151,7 @@ function switchPeriod(timeArr) {
     document.getElementById("nextPeriodSection").classList.remove("hidden")
     document.getElementById("currentPeriod").textContent = "Transition"
     document.getElementById("currentPeriod").classList.add("transition")
-    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour")
+    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12")
     document.getElementById("currentPeriodSubtext").textContent = "➔ " + currentPeriod.before
   }
   else { // Normal Period
@@ -164,7 +159,7 @@ function switchPeriod(timeArr) {
     document.getElementById("currentPeriodSection").classList.remove("hidden")
     document.getElementById("nextPeriodSection").classList.remove("hidden")
     document.getElementById("currentPeriod").textContent = currentPeriod.name
-    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour")
+    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12")
     if (currentPeriod.sourcePeriod && currentPeriod.name === "Class") {
       // Maybe show what's happening elsewhere during class (a lunch, transition ➔ a lunch)
       document.getElementById("currentPeriodSubtext").textContent = currentPeriod.sourcePeriod
@@ -232,10 +227,14 @@ function setProgress(timeArr, start, end) {
 function getTimeRangeText(period) {
   return getFormattedTime(period.start) + "-" + getFormattedTime(period.end)
 }
-function getFormattedTime(timeArr) {
+function getFormattedTime(timeArr, shouldUseAMPM) {
 	let hour = timeArr[0]
-	if (options.timeFormat === "12hour" && hour > 12) hour -= 12
-	return hour + ":" + String(timeArr[1]).padStart(2, "0")
+  let ampm = " am"
+	if (options.timeFormat === "12" && hour > 12) {
+    hour -= 12
+    ampm = " pm"
+  }
+	return hour + ":" + String(timeArr[1]).padStart(2, "0") + (options.timeFormat === "12" && shouldUseAMPM ? ampm : "")
 }
 function timeLeftFormatted(timeNow, targetTime) {
 	let mins = timeLeft(timeNow, targetTime)
@@ -404,7 +403,7 @@ function buildSchedule(schedule) {
 function getDailySchedule() {
   let day = dotw[new Date().getDay()]
   // console.log(day)
-  switch ("Monday") {
+  switch (day) {
     case "Monday":
     case "Tuesday":
     case "Friday":
@@ -419,6 +418,103 @@ function getDailySchedule() {
     default:
       return "no-school"
   }
+}
+
+// Settings
+
+function createOption(label, options, callback, selected) {
+	let container = document.createElement("div");
+	container.classList.add("lunch-period");
+	let title = document.createElement("p");
+	title.textContent = label;
+	let select = document.createElement("div");
+	select.classList.add("select");
+	options.forEach((option)=>{
+		let p = document.createElement("p");
+		p.textContent = option;
+		p.addEventListener("click", ()=>{
+			if (p.classList.contains("selected")) {
+				p.classList.remove("selected")
+				callback(option, true);
+			}
+			else {
+				Array.from(p.parentElement.children).forEach((child)=>{child.classList.remove("selected")})
+				p.classList.add("selected")
+				callback(option)
+			}
+		});
+		if (option === selected) p.classList.add("selected");
+		select.appendChild(p);
+	});
+	container.appendChild(title)
+	container.appendChild(select)
+	return container;
+}
+
+// var options = {
+//   "timeFormat": "12", // "12" or "24"
+//   "lunches": {
+//     // "Period 4": "C Lunch",
+//     // "Period 5": "A Lunch"
+//   }
+// }
+
+function settingsSave() {
+  localStorage.options = JSON.stringify(options)
+}
+
+const usingBLunch = false;
+
+function settingsInit() {
+  if (localStorage.options) {
+    let temp = JSON.parse(localStorage.options)
+    if (temp.bLunch !== usingBLunch) {
+      temp.lunches = {}
+      displayLunchChangeNotification()
+      settingsSave()
+    }
+    options = temp
+
+  }
+  else {
+    options = {
+      "timeFormat": "12",
+      "lunches": {},
+      "version": 1,
+      "bLunch": false
+    }
+    settingsSave()
+  }
+  let p4 = createOption("Period 4", ["A", "C"], (option, disable)=>{
+    if (disable) delete options.lunches["Period 4"]
+    else {
+      options.lunches["Period 4"] = option + " Lunch"
+    }
+
+    settingsSave()
+    switchPeriod(getTimeArr())
+  }, (options.lunches["Period 4"]||"").slice(0,1))
+  let p5 = createOption("Period 5", ["A", "C"], (option, disable)=>{
+    if (disable) delete options.lunches["Period 5"]
+    else {
+      options.lunches["Period 5"] = option + " Lunch"
+    }
+    settingsSave()
+    switchPeriod(getTimeArr())
+  }, (options.lunches["Period 5"]||"").slice(0,1))
+  // let timeStyle = createOption("Time Style", ["12", "24"], (option, disable)=>{
+  //   if (disable) delete options.timeFormat
+  //   else {
+  //     options.timeFormat = option
+  //   }
+  //   settingsSave()
+  //   tick()
+  // }, options.timeFormat)
+  let menu = document.getElementById("lunchSelect");
+  menu.appendChild(p4);
+  menu.appendChild(p5);
+  // let generalSettings = document.getElementById("generalSettings");
+  // generalSettings.appendChild(timeStyle)
 }
 
 // Startup and Reset
@@ -442,6 +538,7 @@ function init() {
     return
   }
   const now = new Date()
+  settingsInit()
   startNewDay(now)
   setInterval(tick, 1000)
 }
