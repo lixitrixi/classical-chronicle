@@ -532,17 +532,17 @@ function hideToast() {
 }
 
 const devMode = false
+const devTargetTime = [11,35]
+const targetDay = "Monday";
 var devOffsetHours = 0
 var devOffsetMinutes = 0
 var devDay = false
-var devTargetTime = [11,35]
 if (devMode) {
-  devDay = "Monday"
+  devDay = targetDay;
   let [hours, mins] = getTimeArr()
   devOffsetHours = devTargetTime[0] - hours
   devOffsetMinutes = devTargetTime[1] - mins
-  console.log(devOffsetHours, devOffsetMinutes)
-  console.log(getTimeArr())
+  console.log("Offset:", devOffsetHours, "hours", devOffsetMinutes, "mins" )
 }
 
 // Startup and Reset
