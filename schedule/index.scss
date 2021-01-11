@@ -111,6 +111,9 @@ main {
   position: absolute;
   top: 10px;
   left: 16px;
+  &.devMode {
+    color: lightblue;
+  }
 }
 
 .nonPeriodText {

@@ -545,6 +545,7 @@ function initDevTools() {
   const devBLunch = false
   if (!devMode) return
   if (devMode) {
+    document.getElementById("simTime").classList.add("devMode")
     devDay = targetDay
     if (devBLunch===true) usingBLunch = true
     else if (devBLunch === false) usingBLunch = false
