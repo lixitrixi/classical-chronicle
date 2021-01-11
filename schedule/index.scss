@@ -262,6 +262,42 @@ progress::-webkit-progress-value {
 #menuCheckbox:checked~#menu {
   transform: translateX(0%);
 }
+#toast {
+	max-width: 330px;
+	background-color: white;
+	color: #613D8F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 10px;
+	box-sizing: border-box;
+	border-radius: 8px;
+  position: absolute;
+  margin: 75px 5px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-15px);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  z-index: 1;
+  &.show {
+    opacity: 1;
+    transform: none;
+    pointer-events: all;
+  }
+	p {
+		margin: 0;
+		font-size: 18px;
+    color: #613D8F;
+	}
+	:first-child {
+		margin-right: 10px;
+	}
+	:last-child {
+		padding: 5px 15px;
+		border-left: 2px solid #613D8F;
+		cursor: pointer;
+	}
+}
 #menu {
   z-index: 1;
   -webkit-backdrop-filter: blur(10px);
@@ -323,7 +359,7 @@ progress::-webkit-progress-value {
 			border: 3px solid #C7B8D9;
 			border-right-width: 0px;
 			font-weight: bold;
-			padding: 0px 22px;
+			padding: 0px 19px;
 			user-select: none;
 			cursor: pointer;
       line-height: 30px;

@@ -1,5 +1,6 @@
 const emergencyMaintenence = false
 const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience."
+const usingBLunch = true;
 const regular = `[
   {"name":"Advisory", "time":["7:40", "7:56"]},
   {"name":"Period 1", "time":["8:00", "8:52"]},
@@ -7,7 +8,7 @@ const regular = `[
   {"name":"Period 3", "time":["9:52", "10:44"]},
   {"name":"Period 4", "time":["10:48", "12:17"], "subPeriod": [
     {"name": "A Lunch", "time":["10:48","11:15"]},
-    {"name": "Cleaning", "time":["11:19","11:46"]},
+    {"name": "${usingBLunch ? "B Lunch" : "Cleaning"}", "time":["11:19","11:46"]},
     {"name": "C Lunch", "time":["11:50","12:17"]}
   ]},
   {"name":"Period 5", "time":["12:21", "13:13"]},
@@ -21,7 +22,7 @@ const wednesday = `[
 	{"name":"Period 4", "time":["10:15","10:56"]},
 	{"name":"Period 5", "time":["11:00","12:29"], "subPeriod": [
 		{"name": "A Lunch", "time":["11:00","11:27"]},
-		{"name": "Cleaning", "time":["11:31","11:58"]},
+		{"name": "${usingBLunch ? "B Lunch" : "Cleaning"}", "time":["11:31","11:58"]},
 		{"name": "C Lunch", "time":["12:02","12:29"]}
 	]},
 	{"name":"Period 6", "time":["12:33","13:14"]},
@@ -34,7 +35,7 @@ const thursday = `[
 	{"name":"Period 3", "time":["10:14", "11:00"]},
 	{"name":"Period 4", "time":["11:04", "12:31"], "subPeriod": [
 		{"name": "A Lunch", "time":["11:04","11:31"]},
-		{"name": "Cleaning", "time":["11:34","12:01"]},
+		{"name": "${usingBLunch ? "B Lunch" : "Cleaning"}", "time":["11:34","12:01"]},
 		{"name": "C Lunch", "time":["12:04","12:31"]}
 	]},
 	{"name":"Period 5", "time":["12:35", "13:21"]},
@@ -53,7 +54,7 @@ var options = {}
 
 function getTimeArr() {
   const now = new Date()
-  return [now.getHours(), now.getMinutes()]
+  return [now.getHours()+devOffsetHours, now.getMinutes()+devOffsetMinutes]
 }
 
 function tick() {
@@ -403,7 +404,7 @@ function buildSchedule(schedule) {
 function getDailySchedule() {
   let day = dotw[new Date().getDay()]
   // console.log(day)
-  switch (day) {
+  switch (devDay || day) {
     case "Monday":
     case "Tuesday":
     case "Friday":
@@ -463,17 +464,16 @@ function settingsSave() {
   localStorage.options = JSON.stringify(options)
 }
 
-const usingBLunch = false;
-
 function settingsInit() {
   if (localStorage.options) {
     let temp = JSON.parse(localStorage.options)
     if (temp.bLunch !== usingBLunch) {
       temp.lunches = {}
-      displayLunchChangeNotification()
-      settingsSave()
+      temp.bLunch = usingBLunch
+      showToast("Due to schedule changes, your lunches have been reset.")
     }
     options = temp
+    settingsSave()
 
   }
   else {
@@ -481,11 +481,12 @@ function settingsInit() {
       "timeFormat": "12",
       "lunches": {},
       "version": 1,
-      "bLunch": false
+      "bLunch": usingBLunch
     }
     settingsSave()
   }
-  let p4 = createOption("Period 4", ["A", "C"], (option, disable)=>{
+  const lunches = usingBLunch ? ["A", "B", "C"] : ["A", "C"]
+  let p4 = createOption("Period 4", lunches, (option, disable)=>{
     if (disable) delete options.lunches["Period 4"]
     else {
       options.lunches["Period 4"] = option + " Lunch"
@@ -494,7 +495,7 @@ function settingsInit() {
     settingsSave()
     switchPeriod(getTimeArr())
   }, (options.lunches["Period 4"]||"").slice(0,1))
-  let p5 = createOption("Period 5", ["A", "C"], (option, disable)=>{
+  let p5 = createOption("Period 5", lunches, (option, disable)=>{
     if (disable) delete options.lunches["Period 5"]
     else {
       options.lunches["Period 5"] = option + " Lunch"
@@ -515,6 +516,33 @@ function settingsInit() {
   menu.appendChild(p5);
   // let generalSettings = document.getElementById("generalSettings");
   // generalSettings.appendChild(timeStyle)
+}
+
+// Toast Notification
+
+document.getElementById("toastAccept").addEventListener("click", hideToast);
+
+function showToast(message) {
+  document.getElementById("toastMessage").textContent = message;
+  document.getElementById("toast").classList.add("show");
+}
+
+function hideToast() {
+  document.getElementById("toast").classList.remove("show");
+}
+
+const devMode = false
+var devOffsetHours = 0
+var devOffsetMinutes = 0
+var devDay = false
+var devTargetTime = [11,35]
+if (devMode) {
+  devDay = "Monday"
+  let [hours, mins] = getTimeArr()
+  devOffsetHours = devTargetTime[0] - hours
+  devOffsetMinutes = devTargetTime[1] - mins
+  console.log(devOffsetHours, devOffsetMinutes)
+  console.log(getTimeArr())
 }
 
 // Startup and Reset
