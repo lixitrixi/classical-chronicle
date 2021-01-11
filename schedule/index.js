@@ -1,6 +1,10 @@
 const emergencyMaintenence = false
 const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience."
-const usingBLunch = true;
+var usingBLunch = false
+var devOffsetHours = 0
+var devOffsetMinutes = 0
+var devDay = false
+initDevTools()
 const regular = `[
   {"name":"Advisory", "time":["7:40", "7:56"]},
   {"name":"Period 1", "time":["8:00", "8:52"]},
@@ -424,32 +428,32 @@ function getDailySchedule() {
 // Settings
 
 function createOption(label, options, callback, selected) {
-	let container = document.createElement("div");
-	container.classList.add("lunch-period");
-	let title = document.createElement("p");
-	title.textContent = label;
-	let select = document.createElement("div");
-	select.classList.add("select");
+	let container = document.createElement("div")
+	container.classList.add("lunch-period")
+	let title = document.createElement("p")
+	title.textContent = label
+	let select = document.createElement("div")
+	select.classList.add("select")
 	options.forEach((option)=>{
-		let p = document.createElement("p");
-		p.textContent = option;
+		let p = document.createElement("p")
+		p.textContent = option
 		p.addEventListener("click", ()=>{
 			if (p.classList.contains("selected")) {
 				p.classList.remove("selected")
-				callback(option, true);
+				callback(option, true)
 			}
 			else {
 				Array.from(p.parentElement.children).forEach((child)=>{child.classList.remove("selected")})
 				p.classList.add("selected")
 				callback(option)
 			}
-		});
-		if (option === selected) p.classList.add("selected");
-		select.appendChild(p);
-	});
+		})
+		if (option === selected) p.classList.add("selected")
+		select.appendChild(p)
+	})
 	container.appendChild(title)
 	container.appendChild(select)
-	return container;
+	return container
 }
 
 // var options = {
@@ -511,38 +515,41 @@ function settingsInit() {
   //   settingsSave()
   //   tick()
   // }, options.timeFormat)
-  let menu = document.getElementById("lunchSelect");
-  menu.appendChild(p4);
-  menu.appendChild(p5);
-  // let generalSettings = document.getElementById("generalSettings");
+  let menu = document.getElementById("lunchSelect")
+  menu.appendChild(p4)
+  menu.appendChild(p5)
+  // let generalSettings = document.getElementById("generalSettings")
   // generalSettings.appendChild(timeStyle)
 }
 
 // Toast Notification
 
-document.getElementById("toastAccept").addEventListener("click", hideToast);
+document.getElementById("toastAccept").addEventListener("click", hideToast)
 
 function showToast(message) {
-  document.getElementById("toastMessage").textContent = message;
-  document.getElementById("toast").classList.add("show");
+  document.getElementById("toastMessage").textContent = message
+  document.getElementById("toast").classList.add("show")
 }
 
 function hideToast() {
-  document.getElementById("toast").classList.remove("show");
+  document.getElementById("toast").classList.remove("show")
 }
 
-const devMode = false
-const devTargetTime = [11,35]
-const targetDay = "Monday";
-var devOffsetHours = 0
-var devOffsetMinutes = 0
-var devDay = false
-if (devMode) {
-  devDay = targetDay;
-  let [hours, mins] = getTimeArr()
-  devOffsetHours = devTargetTime[0] - hours
-  devOffsetMinutes = devTargetTime[1] - mins
-  console.log("Offset:", devOffsetHours, "hours", devOffsetMinutes, "mins" )
+function initDevTools() {
+  const devMode = false
+  const devTargetTime = [11,35]
+  const targetDay = "Monday"
+  const devBLunch = false
+  if (!devMode) return
+  if (devMode) {
+    devDay = targetDay
+    if (devBLunch==="yes") usingBLunch = true
+    else if (devBLunch==="no") usingBLunch = false
+    let [hours, mins] = getTimeArr()
+    devOffsetHours = devTargetTime[0] - hours
+    devOffsetMinutes = devTargetTime[1] - mins
+    console.log("Offset:", devOffsetHours, "hours", devOffsetMinutes, "mins" )
+  }
 }
 
 // Startup and Reset
