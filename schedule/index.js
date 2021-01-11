@@ -1,10 +1,13 @@
+
 const emergencyMaintenence = false
 const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience."
 var usingBLunch = false
+
 var devOffsetHours = 0
 var devOffsetMinutes = 0
 var devDay = false
 initDevTools()
+
 const regular = `[
   {"name":"Advisory", "time":["7:40", "7:56"]},
   {"name":"Period 1", "time":["8:00", "8:52"]},
@@ -471,7 +474,7 @@ function settingsSave() {
 function settingsInit() {
   if (localStorage.options) {
     let temp = JSON.parse(localStorage.options)
-    if (temp.bLunch !== usingBLunch) {
+    if (temp.bLunch !== usingBLunch && Object.keys(temp.lunches).length !== 0) {
       temp.lunches = {}
       temp.bLunch = usingBLunch
       showToast("Due to schedule changes, your lunches have been reset.")
@@ -543,8 +546,8 @@ function initDevTools() {
   if (!devMode) return
   if (devMode) {
     devDay = targetDay
-    if (devBLunch==="yes") usingBLunch = true
-    else if (devBLunch==="no") usingBLunch = false
+    if (devBLunch===true) usingBLunch = true
+    else if (devBLunch === false) usingBLunch = false
     let [hours, mins] = getTimeArr()
     devOffsetHours = devTargetTime[0] - hours
     devOffsetMinutes = devTargetTime[1] - mins
