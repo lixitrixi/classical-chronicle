@@ -53,7 +53,7 @@ var options = {}
 
 function getTimeArr() {
   const now = new Date()
-  return [now.getHours()-11, now.getMinutes()]
+  return [now.getHours(), now.getMinutes()]
 }
 
 function tick() {
