@@ -449,3 +449,8 @@ function init() {
 }
 
 init()
+
+fetch("/analytics/increment_user", {
+  "method": "POST",
+  "body": window.location.pathname
+})
