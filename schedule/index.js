@@ -410,12 +410,12 @@ function buildSchedule(schedule) {
 
 function getDailySchedule() {
   let day = dotw[new Date().getDay()]
-  // console.log(day)
   switch (devDay || day) {
     case "Monday":
     case "Tuesday":
     case "Wednesday":
     case "Friday":
+    case "Wednesday":
       return JSON.parse(regular)
       break
     case "Wednesday Schedule Disabled :(":
