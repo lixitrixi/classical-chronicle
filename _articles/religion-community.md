@@ -5,7 +5,6 @@ author: ["Kiley Bramson"]
 image: "Religion Article Image.png"
 category: "Opinion"
 date: 2021-01-13
-unlisted: true
 ---
 
 Without in-person classes last spring, many of us felt lost and struggled to connect with our communities. However, my Jewish youth group has stayed very active through Zoom over the past ten months. I believe that there are so many lessons that can be applied to distance learning from how communities have come together through these tough times.
