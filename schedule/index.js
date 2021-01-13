@@ -409,9 +409,10 @@ function getDailySchedule() {
     case "Monday":
     case "Tuesday":
     case "Friday":
+    case "Wednesday":
       return JSON.parse(regular)
       break
-    case "Wednesday":
+    case "Wednesday Schedule Disabled :(":
       return JSON.parse(wednesday)
       break
     case "Thursday":
