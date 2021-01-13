@@ -20,12 +20,34 @@
     <link rel="apple-touch-icon" href="/assets/images/favicon.png">
   </head>
   <body>
+    <input type="checkbox" id="menuCheckbox">
+    <label id="hamburgerButton" for="menuCheckbox">
+      <svg viewBox="0 0 44 35" class="hamburger">
+        <path d="M0 0h44v7H0V0" class="top"/>
+        <path d="M0 14h44v7H0v-7" class="middle-1"/>
+        <path d="M0 14h44v7H0v-7" class="middle-2"/>
+        <path d="M0 28h44v7H0z" class="bottom"/>
+      </svg>
+    </label>
+    <div id="toast">
+    	<p id="toastMessage">Due to schedule changes, your selected lunch has been reset.</p>
+    	<p id="toastAccept">OK</p>
+    </div>
+    <div id="menu">
+      <h2>Lunch Period</h2>
+      <div id="lunchSelect"></div>
+      <h2>General</h2>
+      <div id="generalSettings"></div>
+      <h2>About</h2>
+      <p>Created By: <span>Luke Taylor</span></p>
+      <p><a href="mailto:luke@bigring.org" target="_blank" rel="noopener">Contact Me</a></p>
+    </div>
     <main>
       <p id="simTime"></p>
       <div class="nonPeriodText hidden" id="salutationSection">
-        <h1 id="salutationHeader">Good Morning!</h1>
-        <p id="salutationSubtext">Advisory starts in</p>
-        <p id="salutationTime">14 hours</p>
+        <h1 id="salutationHeader">Error!</h1>
+        <p id="salutationSubtext"></p>
+        <p id="salutationTime">There's been an error in the app, please report this bug.</p>
       </div>
       <div class="currentPeriodSection hidden" id="currentPeriodSection">
         <h1 id="currentPeriod">Period 4</h1>
@@ -41,5 +63,6 @@
         </div>
       </div>
     </main>
+    <script> </script>
   </body>
 </html>

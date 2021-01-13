@@ -1,5 +1,13 @@
+
 const emergencyMaintenence = false
 const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience."
+var usingBLunch = true
+
+var devOffsetHours = 0
+var devOffsetMinutes = 0
+var devDay = false
+initDevTools()
+
 const regular = `[
   {"name":"Advisory", "time":["7:40", "7:56"]},
   {"name":"Period 1", "time":["8:00", "8:52"]},
@@ -7,7 +15,7 @@ const regular = `[
   {"name":"Period 3", "time":["9:52", "10:44"]},
   {"name":"Period 4", "time":["10:48", "12:17"], "subPeriod": [
     {"name": "A Lunch", "time":["10:48","11:15"]},
-    {"name": "Cleaning", "time":["11:19","11:46"]},
+    {"name": "${usingBLunch ? "B Lunch" : "Cleaning"}", "time":["11:19","11:46"]},
     {"name": "C Lunch", "time":["11:50","12:17"]}
   ]},
   {"name":"Period 5", "time":["12:21", "13:13"]},
@@ -21,7 +29,7 @@ const wednesday = `[
 	{"name":"Period 4", "time":["10:15","10:56"]},
 	{"name":"Period 5", "time":["11:00","12:29"], "subPeriod": [
 		{"name": "A Lunch", "time":["11:00","11:27"]},
-		{"name": "Cleaning", "time":["11:31","11:58"]},
+		{"name": "${usingBLunch ? "B Lunch" : "Cleaning"}", "time":["11:31","11:58"]},
 		{"name": "C Lunch", "time":["12:02","12:29"]}
 	]},
 	{"name":"Period 6", "time":["12:33","13:14"]},
@@ -34,7 +42,7 @@ const thursday = `[
 	{"name":"Period 3", "time":["10:14", "11:00"]},
 	{"name":"Period 4", "time":["11:04", "12:31"], "subPeriod": [
 		{"name": "A Lunch", "time":["11:04","11:31"]},
-		{"name": "Cleaning", "time":["11:34","12:01"]},
+		{"name": "${usingBLunch ? "B Lunch" : "Cleaning"}", "time":["11:34","12:01"]},
 		{"name": "C Lunch", "time":["12:04","12:31"]}
 	]},
 	{"name":"Period 5", "time":["12:35", "13:21"]},
@@ -49,23 +57,17 @@ var activePeriods = {
   current: null,
   next: null
 }
-var options = {
-  "timeFormat": "12hour", // "12hour" or "24hour"
-  "lunches": {
-    // "Period 4": "A Lunch",
-    // "Period 5": "A Lunch"
-  }
-}
+var options = {}
 
 function getTimeArr() {
   const now = new Date()
-  return [now.getHours(), now.getMinutes()]
+  return [now.getHours()+devOffsetHours, now.getMinutes()+devOffsetMinutes]
 }
 
 function tick() {
   let timeArr = getTimeArr()
 
-  document.getElementById("simTime").textContent = getFormattedTime(timeArr)
+  document.getElementById("simTime").textContent = getFormattedTime(timeArr, true)
 
   if (new Date().getDay() !== activePeriods.day) {
     startNewDay(new Date())
@@ -157,7 +159,7 @@ function switchPeriod(timeArr) {
     document.getElementById("nextPeriodSection").classList.remove("hidden")
     document.getElementById("currentPeriod").textContent = "Transition"
     document.getElementById("currentPeriod").classList.add("transition")
-    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour")
+    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12")
     document.getElementById("currentPeriodSubtext").textContent = "➔ " + currentPeriod.before
   }
   else { // Normal Period
@@ -165,7 +167,7 @@ function switchPeriod(timeArr) {
     document.getElementById("currentPeriodSection").classList.remove("hidden")
     document.getElementById("nextPeriodSection").classList.remove("hidden")
     document.getElementById("currentPeriod").textContent = currentPeriod.name
-    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12hour")
+    document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(currentPeriod, options.timeFormat === "12")
     if (currentPeriod.sourcePeriod && currentPeriod.name === "Class") {
       // Maybe show what's happening elsewhere during class (a lunch, transition ➔ a lunch)
       document.getElementById("currentPeriodSubtext").textContent = currentPeriod.sourcePeriod
@@ -233,10 +235,14 @@ function setProgress(timeArr, start, end) {
 function getTimeRangeText(period) {
   return getFormattedTime(period.start) + "-" + getFormattedTime(period.end)
 }
-function getFormattedTime(timeArr) {
+function getFormattedTime(timeArr, shouldUseAMPM) {
 	let hour = timeArr[0]
-	if (options.timeFormat === "12hour" && hour > 12) hour -= 12
-	return hour + ":" + String(timeArr[1]).padStart(2, "0")
+  let ampm = " am"
+	if (options.timeFormat === "12" && hour > 12) {
+    hour -= 12
+    ampm = " pm"
+  }
+	return hour + ":" + String(timeArr[1]).padStart(2, "0") + (options.timeFormat === "12" && shouldUseAMPM ? ampm : "")
 }
 function timeLeftFormatted(timeNow, targetTime) {
 	let mins = timeLeft(timeNow, targetTime)
@@ -404,10 +410,10 @@ function buildSchedule(schedule) {
 
 function getDailySchedule() {
   let day = dotw[new Date().getDay()]
-  // console.log(day)
-  switch (day) {
+  switch (devDay || day) {
     case "Monday":
     case "Tuesday":
+    case "Wednesday":
     case "Friday":
     case "Wednesday":
       return JSON.parse(regular)
@@ -420,6 +426,161 @@ function getDailySchedule() {
       break
     default:
       return "no-school"
+  }
+}
+
+// Settings
+
+function createSVG(viewBox, paths) {
+  let ns = "http://www.w3.org/2000/svg"
+  let svg = document.createElementNS(ns, "svg")
+  svg.setAttributeNS(null, "viewBox", viewBox)
+  paths.forEach((path)=>{
+    let pathElem = document.createElementNS(ns, "path")
+    pathElem.setAttributeNS(null, "d", path)
+    svg.appendChild(pathElem)
+  })
+  return svg
+}
+
+function createCheckbox(label, callback, selected) {
+	let container = document.createElement("div")
+	container.classList.add("checkbox")
+  let checkbox = document.createElement("div")
+  checkbox.appendChild(createSVG("0 0 24 24",["M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z"]))
+  if (selected) checkbox.classList.add("selected")
+  container.addEventListener("click", ()=>{
+    callback(!checkbox.classList.contains("selected"))
+    checkbox.classList.toggle("selected")
+  })
+
+	let title = document.createElement("p")
+	title.textContent = label
+	container.appendChild(checkbox)
+  container.appendChild(title)
+	return container
+}
+
+function createOption(label, options, callback, selected) {
+	let container = document.createElement("div")
+	container.classList.add("lunch-period")
+	let title = document.createElement("p")
+	title.textContent = label
+	let select = document.createElement("div")
+	select.classList.add("select")
+	options.forEach((option)=>{
+		let p = document.createElement("p")
+		p.textContent = option
+		p.addEventListener("click", ()=>{
+			if (p.classList.contains("selected")) {
+				p.classList.remove("selected")
+				callback(option, true)
+			}
+			else {
+				Array.from(p.parentElement.children).forEach((child)=>{child.classList.remove("selected")})
+				p.classList.add("selected")
+				callback(option)
+			}
+		})
+		if (option === selected) p.classList.add("selected")
+		select.appendChild(p)
+	})
+	container.appendChild(title)
+	container.appendChild(select)
+	return container
+}
+
+// var options = {
+//   "timeFormat": "12", // "12" or "24"
+//   "lunches": {
+//     // "Period 4": "C Lunch",
+//     // "Period 5": "A Lunch"
+//   }
+// }
+
+function settingsSave() {
+  localStorage.options = JSON.stringify(options)
+}
+
+function settingsInit() {
+  if (localStorage.options) {
+    let temp = JSON.parse(localStorage.options)
+    if (temp.bLunch !== usingBLunch && Object.keys(temp.lunches).length !== 0) {
+      temp.lunches = {}
+      temp.bLunch = usingBLunch
+      showToast("Due to schedule changes, your lunches have been reset.")
+    }
+    options = temp
+    settingsSave()
+
+  }
+  else {
+    options = {
+      "timeFormat": "12",
+      "lunches": {},
+      "version": 1,
+      "bLunch": usingBLunch
+    }
+    settingsSave()
+  }
+  const lunches = usingBLunch ? ["A", "B", "C"] : ["A", "C"]
+  let p4 = createOption("Period 4", lunches, (option, disable)=>{
+    if (disable) delete options.lunches["Period 4"]
+    else {
+      options.lunches["Period 4"] = option + " Lunch"
+    }
+
+    settingsSave()
+    switchPeriod(getTimeArr())
+  }, (options.lunches["Period 4"]||"").slice(0,1))
+  let p5 = createOption("Period 5", lunches, (option, disable)=>{
+    if (disable) delete options.lunches["Period 5"]
+    else {
+      options.lunches["Period 5"] = option + " Lunch"
+    }
+    settingsSave()
+    switchPeriod(getTimeArr())
+  }, (options.lunches["Period 5"]||"").slice(0,1))
+  let timeStyle = createCheckbox("24-Hour Time", (is24Hour)=>{
+    options.timeFormat = is24Hour ? "24" : "12"
+    tick()
+    settingsSave()
+  }, options.timeFormat === "24")
+  let menu = document.getElementById("lunchSelect")
+  menu.appendChild(p4)
+  menu.appendChild(p5)
+  let generalSettings = document.getElementById("generalSettings")
+  generalSettings.appendChild(timeStyle)
+}
+
+// Toast Notification
+
+document.getElementById("toastAccept").addEventListener("click", hideToast)
+
+function showToast(message) {
+  document.getElementById("toastMessage").textContent = message
+  document.getElementById("toast").classList.add("show")
+}
+
+function hideToast() {
+  document.getElementById("toast").classList.remove("show")
+}
+
+function initDevTools() {
+  const devMode = false
+  const devTargetTime = [10,50]
+  const targetDay = "Monday"
+  const devBLunch = null
+  if (!devMode) return
+  if (devMode) {
+    document.getElementById("simTime").classList.add("devMode")
+    devDay = targetDay
+    if (devBLunch===true) usingBLunch = true
+    else if (devBLunch === false) usingBLunch = false
+    let [hours, mins] = getTimeArr()
+    devOffsetHours = devTargetTime[0] - hours
+    devOffsetMinutes = devTargetTime[1] - mins
+    console.log("Offset:", devOffsetHours, "hours", devOffsetMinutes, "mins" )
   }
 }
 
@@ -444,6 +605,7 @@ function init() {
     return
   }
   const now = new Date()
+  settingsInit()
   startNewDay(now)
   setInterval(tick, 1000)
 }
