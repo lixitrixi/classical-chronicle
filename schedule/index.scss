@@ -93,6 +93,8 @@ main {
   padding: 10px 15px;
   // max-width: 400px;
   box-sizing: border-box;
+  height: 100vh;
+  height: -webkit-fill-available;
   position: fixed;
   top:0;
   left:0;
@@ -303,9 +305,7 @@ progress::-webkit-progress-value {
 }
 #menu {
   z-index: 1;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  position: fixed;
+  position: absolute;
   overflow: auto;
   transition: transform 0.25s ease;
   transform: translateX(-110%);
@@ -337,6 +337,29 @@ progress::-webkit-progress-value {
     font-size: 35px;
   }
 }
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  div {
+    width: 22px;
+    height: 22px;
+    border: 3px solid #C7B8D9;
+    border-radius: 8px;
+    margin-right: 14px;
+    transition: background-color 0.15s ease;
+    svg {
+        fill: #613D8F;
+    }
+    &.selected {
+      background-color: #C7B8D9;
+    }
+  }
+  p {
+    font-size: 25px;
+    margin:0;
+  }
+}
 .lunch-period {
   display: flex;
 	margin: 10px;
@@ -349,6 +372,7 @@ progress::-webkit-progress-value {
     margin: 0;
 		color: #C7B8D9;
 		font-size: 30px;
+    transition: background-color 0.15s ease, color 0.15s ease;
   }
 	.selected {
 		background-color: #C7B8D9;

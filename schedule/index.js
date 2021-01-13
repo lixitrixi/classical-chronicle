@@ -1,7 +1,7 @@
 
 const emergencyMaintenence = false
 const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience."
-var usingBLunch = false
+var usingBLunch = true
 
 var devOffsetHours = 0
 var devOffsetMinutes = 0
@@ -414,10 +414,11 @@ function getDailySchedule() {
   switch (devDay || day) {
     case "Monday":
     case "Tuesday":
+    case "Wednesday":
     case "Friday":
       return JSON.parse(regular)
       break
-    case "Wednesday":
+    case "Wednesday Schedule Disabled :(":
       return JSON.parse(wednesday)
       break
     case "Thursday":
@@ -429,6 +430,36 @@ function getDailySchedule() {
 }
 
 // Settings
+
+function createSVG(viewBox, paths) {
+  let ns = "http://www.w3.org/2000/svg"
+  let svg = document.createElementNS(ns, "svg")
+  svg.setAttributeNS(null, "viewBox", viewBox)
+  paths.forEach((path)=>{
+    let pathElem = document.createElementNS(ns, "path")
+    pathElem.setAttributeNS(null, "d", path)
+    svg.appendChild(pathElem)
+  })
+  return svg
+}
+
+function createCheckbox(label, callback, selected) {
+	let container = document.createElement("div")
+	container.classList.add("checkbox")
+  let checkbox = document.createElement("div")
+  checkbox.appendChild(createSVG("0 0 24 24",["M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z"]))
+  if (selected) checkbox.classList.add("selected")
+  container.addEventListener("click", ()=>{
+    callback(!checkbox.classList.contains("selected"))
+    checkbox.classList.toggle("selected")
+  })
+
+	let title = document.createElement("p")
+	title.textContent = label
+	container.appendChild(checkbox)
+  container.appendChild(title)
+	return container
+}
 
 function createOption(label, options, callback, selected) {
 	let container = document.createElement("div")
@@ -510,19 +541,16 @@ function settingsInit() {
     settingsSave()
     switchPeriod(getTimeArr())
   }, (options.lunches["Period 5"]||"").slice(0,1))
-  // let timeStyle = createOption("Time Style", ["12", "24"], (option, disable)=>{
-  //   if (disable) delete options.timeFormat
-  //   else {
-  //     options.timeFormat = option
-  //   }
-  //   settingsSave()
-  //   tick()
-  // }, options.timeFormat)
+  let timeStyle = createCheckbox("24-Hour Time", (is24Hour)=>{
+    options.timeFormat = is24Hour ? "24" : "12"
+    tick()
+    settingsSave()
+  }, options.timeFormat === "24")
   let menu = document.getElementById("lunchSelect")
   menu.appendChild(p4)
   menu.appendChild(p5)
-  // let generalSettings = document.getElementById("generalSettings")
-  // generalSettings.appendChild(timeStyle)
+  let generalSettings = document.getElementById("generalSettings")
+  generalSettings.appendChild(timeStyle)
 }
 
 // Toast Notification
@@ -540,9 +568,9 @@ function hideToast() {
 
 function initDevTools() {
   const devMode = false
-  const devTargetTime = [11,35]
+  const devTargetTime = [10,50]
   const targetDay = "Monday"
-  const devBLunch = false
+  const devBLunch = null
   if (!devMode) return
   if (devMode) {
     document.getElementById("simTime").classList.add("devMode")
