@@ -37,7 +37,7 @@ After hearing about JFK Jr’s death on the news, Mr. Marino and some friends we
 
 “As we came off the beach, the reporters mobbed us.”
 
-Experts say JFK Jr’s death could be attributed to pilot error, and that he should not have been flying the plane with as little experience as he had. Said Michael Marino to the Washington Post that day, “It [did] seem it was terribly risky.”
+Experts say JFK Jr’s death could be attributed to pilot error, and that he should not have been flying the plane with as little experience as he had. Said Michael Marino to the [Washington Post](https://www.washingtonpost.com/wp-srv/national/longterm/jfkjr/stories/vineyard071899.htm) that day, “It [did] seem it was terribly risky.”
 Mr. Marino’s compassion and professionalism are widely known around Classical.
 
 “He helps me out even though he’s not my assigned assistant principal,” Milly Asherov, Junior Class Senator admires, “he’s always super friendly in the halls and looking out for me.”
