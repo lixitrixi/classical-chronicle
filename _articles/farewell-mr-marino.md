@@ -24,6 +24,9 @@ Ms. McCabe noted that many of the administrators she knows once worked at Esek H
 
 He also worked as a vice principal at Gilbert Stuart Middle School and Central High School before coming to Classical.
 
+![Mr Marino](/assets/images/"Mr Marino")
+<span>Mr. Marino</span>
+
 Mr. Marino’s claim to fame is his 1999 interview with various media outlets about his experience being close to the tragic death of John F. Kennedy Jr., son of the 35th President of the United States. JFK Jr. crashed his plane into the ocean near Martha’s Vineyard on July 16th, 1999, where Mr. Marino was vacationing at the time.
 
 “I’ll never forget that day,” Michael Marino said to me, “we happened to be [on that beach], it happened to be the beach we go to.”
