@@ -7,7 +7,7 @@ category: "School"
 unlisted: true
 date: 2021-01-14
 contributors: Nick Griffin, Yousef Nagib
-photo by: Amelia Ross
+photographer: Amelia Ross
 ---
 
 Friday is vice principal Michael Marino’s last day at Classical. The district transferred him to Mount Pleasant High School as part of a program to help improve test scores at multiple high schools. Mr. Marino has been at Classical over five years, and serves as the primary administrator for the 10th grade and part of the 9th grade. Many students, teachers, and community members are deeply saddened by the news of his departure, and will remember him fondly.
@@ -18,8 +18,9 @@ As vice principal, Mr. Marino positively influenced many students and commanded 
 
 “He has earned the respect of faculty,” explained Mr. Zanfagna, who has taught AP Euro and Contemporary US History for about as long as Mr. Marino has been at Classical. “I have known him to be a constant professional: positive and understanding. Mount Pleasant will be lucky to have him.”
 
-	Mr. Marino graduated from North Providence High School before attending Rhode Island College, where he earned his B.S. in Mathematics. He went on to Providence College, where he got a degree in Secondary Administration. He got a job as a Math teacher at Esek Hopkins, where he met Classical High School English teacher Ms. McCabe.
-	Ms. McCabe noted that many of the administrators she knows once worked at Esek Hopkins.
+Mr. Marino graduated from North Providence High School before attending Rhode Island College, where he earned his B.S. in Mathematics. He went on to Providence College, where he got a degree in Secondary Administration. He got a job as a Math teacher at Esek Hopkins, where he met Classical High School English teacher Ms. McCabe.
+
+Ms. McCabe noted that many of the administrators she knows once worked at Esek Hopkins.
 
 He also worked as a vice principal at Gilbert Stuart Middle School and Central High School before coming to Classical.
 
