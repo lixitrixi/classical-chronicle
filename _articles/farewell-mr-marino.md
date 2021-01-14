@@ -6,8 +6,10 @@ image: "mr-marino-cover.jpg"
 category: "School"
 unlisted: false
 date: 2021-01-14
-contributors: Nick Griffin, Yousef Nagib
-photographer: Amelia Ross
+contributors:
+  Nick Griffin: Interviewer
+  Yousef Nagib: Interviewer
+photo: Amelia Ross
 ---
 
 Friday is vice principal Michael Marino’s last day at Classical. The district transferred him to Mount Pleasant High School as part of a program to help improve test scores at multiple high schools. Mr. Marino has been at Classical over five years, and serves as the primary administrator for the 10th grade and part of the 9th grade. Many students, teachers, and community members are deeply saddened by the news of his departure, and will remember him fondly.
