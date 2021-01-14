@@ -2,7 +2,7 @@
 layout: "article"
 title: "A Farewell to Mr. Marino"
 author: ["Simon Carr"]
-image: "Mr. Marino.png"
+image: "marino-title-header"
 category: "School"
 unlisted: true
 date: 2021-01-14
