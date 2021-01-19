@@ -8,6 +8,7 @@ var devOffsetMinutes = 0
 var devDay = false
 initDevTools()
 
+const demo = `[{"name":"Whole Day", "time":["7:40", "14:11"]}]`
 const regular = `[
   {"name":"Advisory", "time":["7:40", "7:56"]},
   {"name":"Period 1", "time":["8:00", "8:52"]},
@@ -408,14 +409,18 @@ function buildSchedule(schedule) {
   })
 }
 
+function getFormattedDate() {
+  return `${new Date().getFullYear()}-${String(new Date().getMonth()+1).padStart(2,"0")}-${String(new Date().getDate()).padStart(2,"0")}`
+}
+
 function getDailySchedule() {
   let day = dotw[new Date().getDay()]
+  if (scheduleOverrides[getFormattedDate()]) return JSON.parse(scheduleOverrides[getFormattedDate()]);
   switch (devDay || day) {
     case "Monday":
     case "Tuesday":
     case "Wednesday":
     case "Friday":
-    case "Wednesday":
       return JSON.parse(regular)
       break
     case "Wednesday Schedule Disabled :(":
@@ -566,9 +571,9 @@ function hideToast() {
   document.getElementById("toast").classList.remove("show")
 }
 
-function initDevTools() {
-  const devMode = false
-  const devTargetTime = [10,50]
+function initDevTools(consoleRun, targetTime) {
+  const devMode = consoleRun || false
+  const devTargetTime = targetTime || [11,35]
   const targetDay = "Monday"
   const devBLunch = null
   if (!devMode) return
@@ -608,6 +613,12 @@ function init() {
   settingsInit()
   startNewDay(now)
   setInterval(tick, 1000)
+}
+
+const scheduleOverrides = {
+  // "2021-01-19": demo,
+  "2021-01-20": thursday,
+  "2021-01-21": regular
 }
 
 init()
