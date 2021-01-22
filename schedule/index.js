@@ -573,7 +573,7 @@ function hideToast() {
 }
 
 function initDevTools(consoleRun, targetTime) {
-  const devMode = consoleRun || true
+  const devMode = consoleRun || false
   const devTargetTime = targetTime || [13,35]
   const targetDay = "Monday"
   const devBLunch = null
