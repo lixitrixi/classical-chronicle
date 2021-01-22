@@ -549,6 +549,7 @@ function settingsInit() {
   let timeStyle = createCheckbox("24-Hour Time", (is24Hour)=>{
     options.timeFormat = is24Hour ? "24" : "12"
     tick()
+    if (activePeriods.current.id === "period" || activePeriods.current.id === "transition") document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(activePeriods.current, options.timeFormat === "12")
     settingsSave()
   }, options.timeFormat === "24")
   let menu = document.getElementById("lunchSelect")
@@ -572,8 +573,8 @@ function hideToast() {
 }
 
 function initDevTools(consoleRun, targetTime) {
-  const devMode = consoleRun || false
-  const devTargetTime = targetTime || [11,35]
+  const devMode = consoleRun || true
+  const devTargetTime = targetTime || [13,35]
   const targetDay = "Monday"
   const devBLunch = null
   if (!devMode) return
@@ -582,9 +583,10 @@ function initDevTools(consoleRun, targetTime) {
     devDay = targetDay
     if (devBLunch===true) usingBLunch = true
     else if (devBLunch === false) usingBLunch = false
+    const now = new Date()
     let [hours, mins] = getTimeArr()
-    devOffsetHours = devTargetTime[0] - hours
-    devOffsetMinutes = devTargetTime[1] - mins
+    devOffsetHours = devTargetTime[0] - now.getHours()
+    devOffsetMinutes = devTargetTime[1] - now.getMinutes()
     console.log("Offset:", devOffsetHours, "hours", devOffsetMinutes, "mins" )
   }
 }
