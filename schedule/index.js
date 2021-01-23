@@ -549,7 +549,8 @@ function settingsInit() {
   let timeStyle = createCheckbox("24-Hour Time", (is24Hour)=>{
     options.timeFormat = is24Hour ? "24" : "12"
     tick()
-    if (activePeriods.current.id === "period" || activePeriods.current.id === "transition") document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(activePeriods.current, options.timeFormat === "12")
+    let currentPeriod = activePeriods.current || {}
+    if (currentPeriod.id === "period" || currentPeriod.id === "transition") document.getElementById("currentPeriodSchedule").textContent = getTimeRangeText(activePeriods.current, options.timeFormat === "12")
     settingsSave()
   }, options.timeFormat === "24")
   let menu = document.getElementById("lunchSelect")
@@ -574,8 +575,8 @@ function hideToast() {
 
 function initDevTools(consoleRun, targetTime) {
   const devMode = consoleRun || false
-  const devTargetTime = targetTime || [13,35]
-  const targetDay = "Monday"
+  const devTargetTime = targetTime || [6,01]
+  const targetDay = "Saturday"
   const devBLunch = null
   if (!devMode) return
   if (devMode) {
