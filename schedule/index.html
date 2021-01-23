@@ -45,7 +45,7 @@
     </div>
     <main>
       <p id="simTime"></p>
-      <div class="nonPeriodText hidden" id="salutationSection">
+      <div class="nonPeriodText" id="salutationSection">
         <h1 id="salutationHeader">Error!</h1>
         <p id="salutationSubtext"></p>
         <p id="salutationTime">There's been an error in the app, please report this bug.</p>
@@ -64,6 +64,13 @@
         </div>
       </div>
     </main>
-    <script> </script>
+    <script>
+      if (window.document.documentMode) { // Internet Explorer
+        console.log("Internet Explorer detected")
+        document.getElementById("salutationHeader").textContent = "Unsupported Browser!"
+        document.getElementById("salutationSubtext").textContent = ""
+        document.getElementById("salutationTime").textContent = "Please use a newer browser like Chrome, Firefox, or Edge!"
+      }
+    </script>
   </body>
 </html>
