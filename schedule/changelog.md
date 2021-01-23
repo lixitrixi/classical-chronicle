@@ -24,4 +24,4 @@ Features
  - Messages for before school, after school, and the weekend.
  Dev Tools
  - Allow date schedule overrides.
- - Emergency maintenance messages supported
+ - Emergency maintenance messages supported.
