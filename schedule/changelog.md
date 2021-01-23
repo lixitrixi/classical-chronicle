@@ -23,5 +23,5 @@ Features
  - Switch between 12-hour time and 24-hour time.
  - Messages for before school, after school, and the weekend.
  Dev Tools
- - Allow date schedule overrides
+ - Allow date schedule overrides.
  - Emergency maintenance messages supported
