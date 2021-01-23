@@ -3,10 +3,10 @@
 
 # 1.0.2
 Bug Fixes
- - Add notice about Internet Explorer not being supported
- - Time change not working on the weekend
+ - Add notice about Internet Explorer not being supported.
+ - Time change not working on the weekend.
  - Allow error text to display when the JavaScript doesn't load.
- - Improve time format checkbox UX
+ - Improve time format checkbox UX.
 
 # 1.0.1
 Bug Fixes
