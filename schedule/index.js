@@ -93,7 +93,7 @@ function tick() {
     setProgress(timeArr, currentPeriod.start, currentPeriod.end)
   }
   else if (currentPeriod.id === "day-start") {
-    document.getElementById("salutationTime").textContent = timeLeftFormatted(timeArr, currentPeriod.end) + " left"
+    document.getElementById("salutationTime").textContent = timeLeftFormatted(timeArr, currentPeriod.end)
   }
 
   let nextPeriod = activePeriods.next
@@ -575,8 +575,8 @@ function hideToast() {
 
 function initDevTools(consoleRun, targetTime) {
   const devMode = consoleRun || false
-  const devTargetTime = targetTime || [6,01]
-  const targetDay = "Saturday"
+  const devTargetTime = targetTime || [7,30]
+  const targetDay = "Monday"
   const devBLunch = null
   if (!devMode) return
   if (devMode) {

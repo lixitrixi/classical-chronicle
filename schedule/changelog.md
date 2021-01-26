@@ -1,6 +1,10 @@
 ---
 ---
 
+# 1.0.3
+Bug Fixes
+ - Change text from: "Advisory starts in 10 mins left" to grammatically correct "Advisory starts in 10 mins"
+
 # 1.0.2
 Bug Fixes
  - Add notice about Internet Explorer not being supported.
