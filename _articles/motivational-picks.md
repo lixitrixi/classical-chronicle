@@ -34,7 +34,7 @@ If you know me at all, you knew that Kanye was going to end up in my personal fa
 
 This song is a disastrous celebration of who he is, and that’s what makes it so good. It’s a plea to himself to be comfortable in his own skin. The song ends with a, stay with me now, three minute long autotuned mess of Kanye humming and mumbling into a microphone supported by an orchestra. Now, I know that sounds really really weird but, trust me on this, listen, and you will get why it is so good.
 
-## All Caps - <span style="font-weight:normal">MF DOOM</span>
+## All Caps - <span style="font-weight:normal">MF DOOM (RIP)</span>
 
 MF DOOM was one of the most gifted rappers/lyricists/MCs/people that have ever stepped on this planet. While he does have a fantastic discography, the best way to get into his music is listening to his Madlib-produced masterpiece, Madvillainy. All Caps is a trip through all of DOOM’s usual tricks. His voice, his production, his lyricism, and his artistry all shine through on this track, with his witty wordplay and the way he plays around the beat standing out the most to me. When listening to anything by MF DOOM, I suggest pulling up the lyrics of the song you’re listening to. It’s really mind-blowing to see how fantastic he was at wordplay, delivery, and style. Not to mention the fact that one of the greatest hip hop producers of all time. Madlib also produced this track along with all of Madvillain MF DOOM tragically left us on October 31st, 2020, but the legacy he left behind is easily one of the greatest discographies of any hip hop artist.
 
