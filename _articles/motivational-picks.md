@@ -5,7 +5,6 @@ author: [Owen Kilcline]
 image: motivational-picks.jpg
 category: "School"
 date: 2021-02-12
-unlisted: false
 ---
 Hello, I’m Owen Kilcline once again, and these are my top 50 motivational songs.
 
