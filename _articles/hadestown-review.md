@@ -5,7 +5,6 @@ author: ["Zoe Cute"]
 image: "hadestown.jpg"
 category: "Culture"
 date: 2021-03-01
-unlisted: true
 ---
 
 Even if you aren’t a Broadway fan, you’ll find plenty of reasons to love Hadestown. It began in 2006 as a concept album by award-winning songwriter Anaïs Mitchell, and after being developed into a musical gradually grew and made its way to Broadway in 2019. The story combines the ancient Greek myth of Orpheus and Eurydice with Hades and Persephone and retells them with exceptional nuance and depth. I believe Hadestown does absolutely everything right, beginning with the story adaptation.
