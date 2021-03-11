@@ -1,5 +1,10 @@
 ---
 ---
+# 1.0.4
+Bug Fixes
+ - Fix 12 hour clock weirdness:
+    - 12 (12:00 in 24 hour time) should be pm, not am
+    - 12 (0:00 in 24 hour time) should be 12, not 0
 
 # 1.0.3
 Bug Fixes
@@ -14,8 +19,9 @@ Bug Fixes
 
 # 1.0.1
 Bug Fixes
- - Fix period range time format discrepancies when changing time formats.
-Dev Tools
+ - Fix period range time format discrepancies when changing time formats.  
+ 
+Dev Tools  
  - Fix issue with repeated dev time changing.
 
 # 1.0.0

@@ -239,9 +239,10 @@ function getTimeRangeText(period) {
 function getFormattedTime(timeArr, shouldUseAMPM) {
 	let hour = timeArr[0]
   let ampm = " am"
-	if (options.timeFormat === "12" && hour > 12) {
-    hour -= 12
-    ampm = " pm"
+  if (options.timeFormat === "12") {
+    if (hour >= 12) ampm = " pm"
+    if (hour == 0) hour = 12
+    if (hour > 12) hour -= 12
   }
 	return hour + ":" + String(timeArr[1]).padStart(2, "0") + (options.timeFormat === "12" && shouldUseAMPM ? ampm : "")
 }
