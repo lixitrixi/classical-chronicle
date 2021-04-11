@@ -1,6 +1,7 @@
 
 const emergencyMaintenence = false
-const maintenenceMessage = "We are working on adding the new schedule; apologies for any inconvenience."
+const maintenenceHeader = "Testing Day!"
+const maintenenceMessage = "This Tuesday and Wednesday have non-standard schedules for PSAT/SAT testing."
 var usingBLunch = true
 
 var devOffsetHours = 0
@@ -129,7 +130,7 @@ function maintenence() {
   document.getElementById("currentPeriodSection").classList.add("hidden")
   document.getElementById("salutationSection").classList.remove("hidden")
   document.getElementById("nextPeriodSection").classList.add("hidden")
-  document.getElementById("salutationHeader").textContent = "Maintenence!"
+  document.getElementById("salutationHeader").textContent = maintenenceHeader
   document.getElementById("salutationSubtext").textContent = ""
   document.getElementById("salutationTime").textContent = maintenenceMessage
 }
@@ -244,6 +245,7 @@ function getFormattedTime(timeArr, shouldUseAMPM) {
     if (hour == 0) hour = 12
     if (hour > 12) hour -= 12
   }
+
 	return hour + ":" + String(timeArr[1]).padStart(2, "0") + (options.timeFormat === "12" && shouldUseAMPM ? ampm : "")
 }
 function timeLeftFormatted(timeNow, targetTime) {
