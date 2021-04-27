@@ -622,7 +622,9 @@ function init() {
 
 const scheduleOverrides = {
   // "2021-01-19": demo,
-  "2021-03-16": thursday
+  "2021-03-16": thursday,
+  "2021-04-28": regular,
+  "2021-04-29": regular
 }
 
 init()
