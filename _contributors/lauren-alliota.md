@@ -1,6 +1,6 @@
 ---
 layout: contributor
-contributorName: Lauren Alliota
+contributorName: Lauren Aliotta
 position: Writer
 pronouns: She/Her
 grade: 11
