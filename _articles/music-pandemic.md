@@ -3,6 +3,7 @@ layout: "article"
 title: "What Music Means in a Pandemic"
 author: ["Lauren Aliotta"]
 category: "Culture"
+image: music-in-pandemic.jpg
 date: 2021-04-29
 unlisted: true
 ---
