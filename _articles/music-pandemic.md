@@ -5,7 +5,6 @@ author: ["Lauren Aliotta"]
 category: "Culture"
 image: music-in-pandemic.jpg
 date: 2021-04-29
-unlisted: true
 ---
 For the past year, society has seemed to have hit the pause button on normality, forcing us to enter into a new era. Each day is a constant cycle that consists of Zoom meetings and computer screens that has outlived the hopeful attitudes of people believing that these times will soon end and normal life will begin again. Every day is just as isolated as the last, and staring at everyone’s name in their own little box during Zoom calls has gotten more and more dismal.
 
