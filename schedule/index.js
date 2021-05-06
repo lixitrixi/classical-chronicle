@@ -1,5 +1,5 @@
 
-const emergencyMaintenence = true
+const emergencyMaintenence = false
 const maintenenceHeader = "Unknown Schedule!"
 const maintenenceMessage = "Not sure if today is an advisory schedule but I'll find out in a few mins!"
 var usingBLunch = true
@@ -426,10 +426,10 @@ function getDailySchedule() {
       return JSON.parse(regular)
       break
     case "Wednesday":
-      return JSON.parse(regular)
+      return JSON.parse(wednesday)
       break
     case "Thursday":
-      return JSON.parse(regular)
+      return JSON.parse(thursday)
       break
     default:
       return "no-school"
