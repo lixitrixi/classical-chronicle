@@ -1,7 +1,7 @@
 
-const emergencyMaintenence = false
-const maintenenceHeader = "Testing Day!"
-const maintenenceMessage = "This Tuesday and Wednesday have non-standard schedules for PSAT/SAT testing."
+const emergencyMaintenence = true
+const maintenenceHeader = "Unknown Schedule!"
+const maintenenceMessage = "Not sure if today is an advisory schedule but I'll find out in a few mins!"
 var usingBLunch = true
 
 var devOffsetHours = 0
