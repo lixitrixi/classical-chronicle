@@ -426,7 +426,7 @@ function getDailySchedule() {
       return JSON.parse(regular)
       break
     case "Wednesday":
-      return JSON.parse(wednesday)
+      return JSON.parse(regular)
       break
     case "Thursday":
       return JSON.parse(thursday)
