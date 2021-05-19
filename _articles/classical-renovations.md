@@ -5,7 +5,6 @@ author: [Simon Carr]
 image: classical-renovation-cover.jpg
 category: "School"
 date: 2021-05-19
-unlisted: true
 ---
 
 ![Architect's classroom mockup](/assets/images/classroom-mockup.png)
