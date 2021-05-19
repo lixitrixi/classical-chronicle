@@ -57,7 +57,7 @@ main {
     color: #7c4cba;
     font-weight: 500;
     text-decoration: none;
-    word-break: break-all;
+    word-break: break-word;
     &:hover {
       text-decoration: underline;
     }
