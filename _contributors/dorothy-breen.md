@@ -1,10 +1,10 @@
 ---
 layout: contributor
 contributorName: Dorothy Breen
-position: Editor
+position: Writer and Editor
 pronouns: She/Her
 grade: 11
-lastmod: 2020-06-04
+lastmod: 2021-05-20
 order: 5
 hide_contributions: true
 ---
