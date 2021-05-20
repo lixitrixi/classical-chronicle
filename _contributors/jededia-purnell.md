@@ -5,6 +5,6 @@ position: Writer
 pronouns: He/Him
 grade: 11
 lastmod: 2020-07-05
-order: 8
+order: 10
 ---
 **Jededia Purnell** is a contributing writer to the *Classical Chronicle*.
