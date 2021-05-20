@@ -5,7 +5,6 @@ author: [Nick Griffin, Simon Carr, Dorothy Breen]
 image: infante-green-resignation-cover.jpg
 category: "Opinion"
 date: 2021-05-20
-unlisted: true
 ---
 
 On Wednesday, State Education Commissioner Angelica Infante-Green asked PPSD Superintendent Harrison Peters to resign. This was seen as the natural end to a scandal surrounding network superintendent of secondary schools Dr. Olayinka Alege, who was recently charged with assaulting a minor. Infante-Green was joined by Mayor Jorge Elorza (‘94) who said the decision was also in part a result of Peters’ failure to adequately turn around Providence Schools.
