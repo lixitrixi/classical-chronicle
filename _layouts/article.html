@@ -72,6 +72,19 @@
         <p>This article originally appeared in the <i>Newspaper Name</i> before its merge into the <i>Classical Chronicle</i>. <a href="/article/newspaper-name-merge">Read about it</a></p>
       </div>
       {% endif %}
+      {% if page.adaptedFrom %}
+      <div class="banner migrated">
+        <div class="initial">
+          <svg viewBox="2 2 20 20" width="32px" height="32px">
+              <path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z"/>
+          </svg>
+          <p>This article was <span>adapted</span> from an article in <span>{{ page.adaptedFrom }}</span>.</p>
+          <label for="adapted-banner">Read More</label>
+        </div>
+        <input type="checkbox" id="adapted-banner">
+        <p>This article originally appeared in <i>{{ page.adaptedFrom }}</i>. <a href="{{ page.adaptedLink }}">See the original</a></p>
+      </div>
+      {% endif %}
       {% if page.updated %}
       <div class="banner updated">
   			<div class="initial">
