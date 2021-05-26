@@ -6,8 +6,8 @@ image: ""
 category: "Opinion"
 date: 2021-05-25
 unlisted: true
-adaptedFrom: Newspaper Name
-adaptedLink: https://newspaper.example.com/article/path
+adaptedFrom: Uprise RI
+adaptedLink: https://upriseri.com/daniel-mckee-sros-providence-alliance-for-student-safety/
 ---
 Since the mid-90s, the Providence Public School Department (PPSD) has employed Student Resource Officers (SROs), which has resulted in hundreds of students being arrested and criminalized. Governor McKee recently met with the Providence Alliance for Student Safety, a youth-led coalition of multiple organizations fighting for the removal of SROs, to discuss their potential removal.
 
@@ -17,7 +17,7 @@ The call was full of students currently enrolled in Providence schools who prese
 
 This concern about SROs is widespread among PPSD students. In a survey of these students conducted by the Center for Youth and Community Leadership in Education (CYCLE) which was presented to the governor, 50% or more disagreed with the statement “I feel safe with SROs in schools,” and over 70% disagreed with the statement “I am comfortable with SROs having guns in my school.”
 
-The role of SROs in disciplining students is unclear, because there is no set of guidelines specifying how they are supposed to respond. Often SROs are used to threaten students when they’re misbehaving. Whether or not a minor behavioral issue leads to a referral to a guidance counselor or an arrest frequently comes down to race and ethnicity.
+The role of SROs in disciplining students is unclear, because there is no set of guidelines specifying how they are supposed to respond. Sometimes SROs are used to threaten students when they’re misbehaving. Whether or not a minor behavioral issue leads to a referral to a guidance counselor or an arrest frequently comes down to race and ethnicity.
 
 Black students especially are overrepresented in arrest data. From 2016-2020, Black students made up 30% of all arrests despite making up only 16% of the student population, a trend common in arrest data across the nation.
 
