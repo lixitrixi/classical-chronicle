@@ -2,7 +2,7 @@
 layout: "article"
 title: "Governor McKee Believes Student Resource Officers are Needed. Here’s Why He’s Wrong. "
 author: [Damon Drury]
-image: ""
+image: "mckee-sros-resignation-image.jpg"
 category: "Opinion"
 date: 2021-05-25
 unlisted: true
