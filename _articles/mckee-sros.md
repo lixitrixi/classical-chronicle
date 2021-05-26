@@ -1,6 +1,6 @@
 ---
 layout: "article"
-title: "Governor McKee Believes Student Resource Officers are Needed, Here’s Why He’s Wrong "
+title: "Governor McKee Believes Student Resource Officers are Needed. Here’s Why He’s Wrong. "
 author: [Damon Drury]
 image: ""
 category: "Opinion"
