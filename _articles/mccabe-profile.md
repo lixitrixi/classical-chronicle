@@ -4,7 +4,7 @@ title: "Teacher Profile: Olwyn McCabe"
 author: ["Demi Egunjobi"]
 image: "mccabe-profile-image.jpg"
 category: "Community"
-unlisted: false
+unlisted: true
 date: 2021-06-02
 photo: Janae Moore
 ---
