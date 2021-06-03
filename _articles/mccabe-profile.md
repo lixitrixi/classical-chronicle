@@ -2,7 +2,7 @@
 layout: "article"
 title: "Teacher Profile: Olwyn McCabe"
 author: ["Demi Egunjobi"]
-image: ""
+image: "mccabe-profile-image.jpg"
 category: "Community"
 unlisted: true
 date: 2021-06-02
