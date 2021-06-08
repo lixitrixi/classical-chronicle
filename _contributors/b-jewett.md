@@ -1,12 +1,12 @@
 ---
 layout: contributor
-contributorName: B Jewett
+contributorName: Emma Jewett
 position: Writer
-pronouns: They/Them
+pronouns: She/Her or They/Them
 grade: 10
 email: benjjewetr@gmail.com
-instagram: diogenes_supremacy
-lastmod: 2020-03-16
+instagram: transytrash
+lastmod: 2021-06-07
 order: 10
 ---
-**B Jewett** is a contributing writer to the *Classical Chronicle*.
+**Emma Jewett** is a contributing writer to the *Classical Chronicle*.
