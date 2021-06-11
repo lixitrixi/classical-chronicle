@@ -12,7 +12,7 @@ Despite the many drastic changes in the world and school between 1996 and 2021, 
 Mr. Rustigian’s interest in history began with his grandfather. “My grandfather used to always give me books, a lot of them picture books, like archaeology books and history books.” Despite an early interest in history and an affinity for it in high school, Mr. Rustigian didn’t find his interest in teaching until later on. “I worked in retail and I drove a tractor trailer. Had a coffee truck and all kinds of stuff.” It was only after visiting a career planning counselor at URI who suggested teaching that he considered the career. “And I went and started doing it, and it was great,” says Mr. Rustigian.
 
 ![Mr. Rustigian and DiRissio](/assets/images/rustigian-retires-image.jpg)
-<span>A photo of Mr. Rustigian and Mr. DiRissio from when they were still new at Classical, courtesy of Mr. DiRissio.</span>
+<span>A photo of Mr. Rustigian and Mr. DiRissio from when they were new at Classical, courtesy of Mr. DiRissio.</span>
 
 Mr. Rustigian first began teaching English in North Providence in 1988, from which he moved to Nathan Bishop to teach English and History. He arrived at Classical in February of 1996 where he picked up mid-year as AP U.S. History teacher. The transition was “difficult,” according to Mr. Rustigian, but he had always believed that he was “suited to more academic, college prep stuff.” Mr. DiRissio, who arrived at Classical before Mr. Rustigian, says he “gained the respect of students in terms of the way he managed his class and his command over the material.”
 
