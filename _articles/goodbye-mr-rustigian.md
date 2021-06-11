@@ -18,8 +18,11 @@ Mr. Rustigian first began teaching English in North Providence in 1988, from whi
 
 Despite his notable teaching skill, Mr. Rustigian’s peers often emphasize his sense of humor and wit. “He’s got a very dry sense of humor. Very, very dry,” says history teacher and Department Head Mr. Kasha. Kasha was both Mr. Rustigian’s student during the 2002-2003 school year and then later his colleague. And Mr. Macksoud says, “He had tremendous wit and satire.” When asked about his favorite part of teaching, Mr. Rustigian readily reflects such sentiments, stating he enjoyed “friendly annoyance, pretending to say no, and standing out in the hallways with Mr. Kasha and annoying the children as they came in.”
 
-![Mr. Rustigian's Simpson Poster](/assets/images/i-will-not-instigate-revolution.jpeg)
-<span>A Simpson's poster that hangs in Rustigian's room</span>
+<figure style="float:left; margin: 0 30px 10px 0; overflow:hidden">
+  <img style="margin:0px;max-width:unset" src="/assets/images/i-will-not-instigate-revolution.jpeg" alt="Mr. Rustigian's Simpson Poster">
+  <figcaption style="width:275px;text-align:center;color:#777;">A Simpson's poster that hangs in Rustigian's room</figcaption>
+</figure>
+
 
 His humor is part of what made him a great teacher. According to Mr. DiRissio, much of his humor centered around history and “satirical, present critiques” that related to his lessons. “He is a great teacher, who cultivated my passion for history and the social studies,” says Mr. Kasha. “I liked to teach through provocative statements and see where that goes,” says Mr. Rustigian of his teaching style. When providing examples of his sense of humor, Mr. Rustigian demonstrates how he managed to blend humor and challenging questions in a way that pushed his students. “‘Was Andrew Jackson a good guy?’ I don’t know. Do you think he was?” Numerous faculty members and students remark on his teaching style and its efficacy. “He was one of the only teachers who explicitly asked us to think,” says Julia Birnbaum, of the Class of 2018. “He helped me become a deeper analytical thinker,” says Mr. Kasha, reflecting on his time as a student in Mr. Rustigian’s class.
 
