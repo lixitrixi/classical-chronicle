@@ -30,7 +30,7 @@ main {
       max-width: 100%;
     }
   }
-  img+span {
+  img+span, iframe+p>span {
     max-width: 75%;
     margin: 0px auto;
     margin-top: -4px;
