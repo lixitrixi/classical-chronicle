@@ -6,6 +6,5 @@ pronouns: She/Her
 grade: 11
 lastmod: 2021-05-20
 order: 5
-hide_contributions: true
 ---
 **Dorothy Breen** is both a writer and an editor for the *Classical Chronicle*.
