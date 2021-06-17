@@ -625,7 +625,9 @@ const scheduleOverrides = {
   "2021-03-16": thursday,
   "2021-04-28": regular,
   "2021-04-29": regular,
-  "2021-05-05": regular
+  "2021-05-05": regular,
+  "2021-06-17": regular,
+
 }
 
 init()
