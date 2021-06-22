@@ -424,13 +424,10 @@ function getDailySchedule() {
     case "Tuesday":
     case "Friday":
       return JSON.parse(regular)
-      break
     case "Wednesday":
       return JSON.parse(regular)
-      break
     case "Thursday":
       return JSON.parse(thursday)
-      break
     default:
       return "no-school"
   }
@@ -587,7 +584,6 @@ function initDevTools(consoleRun, targetTime) {
     if (devBLunch===true) usingBLunch = true
     else if (devBLunch === false) usingBLunch = false
     const now = new Date()
-    let [hours, mins] = getTimeArr()
     devOffsetHours = devTargetTime[0] - now.getHours()
     devOffsetMinutes = devTargetTime[1] - now.getMinutes()
     console.log("Offset:", devOffsetHours, "hours", devOffsetMinutes, "mins" )
