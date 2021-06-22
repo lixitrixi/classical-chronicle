@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Lauren Aliotta
 position: Writer
 pronouns: She/Her
-grade: 11
+classof: 2022
 email: laurenoaliotta@yahoo.com
 instagram: laurenaliot
 lastmod: 2021-04-28

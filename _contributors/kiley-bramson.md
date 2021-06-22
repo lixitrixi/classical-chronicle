@@ -4,7 +4,7 @@ contributorName: Kiley Bramson
 position: Writer
 pronouns: She/Her
 lastmod: 2021-01-13
-grade: 11
+classof: 2022
 joined: January 2021
 instagram: kileyilana
 email: kileybramson@gmail.com

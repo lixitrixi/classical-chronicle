@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Luke Taylor
 position: Web Designer / Dev
 pronouns: He/Him
-grade: 12
+classof: 2021
 joined: December 2019
 email: luke@bigring.org
 instagram: alpaca_fur

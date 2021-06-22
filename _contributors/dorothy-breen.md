@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Dorothy Breen
 position: Writer and Editor
 pronouns: She/Her
-grade: 11
+classof: 2022
 lastmod: 2021-05-20
 order: 5
 ---

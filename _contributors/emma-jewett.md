@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Emma Jewett
 position: Writer
 pronouns: She/Her or They/Them
-grade: 10
+classof: 2023
 email: benjjewetr@gmail.com
 instagram: transytrash
 lastmod: 2021-06-07

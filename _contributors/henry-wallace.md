@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Henry Wallace
 position: Writer
 pronouns: He/Him
-grade: 11
+classof: 2022
 joined: December 2020
 email: henryw.37.37@gmail.com
 instagram: henrydotcom

@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Damon Drury
 position: Writer
 pronouns: They/Them
-grade: 10
+classof: 2023
 email: damond2023@gmail.com
 instagram: damonaquimby
 lastmod: 2021-05-25

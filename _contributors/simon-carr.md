@@ -3,7 +3,7 @@ layout: contributor
 contributorName: Simon Carr
 position: Writer and Editor
 pronouns: He/Him
-grade: 11
+classof: 2022
 joined: December 2019
 email: simon.alberga.carr@gmail.com
 instagram: simon.alberga

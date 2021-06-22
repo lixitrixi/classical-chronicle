@@ -21,6 +21,17 @@ lastmod: 2020-06-12
       <div class="contributors">
         {% assign sortedContributors = site.contributors | sort: 'order' %}
         {% for contributor in sortedContributors %}
+          {% if contributor.past %} {% continue %} {% endif %}
+          <div class="contributor">
+            <a href="/contributor/{{ contributor.contributorName | slugify }}">{{ contributor.contributorName }}</a>
+            <p>{{ contributor.position }}</p>
+          </div>
+        {% endfor %}
+      </div>
+      <h1 class="contributors-title">Past Contributors</h1>
+      <div class="contributors">
+        {% assign sortedContributors = site.contributors | sort: 'order' | where: "past", true %}
+        {% for contributor in sortedContributors %}
           <div class="contributor">
             <a href="/contributor/{{ contributor.contributorName | slugify }}">{{ contributor.contributorName }}</a>
             <p>{{ contributor.position }}</p>
