@@ -11,4 +11,4 @@ email: zoezozo279@gmail.com
 order: 13
 past: true
 ---
-**Zoe Cute** is a contributing writer to the *Classical Chronicle*.
+**Zoe Cute** was a contributing writer to the *Classical Chronicle*.
