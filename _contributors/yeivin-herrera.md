@@ -10,4 +10,4 @@ lastmod: 2020-03-16
 order: 3
 past: true
 ---
-**Yeivin Herrera** is one of the co-founders of the *Classical Chronicle* and serves as both a writer and editor.
+**Yeivin Herrera** is one of the co-founders of the *Classical Chronicle* and servedas both a writer and editor.
