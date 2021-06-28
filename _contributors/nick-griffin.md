@@ -11,4 +11,4 @@ lastmod: 2020-03-16
 order: 1
 past: true
 ---
-**Nick Griffin** is one of the co-founders of the *Classical Chronicle* and serves as both a writer and editor.
+**Nick Griffin** is one of the co-founders of the *Classical Chronicle* and served as both a writer and editor.
