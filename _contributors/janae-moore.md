@@ -11,4 +11,4 @@ lastmod: 2020-03-16
 order: 9
 past: true
 ---
-**Janae Moore** is a photographer for the *Classical Chronicle*.
+**Janae Moore** was a photographer for the *Classical Chronicle*.
