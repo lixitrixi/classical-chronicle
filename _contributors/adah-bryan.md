@@ -10,4 +10,4 @@ lastmod: 2021-06-10
 order: 17
 past: true
 ---
-**Adah Bryan** is a contributing writer to the *Classical Chronicle*.
+**Adah Bryan** was a contributing writer to the *Classical Chronicle*.
