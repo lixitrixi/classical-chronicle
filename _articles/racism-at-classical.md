@@ -4,7 +4,7 @@ title: "On Racism at Classical"
 author: [The Editorial Staff]
 authornolink: true
 image: blm.png
-category: "School"
+category: "Opinion"
 date: 2020-06-04
 updated: true
 updateDate: "June 6, 2020 at 11:00"
