@@ -3,7 +3,7 @@ layout: "article"
 title: "Playlists From Your Peers: Kilcline's Top Motivational Songs"
 author: [Owen Kilcline]
 image: motivational-picks.jpg
-category: "School"
+category: "Culture"
 date: 2021-02-12
 ---
 Hello, I’m Owen Kilcline once again, and these are my top 50 motivational songs.
