@@ -3,7 +3,7 @@ layout: "article"
 title: "Playlists From Your Peers: Kilcline's 50 Top Picks"
 author: [Owen Kilcline]
 image: kilclines-50.jpg
-category: "School"
+category: "Culture"
 date: 2020-12-09
 unlisted: false
 ---
