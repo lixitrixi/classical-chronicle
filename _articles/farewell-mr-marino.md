@@ -3,7 +3,7 @@ layout: "article"
 title: "A Farewell to Mr. Marino"
 author: ["Simon Carr"]
 image: "mr-marino-cover.jpg"
-category: "School"
+category: "Profile"
 unlisted: false
 date: 2021-01-14
 contributors:
