@@ -3,7 +3,7 @@ layout: "article"
 title: "Classical's Newest Tradition: Ping Pong"
 author: [Yeivin Herrera, Nick Griffin]
 image: "ping-pong-cover.jpg"
-category: "Clubs"
+category: "School"
 date: 2020-02-20
 graphic: Amelia Ross
 ---
