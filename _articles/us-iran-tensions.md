@@ -3,7 +3,7 @@ layout: "article"
 title: "US – Iran Tensions Escalate after Assassination of Top Iranian Security Official"
 author: [Yousef Nagib]
 image: "iran.png"
-category: "World News"
+category: "Opinion"
 graphic: Amelia Ross
 contributors:
   Nick Griffin: Editor
