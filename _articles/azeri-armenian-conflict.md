@@ -3,7 +3,7 @@ layout: "article"
 title: "Nagorno-Karabakh: Understanding the Azeri-Armenian Conflict"
 author: ["Yousef Nagib"]
 image: "azeri-armenian-conflict.jpg"
-category: "World News"
+category: "Opinion"
 date: 2020-10-03
 graphic: Amelia Ross
 ---
