@@ -3,7 +3,7 @@ layout: "article"
 title: "Goodbye, Mr. Rustigian"
 author: ["Adah Bryan"]
 image: "rustigian-retires-cover.jpg"
-category: "Profile"
+category: "School"
 date: 2021-06-11
 ---
 Despite the many drastic changes in the world and school between 1996 and 2021, at Classical there has been at least one constant: Mr. Rustigian. In the span of those 25 years, Mr. Rustigian, history teacher, Department Head, union spokesperson, coach of both Mock Trial and Academic Decathlon, has been a staple in our school. His taste in music, strong principles, and sarcastic jokes have become familiar to the droves of students that have passed through his classroom. However, this is the year that we must say goodbye and wish Mr. Rustigian a happy retirement.
