@@ -3,7 +3,7 @@ layout: "article"
 title: "Remembering Ruth Bader Ginsburg"
 author: ["Emma Jewett"]
 image: "ruth-bader-ginsburg.jpg"
-category: "News"
+category: "Opinion"
 date: 2020-10-02
 graphic: Amelia Ross
 ---
