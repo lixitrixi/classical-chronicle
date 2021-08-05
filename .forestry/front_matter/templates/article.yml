@@ -1,0 +1,49 @@
+---
+label: Article
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: list
+  name: author
+  label: author
+- type: file
+  name: image
+  label: image
+- type: text
+  name: category
+  label: category
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: unlisted
+  label: unlisted
+- type: text
+  name: unlistedReason
+  label: unlistedReason
+- type: boolean
+  name: archived
+  label: archived
+- type: boolean
+  name: migrated
+  label: migrated
+- type: boolean
+  name: updated
+  label: updated
+- type: text
+  name: updateDate
+  label: updateDate
+- type: text
+  name: updateMessage
+  label: updateMessage
+- type: text
+  name: graphic
+  label: graphic
+- type: text
+  name: description
+  label: description
