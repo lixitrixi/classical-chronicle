@@ -9,6 +9,9 @@ sections:
   label: Articles
   create: all
   match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - article
 - type: directory
   path: _contributors
   label: Contributors
