@@ -1,0 +1,34 @@
+---
+label: Contributor
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: contributorName
+  label: contributorName
+- type: text
+  name: position
+  label: position
+- type: text
+  name: pronouns
+  label: pronouns
+- type: number
+  name: classof
+  label: classof
+- type: text
+  name: joined
+  label: joined
+- type: text
+  name: email
+  label: email
+- type: text
+  name: instagram
+  label: instagram
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: number
+  name: order
+  label: order
