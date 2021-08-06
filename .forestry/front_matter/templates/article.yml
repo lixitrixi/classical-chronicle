@@ -67,7 +67,8 @@ fields:
 - type: text
   name: updateDate
   label: Update Date
-  description: When the article was updated.
+  description: 'When the article was updated. Should be in this style: March 11, 2020
+    at 18:00.'
   showOnly:
     field: updated
     value: true
