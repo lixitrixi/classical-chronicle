@@ -5,30 +5,63 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: contributorName
-  label: contributorName
+  label: Name
+  description: The name of the contributor.
+  config:
+    required: true
 - type: text
   name: position
-  label: position
+  label: Role
+  description: The contributor's role at the Chronicle.
+  config:
+    required: true
 - type: text
   name: pronouns
-  label: pronouns
+  label: Pronouns
+  description: The contributor's pronouns
+  config:
+    required: false
 - type: number
   name: classof
-  label: classof
+  label: Class Of
+  description: The year that the contributor will graduate.
+  config:
+    required: true
+    step: 1
+    min: 2000
+    max: 2100
 - type: text
   name: joined
-  label: joined
+  label: Joined
+  description: When the contributor joined the Chronicle (optional).
 - type: text
   name: email
-  label: email
+  label: Email
+  description: The contributor's email (optional).
 - type: text
   name: instagram
-  label: instagram
+  label: Instagram
+  description: The contributor's Instagram handle (optional).
 - type: datetime
   name: lastmod
-  label: lastmod
+  label: Last Modified
+  description: The date this contributor's info was last updated.
+  config:
+    export_format: YYYY-MM-DD
+    required: true
+  default: now
 - type: number
   name: order
-  label: order
+  label: Order
+  description: The order the contributor should appear in on the about page.
+  config:
+    required: true
+    min: 1
+    step: 1
+- name: past
+  type: boolean
+  label: Past
+  description: If the contributor has left Classical.
