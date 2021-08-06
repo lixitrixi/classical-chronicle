@@ -17,14 +17,13 @@ sections:
   label: Contributors
   create: all
   match: "**/*"
+  templates:
+  - contributor
 - type: directory
   path: _main_pages
-  label: Main pages
+  label: Main Pages
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: jekyll-pages
   label: Pages
   create: all
