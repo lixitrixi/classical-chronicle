@@ -8,10 +8,12 @@ collections:
   main_pages:
     output: true
     permalink: /:slug
-exclude: ["/assets/images/originals", "mockup.ai", "coverimages.ai"]
+exclude: ["/assets/images/originals"]
 kramdown:
   parse_span_html: true
 sass:
   style: compressed
+plugins:
+  - jekyll-regex-replace
 future: true
 domain: classicalchronicle.org
