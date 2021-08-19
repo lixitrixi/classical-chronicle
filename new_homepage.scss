@@ -13,45 +13,69 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 @media (max-width: 1500px) {
   
 }
 nav {
-  position: absolute;
-  z-index: 2;
-  transform: translateX(-103%);
-  transition: transform 0.25s ease;
   background: #613D8F;
-  width: min(92vw, 380px);
-  max-height: -webkit-fill-available;
-  height: 100vh;
+  width: 100%;
+  max-width: 1300px;
+  height: 115px;
+
+  padding: 40px;
+  box-sizing: border-box;
+  align-items: center;
+
+  margin-top: 30px;
   color: white;
-  border-radius: 0px 30px 30px 0px;
+  border-radius: 20px;
   box-shadow: 0px 0px 8px 0px #00000088;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-right: 8px;
-  flex-shrink: 0;
+  display:flex;
+  gap: 31px;
 
   svg {
-    width: 85%;
-    margin-top: 30px;
+    fill: white;
+    width: 500px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 29px;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:first-of-type {
+      margin-left: auto;
+    }
+    &:last-child {
+      padding: 8px 13px;
+      background-color: white;
+      color: #613d8f;
+      border-radius: 8px;
+      font-weight: 500;
+    }
   }
 }
+
 main {
-  padding: 40px 50px;
+  //padding: 40px 50px;
   max-width: 1300px;
+  margin-bottom: 40px;
 }
 article.big {
   display: flex;
   height: 350px;
   border-radius: 20px;
   position: relative;
-  margin-top: 20px;
+  // margin-top: 65px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   .tab {
+    display: none;
     position: absolute;
     top: -40px;
     background: #3D68C2;
@@ -63,7 +87,7 @@ article.big {
   }
   .intro {
     display: flex;
-    background: white;
+    //background: white;
     border-radius: 20px;
     box-shadow: 0px 0px 15px -6px #00000088;
     z-index: 1;
@@ -85,12 +109,16 @@ article.big {
       padding-right: 20px;
       padding-top: 13px;
       width: 100%;
+      color: white;
+      border-radius: 20px;
+      background: inherit;
       .separator {
         flex-grow: 1;
         width: 96%;
         overflow: hidden;
         display: flex;
         flex-direction: column;
+        opacity: 0.3;
         // Kinda hacky way to make rows of dots disappear (wrapped out of view) when there isn't enough room.
         flex-wrap: wrap;
         justify-content: center;
@@ -100,7 +128,7 @@ article.big {
           flex-shrink: 0;
           margin-top: 6px;
           margin-bottom: 6px;
-          fill: #bbb;
+          fill: #fff;
           &:nth-child(2n) {
             transform: translateX(17px);
           }
@@ -116,20 +144,26 @@ article.big {
       .title {
         font-size: 39px;
         font-weight: bold;
+        color: white;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
         &.long {
           font-size: 30px;
         }
       }
       .category {
         font-size: 22px;
-        color: #3D68C2;
+        color: white;
         font-weight: 500;
         position: relative;
+        background: inherit;
         // Small element to cover up separator dots if they get cronched
         &:before {
           position: absolute;
           content: "";
-          background: white;
+          background: inherit;
           width: 100%;
           height: 9px;
           top: -6px;
@@ -183,4 +217,64 @@ article.big {
     font-weight: bold;
     color: #7040ae;
   }
+}
+.article-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+}
+article:not(.big) {
+	display: flex;
+	position: relative;
+	width: 500px;
+  flex: 1;
+	padding: 12px;
+	box-shadow: 1px 1px 15px -5px #00000088;
+	border-radius: 14px;
+  font-size: 20px;
+  height: 110px;
+	img {
+		width: 110px;
+		height: 110px;
+		border-radius: 10px;
+		outline: none;
+		border: none;
+		margin-right: 10px;
+		object-fit: cover;
+    box-sizing: border-box;
+	}
+	>div {
+		display: flex;
+		flex-direction: column;
+	}
+	.separator {
+		flex-grow: 1;
+	}
+	.title {
+		font-weight: 600;
+		font-size: 21px;
+    color: black;
+    text-decoration: none;
+    &.short {
+      font-size: 25px;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+	}
+	p {
+		margin: 0;
+		font-size: 19px;
+	}
+  .author {
+    font-weight: bold;
+  }
+	.category {
+		position: absolute;
+		right: 8px;
+		bottom: 8px;
+	}
 }
