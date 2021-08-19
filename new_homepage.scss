@@ -2,10 +2,37 @@
 ---
 body {
   margin: 0;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", "Source Sans", sans-serif;
 }
 @function min($numbers...) {
   @return m#{i}n(#{$numbers});
+}
+@font-face {
+  font-family: "Source Sans";
+  src: url("/fonts/sourcesans-regular.woff2") format("woff2"),
+       url("/fonts/sourcesans-regular.woff") format("woff"),
+       url("/fonts/sourcesans-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Source Sans";
+  src: url("/fonts/sourcesans-italic.woff2") format("woff2"),
+       url("/fonts/sourcesans-italic.woff") format("woff"),
+       url("/fonts/sourcesans-italic.ttf") format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans";
+  src: url("/fonts/sourcesans-bold.woff2") format("woff2"),
+       url("/fonts/sourcesans-bold.woff") format("woff"),
+       url("/fonts/sourcesans-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Source Sans";
+  src: url("/fonts/sourcesans-semibold.woff2") format("woff2"),
+       url("/fonts/sourcesans-semibold.woff") format("woff"),
+       url("/fonts/sourcesans-semibold.ttf") format("truetype");
+  font-weight: 500;
 }
 body {
   background: #F4F6FA;
@@ -15,6 +42,10 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 0px 40px;
+  @media (max-width: 710px) {
+    padding: 0px 10px;
+  }
 }
 @media (max-width: 1500px) {
   
@@ -36,8 +67,25 @@ nav {
 
   display:flex;
   gap: 31px;
-
-  svg {
+  @media (max-width: 710px) {
+    height: 100px;
+    margin-top: 10px;
+  }
+  @media (min-width: 950px) {
+    padding: 30px;
+  }
+  
+  svg:first-child {
+    @media (min-width: 950px) {
+      display: none;
+    }
+    fill: white;
+    width: 50px;
+  }
+  svg:nth-child(2) {
+    @media (max-width: 950px) {
+      display: none;
+    }
     fill: white;
     width: 500px;
   }
@@ -45,6 +93,12 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 29px;
+    @media (max-width: 710px) {
+      font-size: 25px;
+    }
+    @media (max-width: 610px) {
+      display: none;
+    }
     &:hover {
       text-decoration: underline;
     }
@@ -59,6 +113,15 @@ nav {
       font-weight: 500;
     }
   }
+  .hamburger {
+    display:none;
+    fill: white;
+    width: 50px;
+    margin-left: auto;
+    @media (max-width: 610px) {
+      display: block;
+    }
+  }
 }
 
 main {
@@ -71,6 +134,7 @@ article.big {
   height: 350px;
   border-radius: 20px;
   position: relative;
+  justify-content: center;
   // margin-top: 65px;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -88,10 +152,19 @@ article.big {
   .intro {
     display: flex;
     //background: white;
+    color:white;
+    text-decoration: none;
     border-radius: 20px;
     box-shadow: 0px 0px 15px -6px #00000088;
     z-index: 1;
     width: 700px;
+    transition: transform 0.25s ease;
+    &:hover {
+      transform: scale(1.03);
+      .title {
+        text-decoration: underline;
+      }
+    }
     img {
       width: 350px;
       overflow: hidden;
@@ -145,10 +218,6 @@ article.big {
         font-size: 39px;
         font-weight: bold;
         color: white;
-        text-decoration: none;
-        &:hover {
-          text-decoration: underline;
-        }
         &.long {
           font-size: 30px;
         }
@@ -210,6 +279,9 @@ article.big {
     }
   }
   .read-more {
+    @media (max-width: 1050px) {
+      display: none;
+    }
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -226,16 +298,22 @@ article.big {
   align-items: center;
   justify-content: center;
 }
-article:not(.big) {
+.article-small {
 	display: flex;
 	position: relative;
+  background: white;
 	width: 500px;
+  min-width: 500px;
+  max-width: 650px;
   flex: 1;
 	padding: 12px;
 	box-shadow: 1px 1px 15px -5px #00000088;
 	border-radius: 14px;
   font-size: 20px;
   height: 110px;
+  color: black;
+  text-decoration: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 	img {
 		width: 110px;
 		height: 110px;
@@ -246,23 +324,26 @@ article:not(.big) {
 		object-fit: cover;
     box-sizing: border-box;
 	}
-	>div {
+	div {
 		display: flex;
 		flex-direction: column;
 	}
 	.separator {
 		flex-grow: 1;
 	}
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 1px 4px 15px -5px #00000088;
+    .title {
+      text-decoration: underline;
+    }
+  }
 	.title {
-		font-weight: 600;
+		font-weight: bold;
 		font-size: 21px;
     color: black;
-    text-decoration: none;
     &.short {
-      font-size: 25px;
-    }
-    &:hover {
-      text-decoration: underline;
+      // font-size: 25px;
     }
 	}
 	p {
@@ -270,7 +351,7 @@ article:not(.big) {
 		font-size: 19px;
 	}
   .author {
-    font-weight: bold;
+    font-weight: 600;
   }
 	.category {
 		position: absolute;

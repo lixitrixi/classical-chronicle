@@ -18,11 +18,15 @@
   <body>
     <div class="container">
       <nav>
+        {% include logo-letter.svg %}
         {% include logo-shortened.svg %}
-        <a href="/new_homepage">Home</a>
+        <a href="/new_homepage" style="font-weight: bold;">Home</a>
         <a href="/about">About</a>
         <a href="/bylaws">Bylaws</a>
         <a href="/submit">Submit</a>
+        <svg class="hamburger" viewBox="0 0 39 32">
+          <path d="M36 0H3C1 0 0 1 0 3s1 3 3 3h33c2 0 3-1 3-3s-1-3-3-3zM36 13H3c-2 0-3 1-3 3s1 3 3 3h33c2 0 3-1 3-3s-1-3-3-3zM36 26H3c-2 0-3 1-3 3s1 3 3 3h33c2 0 3-1 3-3s-1-3-3-3z"/>
+        </svg>
       </nav>
       <main>
         {% assign article = site.articles | last %}
@@ -31,13 +35,12 @@
           <div class="tab" style="background: {{accent}}">
             Latest Article
           </div>
-          <div class="intro" style="background: {{accent}}">
+          <a class="intro" style="background: {{accent}}" href="{{article.url}}">
             <img src="/assets/images/{{article.image}}" alt="">
             <div class="about">
               <p class="series">{{article.series}}</p>
               {% assign titlelen = article.title | size %}
-              
-              <a href="/article/{{article.slug}}" class="title{% if titlelen > 50 %} long{% endif %}">{{article.title}}</a>
+              <p href="/article/{{article.slug}}" class="title{% if titlelen > 50 %} long{% endif %}">{{article.title}}</p>
               <div class="separator">{% for i in (1..6) %}{% include dots.svg %}{% endfor %}</div>
               <p class="category">{{article.category}}</p>
               <p class="author">{{article.author  
@@ -46,7 +49,7 @@
                                 }}</p>
               <p class="date">{{article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
             </div>
-          </div>
+          </a>
           <p class="preview">{{ article.content | strip_html | truncatewords: 150 }}</p>
           <a href="/article/{{article.slug}}" class="read-more">Read More ></a>
         </article>
@@ -55,15 +58,16 @@
           <div style="display: flex; align-items: baseline;">
             <h1 style="color:{{category[1]}};margin:0px;margin-right: 20px;font-size:38px;">{{ category[0] }}</h1>
             <hr style="border-width: 4px;border-color:{{category[1]}};background:{{category[1]}};border-style:solid;border-radius:20px;flex-grow:1;height:0px">
+            <a href="#" style="color:{{category[1]}};text-decoration:none;margin:0px;margin-left: 20px;font-size:28px;font-weight:600">See More ></a>
           </div>
-          {% assign articles = site.articles | where: "category", category[0] | reverse | slice: 0, 2 %}
+          {% assign articles = site.articles | pop | where: "category", category[0] | reverse | slice: 0, 4 %}
             <div class="article-group">
             {% for article in articles %}
             {% assign titlelen = article.title | size %}
-              <article>
+              <a class="article-small" href="/article/{{article.slug}}">
                 <img src="/assets/images/{{article.image}}" alt="">
                 <div>
-                  <a class="title{% if titlelen < 50 %} short{% endif %}" href="/article/{{article.slug}}">{{article.title}}</a>
+                  <p class="title{% if titlelen < 40 %} short{% endif %}">{{article.title}}</p>
                   <div class="separator"></div>
                   <p class="author">{{article.author  
                                         | join: ", " 
@@ -71,7 +75,7 @@
                                     }}</p>
                   <p class="date">{{article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
                 </div>
-              </article>
+              </a>
             {% endfor %}
             </div>
           {% endfor %}
