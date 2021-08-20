@@ -4,7 +4,7 @@ title: Classical Chronicle and Purple Post Merge
 author:
 - The Classical Chronicle
 image: "/assets/images/newspaper.jpeg"
-unlisted: true
+unlisted: false
 category: School
 date: 2021-08-20
 description: The Classical Chronicle and Purple Post are merging to form one newspaper
