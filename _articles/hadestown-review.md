@@ -1,6 +1,7 @@
 ---
 layout: "article"
-title: "Playlists From Your Peers: Hadestown"
+series: "Playlists From Your Peers:"
+title: "Hadestown"
 author: ["Zoe Cute"]
 image: "hadestown.jpg"
 category: "Culture"

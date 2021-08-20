@@ -29,7 +29,7 @@
         </svg>
       </nav>
       <main>
-        {% assign article = site.articles | last %}
+        {% assign article = site.articles[25] %}
         {% assign accent = site.data.category-colors[article.category] %}
         <article class="big">
           <div class="tab" style="background: {{accent}}">
@@ -51,14 +51,14 @@
             </div>
           </a>
           <p class="preview">{{ article.content | strip_html | truncatewords: 150 }}</p>
-          <a href="/article/{{article.slug}}" class="read-more">Read More ></a>
+          <a href="/article/{{article.slug}}" class="read-more" style="color:{{accent}}">Read More ></a>
         </article>
 
           {% for category in site.data.category-colors %}
-          <div style="display: flex; align-items: baseline;">
-            <h1 style="color:{{category[1]}};margin:0px;margin-right: 20px;font-size:38px;">{{ category[0] }}</h1>
-            <hr style="border-width: 4px;border-color:{{category[1]}};background:{{category[1]}};border-style:solid;border-radius:20px;flex-grow:1;height:0px">
-            <a href="#" style="color:{{category[1]}};text-decoration:none;margin:0px;margin-left: 20px;font-size:28px;font-weight:600">See More ></a>
+          <div class="category-divider">
+            <h1 style="color:{{category[1]}}">{{ category[0] }}</h1>
+            <hr style="border-color:{{category[1]}};background:{{category[1]}}">
+            <a href="#" style="color:{{category[1]}}">See More ></a>
           </div>
           {% assign articles = site.articles | pop | where: "category", category[0] | reverse | slice: 0, 4 %}
             <div class="article-group">

@@ -1,6 +1,7 @@
 ---
 layout: "article"
-title: "Playlists From Your Peers: Kilcline's 50 Top Picks"
+series: "Playlists From Your Peers:"
+title: "Kilcline's 50 Top Picks"
 author: [Owen Kilcline]
 image: kilclines-50.jpg
 category: "Culture"
