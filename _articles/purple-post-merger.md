@@ -13,7 +13,7 @@ description: The Classical Chronicle and Purple Post are merging to form one new
 ---
 _The Classical Chronicle_ will be merging with Classical’s school newspaper, _The Purple Post_, to create one united independent newspaper in the coming school year, The Classical Chronicle.
 
-_The Purple Post’s_ leadership shares our commitment to ethical journalism, and so we are eager and excited to merge with them in the coming school year. There are many elements of _The Purple Post_ that we admire and intend to keep in the new paper, including their sports coverage and club directory. You can expect aspects of both newspapers in the new _Classical Chronicle_.
+_The Purple Post_’s leadership shares our commitment to ethical journalism, and so we are eager and excited to merge with them in the coming school year. There are many elements of _The Purple Post_ that we admire and intend to keep in the new paper, including their sports coverage and club directory. You can expect aspects of both newspapers in the new _Classical Chronicle_.
 
 _The Chronicle_ started as and will continue to be a newspaper of the students, not their administration.
 
