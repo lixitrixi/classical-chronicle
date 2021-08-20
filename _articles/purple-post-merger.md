@@ -3,7 +3,7 @@ layout: article
 title: Classical Chronicle and Purple Post Merge
 author:
 - The Classical Chronicle
-image: "/assets/images/newspaper.jpeg"
+image: "purplepost-image.jpg"
 unlisted: false
 category: School
 date: 2021-08-20
