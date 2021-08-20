@@ -67,9 +67,9 @@ body {
 main {
   margin: 0px;
   padding-top:1px;
-  animation: fadeinmain 0.7s ease;
-  animation-fill-mode: backwards;
-  @media (min-width: 730px) {
-    animation-delay: 0.7s;
-  }
+  // animation: fadeinmain 0.7s ease;
+  // animation-fill-mode: backwards;
+  // @media (min-width: 730px) {
+  //   animation-delay: 0.7s;
+  // }
 }
