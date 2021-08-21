@@ -19,7 +19,7 @@ _The Chronicle_ started as and will continue to be a newspaper of the students, 
 
 The new _Classical Chronicle_ will still be an independent paper. It will still be student led. It will still be uncensored. It will still have the same bylaws.
 
-Over the next two weeks we will be switching over to _The Post_’s Instagram page and updating our website. We recommend you follow @purple.post on Instagram where we will be posting about our latest articles from now on. Please be warned that we will be changing @purple.post’s handle in the coming weeks, and so it will soon become @classicalchronicle.
+Over the next two weeks we will be switching over to _The Post_’s Instagram page and updating our website. We recommend you follow @classical.chronicle on Instagram where we will be posting about our latest articles from now on.
 
 We appreciate your patience as we update our website and social media accounts in the next couple of weeks. You can expect regular article uploads to start up again before the beginning of the school year.
 
