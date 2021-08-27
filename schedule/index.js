@@ -1,7 +1,7 @@
 
-const emergencyMaintenence = false
-const maintenenceHeader = "Unknown Schedule!"
-const maintenenceMessage = "Not sure if today is an advisory schedule but I'll find out in a few mins!"
+const emergencyMaintenence = true
+const maintenenceHeader = "Temporarily Disabled!"
+const maintenenceMessage = "I'm working on passing the schedule on to another person."
 var usingBLunch = true
 
 var devOffsetHours = 0
