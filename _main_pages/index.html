@@ -1,49 +1,66 @@
 ---
-lastmod: 2020-06-12
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
     <title>The Classical Chronicle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://{{ site.domain }}">
     <meta property="og:title" content="The Classical Chronicle">
     <meta property="og:image" content="https://{{site.domain}}/assets/icons/rounded128.png">
     <meta property="og:type" content="website">
+    <link rel="preload" href="/fonts/sourcesans-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/sourcesans-bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/sourcesans-semibold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="index.css">
     <script src="/assets/js/analytics.js" defer></script>
     <meta name="description" content="The Classical Chronicle is an independent, uncensored, and student-run newspaper at Classical High School that strives to deliver high-quality and honest journalism.">
-    {% include ios-app.html %}
   </head>
   <body>
     {% include header.html page="home" %}
-    <main>
-      <!-- <div class="banner food">
-  			<div class="initial">
-          <svg style="width:32px;height:32px" viewBox="-1 -1 25 25">
-            <path d="M11,9H9V2H7V9H5V2H3V9C3,11.12 4.66,12.84 6.75,12.97V22H9.25V12.97C11.34,12.84 13,11.12 13,9V2H11V9M16,6V14H18.5V22H21V2C18.24,2 16,4.24 16,6Z" />
-        </svg>
-  				<p><span>Grab-and-go meal locations</span> are available on a <a class="goto" href="/food-sites/">map</a>.</p>
-  				<a href="/food-sites/">Open Map</a>
-  			</div>
-  		</div> -->
-      <!-- <div class="banner orange">
-  			<div class="initial">
-          <svg style="width:32px;height:32px" viewBox="0 0 24 24">
-              <path d="M14,17H7V15H14M17,13H7V11H17M17,9H7V7H17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z" />
-          </svg>
-
-          <p>Starting Monday, March 22nd, PPSD will no longer be offering grief counselors to the Classical Community. <span>For those who still need someone to talk to right now, please call <a href="tel:8002738255">800-273-8255</a></span>, the National Suicide Prevention Lifeline, <span>or go to</span> <a target="_blank" href="https://suicidepreventionlifeline.org/help-yourself/loss-survivors/">suicidepreventionlifeline.org</a> for more resources. You can also reach out to Classical's social workers or guidance counselors for more direct support.</p>
-  				<a href="https://suicidepreventionlifeline.org/help-yourself/loss-survivors/">Go</a>
-  			</div>
-  		</div> -->
-      <div class="articles">
-        {% for article in site.articles reversed %}
-          {% if article.unlisted %}{% continue %}{% endif %}
-          {% assign formatedDate = article.date | date: "%B&nbsp;%-d,&nbsp;%Y" %}
-          {% include article-card.html title=article.title author=article.author  image=article.image category=article.category date=formatedDate link=article.url %}
+    <div class="container">
+      <main>
+        {% assign article = site.articles | last %}
+        {% assign accent = site.data.category-colors[article.category] %}
+        <article class="big">
+          <div class="tab" style="background: {{accent}}">
+            Latest Article
+          </div>
+          <a class="intro" style="background: {{accent}}" href="{{article.url}}">
+            <img src="/assets/images/{{article.image}}" alt="">
+            <div class="about">
+              <p class="series">{{article.series}}</p>
+              {% assign titlelen = article.title | size %}
+              <p href="/article/{{article.slug}}" class="title{% if titlelen > 50 %} long{% endif %}">{{article.title}}</p>
+              <div class="separator">{% for i in (1..6) %}{% include dots.svg %}{% endfor %}</div>
+              <p class="category">{{article.category}}</p>
+              <p class="author">{{article.author  
+                                    | join: ", " 
+                                    | regex_replace:"([^,\ ]) ","\1&nbsp;"
+                                }}</p>
+              <p class="date">{{article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
+            </div>
+          </a>
+          <p class="preview">{{ article.content | strip_html | truncatewords: 150 }}</p>
+          <a href="/article/{{article.slug}}" class="read-more" style="color:{{accent}}">Read More ></a>
+        </article>
+        {% for category in site.data.category-colors %}
+        <div class="category-divider">
+          <h1 style="color:{{category[1]}}">{{ category[0] }}</h1>
+          <hr style="border-color:{{category[1]}};background:{{category[1]}}">
+          <a style="color:{{category[1]}}" class="disabled" title="Archive Coming Soon!">See More ></a>
+        </div>
+        {% assign articles = site.articles | pop | where: "category", category[0] | reverse | slice: 0, 4 %}
+          <div class="article-group">
+          {% for article in articles %}
+            {% include article-card.html article=article %}
+          {% endfor %}
+          </div>
         {% endfor %}
-      </div>
-    </main>
+
+      </main>
+    </div>
+
   </body>
 </html>

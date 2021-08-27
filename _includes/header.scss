@@ -1,8 +1,19 @@
 // new-header.scss
+// Breakpoints
+$small-logo: 1250px;
+$small-bar: 900px;
+$hamburger: 750px;
+
 nav {
   width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 40px 0px 40px;
+  @media (max-width: $small-bar) {
+    padding: 5px 5px 0px 5px;
+  }
 }
 .desktop-nav {
   background: #613D8F;
@@ -13,35 +24,30 @@ nav {
   padding: 30px;
   box-sizing: border-box;
   align-items: center;
-  margin: 30px 40px 0px 40px;
-  margin-top: 30px;
+  // margin: 30px 40px 0px 40px;
   color: white;
   border-radius: 20px;
   box-shadow: 0px 0px 8px 0px #00000088;
-
+  z-index: 2;
   display:flex;
   gap: 31px;
-  @media (max-width: 850px) {
+  @media (max-width: $small-bar) {
     height: 70px;
-    margin: 5px 5px 0px 5px;
     padding-left: 20px;
     padding-right: 20px;
-  }
-  @media (min-width: 950px) {
-    padding: 30px;
   }
   
   a:first-child {
     display: flex;
     transition: transform 0.3s ease;
-    @media (min-width: 1150px) {
+    @media (min-width: $small-logo) {
       display: none;
     }
     &:hover {
       transform: scale(1.02);
     }
     svg {
-      @media (max-width: 850px) {
+      @media (max-width: $small-logo) {
         width: 40px;
       }
       fill: white;
@@ -57,7 +63,7 @@ nav {
     &:hover {
       transform: scale(1.02);
     }
-    @media (max-width: 1150px) {
+    @media (max-width: $small-logo) {
       display: none;
     }
     >svg {
@@ -68,10 +74,10 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 29px;
-    @media (max-width: 850px) {
+    @media (max-width: $small-bar) {
       font-size: 25px;
     }
-    @media (max-width: 665px) {
+    @media (max-width: $hamburger) {
       display: none;
     }
     &:hover {
@@ -105,7 +111,7 @@ nav {
     margin-left: auto;
     transition: transform 0.25s ease, opacity 0.25s ease;
     user-select: none;
-    @media (max-width: 665px) {
+    @media (max-width: $hamburger) {
       display: block;
     }
     &:hover {
@@ -137,7 +143,7 @@ nav {
   }
 }
 .mobile-nav {
-  @media (min-width: 665px) {
+  @media (min-width: $hamburger) {
     display: none;
   }
   box-sizing: border-box;
@@ -196,5 +202,79 @@ nav {
     top: 0;
     z-index: -1;
     transition: opacity 0.3s ease;
+  }
+}
+.announcement {
+  max-width: 1300px;
+  width: 100%;
+  box-sizing: border-box;
+  &.hidden {
+    display: none
+  }
+  &.info>div {
+    background: #3D68C2;
+    a {
+      color: #3D68C2;
+      svg {
+        fill: #3D68C2;
+      }
+    }
+  }
+  div>svg {
+    width: 50px;
+    fill: white;
+    margin-right: 20px;
+    @media (max-width: $small-logo) {
+      display: none;
+    }
+  }
+  div {
+    margin: 0px 25px;
+    padding: 15px 25px;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 8px 0px #00000088;
+  }
+  p {
+    font-size: 26px;
+    margin: 0;
+    color: white;
+    @media (max-width: $small-bar) {
+      font-size: 20px;
+    }
+  }
+  a {
+    background: white;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    bottom: -35px;
+    right: 25px;
+    font-size: 30px;
+    padding: 6px 23px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 25px -5px #00000088;
+    transition: transform 0.3s ease;
+    @media (max-width: $hamburger) {
+      right: -12px;
+      bottom: -42px;
+    }
+    svg {
+      fill: black;
+      width: 12px;
+      margin-left: 11px;
+      opacity: 0.7;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(1);
+    }
   }
 }
