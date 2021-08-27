@@ -1,6 +1,6 @@
-# Possible types: Warning, Info, 
+# Possible types: emergency, warning, info
 enabled: true
-type: Warning
-icon: Megaphone
-text: This is a sample announcement to show the new announcement look and config.
+type: info
+icon: megaphone
+message: This is an important announcement about something.
 link: https://example.com
