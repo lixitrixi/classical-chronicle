@@ -1,6 +1,6 @@
-# Possible types: emergency, warning, info
+# Possible types: emergency, warning, info, success, school, impact
 enabled: true
-type: info
+type: school
 icon: megaphone
-message: This is an important announcement about something.
+message: "*The Purple Post* has merged with the *Classical Chronicle*."
 link: https://example.com
