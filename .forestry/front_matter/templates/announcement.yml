@@ -40,3 +40,5 @@ fields:
   name: link
   label: Link
   description: An optional link to some website or page on the Chronicle.
+pages:
+- _data/announcement.yml

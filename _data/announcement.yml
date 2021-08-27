@@ -1,6 +1,7 @@
 ---
-enabled: true
-type: warning
+enabled: false
+type: info
 icon: megaphone
 text: This is a sample announcement to show the new announcement look and config.
 link: https://example.com
+message: This is a message
