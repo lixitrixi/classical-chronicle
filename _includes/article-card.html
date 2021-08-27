@@ -9,8 +9,7 @@
     <p class="title">{{title}}</p>
     <div class="separator"></div>
     <p class="author">{{article.author  
-                          | join: ", " 
-                          | regex_replace:"([^,\ ]) ","\1&nbsp;"
+                          | join: ", "
                       }}</p>
     <p class="date">{{article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
   </div>

@@ -1,0 +1,2 @@
+{% assign default_styles = "regular, italic, bold, semibold" %}{% assign styles = include.styles | default: default_styles | split: ", " %}{% for style in styles %}<link rel="preload" href="/fonts/sourcesans-{{style}}.woff2" as="font" type="font/woff2" crossorigin>
+{% endfor %}
