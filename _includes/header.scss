@@ -30,7 +30,6 @@ nav {
   box-shadow: 0px 0px 8px 0px #00000088;
   z-index: 2;
   display:flex;
-  gap: 31px;
   @media (max-width: $small-bar) {
     height: 70px;
     padding-left: 20px;
@@ -39,6 +38,7 @@ nav {
   
   a:first-child {
     display: flex;
+    margin-left: 0px;
     transition: transform 0.3s ease;
     @media (min-width: $small-logo) {
       display: none;
@@ -60,6 +60,7 @@ nav {
     max-width: 500px;
     width: 100%;
     transition: transform 0.3s ease;
+    margin-right: 30px;
     &:hover {
       transform: scale(1.02);
     }
@@ -67,6 +68,7 @@ nav {
       display: none;
     }
     >svg {
+      width: 100%;
       fill: white;
     }
   }
@@ -74,6 +76,9 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 29px;
+    &:not(.first):not(:first-child):not(:nth-child(2)) {
+      margin-left: 30px;
+    }
     @media (max-width: $small-bar) {
       font-size: 25px;
     }
