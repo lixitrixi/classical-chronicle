@@ -1,0 +1,42 @@
+---
+label: Announcement
+hide_body: true
+fields:
+- type: boolean
+  name: enabled
+  label: Enabled
+  description: Whether or not the announcement should be visible.
+- name: type
+  type: select
+  default: info
+  config:
+    required: true
+    options:
+    - info
+    - school
+    - success
+    - impact
+    - warning
+    - emergency
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Style
+  description: The style of the announcement.
+- type: text
+  name: icon
+  label: Icon
+  hidden: true
+  default: megaphone
+- type: text
+  name: message
+  label: Message
+  description: The actual message of the announcement.
+  config:
+    required: true
+- type: text
+  name: link
+  label: Link
+  description: An optional link to some website or page on the Chronicle.

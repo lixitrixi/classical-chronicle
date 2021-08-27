@@ -4,10 +4,11 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: Main Site
 - type: document
   path: _data/announcement.yml
   label: Announcement
-  match: "**/*"
 - type: directory
   path: _articles
   label: Articles
@@ -23,6 +24,12 @@ sections:
   match: "**/*"
   templates:
   - contributor
+- type: document
+  path: _data/category-colors.yml
+  label: Categories
+  match: "**/*"
+- type: heading
+  label: Dev Stuff
 - type: directory
   path: _main_pages
   label: Main Pages
