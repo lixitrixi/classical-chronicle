@@ -3,11 +3,11 @@
   <div class="mobile-nav">
     <div>
       {% include logo-letter.svg %}
-      <a href="/" class="current">Home</a>
-      <a href="/about">About</a>
-      <a class="disabled{% if include.page == 'clubs' %} current{% endif %}">Clubs</a>
-      <a href="/archive" {% if include.page == 'about' %}class="current"{% endif %}>Archive</a>
-      <a href="/submit">Submit</a>
+      <a href="/" {% if include.page == 'home' %}class="current"{% endif %}>Home</a>
+      <a href="/about" {% if include.page == 'about' %}class="current"{% endif %}>About</a>
+      <a href="/clubs" {% if include.page == 'clubs' %}class="current"{% endif %}>Clubs</a>
+      <a href="/archive" {% if include.page == 'archive' %}class="current"{% endif %}>Archive</a>
+      <a href="/submit" {% if include.page == 'submit' %}class="current"{% endif %}>Submit</a>
       <a class="disabled" title="Schedule temporarily disabled!">Schedule</a>
     </div>
     <label class="dimmer" for="mobile-nav-toggle"></label>
@@ -21,8 +21,8 @@
     </a>
     <a href="/" class="first{% if include.page == 'home' %} current{% endif %}">Home</a>
     <a href="/about" {% if include.page == 'about' %}class="current"{% endif %}>About</a>
-    <a class="disabled{% if include.page == 'clubs' %} current{% endif %}">Clubs</a>
-    <a href="/archive" class="{% if include.page == 'archive' %} current{% endif %}" title="Archive Coming Soon!">Archive</a>
+    <a href="/clubs" {% if include.page == 'clubs' %}class="current"{% endif %}>Clubs</a>
+    <a href="/archive" {% if include.page == 'archive' %}class="current"{% endif %}>Archive</a>
     <a href="/submit" {% if include.page == 'submit' %}class="current"{% endif %}>Submit</a>
     <a class="disabled" title="Schedule temporarily disabled!">Schedule</a>
     <label class="hamburger" for="mobile-nav-toggle">
