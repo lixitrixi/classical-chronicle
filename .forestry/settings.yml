@@ -17,10 +17,6 @@ sections:
   new_doc_ext: md
   templates:
   - article
-- type: document
-  path: _data/category-colors.yml
-  label: Categories
-  match: "**/*"
 - type: directory
   path: _contributors
   label: Contributors
