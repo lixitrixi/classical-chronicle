@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: document
+  path: _data/announcement.yml
+  label: Announcement
+  match: "**/*"
 - type: directory
   path: _articles
   label: Articles
@@ -25,7 +29,7 @@ sections:
   create: all
   match: "**/*"
 - type: jekyll-pages
-  label: Pages
+  label: Other Pages
   create: all
 upload_dir: assets/images
 public_path: "/assets/images"
