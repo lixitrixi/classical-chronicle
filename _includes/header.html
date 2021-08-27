@@ -32,11 +32,13 @@
     </label>
   </div>
   {% assign announcement = site.data.announcement %}
-  <div class="announcement{% if include.page != 'home' && !announcement.global %} hidden{% endif %} info">
+  {% if announcement.enabled %}
+  <div class="announcement{% if include.page != 'home' && announcement.enabled %} hidden{% endif %} {{ announcement.type }}">
     <div>
     {% if announcement.icon == "megaphone" %}<svg viewBox="0 0 24 24"><path d="M12,8H4A2,2 0 0,0 2,10V14A2,2 0 0,0 4,16H5V20A1,1 0 0,0 6,21H8A1,1 0 0,0 9,20V16H12L17,20V4L12,8M21.5,12C21.5,13.71 20.54,15.26 19,16V8C20.53,8.75 21.5,10.3 21.5,12Z"/></svg>{% endif %}
-    <p>{{ announcement.message }}</p>
-    <a href="{{ announcement.link }}" target="__blank" rel="noopener">Go<svg viewBox="0 0 13.01 21.21"><polygon points="12.73 10.46 10.75 8.48 2.26 0 0 2.26 8.48 10.75 0.28 18.95 2.55 21.21 13.01 10.75 12.73 10.46"/></svg></a>
+    <p>{{ announcement.message | markdownify}}</p>
+    {% if announcement.link %}<a href="{{ announcement.link }}" target="__blank" rel="noopener">Go<svg viewBox="0 0 13.01 21.21"><polygon points="12.73 10.46 10.75 8.48 2.26 0 0 2.26 8.48 10.75 0.28 18.95 2.55 21.21 13.01 10.75 12.73 10.46"/></svg></a>{% endif %}
     </div>
   </div>
+  {% endif %}
 </nav>
