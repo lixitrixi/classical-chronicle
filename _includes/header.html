@@ -3,7 +3,7 @@
   <div class="mobile-nav">
     <div>
       {% include logo-letter.svg %}
-      <a href="/new_homepage" class="current">Home</a>
+      <a href="/" class="current">Home</a>
       <a href="/about">About</a>
       <a class="disabled{% if include.page == 'clubs' %} current{% endif %}">Clubs</a>
       <a class="disabled" title="Archive Coming Soon!">Archive</a>
@@ -13,13 +13,13 @@
     <label class="dimmer" for="mobile-nav-toggle"></label>
   </div>
   <div class="desktop-nav">
-    <a href="/new_homepage">
+    <a href="/">
     {% include logo-letter.svg %}
     </a>
-    <a href="/new_homepage">
+    <a href="/">
     {% include logo-shortened.svg %}
     </a>
-    <a href="/new_homepage" class="first{% if include.page == 'home' %} current{% endif %}">Home</a>
+    <a href="/" class="first{% if include.page == 'home' %} current{% endif %}">Home</a>
     <a href="/about" {% if include.page == 'about' %}class="current"{% endif %}>About</a>
     <a class="disabled{% if include.page == 'clubs' %} current{% endif %}">Clubs</a>
     <a class="disabled{% if include.page == 'archive' %} current{% endif %}" title="Archive Coming Soon!">Archive</a>
