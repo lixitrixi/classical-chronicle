@@ -1,0 +1,46 @@
+---
+---
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Archive - Classical Chronicle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://{{ site.domain }}">
+    <meta property="og:title" content="The Classical Chronicle">
+    <meta property="og:image" content="https://{{site.domain}}/assets/icons/rounded128.png">
+    <meta property="og:type" content="website">
+    {% include font-preload.html styles="regular, bold, bold-italic, italic" %}
+    <script src="/assets/js/analytics.js" defer></script>
+    <meta name="description" content="The archive of Classical Chronicle articles.">
+    <link rel="stylesheet" href="categories.css">
+  </head>
+  <body>
+    {% include header.html page="archive" %}
+    <div class="container">
+      <main>
+        <h1><i>Classical Chronicle</i> Categories</h1>
+        <p class="description">All the articles on the Chronicle, sorted into categories</p>
+        <p class="post-ref">To view <i>Purple Post</i> articles from before the merger, <a href="https://purplepostnews.wordpress.com" target="__blank" rel="noopener">visit the old site</a>.</p>
+        <div class="category-jumps">
+          {% for category in site.data.category-colors %}
+            <a style="background: {{category[1]}}" href="#{{category[0] | downcase }}">{{category[0]}}</a>
+          {% endfor %}
+        </div>
+        {% for category in site.data.category-colors %}
+        <div class="category-divider" id="{{ category[0] | downcase }}">
+          <h1 style="color:{{category[1]}}">{{ category[0] }}</h1>
+          <hr style="border-color:{{category[1]}};background:{{category[1]}}">
+        </div>
+        {% assign articles = site.articles | where: "category", category[0] | reverse %}
+        <div class="article-group">
+          {% for article in articles %}
+          {% if article.unlisted %}{% continue %}{% endif %}
+            {% include article-card.html article=article %}
+          {% endfor %}
+          </div>
+        {% endfor %}
+      </main>
+    </div>
+  </body>
+</html>
+

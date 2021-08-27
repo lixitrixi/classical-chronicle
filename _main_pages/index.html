@@ -10,9 +10,7 @@
     <meta property="og:title" content="The Classical Chronicle">
     <meta property="og:image" content="https://{{site.domain}}/assets/icons/rounded128.png">
     <meta property="og:type" content="website">
-    <link rel="preload" href="/fonts/sourcesans-regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/fonts/sourcesans-bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/fonts/sourcesans-semibold.woff2" as="font" type="font/woff2" crossorigin>
+    {% include font-preload.html %}
     <link rel="stylesheet" href="index.css">
     <script src="/assets/js/analytics.js" defer></script>
     <meta name="description" content="The Classical Chronicle is an independent, uncensored, and student-run newspaper at Classical High School that strives to deliver high-quality and honest journalism.">
@@ -49,12 +47,16 @@
         <div class="category-divider">
           <h1 style="color:{{category[1]}}">{{ category[0] }}</h1>
           <hr style="border-color:{{category[1]}};background:{{category[1]}}">
-          <a style="color:{{category[1]}}" class="disabled" title="Archive Coming Soon!">See More ></a>
+          <a style="color:{{category[1]}}" href="/categories#{{category[0] | downcase }}">See More ></a>
         </div>
-        {% assign articles = site.articles | pop | where: "category", category[0] | reverse | slice: 0, 4 %}
+        {% assign count = 0 %}
+        {% assign articles = site.articles | pop | where: "category", category[0] | reverse %}
           <div class="article-group">
           {% for article in articles %}
+            {% if article.unlisted %}{% continue %}{% endif %}
+            {% if count >= 4 %}{% continue %}{% endif %}
             {% include article-card.html article=article %}
+            {% assign count = count | plus: 1 %}
           {% endfor %}
           </div>
         {% endfor %}
