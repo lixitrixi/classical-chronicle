@@ -1,7 +1,29 @@
+defaults:
+      -
+        scope:
+          path: ""
+          type: "clubs"
+        values:
+          layout: "club"
+      -
+        scope:
+          path: ""
+          type: "articles"
+        values:
+          layout: "article"
+      -
+        scope:
+          path: ""
+          type: "contributors"
+        values:
+          layout: "contributor"
 collections:
   articles:
     output: true
     permalink: /article/:slug
+  clubs:
+    output: true
+    permalink: /club/:slug
   contributors:
     output: true
     permalink: /contributor/:slug
