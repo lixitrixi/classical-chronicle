@@ -3,4 +3,4 @@ enabled: true
 type: school
 icon: megaphone
 message: "*The Purple Post* has merged with the *Classical Chronicle*."
-link: https://example.com
+link: /article/purple-post-merger
