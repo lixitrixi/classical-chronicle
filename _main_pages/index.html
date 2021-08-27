@@ -34,10 +34,8 @@
               <div class="separator">{% for i in (1..6) %}{% include dots.svg %}{% endfor %}</div>
               <p class="category">{{article.category}}</p>
               <p class="author">{{article.author  
-                                    | join: ", " 
-                                    | regex_replace:"([^,\ ]) ","\1&nbsp;"
-                                }}</p>
-              <p class="date">{{article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
+                                    | join: ", " }}</p>
+              <p class="date">{{article.date | date: "%B %-d, %Y"}}</p>
             </div>
           </a>
           <p class="preview">{{ article.content | strip_html | truncatewords: 150 }}</p>

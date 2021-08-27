@@ -208,7 +208,18 @@ article.big {
   transition: transform 0.25s ease;
   @media (max-width: 550px) {
     width: unset;
-    min-width: unset;
+    min-width: 300px;
+  }
+  @media (max-width: 350px) {
+    width: unset;
+    min-width: 200px;
+  }
+  @media (max-width: 280px) {
+    min-width: 145px;
+
+    img {
+      display: none;
+    }
   }
 	img {
 		width: 110px;
@@ -237,18 +248,22 @@ article.big {
 		font-weight: bold;
 		font-size: 21px;
     color: black;
+    overflow-wrap: anywhere;
 	}
 	p {
 		margin: 0;
 		font-size: 19px;
+    overflow-wrap: anywhere;
 	}
   .author {
     font-weight: 600;
+    overflow-wrap: anywhere;
   }
 	.category {
 		position: absolute;
 		right: 8px;
 		bottom: 8px;
+    overflow-wrap: anywhere;
 	}
 }
 .category-divider {
@@ -282,6 +297,17 @@ article.big {
     &:hover {
       text-decoration: underline;
     }
-
+    
+  }
+  @media (max-width: 280px) {
+    hr {
+      display: none;
+    }
+    h1 {
+      margin: 0;
+    }
+    a {
+      margin-left: auto;
+    }
   }
 }
