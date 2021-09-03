@@ -41,14 +41,16 @@
           <p class="preview">{{ article.content | strip_html | truncatewords: 150 }}</p>
           <a href="/article/{{article.slug}}" class="read-more" style="color:{{accent}}">Read More ></a>
         </article>
-        {% for category in site.data.category-colors %}
+        {% assign categories = site.articles | map: "category" | uniq %}
+        {% for category in categories %}
+        {% assign accent = site.data.category-colors[category] %}
         <div class="category-divider">
-          <h1 style="color:{{category[1]}}">{{ category[0] }}</h1>
-          <hr style="border-color:{{category[1]}};background:{{category[1]}}">
-          <a style="color:{{category[1]}}" href="/categories#{{category[0] | downcase }}">See More ></a>
+          <h1 style="color:{{accent}}">{{ category }}</h1>
+          <hr style="border-color:{{accent}};background:{{accent}}">
+          <a style="color:{{accent}}" href="/categories#{{category | downcase }}">See More ></a>
         </div>
         {% assign count = 0 %}
-        {% assign articles = site.articles | pop | where: "category", category[0] | reverse %}
+        {% assign articles = site.articles | pop | where: "category", category | reverse %}
           <div class="article-group">
           {% for article in articles %}
             {% if article.unlisted %}{% continue %}{% endif %}
