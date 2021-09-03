@@ -1,0 +1,9 @@
+{% assign club = include.club %}<a class="article-small" href="/club/{{club.slug}}">
+  <img src="/assets/images/{{club.image | default: 'blank-club2.png'}}" alt="">
+  <div>
+    <p class="title">{{ club.name }}</p>
+    <div class="separator">{{ club.description }}</div>
+    <p class="author">{{ club.organizer }}</p>
+    <p class="date">{{ club.meets }}</p>
+  </div>
+</a>

@@ -1,13 +1,16 @@
-<article class="card">
-  <a href="{{ include.link }}">
-    <img src="/assets/images/{{ include.image }}">
-    <div class="bottom">
-      <h1>{{ include.title }}</h1>
-      <div class="info">
-        <p class="category">{{ include.category }}</p>
-        <p class="author">{{ include.author | join, ', ' }}</p>
-        <p class="date">{{ include.date }}</p>
-      </div>
-    </div>
-  </a>
-</article>
+{% assign article = include.article %}<a class="article-small" href="/article/{{article.slug}}">
+  <img src="/assets/images/{{article.image}}" alt="">
+  <div>
+    {% if article.series %} 
+      {% assign title = article.series | append: " " | append: article.title %}
+    {% else %}
+      {% assign title = article.title %}
+    {% endif %}
+    <p class="title">{{title}}</p>
+    <div class="separator"></div>
+    <p class="author">{{article.author  
+                          | join: ", "
+                      }}</p>
+    <p class="date">{{article.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
+  </div>
+</a>

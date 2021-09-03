@@ -1,6 +1,7 @@
 ---
 layout: "article"
-title: "Playlists From Your Peers: Kilcline's Top Motivational Songs"
+series: "Playlists From Your Peers:"
+title: "Kilcline's Top Motivational Songs"
 author: [Owen Kilcline]
 image: motivational-picks.jpg
 category: "Culture"

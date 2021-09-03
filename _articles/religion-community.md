@@ -2,7 +2,7 @@
 layout: "article"
 title: "Religion Gave Me Community; School Should Too"
 author: ["Kiley Bramson"]
-image: "Religion Article Image.png"
+image: religion.png
 category: "Opinion"
 date: 2021-01-13
 ---

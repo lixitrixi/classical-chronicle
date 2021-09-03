@@ -1,70 +1,313 @@
 /* article-card.scss */
-
-.articles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 280px);
-  grid-gap: 37px;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  padding: 0px 30px;
-  justify-content: center;
-}
-
-.card {
-  width: 280px;
-  height: 380px;
-  background-color: white;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0px 2px 10px -6px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 7px 10px -6px;
+article.big {
+  display: flex;
+  height: 350px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  max-width: 90vw;
+  @media (max-width: 760px) {
+    height: unset;
   }
-  &:hover h1 {
-    text-decoration: underline;
+  .tab {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    background: #3D68C2;
+    color: white;
+    padding: 5px 15px 20px 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
   }
-  a {
-    text-decoration: none;
-    color: #1A1A1A;
-  }
-  img {
-    height: 190px;
-    width: 100%;
-    display: block;
-    background-color: white;
-  }
-  .bottom {
-    padding: 15px 22px;
-    position: relative;
-    height: 190px;
-    box-sizing: border-box;
-    box-shadow: 0px 5px 10px 0px;
-    h1 {
-      margin: 0px;
-      font-size: 18px;
-      font-weight: 500;
+  .intro {
+    @media (max-width: 760px) {
+      flex-direction: column;
+      width: 100%;
+      max-width: 350px;
+      div.about {
+        box-sizing: border-box;
+        padding: 15px 20px 0px 20px;
+        .separator {
+          display: none;
+        }
+      }
     }
-    .info {
-      position: absolute;
-      bottom: 15px;
+    display: flex;
+    //background: white;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -6px #00000088;
+    z-index: 1;
+    width: 700px;
+    transition: transform 0.25s ease;
+    &:hover {
+      transform: scale(1.03);
+      .title {
+        text-decoration: underline;
+      }
+    }
+    img {
+      max-width: 350px;
+      overflow: hidden;
+      border-radius: 20px;
+      margin-right: 20px;
+      flex-shrink: 0;
+      object-fit: cover;
+      box-shadow: 0px 0px 15px -6px #00000088;
+      aspect-ratio: 1 / 1;
+      @media (max-width: 760px) {
+        margin: 0;
+      }
+    }
+
+    .about {
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      padding-right: 20px;
+      padding-top: 13px;
+      width: 100%;
+      color: white;
+      border-radius: 20px;
+      background: inherit;
+      .separator {
+        flex-grow: 1;
+        width: 96%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        opacity: 0.3;
+        // Kinda hacky way to make rows of dots disappear (wrapped out of view) when there isn't enough room.
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 5px;
+        align-items: center;
+        svg {
+          flex-shrink: 0;
+          margin-top: 6px;
+          margin-bottom: 6px;
+          fill: #fff;
+          &:nth-child(2n) {
+            transform: translateX(17px);
+          }
+        }
+      }
       p {
-        margin:1px 0px;
-        font-size: 14px;
+        margin:0;
+      }
+      .series {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .title {
+        font-size: 39px;
+        font-weight: bold;
+        color: white;
+        overflow-wrap: break-word;
+        &.long {
+          font-size: 30px;
+        }
       }
       .category {
-        font-weight: bold;
-        color: #9B9BA2;
-        text-transform: uppercase;
+        font-size: 22px;
+        color: white;
+        font-weight: 500;
+        position: relative;
+        background: inherit;
+        // Small element to cover up separator dots if they get cronched
+        &:before {
+          position: absolute;
+          content: "";
+          background: inherit;
+          width: 100%;
+          height: 9px;
+          top: -6px;
+        }
+        @media (max-width: 760px) {
+          &:before {
+            display: none;
+          }
+        }
       }
       .author {
-        font-weight: 500;
-        font-size: 13px;
+        font-size: 27px;
+        font-weight: bold;
       }
       .date {
-        color: #9B9BA2;
+        margin-bottom: 20px;
+        font-size: 22px;
       }
+    }
+  }
+  .preview {
+    @media (max-width: 1050px) {
+      display: none;
+    }
+    flex: 1;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -6px #00000088;
+    margin: 0 0 0 -40px;
+    z-index: 0;
+    padding: 20px 20px 20px 60px;
+    box-sizing: border-box;
+    font-size: 23px;
+    overflow: hidden;
+    position: relative;
+    min-width: 200px;
+    span {
+      font-weight: bold;
+    }
+    &:after {
+      content: "";
+      width: calc(100% - 60px);
+      background: linear-gradient(0deg, white 0%, white 20%, rgba(255,255,255,0.97) 50%, rgba(255,255,255,0) 100%);
+      height: 6.1em;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-radius: 0 0 20px 0;
+    }
+  }
+  .read-more {
+    @media (max-width: 1050px) {
+      display: none;
+    }
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+.article-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: center;
+}
+.article-small {
+	display: flex;
+	position: relative;
+  background: white;
+	width: 500px;
+  min-width: 500px;
+  max-width: 650px;
+  flex: 1;
+	padding: 12px;
+	box-shadow: 1px 1px 15px -5px #00000088;
+	border-radius: 14px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+  @media (max-width: 550px) {
+    width: unset;
+    min-width: 300px;
+  }
+  @media (max-width: 350px) {
+    width: unset;
+    min-width: 200px;
+  }
+  @media (max-width: 280px) {
+    min-width: 145px;
+
+    img {
+      display: none;
+    }
+  }
+	img {
+		width: 110px;
+		height: 110px;
+		border-radius: 10px;
+		outline: none;
+		border: none;
+		margin-right: 10px;
+		object-fit: cover;
+    box-sizing: border-box;
+	}
+	div {
+		display: flex;
+		flex-direction: column;
+	}
+	.separator {
+		flex-grow: 1;
+	}
+  &:hover {
+    transform: scale(1.04);
+    .title {
+      text-decoration: underline;
+    }
+  }
+	.title {
+		font-weight: bold;
+		font-size: 21px;
+    color: black;
+    overflow-wrap: anywhere;
+	}
+	p {
+		margin: 0;
+		font-size: 19px;
+    overflow-wrap: anywhere;
+	}
+  .author {
+    font-weight: 600;
+    overflow-wrap: anywhere;
+  }
+	.category {
+		position: absolute;
+		right: 8px;
+		bottom: 8px;
+    overflow-wrap: anywhere;
+	}
+}
+.category-divider {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  h1 {
+    margin:0px;
+    margin-right: 20px;
+    font-size:38px;
+    @media (max-width: 500px) {
+      font-size: 28px;
+    }
+  }
+  hr {
+    border-width: 4px;
+    border-style:solid;
+    border-radius:20px;
+    flex-grow:1;
+    height:0px;
+  }
+  a {
+    text-decoration:none;
+    margin:0px;
+    margin-left: 20px;
+    font-size:28px;
+    font-weight:600;
+    @media (max-width: 500px) {
+      font-size: 22px;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+    
+  }
+  @media (max-width: 280px) {
+    hr {
+      display: none;
+    }
+    h1 {
+      margin: 0;
+    }
+    a {
+      margin-left: auto;
     }
   }
 }

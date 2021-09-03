@@ -1,0 +1,6 @@
+---
+---
+<style>body{ font-family: "Source Sans Pro", sans-serif;}</style>
+{% for article in site.articles reversed %}
+<p><a href="{{article.url}}">{{article.series}}{{article.title}} - {{article.author | join: ", "}}</a></p>
+{% endfor %}

@@ -1,7 +1,6 @@
----
-enabled: false
-type: info
+# Possible types: emergency, warning, info, success, school, impact
+enabled: true
+type: school
 icon: megaphone
-text: This is a sample announcement to show the new announcement look and config.
-link: https://example.com
-message: This is a message
+message: "*The Purple Post* has merged with the *Classical Chronicle*."
+link: /article/purple-post-merger

@@ -1,0 +1,27 @@
+---
+---
+body {
+  margin: 0;
+  font-family: "Source Sans", sans-serif;
+}
+// {% include base.scss %}
+// {% include header.scss %}
+// {% include article-cards.scss %}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 40px;
+  @media (max-width: 850px) {
+    padding: 0px 5px;
+  }
+}
+main {
+  max-width: 1300px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
