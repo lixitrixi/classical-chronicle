@@ -6,6 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: Main Site
+- type: directory
+  path: _clubs
+  label: Clubs
+  create: documents
+  match: "**/*"
 - type: document
   path: _data/announcement.yml
   label: Announcement
