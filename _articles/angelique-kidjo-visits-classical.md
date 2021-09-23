@@ -1,10 +1,12 @@
 ---
-layout: "article"
-title: "Angélique Kidjo Visits Classical"
-author: [Luke Taylor]
-image: "kidjo.jpg"
-category: "Culture"
+layout: article
+title: Angélique Kidjo Visits Classical
+author:
+- Luke Taylor
+image: kidjo.jpg
+category: Culture
 date: 2020-02-24
+
 ---
 Last Friday, four-time Grammy-winning singer and songwriter Angélique Kidjo came to Classical to perform her unique music which blends her African roots with a myriad of other influences. The event was attended primarily by Classical students, families, and alumni along with teachers and students from other Providence public schools. By sponsoring this event, FirstWorks, a performing arts nonprofit, provided a great opportunity for students to hear Kidjo’s music and to ask her directly about her art.
 
@@ -14,4 +16,4 @@ Kidjo told the audience captivating stories about her childhood growing up in Be
 
 Following the performance was a Q&A with Kidjo, led by City Councilor Nirva LaFortune. Audience members asked questions on a variety of topics, including about her musical inspirations and process.
 
-Angélique Kidjo’s performance was musically awe-inspiring and moved the audience to make a difference in their own communities. Hopefully more great opportunities like this one can take place at Classical in the future.
+Angélique Kidjo’s performance was musically awe-inspiring and moved the audience to make a difference in their own communities. Hopefully more great opportunities like this one can take place at Classical in the future..
