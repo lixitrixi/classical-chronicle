@@ -16,4 +16,4 @@ Kidjo told the audience captivating stories about her childhood growing up in Be
 
 Following the performance was a Q&A with Kidjo, led by City Councilor Nirva LaFortune. Audience members asked questions on a variety of topics, including about her musical inspirations and process.
 
-Angélique Kidjo’s performance was musically awe-inspiring and moved the audience to make a difference in their own communities. Hopefully more great opportunities like this one can take place at Classical in the future..
+Angélique Kidjo’s performance was musically awe-inspiring and moved the audience to make a difference in their own communities. Hopefully more great opportunities like this one can take place at Classical in the future.
