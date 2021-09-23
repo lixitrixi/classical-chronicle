@@ -1,7 +1,7 @@
 ---
 name: Classical Chronicle
 image: logo256.png
-meets: ''
+meets: Wednesday
 organizer: Simon Carr
 studentreps: Simon Carr, Dorothy Breen
 contact: "[@classical.chronicle](https://instagram.com/classical.chronicle) on Instagram"
