@@ -6,6 +6,7 @@ author:
 image: kidjo.jpg
 category: Culture
 date: 2020-02-24
+published: false
 
 ---
 Last Friday, four-time Grammy-winning singer and songwriter Angélique Kidjo came to Classical to perform her unique music which blends her African roots with a myriad of other influences. The event was attended primarily by Classical students, families, and alumni along with teachers and students from other Providence public schools. By sponsoring this event, FirstWorks, a performing arts nonprofit, provided a great opportunity for students to hear Kidjo’s music and to ask her directly about her art.
