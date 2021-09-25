@@ -8,6 +8,6 @@ joined: December 2019
 email: simon.alberga.carr@gmail.com
 instagram: simon.alberga
 lastmod: 2020-04-21
-order: 4
+order: 1
 ---
 **Simon Carr** is both a writer and an editor for the *Classical Chronicle*.
