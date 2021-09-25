@@ -1,7 +1,7 @@
 ---
 layout: contributor
 contributorName: James Ninneman
-position: Sports Writer and Editor
+position: Sports Editor
 pronouns: He/Him
 classof: 2022
 joined: August 2021
