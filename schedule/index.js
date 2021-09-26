@@ -1,5 +1,5 @@
 
-const emergencyMaintenence = false
+const emergencyMaintenence = true
 const maintenenceHeader = "Temporarily Disabled!"
 const maintenenceMessage = "I'm working on passing the schedule on to another person."
 var usingBLunch = true
