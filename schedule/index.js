@@ -4,7 +4,7 @@
 
 // Whether or not the app should be disabled and show a message
 // Either true or false
-const emergencyMaintenence = true
+const emergencyMaintenence = false
 // If emergency maintenence is on, the header of the message
 const maintenenceHeader = "Temporarily Disabled!"
 // If emergency maintenence is on, the body of the message
@@ -18,7 +18,7 @@ const toastMessage = "This schedule may not be accurate on days the schedule is 
 
 // Overrides for particular dates. The date is in the format "YEAR-MONTH-DAY"
 // Choose a schedule from one of the following:
-// - "regular" - this is just the regular schedule
+// - "regular" or "normal" - this is just the regular schedule
 // - "thursday" or "advisory" - this is the advisory schedule
 // - "no-school" - this just shows a message saying no school
 const scheduleOverrides = {
@@ -28,6 +28,7 @@ const scheduleOverrides = {
   "2021-05-05": "regular",
   "2021-06-17": "regular",
   "2021-09-27": "regular",
+  "2021-09-28": "wednesday-demo",
 }
 
 // The default schedule for a given day
@@ -60,7 +61,20 @@ const customSchedules = {
     {"name":"Math SAT", "time":["10:40", "12:00"]},
     {"name":"Lunch", "time":["12:00", "13:00"]},
   ],
-  "winter-break": "Test"
+  "wednesday-demo": [
+    {"name":"Advisory", "time":["7:40","7:56"]},
+    {"name":"Period 1", "time":["8:00","8:41"]},
+    {"name":"Period 2", "time":["8:45","9:26"]},
+    {"name":"Period 3", "time":["9:30","10:11"]},
+    {"name":"Period 4", "time":["10:15","10:56"]},
+    {"name":"Period 5", "time":["11:00","12:29"], "subPeriod": [
+      {"name": "A Lunch", "time":["11:00","11:27"]},
+      {"name": "B Lunch", "time":["11:31","11:58"]},
+      {"name": "C Lunch", "time":["12:02","12:29"]}
+    ]},
+    {"name":"Period 6", "time":["12:33","13:14"]},
+    {"name":"Advisory", "time":["13:19","14:11"]}
+  ],
 }
 
 const demo = `[{"name":"Whole Day", "time":["7:40", "14:11"]}]`
@@ -471,7 +485,7 @@ function getFormattedDate() {
 }
 
 function nameToSchedule(name) {
-  if (name == "regular") return JSON.parse(regular)
+  if (name == "regular" || name == "normal") return JSON.parse(regular)
   else if (name == "thursday" || name == "advisory") return JSON.parse(thursday)
   else if (name == "no-school") return "no-school"
   else if (customSchedules[name]) {
