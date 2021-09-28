@@ -1,13 +1,67 @@
+// ==================
+// Editable Constants
+// ==================
 
+// Whether or not the app should be disabled and show a message
+// Either true or false
 const emergencyMaintenence = true
+// If emergency maintenence is on, the header of the message
 const maintenenceHeader = "Temporarily Disabled!"
+// If emergency maintenence is on, the body of the message
 const maintenenceMessage = "I'm working on passing the schedule on to another person."
-var usingBLunch = true
+
+// Whether or not the app should show the following toast message when it starts
+// Should be either true or false
+const showToastMessage = false
+// The toast message to show
+const toastMessage = "This schedule may not be accurate on days the schedule is different than normal."
+
+// Overrides for particular dates. The date is in the format "YEAR-MONTH-DAY"
+// Choose a schedule from one of the following:
+// - "regular" - this is just the regular schedule
+// - "thursday" or "advisory" - this is the advisory schedule
+// - "no-school" - this just shows a message saying no school
+const scheduleOverrides = {
+  "2021-03-16": "thursday",
+  "2021-04-28": "regular",
+  "2021-04-29": "regular",
+  "2021-05-05": "regular",
+  "2021-06-17": "regular",
+  "2021-09-27": "regular",
+}
+
+// The default schedule for a given day
+const scheduleDefaults = {
+  "Monday": "regular",
+  "Tuesday": "regular",
+  "Wednesday": "regular",
+  "Thursday": "advisory",
+  "Friday": "regular",
+  "Saturday": "no-school",
+  "Sunday": "no-school",
+}
+
+const usingBLunch = true
+
+// ==================
+// End Editable Constants
+// ==================
 
 var devOffsetHours = 0
 var devOffsetMinutes = 0
 var devDay = false
 initDevTools()
+
+const customSchedules = {
+  "sat-demo-day": [
+    {"name":"Advisory", "time":["7:40", "8:30"]},
+    {"name":"English SAT", "time":["8:40", "10:30"]},
+    {"name":"Break", "time":["10:30", "10:40"]},
+    {"name":"Math SAT", "time":["10:40", "12:00"]},
+    {"name":"Lunch", "time":["12:00", "13:00"]},
+  ],
+  "winter-break": "Test"
+}
 
 const demo = `[{"name":"Whole Day", "time":["7:40", "14:11"]}]`
 const regular = `[
@@ -416,20 +470,23 @@ function getFormattedDate() {
   return `${new Date().getFullYear()}-${String(new Date().getMonth()+1).padStart(2,"0")}-${String(new Date().getDate()).padStart(2,"0")}`
 }
 
+function nameToSchedule(name) {
+  if (name == "regular") return JSON.parse(regular)
+  else if (name == "thursday" || name == "advisory") return JSON.parse(thursday)
+  else if (name == "no-school") return "no-school"
+  else if (customSchedules[name]) {
+    return [... customSchedules[name]]
+  }
+}
+
 function getDailySchedule() {
   let day = dotw[new Date().getDay()]
-  if (scheduleOverrides[getFormattedDate()]) return JSON.parse(scheduleOverrides[getFormattedDate()]);
-  switch (devDay || day) {
-    case "Monday":
-    case "Tuesday":
-    case "Friday":
-      return JSON.parse(regular)
-    case "Wednesday":
-      return JSON.parse(regular)
-    case "Thursday":
-      return JSON.parse(thursday)
-    default:
-      return "no-school"
+  const formattedDate = getFormattedDate()
+  if (scheduleOverrides[formattedDate]) { 
+    return nameToSchedule(scheduleOverrides[formattedDate])
+  }
+  else {
+    return nameToSchedule(scheduleDefaults[devDay || day])
   }
 }
 
@@ -595,7 +652,7 @@ function initDevTools(consoleRun, targetTime) {
 function startNewDay(now) {
   dailySchedule = null
   let schedule = getDailySchedule(now)
-  if (schedule !== "no-school") {
+  if (!(typeof schedule == "string")) {
     dailySchedule = buildSchedule(schedule)
     activePeriods.noSchool = false
   } else {
@@ -614,16 +671,7 @@ function init() {
   settingsInit()
   startNewDay(now)
   setInterval(tick, 1000)
-}
-
-const scheduleOverrides = {
-  // "2021-01-19": demo,
-  "2021-03-16": thursday,
-  "2021-04-28": regular,
-  "2021-04-29": regular,
-  "2021-05-05": regular,
-  "2021-06-17": regular,
-
+  if (showToastMessage) showToast(toastMessage)
 }
 
 init()
