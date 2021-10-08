@@ -17,12 +17,12 @@ Happy answering!
 
 Survey links (please fill out as many as possible):
 
-https://tinyurl.com/n846ku2v
+[https://tinyurl.com/n846ku2v] (https://tinyurl.com/n846ku2v)
 
-https://tinyurl.com/5fbrmvue
+[https://tinyurl.com/5fbrmvue] (https://tinyurl.com/5fbrmvue)
 
-https://tinyurl.com/52duvkpd
+[https://tinyurl.com/52duvkpd] (https://tinyurl.com/52duvkpd)
 
-https://tinyurl.com/2a9rnuh5
+[https://tinyurl.com/2a9rnuh5] (https://tinyurl.com/2a9rnuh5)
 
 We will continue updating this list as more surveys come out! Please reach out to us via Instagram @classicalchronicle or speak to Simon Carr in person to have your survey link featured.
