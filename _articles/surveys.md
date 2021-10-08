@@ -3,7 +3,7 @@ layout: article
 title: Surveys for AP Psychology Students
 author:
 - Simon Carr
-image: 
+image: survey-3589115_1280.png
 category: School
 date: 2021-10-07
 
