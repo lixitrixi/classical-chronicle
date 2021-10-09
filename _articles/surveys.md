@@ -45,5 +45,5 @@ Survey links (please fill out as many as possible):
 
 [Workload vs. Hours of sleep](https://tinyurl.com/3th488v7)
 
-We will continue updating this list as more surveys come out! Please reach out to us via Instagram [@classicalchronicle][2] or speak to Simon Carr in person to have your survey link featured.
+We will continue updating this list as more surveys come out! Please reach out to us via Instagram [@classicalchronicle] or speak to Simon Carr in person to have your survey link featured.
 
