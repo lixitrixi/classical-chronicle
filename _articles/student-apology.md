@@ -2,6 +2,7 @@
 
 layout: article
 title: Student Apology
+unlisted: true
 author:
 - Classical Chronicle
 category: School
