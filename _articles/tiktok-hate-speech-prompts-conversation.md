@@ -16,7 +16,7 @@ Students and members of the community say this issue represents a deeper, consta
 
 “It makes me annoyed,” says Layla Valenzuela, “because we see these things happen time and time again and no one seems to be learning anything at all about how this behavior affects other people.”
 
-Similar incidents of racism on social media have been taking place for years. During the 2018-2019 school year, a white student used a racial slur on social media to attack a Black student. A year later, another white student uploaded a picture of themself in blackface, captioned “ew.” Students say these incidents go back much further.
+Similar incidents of racism on social media have been taking place for years. During the 2018-2019 school year, a white student used a racial slur on social media to attack a Black student. A year later, [another white student uploaded a picture of themself in blackface](https://classicalchronicle.org/article/racism-at-classical), captioned “ew.” Students say these incidents go back much further.
 
 The response from Classical’s administration has historically been some form of private disciplinary action, which they are not allowed to comment on publicly, and occasionally some sort of community discussion. However, because the administration is not at liberty to explain a particular students’ misconduct to the community, many students consider these discussions unproductive.
 
@@ -30,9 +30,9 @@ Students describe racism as an ever present stain on Classical’s reputation. A
 
 “They tend to sweep things under the rug in an attempt to save their image as ‘#1 in RI’” asserts Soulaiman. Frias agrees, “The administration is more concerned [with] how the school looks… than the well being and the social issues we clearly have.”
 
-Classical High School’s administration, however, is not hiding these incidents willfully or maliciously. They simply cannot legally comment on their own disciplinary practices. This policy, the Federal Education Rights and Policy Act (FERPA), is designed to protect students’ privacy, so that the administration couldn’t, for instance, publicly shame a student for graffitiing the school. That policy applies to hate speech, which occasionally causes some acts of extreme hatred to go unacknowledged.
+Classical High School’s administration, however, is not hiding these incidents willfully or maliciously. They simply cannot legally comment on their own disciplinary practices. This policy, the [Federal Education Rights and Policy Act](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html) (FERPA), is designed to protect students’ privacy, so that the administration couldn’t, for instance, publicly shame a student for graffitiing the school. That policy applies to hate speech, which occasionally causes some acts of extreme hatred to go unacknowledged.
 
-The school may also be unable to address the situation through discipline. They cannot punish students for what they say outside of school, much in the way the school cannot censor The Classical Chronicle, an independent newspaper. The Supreme Court in Mahanoy Area School District v. B. L. (2021) ruled that a school cannot censor students for posting on social media outside of school. 
+The school may also be unable to address the situation through discipline. They cannot punish students for what they say outside of school, much in the way the school cannot censor The Classical Chronicle, an independent newspaper. The Supreme Court in [Mahanoy Area School District v. B. L. (2021)](https://www.supremecourt.gov/opinions/20pdf/20-255_g3bi.pdf) ruled that a school cannot censor students for posting on social media outside of school. 
 
 According to Sara Clark, the chief legal counsel for the Ohio School Boards Association, the Supreme Court decision carved out only a few specific exceptions: the school can only discipline students for private social media posts which are serious or severe bullying or harassment targeting particular individuals, threats aimed at teachers or other students, or anything advocating for or helping with academic dishonesty.
 
