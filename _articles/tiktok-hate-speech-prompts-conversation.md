@@ -19,9 +19,7 @@ Students and members of the community say this issue represents a deeper, consta
 
 Similar incidents of racism on social media have been taking place for years. During the 2018-2019 school year, a white student used a racial slur on social media to attack a Black student. A year later, [another white student uploaded a picture of themself in blackface](https://classicalchronicle.org/article/racism-at-classical), captioned “ew.” Students say these incidents go back much further.
 
-The response from Classical’s administration has historically been some form of private disciplinary action, which they are not allowed to comment on publicly, and occasionally some sort of community discussion. However, because the administration is not at liberty to explain a particular students’ misconduct to the community, many students consider these discussions unproductive.
-
-“[It’s like Classical’s administration] brainstorms the worst possible response and then does it,” says Miles Rardin, “[People need to actually know] what happened so they can have actual informed opinions.”
+The response from Classical’s administration has historically been some form of private disciplinary action, which they are not allowed to comment on publicly, and occasionally some sort of community discussion. However, the administration is not at liberty to explain a particular students’ misconduct to the community. Because students are often unaware of the situation they're supposed to discuss, many students consider these restorative justice programs unproductive.
 
 Valenzuela comments, “... it just becomes a cycle of problematic [incidents] with no one with administrative power trying to fix it.”
 
