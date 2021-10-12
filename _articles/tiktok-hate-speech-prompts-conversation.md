@@ -41,7 +41,7 @@ This particular instance of hate speech on social media is not covered by any of
 
 Students have also complained on [@classical.stories](https://www.instagram.com/classical.stories/), an Instagram account created to anonymously amplify voices in this anti-racist upset, about how they feel Classical’s “clearly racist and sexist dress code,” represents part of the school’s problem. According to Lateefat Oguntade, these repeated incidents of hate speech make her feel “like someone could pour acid on my face because I’m Black and [the] administration would punish me for wearing a bonnet before punishing the racist who hurt me.”
 
-The student whose racist depiction of a Black woman prompted this conversation has since taken down the video, deleted their account, and made a public apology. They say they are not a racist person, and that the damage caused by that video was regrettable and accidental.
+The student whose racist depiction of a Black woman prompted this conversation has since taken down the video, deleted their account, and made a [a public apology](https://classicalchronicle.org/article/student-apology). They say they are not a racist person, and that the damage caused by that video was regrettable and accidental.
 
 Some say this apology is not enough. “There needs to be real consequences for people who purposefully create an environment of hatred,” says Latifah Soulaiman. Melanie Frias agrees, “We need admin to start caring. [They need to have] people suffer consequences.”
 
