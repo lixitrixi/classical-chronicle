@@ -1,7 +1,7 @@
 ---
 
 layout: article
-title: Student's Tiktok Hate Speech Prompts New Conversation on Race
+title: Hateful Tiktok Video Prompts New Conversation on Race
 unlisted: false
 author:
 - Simon Carr
