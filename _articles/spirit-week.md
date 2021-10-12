@@ -3,7 +3,7 @@ layout: article
 title: Where the Spirit Begins
 author:
 - Zazie Patch
-image: 
+image: HS Classical 2.jpg
 category: Culture
 date: 2021-10-11
 
