@@ -1,7 +1,7 @@
 ---
 
 layout: article
-title: Hateful Tiktok Video Prompts New Conversation on Race
+title: Hateful TikTok Video Prompts New Conversation on Race
 unlisted: false
 author:
 - Simon Carr
