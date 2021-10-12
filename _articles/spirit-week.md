@@ -9,7 +9,7 @@ date: 2021-10-11
 
 ---
 
-Spirit Week, an exciting Classical tradition, has finally arrived this week! It's a time to have fun, dress up and show your school spirit. You’ll get to know your peers better and make some unforgettable memories. As Senior Class Senator Milly Asherov says, “Spirit week is really fun when everyone joins in and participates! It's especially great when everyone finds their place and gets comfortable in it.” 
+Spirit Week, an exciting Classical tradition, has finally arrived this week! It's a time to have fun, dress up, and show your school spirit. You’ll get to know your peers better and make some unforgettable memories. As Senior Class Senator Milly Asherov says, “Spirit week is really fun when everyone joins in and participates! It's especially great when everyone finds their place and gets comfortable in it.” 
 
 The schedule for spirit week is as follows:
 **Tuesday 10/11:** Decades Day
