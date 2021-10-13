@@ -43,7 +43,7 @@ House is a fever dream being brought to life. It follows Gorgeous running off to
 **Rating: 7.4/10**	**TWs:** Nudity & Violence (moderate) 
 
 [**Possession**](https://letterboxd.com/film/possession/)  
-This is a movie for which it’s better to go in blind. Nothing can prepare a person for what’s going to be said and done. This story follows a husband (Mark) and wife (Anna) lost in translation of their feelings when going through a divorce. While the horror begins as a standard divorce, it becomes so overwhelming that it possesses them. A good comparison is [_Repulsion_](https://letterboxd.com/film/repulsion/) by Roman Polanski, one of the movies that inspired possession. Two women of different tales coping with what seems to be insanity and a lot of screaming. _Possession_ is a dark retelling of a marriage story.  
+This is a movie for which it’s better to go in blind. Nothing can prepare a person for what’s going to be said and done. This story follows a husband (Mark) and wife (Anna) lost in translation of their feelings when going through a divorce. While the horror begins as a standard divorce, it becomes so overwhelming that it possesses them. A good comparison is [_Repulsion_](https://letterboxd.com/film/repulsion/) by Roman Polanski, one of the movies that inspired possession. Two women of different tales coping with what seems to be insanity and a lot of screaming. _Possession_ is a dark retelling of [_Marriage Story_](https://letterboxd.com/film/marriage-story-2019/).  
 **Rating:** 7.4/10 **TWs:** Nudity, Alcohol, Violence (severe)
 
 <figure style="float:right; margin: 0 30px 10px 0; overflow:hidden">
