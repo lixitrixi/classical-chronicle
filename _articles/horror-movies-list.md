@@ -46,6 +46,10 @@ House is a fever dream being brought to life. It follows Gorgeous running off to
 This is a movie for which it’s better to go in blind. Nothing can prepare a person for what’s going to be said and done. This story follows a husband (Mark) and wife (Anna) lost in translation of their feelings when going through a divorce. While the horror begins as a standard divorce, it becomes so overwhelming that it possesses them. A good comparison is _Repulsion_ by Roman Polanski, one of the movies that inspired possession. Two women of different tales coping with what seems to be insanity and a lot of screaming. _Possession_ is a dark retelling of a marriage story.  
 **Rating:** 7.4/10 **TWs:** Nudity, Alcohol, Violence (severe)
 
+<figure style="float:right; margin: 0 30px 10px 0; overflow:hidden">
+  <img style="margin:0px;max-width:unset" src="/assets/images/Forgotten.png" alt="Forgotten">
+</figure>
+
 [**Forgotten**](https://letterboxd.com/film/forgotten-2017/)  
 As twisted southern Korean media like _Squid Games_ and _Parasite_ rise in popularity, _Forgotten_ is an increasingly relevant pick. After Jin-seok brother’s disappearance and reappearance his curiosity begins to rise. No matter how many times he asks, he feels as though no one is telling him the truth, not even his own brain. As pressure, frightfulness, and suspense begins to rise, Jin-seok begins to doubt his sanity. This movie is like a deleted _Black Mirror_ episode.  
 **Rating :** 7.5/10 **TWs:** Violence (moderate) & Profanity
@@ -53,6 +57,10 @@ As twisted southern Korean media like _Squid Games_ and _Parasite_ rise in popul
 [**Mandy**](https://letterboxd.com/film/mandy-2018/)  
 Mandy is able to successfully use dark humor, invoke sadness, and make you want to throw up at the same time. This movie is probably best known for the acting done by Nic Cage, which is arguably his best cinematic performance. Red and Mandy are a couple who happily live in the woods. But when a cult takes a strong interest in Mandy and abducts her, Red must journey to get her back. Through his trials it explores the inherent evil that lurks under man's undenying love and desire. This movie is one of the more graphic ones on the list. It’s not blood or torture or anything, just Nicholas Cage existing.  
 **Rating :** 6.5/10      **TWs:** Nudity, Violence (severe), Profanity, Drugs (severe) 
+
+<figure style="float:left; margin: 0 30px 10px 0; overflow:hidden">
+  <img style="margin:0px;max-width:unset" src="/assets/images/The-Skin-I-Live-In.png" alt="The-Skin-I-Live-In">
+</figure>
  
 [**The Skin I Live In** ](https://letterboxd.com/film/the-skin-i-live-in/)  
 _La piel que habito_ is a Spanish horror movie that follows the perverted Dr. Robert Ledgard, a plastic surgeon, who is experimenting on a human subject in the search for a prosthetic skin that will withstand all sorts of pain. It's a psychological horror that calmly frightens you as the story plays out instead of going for the scares. It doesn't shock you with reveals; it moves you with the realization of the nightmare that is this situation. This is one of the darker movies to watch in October. You’ve been warned.  
