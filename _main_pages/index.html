@@ -19,7 +19,7 @@
     {% include header.html page="home" %}
     <div class="container">
       <main>
-        {% assign article = site.articles | last %}
+        {% assign article = site.articles | where_exp: "article","article.unlisted != true" | last %}
         {% assign accent = site.data.category-colors[article.category] %}
         <article class="big">
           <div class="tab" style="background: {{accent}}">
