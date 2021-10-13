@@ -34,6 +34,10 @@ In the 2007 remake of _Funny Games_, a family of three go on vacation to their h
 This movie is your typical teenage slasher film: it has a low budget and low box office. The twist: surprisingly not horrible acting. It follows Mandy Lane (Amber Heard), who got hot over summer and is basically mauled at by every boy at her high school until she finally agrees to go to a party with one of her classmates at Red’s far away cabin. Red without a doubt is one of the more persistent guys when it comes to "getting with" Mandy. He would do anything to get with her. I think this movie captures how far the horniness of a teenage boy will go. Fans of _Jennifer's Body_ will like this one.  
 **Rating : 5.5/10**	**TWs:** Nudity, Bloody violence (severe), Gore, Drugs 
 
+<figure style="float:left; margin: 0 30px 10px 0; overflow:hidden">
+  <img style="margin:0px;max-width:unset" src="/assets/images/House.png" alt="House">
+</figure>
+
 [**House**  ](https://letterboxd.com/film/house/)   
 House is a fever dream being brought to life. It follows Gorgeous running off to her aunt's house after her dad announced he would be getting remarried. Her mother passed away so she took the news very personally. Gorgeous also asked her friend group to come along, which includes Fantasy, Melody, Sweet, Mac, Prof and Kung Fu (and yes, their personalities are defined by their names, or is it the other way around?). Surprise: the house is haunted with the evil spirit that resides in her deceased mother’s cat portrait. This movie's dreamy theme is also portrayed through its soundtrack and nostalgic editing.  
 **Rating: 7.4/10**	**TWs:** Nudity & Violence (moderate) 
