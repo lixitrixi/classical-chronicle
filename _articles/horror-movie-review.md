@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Flicks From Your Fellows: Cepeda's Top Horror Movies
+title: Flicks From Your Fellows: Cepeda's Top Horrors
 author:
 - Jayliana Cepeda
-image: 
+image:
 category: Culture
 date: 2021-10-13
 unlisted: true
