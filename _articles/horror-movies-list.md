@@ -2,7 +2,7 @@
 layout: "article"
 title: "Flicks From Your Fellows: Cepeda's Top Horror Movies"
 author: [Jayliana Cepeda]
-image: halloween-scary.jpg
+image: a-scary-halloween-pumpkin-in-smoke-ilonabudzbon.jpg
 category: "Culture"
 date: 2021-10-13
 unlisted: true
