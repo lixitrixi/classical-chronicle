@@ -1,8 +1,7 @@
 ---
 layout: article
 title: Flicks From Your Fellows: Cepeda's Top Horrors
-author:
-- Jayliana Cepeda
+author: Jayliana Cepeda
 image:
 unlisted: true
 category: Culture
