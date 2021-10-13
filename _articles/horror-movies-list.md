@@ -45,6 +45,6 @@ Mandy is able to successfully use dark humor, invoke sadness, and make you want 
 _La piel que habito_ is a Spanish horror movie that follows the perverted Dr. Robert Ledgard, a plastic surgeon, who is experimenting on a human subject in the search for a prosthetic skin that will withstand all sorts of pain. It's a psychological horror that calmly frightens you as the story plays out instead of going for the scares. It doesn't shock you with reveals; it moves you with the realization of the nightmare that is this situation. This is one of the darker movies to watch in October. You’ve been warned.  
 **Rating :** 7.6/10       **TWs:** Nudity ( & sexual assault), Violence (severe), Drugs 
 
-[**Coherence**](https://letterboxd.com/film/coherence/)
+[**Coherence**](https://letterboxd.com/film/coherence/)  
 This thriller is based on a group of friends who joined together to what seemed to be a very regular dinner party. But what happens is all but celebratory. They’re met with moral dilemmas that are life altering, which make the viewer reconsider the philosophy of this film and how they define moral integrity. This is a movie I recommend to people who liked _Inception_ because I personally hated it due to my vendetta against Christopher Nolan and Leonardo DiCaprio. But I digress. This movie did everything right. Although it may get tedious, take in every detail it offers.  
 **Rating:** 7.2/10    **TWs:** Violence (mild) , Profanity, Alcohol
