@@ -26,7 +26,7 @@ This movie is your typical teenage slasher film: it has a low budget and low box
 **Rating : 5.5/10**	**TWs:** Nudity, Bloody violence (severe), Gore, Drugs 
 
 **House**  
-House is a fever dream being brought to life. It follows Gorgeous running off to her aunt's house after her dad announced he would be getting remarried. Her mother passed away so she took the news very personally. Gorgeous also asked her friend group to come along, which includes Fantasy, Melody, Sweet, Mac, Prof and Kung Fu (and yes, their personalities are defined by their names, or is it the other way around?). Surprise: the house is haunted with the evil spirit that resides in her deceased mother’s cat portrait. This movie's dreamy theme is also portrayed through its soundtrack and nostalgic editing. 
+House is a fever dream being brought to life. It follows Gorgeous running off to her aunt's house after her dad announced he would be getting remarried. Her mother passed away so she took the news very personally. Gorgeous also asked her friend group to come along, which includes Fantasy, Melody, Sweet, Mac, Prof and Kung Fu (and yes, their personalities are defined by their names, or is it the other way around?). Surprise: the house is haunted with the evil spirit that resides in her deceased mother’s cat portrait. This movie's dreamy theme is also portrayed through its soundtrack and nostalgic editing.  
 **Rating: 7.4/10**	**TWs:** Nudity & Violence (moderate) 
 
 **Possession**  
