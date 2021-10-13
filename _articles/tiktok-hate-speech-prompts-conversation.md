@@ -45,7 +45,7 @@ Some say this apology is not enough. “There needs to be real consequences for 
 
 Classical High School English Teacher Jamie Woods weighed in on the situation [in an email to a student](https://classicalchronicle.org/article/ms-woods-email). She asserts that her daughter is not a racist person, but does not acknowledge the harm her daughter’s actions may have caused regardless. “I can assure you no child of mine has ever used racist language,” says Ms. Woods. 
 
-Students on social media have condemned this email: “Ms. Woods’s response annoyed me because she couldn’t even admit her daughter made a mistake,” said Adrianna Da Silva, “[Ms. Woods] works for the school, so of course the school will not even listen to us.”
+Students on social media have condemned this email: “Ms. Woods’s response annoyed me because she couldn’t even admit her daughter made a mistake,” said a student who asked to be referred to as Bella, “[Ms. Woods] works for the school, so of course the school will not even listen to us.”
 
 Christina Keomany says that these incidents still cause pain, even if some people don’t notice: “Even if certain individuals don’t see an issue with the incident, many others do. Admin should take care of this situation and make sure to talk to [the video’s uploader] about it.”
 
