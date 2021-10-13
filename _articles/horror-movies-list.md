@@ -14,7 +14,7 @@ Tired of scrolling through Netflix’s mundane horror section? I've constructed 
 <figure style="float:left; margin: 0 30px 10px 0; overflow:hidden">
   <img style="margin:0px;max-width:unset" src="/assets/images/Popcorn.png" alt="Popcorn">
 </figure>
-[**Popcorn** ](https://letterboxd.com/film/popcorn/)
+[**Popcorn** ](https://letterboxd.com/film/popcorn/)  
 _Popcorn_ is a B-horror movie that I watch every year to get me in the Halloween spirit. It follows Maggie, a film major, who organizes a horror film festival with her film club in order to raise money and work on side projects while in class. A cult member known as the Possessor showcased a creepy film before murdering his family on stage. He then burns down a movie theater killing several people in the process. Years later, Maggie and her film club come in to host an all night horror marathon in the same wretched theater! Be careful guys! There’s quirky characters to root for, laughable humor, and an insanely memorable plot. This movie also gets extra points for its tagline: “buy a bag… go home in a box.”    
 **Rating :**    5.8/10      **TWs:** Violence (mild), Gore, Profanity
 
