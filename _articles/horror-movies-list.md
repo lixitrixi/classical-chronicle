@@ -2,7 +2,7 @@
 layout: "article"
 title: "Flicks From Your Fellows: Cepeda's Top Horror Movies"
 author: [Jayliana Cepeda]
-image: 
+image: halloween-scary.jpg
 category: "Culture"
 date: 2021-10-13
 unlisted: true
