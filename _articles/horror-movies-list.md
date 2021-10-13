@@ -18,7 +18,12 @@ Tired of scrolling through Netflix’s mundane horror section? I've constructed 
 _Popcorn_ is a B-horror movie that I watch every year to get me in the Halloween spirit. It follows Maggie, a film major, who organizes a horror film festival with her film club in order to raise money and work on side projects while in class. A cult member known as the Possessor showcased a creepy film before murdering his family on stage. He then burns down a movie theater killing several people in the process. Years later, Maggie and her film club come in to host an all night horror marathon in the same wretched theater! Be careful guys! There’s quirky characters to root for, laughable humor, and an insanely memorable plot. This movie also gets extra points for its tagline: “buy a bag… go home in a box.”    
 **Rating :**    5.8/10      **TWs:** Violence (mild), Gore, Profanity
 
-[**The Stepford Wives**](https://letterboxd.com/film/the-stepford-wives/)  
+[**The Stepford Wives**](https://letterboxd.com/film/the-stepford-wives/)
+
+<figure style="float:left; margin: 0 30px 10px 0; overflow:hidden">
+  <img style="margin:0px;max-width:unset" src="/assets/images/The-Stepford-Wives.png" alt="The Stepford Wives">
+</figure>
+
 _The Stepford Wives_, released in 1975, follows protagonist Joanna Eberhart move from New York city to a small suburb in Stepford, Connecticut. Her free-spirited-ness lets her see that there’s something off about all the wives of Stepford, and later on she finds out what causes their weird behavior. When I first watched this movie I thought it was a wonderful satirical depiction of second wave feminism. But it still showcases how women would revolve their entire world around men, giving this movie a sad edge. The ideals of gender norms in western society are what makes this so great. But if you want to see a more light hearted version, you should watch the 2004 remake.  
 **Rating :** 6.9/10      **TWs:** Nudity, Violence (mild), Smoking, Alcohol 
   
