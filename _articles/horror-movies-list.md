@@ -43,7 +43,7 @@ House is a fever dream being brought to life. It follows Gorgeous running off to
 **Rating: 7.4/10**	**TWs:** Nudity & Violence (moderate) 
 
 [**Possession**](https://letterboxd.com/film/possession/)  
-This is a movie for which it’s better to go in blind. Nothing can prepare a person for what’s going to be said and done. This story follows a husband (Mark) and wife (Anna) lost in translation of their feelings when going through a divorce. While the horror begins as a standard divorce, it becomes so overwhelming that it possesses them. A good comparison is _Repulsion_ by Roman Polanski, one of the movies that inspired possession. Two women of different tales coping with what seems to be insanity and a lot of screaming. _Possession_ is a dark retelling of a marriage story.  
+This is a movie for which it’s better to go in blind. Nothing can prepare a person for what’s going to be said and done. This story follows a husband (Mark) and wife (Anna) lost in translation of their feelings when going through a divorce. While the horror begins as a standard divorce, it becomes so overwhelming that it possesses them. A good comparison is [_Repulsion_](https://letterboxd.com/film/repulsion/) by Roman Polanski, one of the movies that inspired possession. Two women of different tales coping with what seems to be insanity and a lot of screaming. _Possession_ is a dark retelling of a marriage story.  
 **Rating:** 7.4/10 **TWs:** Nudity, Alcohol, Violence (severe)
 
 <figure style="float:right; margin: 0 30px 10px 0; overflow:hidden">
@@ -51,8 +51,8 @@ This is a movie for which it’s better to go in blind. Nothing can prepare a pe
 </figure>
 
 [**Forgotten**](https://letterboxd.com/film/forgotten-2017/)  
-As twisted southern Korean media like _Squid Games_ and _Parasite_ rise in popularity, _Forgotten_ is an increasingly relevant pick. After Jin-seok brother’s disappearance and reappearance his curiosity begins to rise. No matter how many times he asks, he feels as though no one is telling him the truth, not even his own brain. As pressure, frightfulness, and suspense begins to rise, Jin-seok begins to doubt his sanity. This movie is like a deleted _Black Mirror_ episode.  
-**Rating :** 7.5/10 **TWs:** Violence (moderate) & Profanity
+As twisted southern Korean media like [_Squid Game_](https://letterboxd.com/film/squid-game/) and [_Parasite_](https://letterboxd.com/film/parasite-2019/) rise in popularity, _Forgotten_ is an increasingly relevant pick. After Jin-seok brother’s disappearance and reappearance his curiosity begins to rise. No matter how many times he asks, he feels as though no one is telling him the truth, not even his own brain. As pressure, frightfulness, and suspense begins to rise, Jin-seok begins to doubt his sanity. This movie is like a deleted _Black Mirror_ episode.  
+**Rating :** 7.5/10 **TWs:** Violence (moderate) & Profanity  
 
 [**Mandy**](https://letterboxd.com/film/mandy-2018/)  
 Mandy is able to successfully use dark humor, invoke sadness, and make you want to throw up at the same time. This movie is probably best known for the acting done by Nic Cage, which is arguably his best cinematic performance. Red and Mandy are a couple who happily live in the woods. But when a cult takes a strong interest in Mandy and abducts her, Red must journey to get her back. Through his trials it explores the inherent evil that lurks under man's undenying love and desire. This movie is one of the more graphic ones on the list. It’s not blood or torture or anything, just Nicholas Cage existing.  
@@ -67,5 +67,5 @@ _La piel que habito_ is a Spanish horror movie that follows the perverted Dr. Ro
 **Rating :** 7.6/10       **TWs:** Nudity ( & sexual assault), Violence (severe), Drugs 
 
 [**Coherence**](https://letterboxd.com/film/coherence/)  
-This thriller is based on a group of friends who joined together to what seemed to be a very regular dinner party. But what happens is all but celebratory. They’re met with moral dilemmas that are life altering, which make the viewer reconsider the philosophy of this film and how they define moral integrity. This is a movie I recommend to people who liked _Inception_ because I personally hated it due to my vendetta against Christopher Nolan and Leonardo DiCaprio. But I digress. This movie did everything right. Although it may get tedious, take in every detail it offers.  
+This thriller is based on a group of friends who joined together to what seemed to be a very regular dinner party. But what happens is all but celebratory. They’re met with moral dilemmas that are life altering, which make the viewer reconsider the philosophy of this film and how they define moral integrity. This is a movie I recommend to people who liked [_Inception_](https://letterboxd.com/film/inception/) because I personally hated it due to my vendetta against Christopher Nolan and Leonardo DiCaprio. But I digress. This movie did everything right. Although it may get tedious, take in every detail it offers.  
 **Rating:** 7.2/10    **TWs:** Violence (mild) , Profanity, Alcohol
