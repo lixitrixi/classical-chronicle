@@ -5,7 +5,7 @@ author: [Jayliana Cepeda]
 image: a-scary-halloween-pumpkin-in-smoke-ilonabudzbon.jpg
 category: "Culture"
 date: 2021-10-13
-unlisted: false
+unlisted: true
 ---
 Tired of scrolling through Netflix’s mundane horror section? I've constructed a list of my top ten films to watch to get you in the festive spirit of Halloween. This list will contain some old horror and some new horror. It will also contain some flat out insanity. Some movies may be very disturbing, but there’s nothing too gorey except for the ones with trigger warnings. All but two of these movies are rated R. 
  
