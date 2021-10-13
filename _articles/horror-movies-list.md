@@ -22,7 +22,7 @@ In the 2007 remake of Funny Games, a family of three go on vacation to their hol
 **Rating :** 6.6/10	**TWs:** Torture, Profanity, Violence(moderate), Smoking
 
 **All the Boys Love Mandy Lane**  
-This movie is your typical teenage slasher film: it has a low budget and low box office. The twist: surprisingly not horrible acting. It follows Mandy Lane (Amber Heard), who got hot over summer and is basically mauled at by every boy at her high school until she finally agrees to go to a party with one of her classmates which takes place at Red’s far away cabin. Red without a doubt is one of the more persistent guys when it comes to “getting with” Mandy and he would do anything to get with her. I think this movie captures how far the horniness of a teenage boy will go. Fans of Jennifer's Body will like this one. 
+This movie is your typical teenage slasher film: it has a low budget and low box office. The twist: surprisingly not horrible acting. It follows Mandy Lane (Amber Heard), who got hot over summer and is basically mauled at by every boy at her high school until she finally agrees to go to a party with one of her classmates which takes place at Red’s far away cabin. Red without a doubt is one of the more persistent guys when it comes to “getting with” Mandy and he would do anything to get with her. I think this movie captures how far the horniness of a teenage boy will go. Fans of Jennifer's Body will like this one.  
 **Rating : 5.5/10**	**TWs:** Nudity, Bloody violence (severe), Gore, Drugs 
 
 **House**  
