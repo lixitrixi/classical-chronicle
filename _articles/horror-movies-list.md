@@ -21,7 +21,11 @@ _Popcorn_ is a B-horror movie that I watch every year to get me in the Halloween
 [**The Stepford Wives**](https://letterboxd.com/film/the-stepford-wives/)  
 _The Stepford Wives_, released in 1975, follows protagonist Joanna Eberhart move from New York city to a small suburb in Stepford, Connecticut. Her free-spirited-ness lets her see that there’s something off about all the wives of Stepford, and later on she finds out what causes their weird behavior. When I first watched this movie I thought it was a wonderful satirical depiction of second wave feminism. But it still showcases how women would revolve their entire world around men, giving this movie a sad edge. The ideals of gender norms in western society are what makes this so great. But if you want to see a more light hearted version, you should watch the 2004 remake.  
 **Rating :** 6.9/10      **TWs:** Nudity, Violence (mild), Smoking, Alcohol 
-  
+
+<figure style="float:right; margin: 0 30px 10px 0; overflow:hidden">
+  <img style="margin:0px;max-width:unset" src="/assets/images/Funny-Games.png" alt="Funny-Games">
+</figure>
+
 [**Funny Games**](https://letterboxd.com/film/funny-games-2007/)  
 In the 2007 remake of _Funny Games_, a family of three go on vacation to their holiday home where they encounter two men who wanted to play a game with the family. What sets this movie aside from your average snuff horror films is that, no matter how sadistic the characters get, they never show violence on screen. To distract from the movie’s lack of “snuff,” it ventures into some of the best fourth wall breaking in horror media this writer has seen. The acting from Paul and Peter (people who initiated the games) is nearly perfect in capturing their psychopathic behaviors.  
 **Rating :** 6.6/10	**TWs:** Torture, Profanity, Violence(moderate), Smoking
