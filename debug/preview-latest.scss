@@ -4,6 +4,12 @@ body {
   padding: 20px;
   max-width: 1300px;
 }
+.preview-title {
+  font-size: 30px;
+  span {
+    font-weight: bold;
+  }
+}
 // {% include base.scss %}
 // {% include header.scss %}
 // {% include article-cards.scss %}
