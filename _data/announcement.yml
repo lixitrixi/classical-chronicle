@@ -1,5 +1,5 @@
 # Possible types: emergency, warning, info, success, school, impact
-enabled: true
+enabled: false
 type: school
 icon: megaphone
 message: It's spirit week! Click "Go" to find out what today's theme is!
