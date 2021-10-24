@@ -18,5 +18,5 @@ Our newly acquired drive can be attributed to the fundamental change in our play
 
 All in all, noticing that certain things don’t work for us as a team and therefore adjusting to make the most of everyone’s individual talent was a missing tactical factor that we have now acknowledged and been able to capitalize on. Our mid-season game against North Providence, which ended in a draw, marked the beginning of our comeback and put the team back on the road to the playoffs. It will take a bit of luck, in terms of other team's performances, and a tremendous effort by the Purple to qualify for the Division II playoffs, but with a victory in all 3 of our remaining games it is still possible to qualify. If anyone is capable of this remarkable comeback, it is the Classical Girls Soccer Team.
 
-Come support us at our next must win home game against Ponaganset on Wednesday, October 27!
+Come support us at our next must win home game against Ponaganset on Wednesday, October 27th!
 
