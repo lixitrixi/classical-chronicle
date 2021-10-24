@@ -9,7 +9,6 @@ unlisted: false
 ---
 
 ![Classical Girls Soccer Team](/assets/images/girl-soccer.jpeg)
-<span>A photo of Classical High School's Girls Soccer Team</span>
 
 The Classical Girls Soccer Team is more than just a group of eleven girls who chase a ball around the turf for 80 minutes. The Classical Girls Soccer Team is more than our 3-10-1 record. Faced with many new obstacles this year (it is our first season in Division II and our head coach has been absent due to health reasons), it is natural that we are off to a sluggish start. In our most recent games, the Purple have shown significant technical and tactical improvement and are beginning to play more cohesively. The team experienced this turning point at a crucial time in the season. 
 
