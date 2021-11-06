@@ -9,7 +9,7 @@ date: 2021-11-06
 unlisted: false
 ---
 
-Social media plays a big part in teenagers’ lives and time. While it is common to hear complaints about how unproductive it is, social media is full of many great resources that can help and guide teenagers. As you're in your bed scrolling through Tiktok and Instagram and relating to relatable tweets from Twitter, it can be great to have some great resources and inspirations. Even an Instagram account can be used to educate us for school and guide us toward better mental health. The following Instagram accounts are my favorite sources of positive educational and mental health related content.  
+Social media plays a big part in teenagers’ lives and time. While it's common to hear complaints about how unproductive it is, social media is full of many great resources that can help and guide teenagers. As you're in your bed scrolling through Tiktok and Instagram and relating to relatable tweets from Twitter, it can be great to have some great resources and inspirations. Even an Instagram account can be used to educate us for school and guide us toward better mental health. The following Instagram accounts are my favorite sources of positive educational and mental health related content.  
 
 [**@education**](https://www.instagram.com/education/)  
 This is a very helpful education account. Although it is relatively new, with a mere 14 posts, this account still gives out essential and inspirational information that can inspire students to strive and work harder. One of their more viral posts, currently boasting 286 likes, is a little animation picture about how you may never succeed in your first try, “but you can't make your 50th without making your 1st. So, get it over with and f—ing make it happen." 
