@@ -8,6 +8,5 @@ classof: 2022
 joined: December 2020
 instagram: ___ow.en___
 email: otkc42@gmail.com
-order: 11
 ---
 **Owen Kilcline** is a contributing writer to the *Classical Chronicle*.
