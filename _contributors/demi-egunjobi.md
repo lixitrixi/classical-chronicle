@@ -7,6 +7,5 @@ classof: 2024
 email: demi@pvdstudentunion.org
 instagram: demiegunjobi
 lastmod: 2021-06-02
-order: 16
 ---
 **Demi Egunjobi** is a contributing writer to the *Classical Chronicle*.
