@@ -8,5 +8,6 @@ joined: December 2019
 email: hyeivin@gmail.com
 lastmod: 2020-03-16
 past: true
+order: 3
 ---
 **Yeivin Herrera** is one of the co-founders of the *Classical Chronicle* and servedas both a writer and editor.
