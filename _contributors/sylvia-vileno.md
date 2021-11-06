@@ -9,4 +9,4 @@ lastmod: 2021-10-18
 past: false
 order: 19
 ---
-**Sylvia Vileno** is a contributing writer to the *Classical Chronicle*.
+**Sylvia Vileno** creates graphics and images for the *Classical Chronicle* website and Instagram.
