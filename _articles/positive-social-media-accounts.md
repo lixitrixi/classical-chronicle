@@ -2,7 +2,7 @@
 layout: "article"
 title: "Optimism From Others: Guzman's Top Positive Social Media Accounts"
 author: [Rafael Guzman]
-image: 
+image: social-media-photo.png
 category: "Culture"
 date: 2021-11-06
 unlisted: true
