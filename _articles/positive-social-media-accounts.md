@@ -4,6 +4,7 @@ title: "Optimism From Others: Guzman's Top Positive Social Media Accounts"
 author: [Rafael Guzman]
 image: social-media-photo.png
 category: "Culture"
+photo: Promise Adeliyi
 date: 2021-11-06
 unlisted: true
 ---
