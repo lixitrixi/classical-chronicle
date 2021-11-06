@@ -8,7 +8,6 @@ classof: 2021
 joined: March 2021
 instagram: zoezozo279
 email: zoezozo279@gmail.com
-order: 13
 past: true
 ---
 **Zoe Cute** was a contributing writer to the *Classical Chronicle*.
