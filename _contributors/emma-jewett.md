@@ -7,6 +7,5 @@ classof: 2023
 email: benjjewetr@gmail.com
 instagram: transytrash
 lastmod: 2021-06-07
-order: 10
 ---
 **Emma Jewett** is a contributing writer to the *Classical Chronicle*.
