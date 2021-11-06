@@ -8,7 +8,6 @@ joined: December 2019
 email: janaemoore160@gmail.com
 instagram: wo.rmwood
 lastmod: 2020-03-16
-order: 9
 past: true
 ---
 **Janae Moore** was a photographer for the *Classical Chronicle*.
