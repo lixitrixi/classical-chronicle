@@ -9,5 +9,6 @@ email: yousefnagib713@gmail.com
 instagram: ymnagib
 lastmod: 2020-03-16
 past: true
+order: 2
 ---
 **Yousef Nagib** is one of the co-founders of the *Classical Chronicle* and served as both a writer and editor.
