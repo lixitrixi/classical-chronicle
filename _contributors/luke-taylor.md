@@ -8,6 +8,5 @@ joined: December 2019
 email: luke@bigring.org
 instagram: alpaca_fur
 lastmod: 2020-03-17
-order: 7
 ---
 **Luke Taylor** maintains and updates the *Classical Chronicle* website.
