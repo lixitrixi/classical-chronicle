@@ -3,7 +3,7 @@ layout: "article"
 title: "Testing, Testing: A Play Review"
 author: ["Zazie Patch"]
 category: "Culture"
-image: alice2-min.jpg
+image: this-is-a-test-cover.jpg
 date: 2021-11-11
 unlisted: true
 ---
