@@ -35,6 +35,29 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .smooth-underline { // smooth underlining
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      width: 0;
+      height: 3px;
+      margin: 5px 0 0;
+      transition: width 0.2s, opacity 0.2s;
+      background: white;
+      border-radius: 1.5px;
+      opacity: 0;
+      left: 0;
+    }
+    &:hover {
+      &:after {
+        width: 100%;
+        opacity: 1;
+      }
+    }
+  }
   
   a:first-child {
     display: flex;
@@ -85,9 +108,6 @@ nav {
     @media (max-width: $hamburger) {
       display: none;
     }
-    &:hover {
-      text-decoration: underline;
-    }
     &.first {
       margin-left: auto;
     }
@@ -97,6 +117,10 @@ nav {
       padding: 4px 9px;
       border-radius: 6px;
       font-weight: 500;
+      transition: all 0.2s;
+      &:hover {
+        transform: scale(1.02);
+      }
     }
     &.current {
       font-weight: bold;

@@ -181,6 +181,27 @@ article.big {
     right: 20px;
     font-size: 22px;
     font-weight: bold;
+    text-decoration: none;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      width: 0;
+      height: 3px;
+      margin: 5px 0 0;
+      transition: width 0.2s, opacity 0.2s;
+      background: #3D68C2;
+      border-radius: 1.5px;
+      opacity: 0;
+      left: 0;
+    }
+    &:hover {
+      &:after {
+        width: 100%;
+        opacity: 1;
+      }
+    }
   }
 }
 .article-group {
@@ -297,7 +318,6 @@ article.big {
     &:hover {
       text-decoration: underline;
     }
-    
   }
   @media (max-width: 280px) {
     hr {

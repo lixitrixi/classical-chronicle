@@ -19,11 +19,11 @@
     <a href="/">
     {% include logo-shortened.svg %}
     </a>
-    <a href="/" class="first{% if include.page == 'home' %} current{% endif %}">Home</a>
-    <a href="/about" {% if include.page == 'about' %}class="current"{% endif %}>About</a>
-    <a href="/clubs" {% if include.page == 'clubs' %}class="current"{% endif %}>Clubs</a>
-    <a href="/archive" {% if include.page == 'archive' %}class="current"{% endif %}>Archive</a>
-    <a href="/submit" {% if include.page == 'submit' %}class="current"{% endif %}>Submit</a>
+    <a href="/" class="smooth-underline first{% if include.page == 'home' %} current{% endif %}">Home</a>
+    <a href="/about" class="smooth-underline{% if include.page == 'about' %} current{% endif %}">About</a>
+    <a href="/clubs" class="smooth-underline{% if include.page == 'clubs' %} current{% endif %}">Clubs</a>
+    <a href="/archive" class="smooth-underline{% if include.page == 'archive' %} current{% endif %}">Archive</a>
+    <a href="/submit" class="smooth-underline{% if include.page == 'submit' %} current{% endif %}">Submit</a>
     <a href="/schedule/">Schedule</a>
     <label class="hamburger" for="mobile-nav-toggle">
       <svg viewBox="0 0 39 32">
