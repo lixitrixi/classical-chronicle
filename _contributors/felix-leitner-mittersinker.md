@@ -1,6 +1,6 @@
 ---
 layout: contributor
-contributorName: Felix Leitner-Mittersinker
+contributorName: Felix Leitner
 position: Web Designer
 pronouns: He/Him
 classof: 2022
