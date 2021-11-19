@@ -5,7 +5,6 @@ author: [Fola Balogun]
 image: richter.JPG
 category: "School"
 date: 2021-11-19
-unlisted: true
 ---
 
 Classical alumna Sophia Richter (‘18) recently spoke with the *Chronicle* about her experiences since graduation.
