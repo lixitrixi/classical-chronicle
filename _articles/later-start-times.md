@@ -5,8 +5,6 @@ author: ["Emma Jewett"]
 image: "start-later-test.jpg"
 category: "Opinion"
 photo: Janae Moore
-contributors:
-  Nick Griffin: Editor
 date: 2020-03-25
 ---
 
