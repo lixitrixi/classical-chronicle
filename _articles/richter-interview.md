@@ -2,7 +2,7 @@
 layout: "article"
 title: "Alumni Interviews: Sophia Richter"
 author: [Omofolarin Balogun]
-image: 
+image: richter.JPG
 category: "School"
 date: 2021-11-19
 unlisted: true
