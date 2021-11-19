@@ -7,5 +7,6 @@ classof: 2023
 email: balogun.t.fola@gmail.com
 instagram: figgy_a.d
 lastmod: 2021-11-19
+order: 9.2
 ---
 **Fola Balogun** is a contributing writer to the *Classical Chronicle*.
