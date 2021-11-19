@@ -5,8 +5,6 @@ author: [Yousef Nagib]
 image: "iran.png"
 category: "Opinion"
 graphic: Amelia Ross
-contributors:
-  Nick Griffin: Editor
 date: 2020-01-01
 ---
 If you’ve been on Instagram recently, you may have noticed a multitude of memes joking about getting drafted and sent to fight in Iran. These memes were made following major events in the Middle East that are the product of long simmering tensions between Tehran and the Trump Administration. In 2014, then-President Barack Obama signed a deal with Iran called the “Iran Nuclear Deal”. The purpose of the deal was to limit Iranian development of nuclear energy, as there was fear that Iran would develop nuclear weapons, which it could use to attack Israel or the United States. The deal was successful until May 8th, 2018, when President Donald Trump announced that the U.S. would be withdrawing from the deal. Since then, tensions which were on the mend between the two nations have intensified.
