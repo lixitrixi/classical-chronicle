@@ -51,11 +51,11 @@ nav {
       opacity: 0;
       left: 0;
       transform-origin: center;
-      transform: scale(0);
+      transform: scaleX(0);
     }
     &:hover {
       &:after {
-        transform: scale(1);
+        transform: scaleX(1);
         opacity: 1;
       }
     }
