@@ -1,6 +1,6 @@
 # Possible types: emergency, warning, info, success, school, impact
-enabled: false
-type: school
+enabled: true
+type: emergency
 icon: megaphone
-message: It's spirit week! Click "Go" to find out what today's theme is!
-link: /article/spirit-week
+message: FROM SPORTS: Classical High School's Football Team is Locked In for the Superbowl
+link: /article/football-team-locked-in
