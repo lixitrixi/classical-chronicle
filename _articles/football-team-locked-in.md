@@ -5,7 +5,6 @@ author: [Carolyn Myrus]
 image: football-charge.jpg
 category: "Sports"
 date: 2021-11-19
-unlisted: true
 ---
 
 ![CHS Football Team](/assets/images/football-charge.jpg)
