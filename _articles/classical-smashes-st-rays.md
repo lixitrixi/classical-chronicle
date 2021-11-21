@@ -5,7 +5,7 @@ author: [James Ninneman]
 image: footballcatch-min.jpg
 category: "Sports"
 date: 2021-11-21
-unlisted: true
+unlisted: false
 ---
 
 ![CHS Football Team](/assets/images/footballcatch-min.jpg)
