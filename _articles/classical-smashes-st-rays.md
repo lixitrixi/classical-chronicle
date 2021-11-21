@@ -22,10 +22,10 @@ CRANSTON--After a 30-19 defeat to St. Raphael Academy to finish off their regula
 
 The game started off relatively slow: a concerted defensive effort from both sides kept things scoreless until the second quarter, when Saints star Andre DePina-Gray finally broke through into the endzone. Following a missed field goal attempt which kept St. Rays’ lead at 6-0, Classical quarterback Jalen Dennis responded by finding wide receiver Marquis Buchanan for a game-tying touchdown. Sophomore Tyler Lee followed up with a successful point-after attempt and Classical entered the half with a slim 7-6 lead.
 
+The second-half marked a significant change of pace as the Purple stormed out of the gate with a 70-yard touchdown run from senior Edwin Domenech. They continued to build on their lead on the following drive when Buchanan showcased his all-around wizardry by forcing a fumble to overturn possession. Classical continued to advance downfield, allowing Nyahkoon to run it in from the 3-yard line to put his team up 21-6. The Saints kept fighting however, and Moses Meus found the endzone to make it 21-14 with 5 minutes left in the third quarter.
+
 ![CHS Football Team](/assets/images/footballtackle-min.png)
 <span>Marquis Buchanan forces the fumble (photo courtesy of The Providence Journal).</span>
-
-The second-half marked a significant change of pace as the Purple stormed out of the gate with a 70-yard touchdown run from senior Edwin Domenech. They continued to build on their lead on the following drive when Buchanan showcased his all-around wizardry by forcing a fumble to overturn possession. Classical continued to advance downfield, allowing Nyahkoon to run it in from the 3-yard line to put his team up 21-6. The Saints kept fighting however, and Moses Meus found the endzone to make it 21-14 with 5 minutes left in the third quarter.
 
 That was how things stood with 1:44 left in the game, and St. Ray’s only hope at that point was to force a turnover. Nyahkoon, however, had other ideas. The wide receiver capped off a perfect day by muscling his way through the Saints’ defensive line and outrunning everyone for a 38-yard touchdown. Just like that, Classical had its title.
 
