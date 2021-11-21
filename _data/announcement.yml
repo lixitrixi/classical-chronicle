@@ -1,5 +1,5 @@
 # Possible types: emergency, warning, info, success, school, impact
-enabled: true
+enabled: false
 type: emergency
 icon: megaphone
 message: "FROM SPORTS: Classical High School's Football Team is Locked In for the Superbowl"
