@@ -16,7 +16,7 @@ CRANSTON--After a 30-19 defeat to St. Raphael Academy to finish off their regula
 “Being the underdog didn’t really matter to us,” said senior Elijah Nyahkoon. “We didn’t listen to the outside noise...[it] only made us work harder.”
 
 
-![CHS Football Team](/assets/images/footballaudience-min.png)
+![CHS Football Team](/assets/images/footballaudience-min.jpg)
 <span>Classical fans look on (photo courtesy of Classical High School Football Team).
 </span>
 
@@ -35,7 +35,7 @@ It’s been 14 long years since the football team won a Division IV championship
 
 Nyahkoon would end up taking home the MVP hardware; however, the true strength of this team all year long has been the incredible talent and versatility top to bottom, with every man fully buying into the classic “do-your-job” mentality. 
 
-![CHS Football Team](/assets/images/footballcamera-min.png)
+![CHS Football Team](/assets/images/footballcamera-min.jpg)
 <span>Seniors Elijah Nyahkoon and Max Gleadow take the field (photo courtesy of Classical High School football team).
 </span>
 
