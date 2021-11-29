@@ -42,6 +42,7 @@ nav {
       content: "";
       position: absolute;
       bottom: -1px;
+      left: 0;
       width: 100%;
       height: 3px;
       margin: 5px 0 0;
@@ -49,7 +50,6 @@ nav {
       background: white;
       border-radius: 1.5px;
       opacity: 0;
-      left: 0;
       transform-origin: center;
       transform: scaleX(0);
     }
