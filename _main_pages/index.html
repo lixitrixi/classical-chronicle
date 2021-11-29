@@ -39,7 +39,7 @@
             </div>
           </a>
           <p class="preview">{{ article.content | strip_html | truncatewords: 150 }}</p>
-          <a href="/article/{{article.slug}}" class="read-more" style="color:{{accent}}">Read More ></a>
+          <a href="/article/{{article.slug}}" class="read-more" style="color:{{accent}}; --accent-color: {{accent}}">Read More ></a>
         </article>
         {% assign categories = site.articles | map: "category" | uniq %}
         {% for category in categories %}
@@ -47,7 +47,7 @@
         <div class="category-divider">
           <h1 style="color:{{accent}}">{{ category }}</h1>
           <hr style="border-color:{{accent}};background:{{accent}}">
-          <a style="color:{{accent}}" href="/categories#{{category | downcase }}">See More ></a>
+          <a style="color:{{accent}}; --accent-color: {{accent}}" href="/categories#{{category | downcase }}">See More ></a>
         </div>
         {% assign count = 0 %}
         {% assign articles = site.articles | pop | where: "category", category | reverse %}

@@ -191,7 +191,7 @@ article.big {
       height: 3px;
       margin: 5px 0 0;
       transition: width 0.2s, opacity 0.2s;
-      background: #000;
+      background: var(--accent-color);
       border-radius: 1.5px;
       opacity: 0;
       left: 0;
@@ -308,6 +308,7 @@ article.big {
   }
   a {
     text-decoration:none;
+    position: relative;
     margin:0px;
     margin-left: 20px;
     font-size:28px;
@@ -315,10 +316,24 @@ article.big {
     @media (max-width: 500px) {
       font-size: 22px;
     }
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      width: 0;
+      height: 4px;
+      margin: 5px 0 0;
+      transition: width 0.2s, opacity 0.2s;
+      background: var(--accent-color);
+      border-radius: 1.5px;
+      opacity: 0;
+      left: 0;
+    }
     &:hover {
-      text-decoration: underline;
-      text-decoration-thickness: 3px;
-      text-underline-offset: 3px;
+      &:after {
+        width: 100%;
+        opacity: 1;
+      }
     }
   }
   @media (max-width: 280px) {
