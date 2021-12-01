@@ -8,6 +8,12 @@ defaults:
       -
         scope:
           path: ""
+          type: "staff"
+        values:
+          layout: "staff"
+      -
+        scope:
+          path: ""
           type: "articles"
         values:
           layout: "article"
@@ -24,6 +30,9 @@ collections:
   clubs:
     output: true
     permalink: /club/:slug
+  staff:
+    output: true
+    permalink: /school-staff/:slug
   contributors:
     output: true
     permalink: /contributor/:slug
