@@ -30,6 +30,14 @@ body {
       }
     }
   }
+  .dep-head {
+    a {
+      color: #366bb1;
+      &:hover {
+        color: #4f89d6;;
+      }
+    }
+  }
 }
 
 .department-jumps {
@@ -90,6 +98,13 @@ h1 {
   font-size: 25px;
   margin-top: 0;
   text-align: center;
+  .blue{
+    color: #366bb1;
+    font-weight: bold;
+  }
+  a:hover {
+    color: #865abe;
+  }
 }
 .post-ref {
   font-size: 20px;

@@ -4,5 +4,6 @@ lastName: Member
 department: Admin
 email: example.member@providenceschools.org
 layout: staff
-unlisted: true
+dep_head: true
+# unlisted: true
 ---

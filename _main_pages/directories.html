@@ -26,8 +26,9 @@
         {% include club-card.html club=club %}
       {% endfor %}
       </div>
-      <!-- <h1>Staff Directory</h1>
-      <p class="description">A running list of Classical staff.</p>
+      <h1>Staff Directory</h1>
+      <p class="description">A running list of Classical staff. Department heads are in <span class="blue">blue</span>.</p>
+      <p class="description">See any errors? <a href="mailto:simon.alberga.carr@gmail.com" target="__blank">Let us know</a></p>
       <div class="department-jumps">
         {% for department in site.data.departments %}
           <a href="#{{department | downcase}}">{{department}}</a>
@@ -42,12 +43,12 @@
           {% assign members = site.staff | where: "department", department | sort: 'lastName' | reverse %}
           {% for member in members %}
             {% if member.unlisted %}{% continue %}{% endif %}
-            <div class="member">
+            <div class="member{% if member.dep_head %} dep-head {% endif %}">
               <a href="/school-staff/{{member.slug}}">{{member.lastName}}, {{member.firstName}}</a>
             </div>
           {% endfor %}
         </div>
-      {% endfor %} -->
+      {% endfor %}
     </main>
   </body>
 </html>
