@@ -102,7 +102,7 @@ nav {
     text-decoration: none;
     font-size: 29px;
     &:not(.first):not(:first-child):not(:nth-child(2)) {
-      margin-left: 30px;
+      margin-left: 20px;
     }
     @media (max-width: $small-bar) {
       font-size: 25px;

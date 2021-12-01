@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.firstName }} {{ page.lastName }} - Classical Chronicle</title>
+    <link rel="canonical" href="https://{{ site.domain }}{{ page.url }}">
+    <link rel="stylesheet" href="/assets/css/staff.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/assets/js/analytics.js" defer></script>
+  </head>
+  <body>
+    {% include header.html %}
+    <main>
+      <h1>{{ page.firstName }} {{ page.lastName }}</h1>
+      <div class="info">
+        <p class="department">{{ page.department }}</p>
+        {% if page.email %}
+          <div class="icon-pair">
+            <svg viewBox="0 0 24.3 19.4">
+              <path d="M21.8 4.9L12.1 11 2.4 4.9V2.4l9.7 6.1 9.7-6.1m0-2.4H2.4A2.4 2.4 0 000 2.4V17c0 1.3 1.1 2.4 2.4 2.4h19.4c1.3 0 2.4-1.1 2.4-2.4V2.4c.1-1.3-1-2.4-2.4-2.4z"/>
+            </svg>
+            <a href="mailto:{{page.email}}" target="_blank">{{ page.email }}</a>
+          </div>
+        {% endif %}
+      </div>
+    </main>
+  </body>
+</html>

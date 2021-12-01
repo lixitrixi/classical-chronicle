@@ -1,6 +1,6 @@
 # Possible types: emergency, warning, info, success, school, impact
-enabled: true
-type: emergency
+enabled: false
+type: info
 icon: megaphone
-message: "FROM SPORTS: Classical High School's Football Team is Locked In for the Superbowl"
-link: /article/football-team-locked-in
+message: "The new CHS staff directory is live! Check it out under 'Directories'"
+link: /directories

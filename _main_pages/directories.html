@@ -1,0 +1,54 @@
+---
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Directories - Classical Chronicle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://{{ site.domain }}">
+    <meta property="og:title" content="The Classical Chronicle">
+    <meta property="og:image" content="https://{{site.domain}}/assets/icons/rounded128.png">
+    <meta property="og:type" content="website">
+    {% include font-preload.html styles="regular, bold, bold-italic, italic" %}
+    <script src="/assets/js/analytics.js" defer></script>
+    <meta name="description" content="The club and staff directories of Classical High School.">
+    <link rel="stylesheet" href="directories.css">
+  </head>
+  <body>
+    {% include header.html page="directories" %}
+    <main>
+      <h1>Club Directory</h1>
+      <p class="description">A running list of the clubs at Classical. Pick one and get involved!</p>
+      <p class="post-ref">Want to submit a club to the directory? Fill out <a href="#">this form</a>!</p>
+      <div class="article-group">
+      {% for club in site.clubs %}
+        {% if club.unlisted %}{% continue %}{% endif %}
+        {% include club-card.html club=club %}
+      {% endfor %}
+      </div>
+      <!-- <h1>Staff Directory</h1>
+      <p class="description">A running list of Classical staff.</p>
+      <div class="department-jumps">
+        {% for department in site.data.departments %}
+          <a href="#{{department | downcase}}">{{department}}</a>
+        {% endfor %}
+      </div>
+      {% for department in site.data.departments %}
+        <div class="staff-divider" id="{{department | downcase}}">
+          <h1>{{department}}</h1>
+          <hr>
+        </div>
+        <div class="staff-group">
+          {% assign members = site.staff | where: "department", department | sort: 'lastName' | reverse %}
+          {% for member in members %}
+            {% if member.unlisted %}{% continue %}{% endif %}
+            <div class="member">
+              <a href="/school-staff/{{member.slug}}">{{member.lastName}}, {{member.firstName}}</a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %} -->
+    </main>
+  </body>
+</html>
+
