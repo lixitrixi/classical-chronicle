@@ -3,6 +3,6 @@ layout: staff
 firstName: Mikiko
 lastName: Morimura
 email: mikiko.morimura@ppsd.org
-department: Foreign Language
+department: Language
 is_leader: false
 ---

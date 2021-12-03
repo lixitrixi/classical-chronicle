@@ -3,6 +3,6 @@ layout: staff
 firstName: Luis
 lastName: Astudillo
 email: luis.astudillo@ppsd.org
-department: Foreign Language
+department: Language
 is_leader: true
 ---
