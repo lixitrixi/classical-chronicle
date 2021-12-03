@@ -2,7 +2,7 @@
 layout: staff
 firstName: Aja
 lastName: Butler
-contact: aja.butler@ppsd.org
+email: aja.butler@ppsd.org
 department: Science
 is_leader: true
 ---

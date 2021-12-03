@@ -44,8 +44,8 @@
           {% for member in members %}
             {% if member.unlisted %}{% continue %}{% endif %}
             <div class="member{% if member.is_leader %} dep-head {% endif %}">
-              <a href="/school-staff/{{member.slug}}">{{member.lastName}}, {{member.firstName}}</a>
-              <p class="email">{{member.contact}}</p>
+              <a class="name" href="/school-staff/{{member.slug}}">{{member.lastName}}, {{member.firstName}}</a>
+              <a class="email" href="mailto:{{member.email}}">{{member.email}}</a>
             </div>
           {% endfor %}
         </div>

@@ -2,7 +2,7 @@
 layout: staff
 firstName: Scott
 lastName: Harding
-contact: scott.harding@ppsd.org or (401) 300-5201
+email: scott.harding@ppsd.org
 department: Guidance
 is_leader: false
 ---

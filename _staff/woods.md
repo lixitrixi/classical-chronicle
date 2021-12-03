@@ -2,7 +2,7 @@
 layout: staff
 firstName: JamieFaith
 lastName: Woods
-contact: jamie.woods@providenceschools.org
+email: jamie.woods@providenceschools.org
 department: English
 is_leader: false
 ---

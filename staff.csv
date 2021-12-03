@@ -1,4 +1,5 @@
-firstName,lastName,contact,department,is_leader
+firstName,lastName,email,department,is_leader
+Example,Member,example.member@example.com,Math,false
 Ellen,Anderson,ellen.anderson@ppsd.org,English,true
 Luis,Astudillo,luis.astudillo@ppsd.org,Foreign Language,true
 Mohammad,Awwad,mohammad.awwad@ppsd.org,Math,false
@@ -13,7 +14,7 @@ Alyson,Catalan,alyson.catalan@ppsd.org,English,false
 Ann,Cedergren,ann.cedergren@ppsd.org,Guidance,false
 Bryan,Cerullo,bryan.cerullo@ppsd.org,History,false
 Breanna,Corey,breanna@corey.ppsd.org,Other,false
-Wendy,Cotta,wendy.cotta@ppsd.org,Other,false
+Wendy,Cotta,wendy.cotta@ppsd.org,History,false
 Angela,Crossman,angela.crossman@ppsd.org,Other,false
 Edward,de Boo,edward.deboo@ppsd.org,Foreign Language,false
 Christina,DiLorenzo,christina.dibiasio@ppsd.org,Science,false
@@ -28,9 +29,9 @@ Sam,Gee,samboeun.gee@ppsd.org,Other,false
 Alan,Golde,alan.golde@ppsd.org,History,false
 Janice,Gomes,janice.gomes@ppsd.org,Art,false
 Briana,Gustaitis,briana.gustaitis@ppsd.org,Science,false
-Scott,Harding,scott.harding@ppsd.org or (401) 300-5201,Guidance,false
+Scott,Harding,scott.harding@ppsd.org,Guidance,false
 Michael,Hébert,michael.hebert@ppsd.org,Foreign Language,false
-Karen,Hickey,karen.hickey@ppsd.org or (401) 578-7040,Math,false
+Karen,Hickey,karen.hickey@ppsd.org,Math,false
 Steven,Jackson,steven.jackson@ppsd.org,Phys Ed,false
 Maura,Keating,maura.keating@ppsd.org,Other,false
 Christopher,Kite,christopher.kite@ppsd.org,English,false
@@ -66,7 +67,7 @@ David,Tibbitts,david.tibbitts@ppsd.org,Other,false
 Christina,Toro,christina.toro@ppsd.org,English,false
 Louis,Toro,louis.toro@ppsd.org,Guidance,true
 Peter,Verrecchia,peter.verrecchia@ppsd.org,Guidance,false
-Cassidy,Wardwell,cassidy.wardwell@providenceschools.org,Other,false
+Cassidy,Wardwell,cassidy.wardwell@providenceschools.org,English,false
 JamieFaith,Woods,jamie.woods@providenceschools.org,English,false
 Damian,Yattaw,damian.yattaw@ppsd.org,English,false
 Michael,Zanfagna,michael.zanfagna@ppsd.org,History,false

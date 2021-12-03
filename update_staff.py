@@ -25,8 +25,11 @@ for file in os.listdir(path_to_staff):
 for member in members:
     lines = ['---', 'layout: staff']
     for key in member.keys(): # add each entry of the member's dict
-        lines.append(f"{key}: {member[key]}")
+        if member[key]:
+            lines.append(f"{key}: {member[key]}")
     lines.append('---')
 
-    with open(f"{member['lastName'].lower()}.md", 'w') as out:
+    filename = member['lastName'].lower().replace(' ', '') # make lowercase and remove spaces
+
+    with open(f"{filename}.md", 'w') as out:
         out.write('\n'.join(lines))

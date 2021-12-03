@@ -2,7 +2,7 @@
 layout: staff
 firstName: Wendy
 lastName: Cotta
-contact: wendy.cotta@ppsd.org
-department: Other
+email: wendy.cotta@ppsd.org
+department: History
 is_leader: false
 ---
