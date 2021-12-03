@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Chris
 lastName: Seminara
-email: Christopher.seminara@providenceschools.org
+email: christopher.seminara@providenceschools.org
 department: Art
-dep_head: false
-layout: staff
+is_leader: false
 ---

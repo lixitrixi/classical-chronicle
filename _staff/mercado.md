@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Lucy
 lastName: Mercado
-email: Lucy.Mercado@ppsd.org
+email: lucy.mercado@ppsd.org
 department: English
-dep_head: false
-layout: staff
+is_leader: false
 ---

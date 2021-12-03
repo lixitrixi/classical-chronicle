@@ -1,0 +1,74 @@
+firstName,lastName,email,department,is_leader
+Example,Member,example.member@example.com,Math,false
+Ellen,Anderson,ellen.anderson@ppsd.org,English,true
+Luis,Astudillo,luis.astudillo@ppsd.org,Foreign Language,true
+Mohammad,Awwad,mohammad.awwad@ppsd.org,Math,false
+Ramona,Bessinger,ramona.bessinger@ppsd.org,Other,false
+Lisa,Biswas,lisa.biswas@ppsd.org,Math,false
+Emerson,Brown,emerson.brown@ppsd.org,Art,false
+Aja,Butler,aja.butler@ppsd.org,Science,true
+Joseph,Caccia,joseph.caccia@ppsd.org,History,true
+Ryan,Cafferty,ryan.cafferty@ppsd.org,Phys Ed,false
+Paula,Caron,paula.caron@ppsd.org,Math,false
+Alyson,Catalan,alyson.catalan@ppsd.org,English,false
+Ann,Cedergren,ann.cedergren@ppsd.org,Guidance,false
+Bryan,Cerullo,bryan.cerullo@ppsd.org,History,false
+Breanna,Corey,breanna@corey.ppsd.org,Other,false
+Wendy,Cotta,wendy.cotta@ppsd.org,History,false
+Angela,Crossman,angela.crossman@ppsd.org,Other,false
+Edward,de Boo,edward.deboo@ppsd.org,Foreign Language,false
+Christina,DiLorenzo,christina.dibiasio@ppsd.org,Science,false
+Edward,DiRissio,edward.dirissio@ppsd.org,History,false
+Francesca,Dow,francesca.dow@ppsd.org,Math,false
+Randall,Dugan,randall.dugan@ppsd.org,Math,false
+Christine,Dunbar,christine.dunbar@ppsd.org,Math,true
+Oluwatomi,Falaye,oluwatomi.falaye@ppsd.org,Science,false
+Julie,Felci,julie.felci@ppsd.org,Foreign Language,false
+Sally,Garabedian,sally.garabedian@ppsd.org,Other,false
+Sam,Gee,samboeun.gee@ppsd.org,Other,false
+Alan,Golde,alan.golde@ppsd.org,History,false
+Janice,Gomes,janice.gomes@ppsd.org,Art,false
+Briana,Gustaitis,briana.gustaitis@ppsd.org,Science,false
+Scott,Harding,scott.harding@ppsd.org,Guidance,false
+Michael,Hébert,michael.hebert@ppsd.org,Foreign Language,false
+Karen,Hickey,karen.hickey@ppsd.org,Math,false
+Steven,Jackson,steven.jackson@ppsd.org,Phys Ed,false
+Maura,Keating,maura.keating@ppsd.org,Other,false
+Christopher,Kite,christopher.kite@ppsd.org,English,false
+Sharon,Kozlowski,sharon.kozlowski@ppsd.org,Science,false
+Sarah,Larson,sarah.larson@ppsd.org,Other,false
+Francesca,Leclerc,francesca.leclerc@ppsd.org,English,false
+Scott,MacBeth,scott.macbeth@ppsd.org,Science,false
+Brad,Macksoud,bradford.macksoud@ppsd.org,History,false
+Greg,Mailloux,gregory.mailloux@ppsd.org,Science,false
+Olwyn,McCabe,olwyn.mccabe@ppsd.org,English,false
+Ana,Mendiburu,ana.mendiburu@ppsd.org,Foreign Language,false
+Lucy,Mercado,lucy.mercado@ppsd.org,English,false
+Mikiko,Morimura,mikiko.morimura@ppsd.org,Foreign Language,false
+Andrea,Nadra,andrea.nadra@ppsd.org,Other,false
+Sharon,Nightingale,sharon.nightingale@ppsd.org,Math,false
+Christopher,O'Connell,christopher.oconnell@ppsd.org,Phys Ed,false
+Natalie,Otero,natalie.otero@ppsd.org,English,false
+Robert,Palazzo,robert.palazzo@ppsd.org,Phys Ed,true
+Nolberto,Pena,nolberto.pena@ppsd.org,Science,false
+Julia,Polana,julia.polana@ppsd.org,Foreign Language,false
+Janet,Popa,janet.popa@ppsd.org,Foreign Language,false
+Patrice,Roberts,patrice.roberts@ppsd.org,Phys Ed,false
+Charlene,Rocchio,charlene.rocchio@ppsd.org,Math,false
+Michael,Sackett,michael.sackett@providenceschools.org,History,false
+Chris,Seminara,christopher.seminara@providenceschools.org,Art,false
+Lesley,Shapiro,lesley.shapiro@ppsd.org,Science,false
+Angel,Silverio,angel.silverio@ppsd.org,Math,false
+Giulia,Simeone,giulia.simeone@ppsd.org,Guidance,false
+Edward,St.Michel,edward.stmichel@providenceschools.org,Math,false
+Kenneth,Sullo,kenneth.sullo@ppsd.org,History,false
+Aarav,Sundaresh,aarav.sundaresh@ppsd.org,Art,false
+David,Tibbitts,david.tibbitts@ppsd.org,Other,false
+Christina,Toro,christina.toro@ppsd.org,English,false
+Louis,Toro,louis.toro@ppsd.org,Guidance,true
+Peter,Verrecchia,peter.verrecchia@ppsd.org,Guidance,false
+Cassidy,Wardwell,cassidy.wardwell@providenceschools.org,English,false
+JamieFaith,Woods,jamie.woods@providenceschools.org,English,false
+Damian,Yattaw,damian.yattaw@ppsd.org,English,false
+Michael,Zanfagna,michael.zanfagna@ppsd.org,History,false
+Jenny,Zhukavets,jenny.zhukavets@ppsd.org,Foreign Language,false

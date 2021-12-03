@@ -1,8 +1,8 @@
 ---
-firstName: Jamie Faith
+layout: staff
+firstName: JamieFaith
 lastName: Woods
 email: jamie.woods@providenceschools.org
 department: English
-dep_head: false
-layout: staff
+is_leader: false
 ---

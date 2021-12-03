@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Karen
 lastName: Hickey
-email: karen.hickey@ppsd.org or (401) 578-7040
+email: karen.hickey@ppsd.org
 department: Math
-dep_head: false
-layout: staff
+is_leader: false
 ---

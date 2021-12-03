@@ -12,30 +12,45 @@ body {
   width: 80%;
   max-width: 800px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 10px 0px;
+  display: flex;
+  flex-direction: column;
   .member {
+    height: 35px;
     display: flex;
     align-items: center;
-    a {
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 10px;
+    transition: background-color 0.1s;
+    a.name {
       font-size: 22px;
       font-weight: bold;
-      text-decoration: underline;
+      text-decoration: none;
       color: #613D8F;
       font-family: "Source Sans", sans-serif;
-      transition: color 0.05s;
+      transition: opacity 0.05s;
       &:hover {
-        color: #865abe;
+        opacity: 0.8;
       }
+    }
+    a.email {
+      font-size: 18px;
+      color: black;
+      text-decoration: none;
+      &:hover {
+        opacity: 0.65;
+      }
+    }
+    &:hover {
+      background-color: #e2d5f3;
     }
   }
   .dep-head {
-    a {
+    a.name {
       color: #366bb1;
-      &:hover {
-        color: #4f89d6;;
-      }
+    }
+    &:hover {
+      background-color: #d0dff5;
     }
   }
 }
@@ -61,7 +76,7 @@ body {
 }
 
 .staff-divider {
-  margin: 20px auto 10px auto;
+  margin: 10px auto;
   display: flex;
   align-items: baseline;
   width: 80%;
@@ -89,9 +104,6 @@ main {
 h1 {
   font-size: 45px;
   text-align: center;
-  // background: linear-gradient(135deg, #aa84e9, #540699);
-  // -webkit-background-clip: text;
-  // -webkit-text-fill-color: transparent;
   color: #613D8F;
 }
 .description {
