@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Christopher
 lastName: Kite
-email: christopher.kite@ppsd.org
+contact: christopher.kite@ppsd.org
 department: English
-dep_head: false
-layout: staff
+is_leader: false
 ---

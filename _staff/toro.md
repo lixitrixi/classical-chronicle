@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Louis
 lastName: Toro
-email: louis.toro@ppsd.org
+contact: louis.toro@ppsd.org
 department: Guidance
-dep_head: true
-layout: staff
+is_leader: true
 ---

@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Natalie
 lastName: Otero
-email: Natalie.Otero@ppsd.org
+contact: natalie.otero@ppsd.org
 department: English
-dep_head: false
-layout: staff
+is_leader: false
 ---

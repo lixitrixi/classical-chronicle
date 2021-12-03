@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Christina
 lastName: DiLorenzo
-email: christina.dibiasio@ppsd.org
+contact: christina.dibiasio@ppsd.org
 department: Science
-dep_head: false
-layout: staff
+is_leader: false
 ---

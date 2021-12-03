@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Cassidy
 lastName: Wardwell
-email: cassidy.wardwell@providenceschools.org
+contact: cassidy.wardwell@providenceschools.org
 department: Other
-dep_head: false
-layout: staff
+is_leader: false
 ---

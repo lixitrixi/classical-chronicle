@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Giulia
 lastName: Simeone
-email: giulia.simeone@ppsd.org
+contact: giulia.simeone@ppsd.org
 department: Guidance
-dep_head: false
-layout: staff
+is_leader: false
 ---

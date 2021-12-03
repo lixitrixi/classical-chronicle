@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Sarah
 lastName: Larson
-email: sarah.larson@ppsd.org
+contact: sarah.larson@ppsd.org
 department: Other
-dep_head: false
-layout: staff
+is_leader: false
 ---

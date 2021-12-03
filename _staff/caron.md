@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Paula
 lastName: Caron
-email: paula.caron@ppsd.org
+contact: paula.caron@ppsd.org
 department: Math
-dep_head: false
-layout: staff
+is_leader: false
 ---

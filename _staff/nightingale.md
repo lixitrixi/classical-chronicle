@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Sharon
 lastName: Nightingale
-email: sharon.nightingale@ppsd.org
+contact: sharon.nightingale@ppsd.org
 department: Math
-dep_head: false
-layout: staff
+is_leader: false
 ---

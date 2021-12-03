@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Lesley
 lastName: Shapiro
-email: lesley.shapiro@ppsd.org
+contact: lesley.shapiro@ppsd.org
 department: Science
-dep_head: false
-layout: staff
+is_leader: false
 ---

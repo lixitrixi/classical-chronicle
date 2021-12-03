@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Christine
 lastName: Dunbar
-email: christine.dunbar@ppsd.org
+contact: christine.dunbar@ppsd.org
 department: Math
-dep_head: true
-layout: staff
+is_leader: true
 ---

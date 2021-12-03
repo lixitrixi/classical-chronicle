@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Damian
 lastName: Yattaw
-email: damian.yattaw@ppsd.org
+contact: damian.yattaw@ppsd.org
 department: English
-dep_head: false
-layout: staff
+is_leader: false
 ---

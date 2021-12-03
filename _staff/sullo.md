@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Kenneth
 lastName: Sullo
-email: kenneth.sullo@ppsd.org
+contact: kenneth.sullo@ppsd.org
 department: History
-dep_head: false
-layout: staff
+is_leader: false
 ---

@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Andrea
 lastName: Nadra
-email: andrea.nadra@ppsd.org
+contact: andrea.nadra@ppsd.org
 department: Other
-dep_head: false
-layout: staff
+is_leader: false
 ---

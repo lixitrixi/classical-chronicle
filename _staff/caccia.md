@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Joseph
 lastName: Caccia
-email: joseph.caccia@ppsd.org
+contact: joseph.caccia@ppsd.org
 department: History
-dep_head: true
-layout: staff
+is_leader: true
 ---

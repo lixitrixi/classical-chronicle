@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Mikiko
 lastName: Morimura
-email: mikiko.morimura@ppsd.org
+contact: mikiko.morimura@ppsd.org
 department: Foreign Language
-dep_head: false
-layout: staff
+is_leader: false
 ---

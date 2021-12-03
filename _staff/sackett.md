@@ -1,8 +1,8 @@
 ---
+layout: staff
 firstName: Michael
 lastName: Sackett
-email: Michael.Sackett@providenceschools.org
+contact: michael.sackett@providenceschools.org
 department: History
-dep_head: false
-layout: staff
+is_leader: false
 ---
