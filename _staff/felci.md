@@ -3,6 +3,6 @@ layout: staff
 firstName: Julie
 lastName: Felci
 email: julie.felci@ppsd.org
-department: Foreign Language
+department: Language
 is_leader: false
 ---

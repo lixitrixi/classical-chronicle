@@ -9,7 +9,7 @@ body {
 // {% include article-cards.scss %}
 
 .staff-group {
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
   display: flex;
@@ -32,13 +32,20 @@ body {
       &:hover {
         opacity: 0.8;
       }
+      @media only screen and (max-width: 600px) {
+        font-size: 18px;
+      }
     }
     a.email {
       font-size: 18px;
       color: black;
       text-decoration: none;
+      margin-left: 20px;
       &:hover {
         opacity: 0.65;
+      }
+      @media only screen and (max-width: 600px) {
+        font-size: 14px;
       }
     }
     &:hover {
@@ -79,12 +86,15 @@ body {
   margin: 10px auto;
   display: flex;
   align-items: baseline;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   h1 {
     margin: 0px;
     margin-right: 20px;
     font-size: 38px;
+    @media only screen and (max-width: 600px) {
+      font-size: 32px;
+    }
   }
   hr {
     border-width: 4px;
@@ -94,6 +104,9 @@ body {
     height: 0px;
     border-color: #613D8F;
     background: #613D8F;
+    @media only screen and (max-width: 600px) {
+      border-width: 3px;
+    }
   }
 }
 
