@@ -3,7 +3,7 @@ layout: "article"
 title: "Profile: Classical's Esports Team"
 author: [Julian Carlson]
 image: esportscover-min.jpg
-photo: "[Devin Chea, Norah Levinson, Promise Adeliyi]"
+photo: [Devin Chea, Norah Levinson, Promise Adeliyi]
 category: "Sports"
 date: 2021-12-5
 unlisted: true
