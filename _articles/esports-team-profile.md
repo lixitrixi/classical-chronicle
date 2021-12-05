@@ -10,9 +10,9 @@ unlisted: true
 ---
 
 ![CHS Esports Team](/assets/images/esportscover-min.jpg)
-<span>Classical's Esports Team (photo courtesy of Devin Chea).</span>
+<span>Classical's Esports Team (Tibber's Tea Party) (photo courtesy of Devin Chea).</span>
 
-Esports, or online gaming, has seen a surge in popularity in recent years. Many people love the prospect of being able to play games on an actual team and participate in this fun sport. Due to how fun esports is and its popularity, many schools have started making esports teams of their own, including our very own Classical High School. Classical’s Esports Team meets in the library’s computer lab every week on Mondays and Tuesdays: Mondays for practice, Tuesdays for games. The people who are on the Esports Team usually join with friends, since it’s a team sport anyways, but some join just to play with others and join a team. The main reason that people join the team is that they already play the game at home so they wanted to do it at school as well, as there is no harm in doing so. There are numerous benefits to playing on a school team: participants can get varsity letters, scholarships, and even money if they do well.
+Esports, or online gaming, has seen a surge in popularity in recent years. Many people love the prospect of being able to play games on an actual team and participate in this fun sport. Due to how fun esports is and its popularity, many schools have started making esports teams of their own, including our very own Classical High School. Classical’s Esports Team (team name: Tibber's Tea Party) meets in the library’s computer lab every week on Mondays and Tuesdays: Mondays for practice, Tuesdays for games. The people who are on the Esports Team usually join with friends, since it’s a team sport anyways, but some join just to play with others and join a team. The main reason that people join the team is that they already play the game at home so they wanted to do it at school as well, as there is no harm in doing so. There are numerous benefits to playing on a school team: participants can get varsity letters, scholarships, and even money if they do well.
 
 ![Hallway to Esports Team](/assets/images/libraryesports.jpg)
 <span>The library entrance to the Esports Team's computer lab (photo courtesy of Norah Levinson).</span>
