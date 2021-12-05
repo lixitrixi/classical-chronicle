@@ -111,8 +111,8 @@ main {
   margin:0;
   font-weight: bold;
   position: absolute;
-  top: 15px;
-  left: 75px;
+  top: 19px;
+  left: 85px;
   &.devMode {
     color: lightblue;
   }
@@ -228,32 +228,29 @@ progress::-webkit-progress-value {
   box-shadow: 0px 1px 3px 0px #fff;
   // transition: width 1s linear;
 }
-
 .homeLink {
   width: 50px;
   height: 50px;
-  z-index: 2;
+  z-index: 1;
   display: block;
   position: absolute;
-  top: 11px;
-  left: 11px;
+  top: 15px;
+  left: 15px;
   border-radius: 10px;
   background-color: #C7B8D9;
-  box-shadow: 0px 0px 4px 0px #333333;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: box-shadow 0.2s;
+  transition: all 0.2s;
   svg {
     fill: #613D8F;
     width: 75%;
     height: 75%;
   }
   &:hover {
-    box-shadow: 0px 0px 6px 1px #333333;
+    background-color: #e9e4ee;
   }
 }
-
 #menuCheckbox:checked+#hamburgerButton{
   svg {
     .top {
@@ -282,11 +279,18 @@ progress::-webkit-progress-value {
   height: 50px;
   z-index: 2;
   user-select: all;
+  cursor: pointer;
   svg {
     fill: #C7B8D9;
+    transition: fill 0.2s;
     path {
       transform-origin: center;
       transition: transform 0.2s ease;
+    }
+  }
+  &:hover {
+    svg{
+      fill: #e9e4ee;
     }
   }
 }
@@ -369,18 +373,22 @@ progress::-webkit-progress-value {
   margin: 10px;
   cursor: pointer;
   user-select: none;
+  --color: #C7B8D9;
+  &:hover {
+    --color: #ded3eb;
+  }
   div {
     width: 22px;
     height: 22px;
-    border: 3px solid #C7B8D9;
+    border: 3px solid var(--color);
     border-radius: 8px;
     margin-right: 14px;
-    transition: background-color 0.15s ease;
+    transition: border 0.15s, background-color 0.15s;
     svg {
-        fill: #613D8F;
+      fill: #613D8F;
     }
     &.selected {
-      background-color: #C7B8D9;
+      background-color: var(--color);
     }
   }
   p {
@@ -393,6 +401,8 @@ progress::-webkit-progress-value {
 	margin: 10px;
   align-items: center;
 
+  --color: #C7B8D9;
+
 	>p:first-child {
       margin-right: 30px;
   }
@@ -403,15 +413,17 @@ progress::-webkit-progress-value {
     transition: background-color 0.15s ease, color 0.15s ease;
   }
 	.selected {
-		background-color: #C7B8D9;
+		background-color: var(--color);
 		color: #613D8F;
     font-size: 40px;
+    transition: border 0.15s, background-color 0.15s;
 	}
   .select {
     display: flex;
+    transition: border 0.15s, background-color 0.15s;
 		p {
 			font-size: 25px;
-			border: 3px solid #C7B8D9;
+			border: 3px solid var(--color);
 			border-right-width: 0px;
 			font-weight: bold;
 			padding: 0px 19px;
@@ -426,5 +438,8 @@ progress::-webkit-progress-value {
 			border-radius: 0px 10px 10px 0px;
 			border-right-width: 3px;
 		}
+    &:hover {
+      --color: #ded3eb;
+    }
   }
 }
