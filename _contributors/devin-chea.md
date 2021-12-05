@@ -6,6 +6,6 @@ pronouns: He/Him
 classof: 2022
 instagram: gn0me_photography
 lastmod: 2021-12-05
-order:
+order: 8.1
 ---
 **Devin Chea** is a contributing photographer to the *Classical Chronicle*.
