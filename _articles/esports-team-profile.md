@@ -6,7 +6,7 @@ image: esportscover-min.jpg
 photo: Devin Chea, Norah Levinson, Promise Adeliyi
 category: "Sports"
 date: 2021-12-5
-unlisted: true
+unlisted: false
 ---
 
 ![CHS Esports Team](/assets/images/esportscover-min.jpg)
