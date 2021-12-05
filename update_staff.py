@@ -1,7 +1,7 @@
 '''
 Running this file will clear the current _staff directory and refill it using the staff.csv file
 Each entry will create a new markdown file, named after the entry's lastName attribute
-Make sure all values and column names can be handled by the site's code:
+Verify that all values and column names can be handled by the site's code:
 If a member's 'department' is not in _data/departments.yml, the member will not appear on the site's staff directory.
 Feel free to add departments to _data/departments.yml, following the syntax already layed out
 '''
@@ -33,3 +33,5 @@ for member in members:
 
     with open(f"{filename}.md", 'w') as out:
         out.write('\n'.join(lines))
+
+print(f"{len(members)} entries written")

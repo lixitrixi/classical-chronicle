@@ -3,6 +3,6 @@ layout: staff
 firstName: David
 lastName: Tibbitts
 email: david.tibbitts@ppsd.org
-department: Other
+department: Math
 is_leader: false
 ---

@@ -3,6 +3,6 @@ layout: staff
 firstName: Breanna
 lastName: Corey
 email: breanna@corey.ppsd.org
-department: Other
+department: Science
 is_leader: false
 ---
