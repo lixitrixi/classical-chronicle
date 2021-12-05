@@ -6,6 +6,6 @@ pronouns: She/Her or They/Them
 classof: 2022
 instagram: no.levinson
 lastmod: 2021-12-05
-order:
+order: 15.9
 ---
 **Norah Levinson** is a contributing photographer to the *Classical Chronicle*.
