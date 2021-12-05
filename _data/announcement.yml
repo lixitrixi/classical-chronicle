@@ -2,5 +2,5 @@
 enabled: true
 type: info
 icon: megaphone
-message: "The new CHS staff directory is live! Check it out under 'Directories'"
+message: "Our new CHS staff directory is live! Check it out under 'Directories'"
 link: /directories
