@@ -4,10 +4,12 @@ title: "Winter Concert Warms Hearts: A Review"
 author: ["Zazie Patch"]
 photo: Helen Ly
 category: "Culture"
-image: 
+image: band-photo-min.jpg
 date: 2021-12-19
 unlisted: true
 ---
+
+![CHS Band](/assets/images/band-photo-min.jpg)
 
 The jazz and concert bands are back! On Wednesday, December 15, the two bands performed for the first time since 2019. They’ve been working for over two months for this performance, and it paid off. Their hard work was heard in the impressive music they played. At the concert were family, friends, Classical alumni, and enthusiastic peers, as well as many proud parents, who were excited to see their children perform on stage. 
 
