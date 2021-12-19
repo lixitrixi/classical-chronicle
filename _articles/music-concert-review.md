@@ -6,7 +6,7 @@ photo: Helen Ly
 category: "Culture"
 image: band-photo-min.jpg
 date: 2021-12-19
-unlisted: true
+unlisted: false
 ---
 
 ![CHS Band](/assets/images/band-photo-min.jpg)
