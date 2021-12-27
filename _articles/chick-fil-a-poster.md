@@ -4,7 +4,7 @@ title: "Classical's Relationship With Chick-fil-A: A Tough Sandwich to Swallow"
 author: ["Fola Balogun"]
 image: "chick-fil-a-poster-min.jpg"
 category: "Opinion"
-unlisted: true
+unlisted: false
 date: 2021-12-27
 ---
 
