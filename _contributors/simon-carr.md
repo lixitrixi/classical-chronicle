@@ -10,4 +10,4 @@ instagram: simon.alberga
 lastmod: 2020-04-21
 order: 1
 ---
-**Simon Carr** is both a writer and an editor for the *Classical Chronicle*.
+**Simon Carr** is both a writer and Editor-in-Chief of the *Classical Chronicle*.
