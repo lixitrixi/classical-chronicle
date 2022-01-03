@@ -110,6 +110,14 @@
       {% endif %}
       </p>
       <p class="date">{{ page.date | date: "%B&nbsp;%-d,&nbsp;%Y"}}</p>
+      <div class="share-container">
+        <a href="http://twitter.com/share?url={{ site.domain }}{{ page.url }}" target="_blank">
+          <img width="1034" height="851" src="/assets/icons/twitter_black.png" alt="twitter-icon">
+        </a>
+        <a href="http://www.facebook.com/sharer.php?u={{ site.domain }}{{ page.url }}" target="_blank">
+          <img src="/assets/icons/facebook_black.png" alt="twitter-icon">
+        </a>
+      </div>
       <article>
         {{ content }}
       </article>
