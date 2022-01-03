@@ -24,9 +24,9 @@ for file in os.listdir(path_to_staff):
 # repopulate with new data
 for member in members:
     lines = ['---', 'layout: staff']
-    for key in member.keys(): # add each entry of the member's dict
-        if member[key]:
-            lines.append(f"{key}: {member[key]}")
+    for key, value in member.items(): # add each entry of the member's dict
+        if value: # entry isn't empty
+            lines.append(f"{key}: {value}")
     lines.append('---')
 
     filename = member['lastName'].lower().replace(' ', '') # make lowercase and remove spaces
