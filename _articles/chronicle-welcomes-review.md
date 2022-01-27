@@ -5,7 +5,7 @@ author: [Simon Carr, James Ninneman]
 image: purplereview.png
 category: "Opinion"
 date: 2022-01-27
-unlisted: true
+unlisted: false
 ---
 
 As editors of the _Classical Chronicle_, we’d like to formally welcome the _Purple Review_ to the Classical High School Community.
