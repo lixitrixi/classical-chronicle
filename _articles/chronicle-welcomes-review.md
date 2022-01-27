@@ -10,7 +10,7 @@ unlisted: true
 
 As editors of the _Classical Chronicle_, we’d like to formally welcome the _Purple Review_ to the Classical High School Community.
 
-The _Purple Review_ is a student newspaper run by Guidance Counselor Ann Cedergren, which published its first edition online today at its Instagram, [@classicalnewspaper](https://www.instagram.com/classicalnewspaper/). It is Classical High School’s official school newspaper.
+The _Purple Review_ is a student newspaper run by Guidance Counselor Ann Cedergren, which published its first edition online yesterday at its Instagram, [@classicalnewspaper](https://www.instagram.com/classicalnewspaper/). It is Classical High School’s official school newspaper.
 
 An official newspaper, as established by the [Rhode Island New Voices Act](https://splc.org/2018/07/rhode-island-new-voices-act/) of 2017, is a school paper published under the supervision of a student media advisor (someone employed, appointed, or designated by the district). While official newspapers cannot legally be censored by their school’s administration, they are not protected when they advocate for civil disobedience or any violation of school rules. In contrast, student-run independent newspapers such as the _Classical Chronicle_ are fully protected by the First Amendment (as the Supreme Court [reinforced last year](https://www.edweek.org/policy-politics/u-s-supreme-court-rules-for-student-on-regulation-of-off-campus-speech/2021/06#:~:text=The%20U.S.%20Supreme%20Court%20on,Snapchat%20expressing%20frustration)).
 
