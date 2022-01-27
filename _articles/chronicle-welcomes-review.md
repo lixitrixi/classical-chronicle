@@ -4,7 +4,7 @@ title: "The Classical Chronicle Welcomes the Purple Review"
 author: [Simon Carr, James Ninneman]
 image: purplereview.png
 category: "Opinion"
-date: 2022-01-26
+date: 2022-01-27
 unlisted: true
 ---
 
