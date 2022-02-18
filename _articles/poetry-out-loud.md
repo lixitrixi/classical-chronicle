@@ -29,6 +29,6 @@ Contest coordinator Ellen Anderson stated that this competition was very similar
 ![Competitors Group Photo](/assets/images/POLgroupphoto-min.jpg)
 <span>POL competitors line up in front of the stage.</span>
 
-Congratulations to Isabel Sanchez, Christina Keomany, Helen Ly, Damon Drury, Emet Jewett, Isaiah Estrada, Natasha Connolly, Teari Rubi Ordonez, Lauren Alliotta, Josephine Harrison, James Ninneman, Felix Leitner-Mittersinker and Mariama Bandabaila for all their hard work and courage Thursday night!
+Congratulations to Isabel Sanchez, Christina Keomany, Helen Ly, Damon Drury, Emet Jewett, Isaiah Estrada, Natasha Connolly, Teari Rubi Ordonez, Lauren Alliotta, Josephine Harrison, James Ninneman, Felix Leitner-Mittersinker, and Mariama Bandabaila for all their hard work and courage Thursday night!
 
 You can come support Mariama Bailabanda at the state competition on Sunday, March 6th at the Odeum Theater in East Greenwich from 10 a.m. to 2 p.m.
