@@ -9,6 +9,8 @@ date: 2022-02-18
 unlisted: true
 ---
 
+![Cover Photo](/assets/images/POLcover-min.jpg)
+
 On Wednesday, February 16, the annual school-wide Poetry Out Loud recitation contest was held. This competition is a national arts education program created in 2005 that aims to encourage and promote the study of poetry for high school students in the United States. Students are judged by physical presence, voice, articulation, dramatic appropriateness, evidence of understanding, accuracy, and overall performance. Students across all grades from Classical’s English classrooms memorized poems and performed them in front of their classes, and the best were selected to compete on Thursday.
  
 A large variety of poems were performed, from Emily Dickinson to Edgar Allen Poe to Gwendolyn Brooks. Some were more recent, others from centuries past. The poems ranged greatly in length, the delivery in tone and voice. 
