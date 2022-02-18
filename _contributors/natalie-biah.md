@@ -8,6 +8,6 @@ email: nataliebiah4@gmail.com
 instagram: luvxnatalie
 lastmod: 2022-02-18
 past: false
-order:
+order: 15.1
 ---
 **Natalie Biah** is a contributing writer to the *Classical Chronicle*.
