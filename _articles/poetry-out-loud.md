@@ -16,7 +16,7 @@ A large variety of poems were performed, from Emily Dickinson to Edgar Allen Poe
 Damon Drury, one of this year’s competitors, performed *I heard a fly buzz-when I died-(591)* by Emily Dickinson, and *a song in the front yard* by Gwedolyn Brooks. Damon clearly connected with Brooks’s words, and that translated to the audience. Damon said she chose the poem because they “really admire Brooks' work.” When asked about why she chose her second poem, Damon answered, “I really related to the poem, it’s all about going against your parents expectations and wanting to experience a darker side of life.”
 
 ![Damon Drury Performs](/assets/images/POLDamon-min.jpg)
-<span>Damon leaves the stage.</span>
+<span>Drury performs.</span>
 
 Felix Leitner-Mittersinker, a senior who has competed in Poetry Out Loud through years past, displayed incredible articulation and captured a nearly horrific narrative while performing *The Dream Play* by A.E. Stallings. Each syllable was carefully pronounced in an even tone. He quickly memorized his poem by splitting it into blocks, and going through them. When asked about the difference between performing that night and performing in his freshman year, he said that “freshman year felt a lot more like a chore, and this year [he] really started liking [his] poems and enjoying the whole, sort of, process.” He was awarded second place on Thursday night.
 
