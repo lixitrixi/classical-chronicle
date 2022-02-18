@@ -5,6 +5,7 @@ author: ["Demi Egunjobi, Natalie Biah"]
 image: ""
 category: "Culture"
 date: 2022-02-18
+unlisted: true
 ---
 
 On Thursday, February 16, the annual school-wide Poetry Out Loud recitation contest was held. This competition is a national arts education program created in 2005 that aims to encourage and promote the study of poetry for high school students in the United States. Students are judged by physical presence, voice and articulation, dramatic appropriateness, evidence of understanding, accuracy, and overall performance. Students across all grades from Classical’s English classrooms memorized poems and performed them in front of their classes, and the best were selected to compete on Thursday.
