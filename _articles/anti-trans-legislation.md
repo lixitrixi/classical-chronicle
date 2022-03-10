@@ -18,7 +18,7 @@ Bills S2501 and H7539 are currently working their way through the Rhode Island G
 
 Make no mistake; whether these bills are introduced in the Deep South, whether they target our healthcare, our parents, our ability to name ourselves, or our presentation, these bills are trying to kill us. 
 
-Trans people have one of the highest suicide rates per capita in the country. However, access to gender affirming care, a supportive home enviroment, and the ability to use an accurate name and set of pronouns all reduce this suicide rate. Attempts to limit these supports will not result in fewer trans kids; they will only result in fewer living trans kids.
+Trans people have one of the highest suicide rates per capita in the country. However, access to gender affirming care, a supportive home enviroment, and the ability to use an accurate name and set of pronouns all reduce this suicide rate. Attempts to limit these supports will not result in fewer trans kids; they will only result in fewer *living* trans kids.
 
 Forcing trans people to go through a puberty that will wreak havoc on their mental health is nothing short of bioterrorism. You do not get to tell me what puberty I have to go through. Barring trans kids from gender affirming healthcare is not waiting until they can make a more ‘rational decision’ (as if our choices are any more respected after we turn 18). It is forcing kids to be ravaged by a set of hormones and changes that are fundamentally harmful. This would worsen already existing incongruences between our bodies and our minds and cause dysphoria. Forcing children to undergo this should be understood as nothing less than an attack on our mental health.
 
