@@ -2,11 +2,13 @@
 layout: "article"
 title: "Bioterrorism and Psychological Warfare: a Trans Perspective on the Anti-Trans Legislation"
 author: ["Emet Jewett"]
-image: ""
+image: "translegislation-min.png"
 category: "Opinion"
 unlisted: true
 date: 2022-03-09
 ---
+
+![Protest Image](/assets/images/translegislation-min.png)
 
 I am tired.
 
