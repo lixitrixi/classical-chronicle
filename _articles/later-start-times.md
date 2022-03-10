@@ -1,7 +1,7 @@
 ---
 layout: "article"
 title: "The Case for Later Start Times"
-author: ["Emma Jewett"]
+author: ["Emet Jewett"]
 image: "start-later-test.jpg"
 category: "Opinion"
 photo: Janae Moore
