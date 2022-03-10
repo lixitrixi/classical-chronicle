@@ -1,7 +1,7 @@
 ---
 layout: "article"
 title: "Remembering Ruth Bader Ginsburg"
-author: ["Emma Jewett"]
+author: ["Emet Jewett"]
 image: "ruth-bader-ginsburg.jpg"
 category: "Opinion"
 date: 2020-10-02
