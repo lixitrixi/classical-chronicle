@@ -1,6 +1,6 @@
 ---
 layout: "article"
-title: "Bioterrorism and Psychological Warfare: a Trans Perspective on the Anti-Trans Legislation"
+title: "Bioterrorism and Psychological Warfare: A Trans Perspective on the Anti-Trans Legislation"
 author: ["Emet Jewett"]
 image: "translegislation-min.png"
 category: "Opinion"
