@@ -4,7 +4,7 @@ title: "Bioterrorism and Psychological Warfare: A Trans Perspective on the Anti-
 author: ["Emet Jewett"]
 image: "translegislation-min.png"
 category: "Opinion"
-unlisted: true
+unlisted: false
 date: 2022-03-09
 ---
 
