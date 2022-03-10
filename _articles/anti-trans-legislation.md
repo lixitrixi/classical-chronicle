@@ -24,7 +24,7 @@ Forcing trans people to go through a puberty that will wreak havoc on their ment
 
 The psychological warfare is more subtle, but no less harmful.
 
-(The next few paragraphs will discuss suicide)
+TW: The next few paragraphs will discuss suicide.
 
 Milo Winslow was a thirty-year-old community organizer from Lincoln, Nebraska. He testified in front of the Lincoln City Council in support of an ordinance that would expand protections to the queer community. He took his own life on Thursday. 
 
