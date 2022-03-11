@@ -5,8 +5,12 @@ author: ["Emet Jewett"]
 image: "translegislation-min.png"
 category: "Opinion"
 unlisted: false
+updateDate: "March 11, 2022 at 17:50"
+updateMessage: "We added a thank you message at the author's request."
 date: 2022-03-09
 ---
+
+**Special thanks to Ezana Demissie for their help with this article.**
 
 ![Protest Image](/assets/images/translegislation-min.png)
 
