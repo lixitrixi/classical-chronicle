@@ -28,10 +28,10 @@ Organizers also called on Governor McKee to give funds to the victims of transmi
 
 After hearing speeches from organizers Eisley, Anya, and Emet, the students began their march to the State Capitol.
 
-![Students March](/assets/images/joeseph4.JPG)
+![Students March](/assets/images/joeseph4-2.JPG)
 <span>(Photo: Joeseph Chirinos)</span>
 
-![Students March](/assets/images/joeseph5.JPG)
+![Students March](/assets/images/joeseph5-2.JPG)
 <span>(Photo: Joeseph Chirinos)</span>
 
 “They told us to die; we chose to live,” they chanted.
