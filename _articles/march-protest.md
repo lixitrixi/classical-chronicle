@@ -41,7 +41,7 @@ After hearing speeches from organizers Eisley, Anya, and Emet, the students bega
 
 Organizers Jojo, Luka, Eugenie, and Malachi delivered impassioned speeches from the steps of the Rhode Island General Assembly. The crowd chanted a quote from poet Gwendolyn Brooks: “We are each other’s harvest; we are each other’s business; we are each other’s magnitude and bond.”
 
-![At Capitol](/assets/images/raphaelquiroga1.jpg)
+![At Capitol](/assets/images/raphaelquiroga1-2.jpg)
 <span>(Photo: Raphael Quiroga)</span>
 
 Governor McKee has yet to respond to the students’ demands or condemn anti-trans legislation in Rhode Island or across the country. Organizers asked those students who walked out to continue the fight by contacting their state legislators. They ended the rally by chanting the phone number of State Senator Patricia Morgan, who, along with Senator Frank Lombardo III, introduced S2501:
