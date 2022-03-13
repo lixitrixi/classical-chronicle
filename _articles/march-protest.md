@@ -8,7 +8,7 @@ unlisted: true
 date: 2022-03-13
 ---
 
-Last Friday, students from Classical, Central, and PCTA walked out of class in opposition to anti-trans legislation that is proposed in the Rhode Island General Assembly and in solidarity with queer communities across the country whose legislatures have been producing similar laws.
+Last Friday, students from Classical, Central, and PCTA walked out of class in opposition to anti-trans legislation across the country, including here in Rhode Island.
 
 ![Students Outside PPSD](/assets/images/logan1-2.jpg)
 <span>(photo courtesy of Logan Gomes)</span>
