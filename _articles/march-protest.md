@@ -12,7 +12,7 @@ Yesterday, students from Classical, Central, and PCTA walked out of class in opp
 
 The students demanded that Governor McKee pledge not to sign proposed bills S2501 and H7539 (or any other similar anti-trans legislation). S2501 would prohibit sports leagues from allowing trans athletes to participate on their gender’s team. H7539 would prohibit schools from teaching critical race theory or including gender dysphoria in sex education curriculum.
 
-“These bills are an attack on the lives of trans children,” said organizer Emet (the protests’ organizers ask we use their first names only). 
+“These bills are an attack on the lives of trans children,” said organizer Emet (the protests’ organizers asked we use their first names only). 
 
 Organizers also called on Governor McKee to give funds to the victims of transmisogyny and on Mayor Elorza to remove SROs from Providence Schools and to defund the Providence Police Department. All of their demands (linked here) are aimed at making marginalized students feel welcome in their schools and city.
 
