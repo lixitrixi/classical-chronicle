@@ -4,7 +4,7 @@ title: "Students Protest Anti-Trans Legislation"
 author: ["The Classical Chronicle"]
 image: "joeseph5.jpg"
 category: "School"
-unlisted: true
+unlisted: false
 date: 2022-03-13
 ---
 
