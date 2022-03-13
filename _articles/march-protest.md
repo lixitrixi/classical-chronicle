@@ -22,7 +22,7 @@ The students demanded that Governor McKee pledge not to sign proposed bills S250
 
 ![Students by PPSD](/assets/images/bigfile4-2.jpg)
 
-Organizers also called on Governor McKee to give funds to the victims of transmisogyny and on Mayor Elorza to remove SROs from Providence Schools and to defund the Providence Police Department. All of their demands (linked here) are aimed at making marginalized students feel welcome in their schools and city.
+Organizers also called on Governor McKee to give funds to the victims of transmisogyny and on Mayor Elorza to remove SROs from Providence Schools and to defund the Providence Police Department. All of their demands [(linked here)](https://classicalchronicle.org/article/march-protest-demands) are aimed at making marginalized students feel welcome in their schools and city.
 
 ![Students leave PPSD](/assets/images/bigfile9-2.jpg)
 
