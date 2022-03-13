@@ -23,12 +23,12 @@ The students demanded that Governor McKee pledge not to sign proposed bills S250
 “These bills are an attack on the lives of trans children,” said organizer Emet (the protests’ organizers asked we use their first names only). 
 
 ![Students by PPSD](/assets/images/bigfile4-2.jpg)
-<span>(Photo courtesy of Maddy)</span>
+<span>(Photo courtesy of Madison)</span>
 
 Organizers also called on Governor McKee to give funds to the victims of transmisogyny and on Mayor Elorza to remove SROs from Providence Schools and defund the Providence Police Department. All of their demands [(linked here)](https://classicalchronicle.org/article/march-protest-demands) are aimed at making marginalized students feel welcome in their schools and city.
 
 ![Students leave PPSD](/assets/images/bigfile9-2.jpg)
-<span>(Photo courtesy of Maddy)</span>
+<span>(Photo courtesy of Madison)</span>
 
 After hearing speeches from organizers Eisley, Anya, and Emet, the students began their march to the State Capitol.
 
