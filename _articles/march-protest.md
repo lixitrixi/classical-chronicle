@@ -30,6 +30,7 @@ After hearing speeches from organizers Eisley, Anya, and Emet, the students bega
 
 ![Students March](/assets/images/joeseph4.JPG)
 <span>(Photo: Joeseph Chirinos)</span>
+
 ![Students March](/assets/images/joeseph5.JPG)
 <span>(Photo: Joeseph Chirinos)</span>
 
