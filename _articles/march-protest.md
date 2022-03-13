@@ -5,6 +5,8 @@ author: ["The Classical Chronicle"]
 image: "joeseph5.jpg"
 category: "School"
 unlisted: false
+updateDate: "March 13, 2022 at 17:03"
+updateMessage: "The original article falsely attributed S2501 to Rep. Patricia Morgan, when it was in fact introduced by Sen. Elaine Morgan. Patricia Morgan introduced H7539."
 date: 2022-03-13
 ---
 
@@ -26,7 +28,7 @@ The students demanded that Governor McKee pledge not to sign proposed bills S250
 Organizers also called on Governor McKee to give funds to the victims of transmisogyny and on Mayor Elorza to remove SROs from Providence Schools and defund the Providence Police Department. All of their demands [(linked here)](https://classicalchronicle.org/article/march-protest-demands) are aimed at making marginalized students feel welcome in their schools and city.
 
 ![Students leave PPSD](/assets/images/bigfile9-2.jpg)
-<span>(Photo courtesy of @maddytheekid)</span>
+<span>(Photo courtesy of Maddy)</span>
 
 After hearing speeches from organizers Eisley, Anya, and Emet, the students began their march to the State Capitol.
 
