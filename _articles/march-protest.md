@@ -35,9 +35,6 @@ After hearing speeches from organizers Eisley, Anya, and Emet, the students bega
 ![Students March](/assets/images/joeseph4-2.jpg)
 <span>(Photo courtesy of Joeseph Chirinos)</span>
 
-![Students March](/assets/images/joeseph5-2.jpg)
-<span>(Photo courtesy of Joeseph Chirinos)</span>
-
 “They told us to die; we chose to live,” they chanted.
 
 ![Arriving at Capitol](/assets/images/avariescobar2-2.jpg)
