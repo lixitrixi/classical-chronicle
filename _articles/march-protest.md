@@ -7,6 +7,7 @@ category: "School"
 unlisted: false
 updateDate: "March 13, 2022 at 17:03"
 updateMessage: "The original article falsely attributed S2501 to Rep. Patricia Morgan, when it was in fact introduced by Sen. Elaine Morgan. Patricia Morgan introduced H7539."
+updated: true
 date: 2022-03-13
 ---
 
