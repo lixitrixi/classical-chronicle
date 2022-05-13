@@ -1,7 +1,7 @@
 ---
 layout: "article"
 title: "Classical Hosts Poetry Out Loud Contest"
-author: ["Demi Egunjobi, Natalie Biah"]
+author: [Demi Egunjobi, Natalie Biah]
 image: "POLcover-min.jpg"
 category: "Culture"
 photo: Promise Adeliyi
